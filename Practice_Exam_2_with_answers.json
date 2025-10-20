@@ -1,0 +1,1104 @@
+{
+  "examInfo": {
+    "title": "CompTIA A+ Practice Exam 2",
+    "code": "220-902",
+    "chapter": "Chapter 11",
+    "totalQuestions": 90,
+    "timeLimit": 90,
+    "description": "Operating Systems, Security, Software Troubleshooting, and Operational Procedures"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "You are onsite fixing a client's laptop that will not load Windows 7. You are waiting to hear about your friend's awesome party that they are hosting this weekend, and your phone starts to vibrate. And it keeps vibrating. You're sure that all of your friends are texting information about the party. What should you do? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Turn your phone off, and apologize to the client. Tell them that the phone was distracting you from your job, but it won't be a problem now." },
+        { "id": "B", "text": "Ignore your phone." },
+        { "id": "C", "text": "Text your friends back and tell them that you are working." },
+        { "id": "D", "text": "Call your friend and tell him to wait until after this job before planning all of the details because you want to help." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["A", "B"]
+    },
+    {
+      "id": 2,
+      "question": "A user is running an application that requires complex calculations and takes a lot of CPU power. He wants to set his Windows 7 workstation so that it gives the application priority over all non-system-critical programs. Which tool can he use to do this?",
+      "options": [
+        { "id": "A", "text": "Task Manager" },
+        { "id": "B", "text": "Application Manager" },
+        { "id": "C", "text": "Performance Monitor" },
+        { "id": "D", "text": "System Configuration" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 3,
+      "question": "You are planning on formatting a hard drive with NTFS to install Windows 8.1. Which of the following features are present in NTFS? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Linux OS support" },
+        { "id": "B", "text": "File compression" },
+        { "id": "C", "text": "File security" },
+        { "id": "D", "text": "Enhanced flash drive support" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["B", "C"]
+    },
+    {
+      "id": 4,
+      "question": "You have a computer running Windows 7 Professional, and you want to upgrade to Windows 8 Enterprise. What should you run to determine whether your computer can support the new operating system?",
+      "options": [
+        { "id": "A", "text": "Windows Easy Transfer" },
+        { "id": "B", "text": "Hardware Compatibility List" },
+        { "id": "C", "text": "Windows Upgrade Advisor" },
+        { "id": "D", "text": "Windows Upgrade Assistant" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 5,
+      "question": "Which of the following statements best describes the purpose of a virtual private network?",
+      "options": [
+        { "id": "A", "text": "It walls off one network from another, making it inaccessible." },
+        { "id": "B", "text": "It examines incoming network packets and forwards only those that match criteria in an access control list." },
+        { "id": "C", "text": "It makes network requests on behalf of a user, effectively masking the user's identity from the computer receiving the request." },
+        { "id": "D", "text": "It creates a private, secure network connection through a public network." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 6,
+      "question": "You are at a client's office and need to replace faulty memory but do not have an ESD strap. Which of the following describes the best way to practice self-grounding while replacing the RAM?",
+      "options": [
+        { "id": "A", "text": "Leave the computer plugged in but powered off, and stay in contact with the plastic part of the case." },
+        { "id": "B", "text": "Leave the computer plugged in but powered off, and stay in contact with the metal part of the case." },
+        { "id": "C", "text": "Unplug the computer, and stay in contact with the plastic part of the case." },
+        { "id": "D", "text": "Unplug the computer, and stay in contact with the metal part of the case." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"]
+    },
+    {
+      "id": 7,
+      "question": "You have a Windows 7 workstation with an 802.11n network adapter. When you establish a network connection, which type of connection should you choose?",
+      "options": [
+        { "id": "A", "text": "WWAN" },
+        { "id": "B", "text": "Wireless" },
+        { "id": "C", "text": "Wired" },
+        { "id": "D", "text": "VPN" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"]
+    },
+    {
+      "id": 8,
+      "question": "The police have come to you with a request for help. They have recovered a suspected criminal's iPhone and want to get information off of it, and they have a warrant. The suspected criminal will not give them the passcode, and therefore the system is locked out. What advice can you give them on how to retrieve data from the device?",
+      "options": [
+        { "id": "A", "text": "They can perform a reset to factory defaults, which will reset the passcode. Then they can retrieve the data." },
+        { "id": "B", "text": "They can perform a hard reset, which will reset the passcode. Then they can retrieve the data." },
+        { "id": "C", "text": "There is no way to unlock the device and get the data without the appropriate passcode." },
+        { "id": "D", "text": "They can crack the phone using backdoor code from Apple." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 9,
+      "question": "You are logged into a Linux workstation with a regular user account. You need to execute a command with root permissions. Which command do you need to use?",
+      "options": [
+        { "id": "A", "text": "su" },
+        { "id": "B", "text": "sudo" },
+        { "id": "C", "text": "vi" },
+        { "id": "D", "text": "dd" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"]
+    },
+    {
+      "id": 10,
+      "question": "A Linux user on your network has received an error message during boot that GRUB is missing, as well as an error number. What can you do to solve this problem?",
+      "options": [
+        { "id": "A", "text": "Boot to the Linux installation CD or DVD, enter Linux rescue mode, and re-create the MBR." },
+        { "id": "B", "text": "Boot to the Linux installation CD or DVD, and reinstall Linux." },
+        { "id": "C", "text": "Boot to the Linux installation CD or DVD, enter Linux rescue mode, and mount the hard drive." },
+        { "id": "D", "text": "Boot to the Linux installation CD or DVD, enter Linux rescue mode, and overwrite the contents of the GRUB file." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 11,
+      "question": "A security consultant recommends that your secure facility implement biometrics as a form of building access control. What type of system is she most likely referring to?",
+      "options": [
+        { "id": "A", "text": "RFID badges" },
+        { "id": "B", "text": "Key fobs" },
+        { "id": "C", "text": "Retinal scanners" },
+        { "id": "D", "text": "Mantraps" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 12,
+      "question": "You are looking online to find pictures to use as part of promotional materials your company wants to make. Which of the following statements is true regarding online content?",
+      "options": [
+        { "id": "A", "text": "Online content is considered open source; therefore, you may use whatever you find." },
+        { "id": "B", "text": "Online content is protected through the use of DRM." },
+        { "id": "C", "text": "Online content is protected through the use of EULA." },
+        { "id": "D", "text": "Online content is protected through terms established in the Geneva Conventions." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"]
+    },
+    {
+      "id": 13,
+      "question": "In which type of security threat will someone try to gain access to a secure area without credentials by following someone else, who used their access rights, into the secured area?",
+      "options": [
+        { "id": "A", "text": "Brute forcing" },
+        { "id": "B", "text": "Tailgating" },
+        { "id": "C", "text": "Shoulder surfing" },
+        { "id": "D", "text": "Man-in-the-middle" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"]
+    },
+    {
+      "id": 14,
+      "question": "A new law requires that you keep hard copies of all your workstations' system configurations. Which command can you use to easily gather this information for remote workstations and save a report as a text file?",
+      "options": [
+        { "id": "A", "text": "MSINFO32" },
+        { "id": "B", "text": "COMPMGMT" },
+        { "id": "C", "text": "MMC" },
+        { "id": "D", "text": "PERFMON" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 15,
+      "question": "You are going to install Windows 8 Pro on a workstation that is currently running Windows 7 Professional. If you want to keep user accounts, data, and apps that are currently on the workstation, which type of installation should you perform?",
+      "options": [
+        { "id": "A", "text": "Migration" },
+        { "id": "B", "text": "Clean" },
+        { "id": "C", "text": "Upgrade" },
+        { "id": "D", "text": "Custom" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 16,
+      "question": "You are configuring a wireless router for a home office. Which of the following changes will have the least impact on improving security of the network?",
+      "options": [
+        { "id": "A", "text": "Enabling MAC filtering" },
+        { "id": "B", "text": "Disabling the SSID broadcast" },
+        { "id": "C", "text": "Configuring WPA" },
+        { "id": "D", "text": "Changing the default username and password" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"]
+    },
+    {
+      "id": 17,
+      "question": "Mobile device users on your network report unusually slow network access speeds when they use Wi-Fi. However, when they are using a cellular connection, the speeds seem fine. Which of the following is the least likely cause of slow data speeds in this case?",
+      "options": [
+        { "id": "A", "text": "Interference" },
+        { "id": "B", "text": "Weak signal" },
+        { "id": "C", "text": "Oversaturated access point" },
+        { "id": "D", "text": "Low battery" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 18,
+      "question": "You are going to move a desktop computer from one office location to another. It's on the floor, underneath the desk. Which of the following are good personal safety procedures to follow? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Bend at the waist and lift straight up." },
+        { "id": "B", "text": "Bend at the knees and lift with your legs." },
+        { "id": "C", "text": "Tie back any loose jewelry, long hair, or neckties." },
+        { "id": "D", "text": "Leave the computer plugged in to avoid ESD." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["B", "C"]
+    },
+    {
+      "id": 19,
+      "question": "You have just installed a second and third hard drive into a Windows 8.1 workstation. Each drive is 500GB. The user wants to combine their space into one 1TB volume. What should you create to accomplish this and also give the user a disk read and write performance boost?",
+      "options": [
+        { "id": "A", "text": "A new simple volume" },
+        { "id": "B", "text": "A new spanned volume" },
+        { "id": "C", "text": "A new striped volume" },
+        { "id": "D", "text": "A new mirrored volume" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 20,
+      "question": "Which feature of Windows 7 is designed to encrypt storage volumes, must be activated by an administrator, and can encrypt operating system startup files?",
+      "options": [
+        { "id": "A", "text": "BitLocker" },
+        { "id": "B", "text": "EFS" },
+        { "id": "C", "text": "OneDrive" },
+        { "id": "D", "text": "Shadow Drive" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 21,
+      "question": "You want to set up your mobile phone to be able to pay for items at convenience stores simply by moving it close to the merchant's receiver. What type of mobile payment service is this?",
+      "options": [
+        { "id": "A", "text": "SMS or MMS" },
+        { "id": "B", "text": "NFC" },
+        { "id": "C", "text": "Direct mobile billing" },
+        { "id": "D", "text": "Mobile web payments" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"]
+    },
+    {
+      "id": 22,
+      "question": "Which of the following statements best describes the functionality of privacy filters?",
+      "options": [
+        { "id": "A", "text": "To keep people from seeing inside the server room" },
+        { "id": "B", "text": "To keep a user from accessing another user's data on the server" },
+        { "id": "C", "text": "To help prevent the accidental release of personally identifiable information (PII)" },
+        { "id": "D", "text": "To keep people from seeing information on your computer screen" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 23,
+      "question": "Your iPhone has been stolen. To ensure that the thief does not have access to your data, what should you do?",
+      "options": [
+        { "id": "A", "text": "Perform a remote backup." },
+        { "id": "B", "text": "Enable full device encryption." },
+        { "id": "C", "text": "Perform a remote wipe." },
+        { "id": "D", "text": "Use a locator application." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 24,
+      "question": "You have installed a second hard drive in a Windows 8.1 workstation. In Disk Management, what type of partition can you create that will allow you to create an unlimited number of logical partitions in it?",
+      "options": [
+        { "id": "A", "text": "Extended" },
+        { "id": "B", "text": "Dynamic" },
+        { "id": "C", "text": "Logical" },
+        { "id": "D", "text": "GPT" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 25,
+      "question": "You intend to recycle some older magnetic hard drives. You want to set all data on the drive to be nothing but 0s. What should you use to accomplish this?",
+      "options": [
+        { "id": "A", "text": "Overwrite" },
+        { "id": "B", "text": "format" },
+        { "id": "C", "text": "Degaussing" },
+        { "id": "D", "text": "diskpart" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 26,
+      "question": "Your Windows 8.1 workstation just crashed, displaying a blue screen of death. You have not recently made any changes to the computer. What is the best way to restart Windows to see whether you can isolate the issue?",
+      "options": [
+        { "id": "A", "text": "Boot to the Windows installation CD and start the Recovery Console." },
+        { "id": "B", "text": "Boot to Safe Mode." },
+        { "id": "C", "text": "Boot to the Last Known Good configuration." },
+        { "id": "D", "text": "Boot normally and see whether the error happens again." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 27,
+      "question": "A user reports that his Android phone will not turn on. When he hands you his phone, it is almost hot to the touch. He then admits that the phone had been in his locked car for most of the day, and it's summertime. What is the most likely cause of the problem?",
+      "options": [
+        { "id": "A", "text": "Overheating" },
+        { "id": "B", "text": "Frozen system" },
+        { "id": "C", "text": "System lockout" },
+        { "id": "D", "text": "Battery drain" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 28,
+      "question": "The floor of a machine shop has several thin client computers on it. You want them to be able to boot a Windows 8 OS from a boot server on the network. What process will the thin clients need to use?",
+      "options": [
+        { "id": "A", "text": "PXE boot" },
+        { "id": "B", "text": "The WinPE process" },
+        { "id": "C", "text": "The WinRE process" },
+        { "id": "D", "text": "Netboot" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 29,
+      "question": "You are at a Windows Vista command prompt. You need to terminate a process on a remote system named Sparky, and the process identifier is 14456. What is the right syntax to use to kill this process and any child processes started by it?",
+      "options": [
+        { "id": "A", "text": "taskkill /S Sparky /PID 14456 /C" },
+        { "id": "B", "text": "taskkill /T Sparky /PID 14456 /S" },
+        { "id": "C", "text": "taskkill /S Sparky /PID 14456 /T" },
+        { "id": "D", "text": "taskkill /C Sparky /PID 14456 /T" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 30,
+      "question": "A workstation on your network is configured to dual boot between Windows Vista and Windows 8.1. Previously, the user would get a menu asking him which OS to choose. He has not made any configuration changes, but now that menu no longer appears. Which file is responsible for presenting the user with this menu?",
+      "options": [
+        { "id": "A", "text": "WINRESUME" },
+        { "id": "B", "text": "WINLOAD" },
+        { "id": "C", "text": "BOOTMGR" },
+        { "id": "D", "text": "NTLDR" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"]
+    },
+    {
+      "id": 31,
+      "question": "A small business with two servers in a server closet wants you to find a solution to a problem. The business frequently has power outages and has lost important data on the servers as a result. The business wants some type of battery backup. What type of device should you install to protect against this problem?",
+      "options": [
+        { "id": "A", "text": "Surge protector" },
+        { "id": "B", "text": "Power strip" },
+        { "id": "C", "text": "UPS" },
+        { "id": "D", "text": "Voltage conserver" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 32,
+      "question": "Which type of server on a network will be configured with a scope, which contains information the server will provide to clients who request it?",
+      "options": [
+        { "id": "A", "text": "DHCP server" },
+        { "id": "B", "text": "DNS server" },
+        { "id": "C", "text": "Proxy server" },
+        { "id": "D", "text": "Authentication server" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 33,
+      "question": "You are working on a Windows 7 workstation that is operating very slowly. You want to quickly check system CPU and RAM usage to see whether anything appears amiss. Which two utilities can you use to do this?",
+      "options": [
+        { "id": "A", "text": "Resource Monitor" },
+        { "id": "B", "text": "Performance Monitor" },
+        { "id": "C", "text": "Control Panel âž¢ System" },
+        { "id": "D", "text": "Control Panel âž¢ Device Manager" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["A", "B"]
+    },
+    {
+      "id": 34,
+      "question": "With Windows Vista, Microsoft introduced a user interface that was a departure from its previous interfaces. What is the name of the Windows Vista interface?",
+      "options": [
+        { "id": "A", "text": "Windows Explorer" },
+        { "id": "B", "text": "WinPE" },
+        { "id": "C", "text": "Metro" },
+        { "id": "D", "text": "Aero" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 35,
+      "question": "You have a Windows 7 Professional workstation with a physically attached printer. You want others on the network to be able to use the printer as well. What do you need to do to enable this?",
+      "options": [
+        { "id": "A", "text": "Right-click the printer, choose Printer Properties, and share the printer." },
+        { "id": "B", "text": "Right-click the printer, choose Printer Properties, and map the network printer." },
+        { "id": "C", "text": "Open the Add A Printer Wizard and share the printer." },
+        { "id": "D", "text": "Open the Add A Printer Wizard and map the network printer." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 36,
+      "question": "As the network administrator, you have set account lockout policies so that an account is locked out after five unsuccessful login attempts. What type of security threat will this deter?",
+      "options": [
+        { "id": "A", "text": "Shoulder surfing" },
+        { "id": "B", "text": "Brute forcing" },
+        { "id": "C", "text": "Zero-day attack" },
+        { "id": "D", "text": "Spear phishing" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"]
+    },
+    {
+      "id": 37,
+      "question": "Occasionally when visiting websites using Google Chrome, you receive a pop-up window in front of your browser. Generally it's an advertisement trying to sell you something. Which of the following actions will stop this from happening?",
+      "options": [
+        { "id": "A", "text": "Enable Chrome's pop-up blocker." },
+        { "id": "B", "text": "Install an antivirus program." },
+        { "id": "C", "text": "Install anti-malware software to stop the adware." },
+        { "id": "D", "text": "Enable Windows Firewall." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 38,
+      "question": "You receive a notice from our wireless provider that you are about to exceed your data plan for the month. This month you have not used your phone often, so this surprises you. What could this be a sign of?",
+      "options": [
+        { "id": "A", "text": "The phone needs to be replaced." },
+        { "id": "B", "text": "Unauthorized account access." },
+        { "id": "C", "text": "Rogue apps, such as a rogue antivirus." },
+        { "id": "D", "text": "High resource utilization." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"]
+    },
+    {
+      "id": 39,
+      "question": "Which Windows Vista feature is an area on the desktop designed specifically for small, customizable programs such as a clock, news headlines, or a weather app?",
+      "options": [
+        { "id": "A", "text": "Sidebar" },
+        { "id": "B", "text": "Widgets" },
+        { "id": "C", "text": "Gadgets" },
+        { "id": "D", "text": "Charms" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 40,
+      "question": "Your company works with confidential government files. It is illegal for employees to copy any files to flash drives. Where do you specify this as well as the penalties for not complying with the rule?",
+      "options": [
+        { "id": "A", "text": "AUP" },
+        { "id": "B", "text": "DLP" },
+        { "id": "C", "text": "ACL" },
+        { "id": "D", "text": "Employee handbook" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 41,
+      "question": "A Windows 7 user reports that her computer just completely locked up. On her screen is a message saying that the person pictured has participated in an illegal activity. Her webcam turned on by itself, and she was pictured. The message also says she can resolve the charges against her by paying a $500 fine. She is understandably shaken by the incident. What should you do next?",
+      "options": [
+        { "id": "A", "text": "Tell her that if she performed an illegal activity with her work computer, her employment will be terminated." },
+        { "id": "B", "text": "Boot to a recovery CD from your anti-malware provider, and run a remediation." },
+        { "id": "C", "text": "Delete and reinstall Windows." },
+        { "id": "D", "text": "Pay the fine." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"]
+    },
+    {
+      "id": 42,
+      "question": "One of your technicians just touched a plastic bottle containing chemicals you are not familiar with. His hand starts to feel like it's burning. Where can you find information on how to properly wash his hands without making the problem worse and how to dispose of the chemical?",
+      "options": [
+        { "id": "A", "text": "OSHA" },
+        { "id": "B", "text": "Bottom of the container" },
+        { "id": "C", "text": "Warning label" },
+        { "id": "D", "text": "MSDS" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 43,
+      "question": "You want to protect mobile device users on your network from potentially leaked files or data. Which of the following should you do to help reduce this risk? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Disable network autoconnect." },
+        { "id": "B", "text": "Enforce data transmission over-limits." },
+        { "id": "C", "text": "Enable device encryption." },
+        { "id": "D", "text": "Install mobile firewalls." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["A", "C"]
+    },
+    {
+      "id": 44,
+      "question": "A network architect recommended that you install an IDS on your network. Which of the following statements best describes what an IDS does?",
+      "options": [
+        { "id": "A", "text": "It allows or denies incoming network traffic based on a set of rules." },
+        { "id": "B", "text": "It detects anomalies in network traffic, logs the activity, and takes actions to stop the activity." },
+        { "id": "C", "text": "It detects viruses transmitted across the network, logs the activity, and deletes the network packets infected with the virus." },
+        { "id": "D", "text": "It detects anomalies in network traffic, logs the activity, and sends an alert to the administrator." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 45,
+      "question": "You are at a Windows 8 command prompt. The directory you are in has hundreds of files, so when you pull a directory listing, you want it to only show one page of files at a time. Which command should you use to do this?",
+      "options": [
+        { "id": "A", "text": "dir /p" },
+        { "id": "B", "text": "dir /o" },
+        { "id": "C", "text": "dir /s" },
+        { "id": "D", "text": "dir /d" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 46,
+      "question": "You are installing virtualization on a network server. Which type of hypervisor should you install to minimize the amount of resources required by the physical machine hosting the virtual servers?",
+      "options": [
+        { "id": "A", "text": "Virtual machine manager." },
+        { "id": "B", "text": "Either Type 1 or Type 2 will function in the same way." },
+        { "id": "C", "text": "Type 1." },
+        { "id": "D", "text": "Type 2." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 47,
+      "question": "You have discovered that an outside attacker has gained control over several of your workstations and is remotely controlling them. It appears as though the attacker is using the systems to send spam to thousands of users. Which type of attack is this?",
+      "options": [
+        { "id": "A", "text": "Ransomware" },
+        { "id": "B", "text": "Zombie/botnet" },
+        { "id": "C", "text": "Noncompliant systems" },
+        { "id": "D", "text": "Spoofing" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"]
+    },
+    {
+      "id": 48,
+      "question": "You have assigned the Finance group Modify permissions on the D:\\MonthlyReports folder. You then create a folder named D:\\MonthlyReports\\January. What level of permissions does the Finance group have to the folder D:\\MonthlyReports\\January?",
+      "options": [
+        { "id": "A", "text": "No access, because no permissions were explicitly set." },
+        { "id": "B", "text": "Full control, because no permissions were explicitly set." },
+        { "id": "C", "text": "Modify, because the folder inherits permissions from its parent folder." },
+        { "id": "D", "text": "Modify, because the folder inherits permissions from its parent folder. Finance group members can also grant permissions to other users or groups for this folder." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 49,
+      "question": "A user has two monitors installed on his Windows 7 workstation. He wants his secondary monitor to be on the right side of his primary monitor. However, when he moves the mouse to the right on the primary monitor, the cursor stops at the edge of the screen. When he moves it to the left, the cursor then appears on the right side of his secondary monitor. Where can he go to change this setting?",
+      "options": [
+        { "id": "A", "text": "Right-click the desktop and choose Screen Resolution." },
+        { "id": "B", "text": "Right-click the desktop and choose Mouse Alignment." },
+        { "id": "C", "text": "Right-click the desktop and choose Monitor Alignment." },
+        { "id": "D", "text": "Right-click the desktop and choose Display Settings." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 50,
+      "question": "The personal finance app on your Android phone will not load. You rebooted your phone and the app still does not work. What should you try next to get it to work?",
+      "options": [
+        { "id": "A", "text": "Perform a factory reset." },
+        { "id": "B", "text": "Download an antivirus app and perform a virus scan." },
+        { "id": "C", "text": "Remove and reinstall the app." },
+        { "id": "D", "text": "Perform a force stop on the app and then open it again." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 51,
+      "question": "Your company has a policy prohibiting illegal content on work computers. You have identified and verified illegal content on a user's workstation. What is the next step you should take?",
+      "options": [
+        { "id": "A", "text": "Ask the user to delete the material." },
+        { "id": "B", "text": "Delete the illegal material yourself." },
+        { "id": "C", "text": "Document the situation." },
+        { "id": "D", "text": "Report the incident through proper channels." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 52,
+      "question": "Your Windows 7 workstation is having intermittent video issues. The manufacturer's website suggests you install the latest driver. Which utility should you use to check the driver version installed on your computer?",
+      "options": [
+        { "id": "A", "text": "Display Settings" },
+        { "id": "B", "text": "Device Manager" },
+        { "id": "C", "text": "Services" },
+        { "id": "D", "text": "Computer Management" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"]
+    },
+    {
+      "id": 53,
+      "question": "You are performing a large-scale migration to Windows Vista and need to migrate user accounts and settings. You prefer to do this by configuring a script instead of doing it manually. Which utility should you use?",
+      "options": [
+        { "id": "A", "text": "User Accounts in Control Panel" },
+        { "id": "B", "text": "Windows Easy Transfer (WET)" },
+        { "id": "C", "text": "Windows Migration Tool (WMT)" },
+        { "id": "D", "text": "User State Migration Tool (USMT)" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 54,
+      "question": "On a MacBook Pro running macOS, what is the name of the bar of icons that runs along the bottom of the screen, allowing you to open apps?",
+      "options": [
+        { "id": "A", "text": "Launcher" },
+        { "id": "B", "text": "Finder" },
+        { "id": "C", "text": "Spotlight" },
+        { "id": "D", "text": "Dock" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 55,
+      "question": "You clicked a link in an email, and it took you to a site you were not familiar with. Later that day, you receive a pop-up message on your computer telling you that all the files on your hard drive have been encrypted, and you can no longer access any of your key documents. If you want the files to be decrypted, you need to pay a fee by entering a credit card number. What have you been infected with?",
+      "options": [
+        { "id": "A", "text": "Spyware" },
+        { "id": "B", "text": "Trojan" },
+        { "id": "C", "text": "Ransomware" },
+        { "id": "D", "text": "Worm" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 56,
+      "question": "A Windows 7 workstation is not booting properly, and you believe it's a problem with system files. Which utility can scan and repair corrupt Windows 7 system files?",
+      "options": [
+        { "id": "A", "text": "MSCONFIG" },
+        { "id": "B", "text": "REGSVR32" },
+        { "id": "C", "text": "ERD" },
+        { "id": "D", "text": "SFC" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 57,
+      "question": "An Android phone user reports that her phone can't connect to the Wi-Fi network, but she has a cellular signal. What is the first thing to have her try?",
+      "options": [
+        { "id": "A", "text": "Check whether the phone is in airplane mode." },
+        { "id": "B", "text": "Check whether the Wi-Fi connection is enabled." },
+        { "id": "C", "text": "Adjust the Wi-Fi signal receptivity." },
+        { "id": "D", "text": "Perform a hard reset." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"]
+    },
+    {
+      "id": 58,
+      "question": "You are instructing new technicians on safety procedures when fixing computers and monitors. As an exhibit, you have an old CRT monitor that has not been used in a few months. Which of the following are the biggest potential dangers if you were to open this monitor? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Broken glass" },
+        { "id": "B", "text": "Sharp edges" },
+        { "id": "C", "text": "High-voltage capacitors" },
+        { "id": "D", "text": "Burns" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["A", "C"]
+    },
+    {
+      "id": 59,
+      "question": "You are troubleshooting a Windows 8.1 workstation that has malware on it. Following the best practices for malware removal, you have gotten to the point where you've scheduled system scans and run anti-malware updates. What is the next step you should take?",
+      "options": [
+        { "id": "A", "text": "Educate the end user." },
+        { "id": "B", "text": "Enable system restore and create a restore point." },
+        { "id": "C", "text": "Disable system restore." },
+        { "id": "D", "text": "Remediate the infected system." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"]
+    },
+    {
+      "id": 60,
+      "question": "You want to enable encryption on a Windows 8.1 workstation. Which of the following statements are true? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Enabling EFS requires administrative access." },
+        { "id": "B", "text": "Enabling BitLocker requires administrative access." },
+        { "id": "C", "text": "EFS can encrypt an entire volume or single files." },
+        { "id": "D", "text": "BitLocker can encrypt an entire volume or single files." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["B", "C"]
+    },
+    {
+      "id": 61,
+      "question": "When configuring NTFS permissions on a Windows workstation, what is the recommended method?",
+      "options": [
+        { "id": "A", "text": "Grant permissions to user accounts." },
+        { "id": "B", "text": "Put user accounts into groups. Grant folder permissions to groups and file permissions to users." },
+        { "id": "C", "text": "Put user accounts into groups. Grant folder permissions to users and file permissions to groups." },
+        { "id": "D", "text": "Put user accounts into groups. Grant permissions to groups." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 62,
+      "question": "You are installing client-side virtualization on a Windows 7 workstation. The workstation will support two additional OSs. What is the recommended cost-effective way to ensure that each OS obtains proper network access to the rest of the physical network?",
+      "options": [
+        { "id": "A", "text": "Each OS will have a virtual NIC, which is connected to the physical NIC." },
+        { "id": "B", "text": "Each OS will have its own physical NIC." },
+        { "id": "C", "text": "Each OS will have a virtual switch connected to the physical NIC." },
+        { "id": "D", "text": "Each OS will have a virtual NIC, connected to a virtual switch, which is connected to the physical NIC." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 63,
+      "question": "You are at a Windows 8.1 command prompt in the D:\\users directory. You want to use the copy command to copy the D:\\users\\jdoe directory to the D:\\files directory. Which of the following statements is true?",
+      "options": [
+        { "id": "A", "text": "You can't use the copy command to perform this task." },
+        { "id": "B", "text": "You can use the command copy d:\\users\\jdoe\\*.* d:\\files." },
+        { "id": "C", "text": "You can use the command copy d:\\users\\jdoe d:\\files." },
+        { "id": "D", "text": "You can use the command copy d:\\users\\jdoe d:\\files /y." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 64,
+      "question": "You would like to configure a test workstation to be able to boot to Windows Vista, Windows 7, and Windows 8.1. Which of the following statements is true regarding installation of these operating systems?",
+      "options": [
+        { "id": "A", "text": "The location of operating system installation does not matter in this situation." },
+        { "id": "B", "text": "You should install all the operating systems on the same partition." },
+        { "id": "C", "text": "You should install each of the operating systems on their own partitions." },
+        { "id": "D", "text": "You can't install all three operating systems on one workstation." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 65,
+      "question": "A Windows 8.1 workstation has a corrupt BCD file. Which two commands can you use to fix this? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "BOOTREC /FIXMBR" },
+        { "id": "B", "text": "BOOTREC /FIXBOOT" },
+        { "id": "C", "text": "BOOTREC /REBUILDBCD" },
+        { "id": "D", "text": "BCDEDIT" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["C", "D"]
+    },
+    {
+      "id": 66,
+      "question": "A technician is troubleshooting a driver issue on a Windows 8.1 workstation. She has verified full system functionality and implemented preventive measures. According to troubleshooting theory, what should she do next?",
+      "options": [
+        { "id": "A", "text": "Document findings, actions, and outcomes." },
+        { "id": "B", "text": "Establish a plan of action to resolve the problem and implement the solution." },
+        { "id": "C", "text": "Question the user and identify user changes to the computer." },
+        { "id": "D", "text": "Perform backups of the computer." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 67,
+      "question": "You are working on your Windows 8.1 computer and a security alert pops up, as shown here. What should your next action be?",
+      "hasImage": true,
+      "imageNote": "Image shows a fake security alert with buttons to 'Continue Unprotected' or 'Remove All Threats Now'",
+      "options": [
+        { "id": "A", "text": "Click the Continue Unprotected button." },
+        { "id": "B", "text": "Click the Remote All Threats Now button." },
+        { "id": "C", "text": "Create a restore point and then click the Remove All Threats Now button." },
+        { "id": "D", "text": "Shut down your computer. Reboot, and initiate a virus scan using your antivirus software." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 68,
+      "question": "You are instructing a new Mac user on the features of macOS. She asks if the system is capable of storing her passwords to various Internet sites. Which feature would she use for that?",
+      "options": [
+        { "id": "A", "text": "Keychain" },
+        { "id": "B", "text": "Wallet" },
+        { "id": "C", "text": "Passport" },
+        { "id": "D", "text": "Spotlight" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 69,
+      "question": "You are troubleshooting a Windows 8.1 workstation that seems to have issues with its video card driver; only 16 colors will display. You try to boot the system into Safe Mode, but the F8 option does not seem to work. Which management tool can you use to force the system to boot into Safe Mode when it reboots?",
+      "options": [
+        { "id": "A", "text": "Task Scheduler" },
+        { "id": "B", "text": "Computer Management" },
+        { "id": "C", "text": "Task Manager" },
+        { "id": "D", "text": "System Configuration" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 70,
+      "question": "Which of the following is an advantage of using Share permissions over using NTFS permissions?",
+      "options": [
+        { "id": "A", "text": "Share permissions will override NTFS permissions if there is a conflict." },
+        { "id": "B", "text": "Share permissions apply when users access a resource across the network, but NTFS permissions apply only to local users." },
+        { "id": "C", "text": "Share permissions are able to be set at the file level, whereas NTFS permissions can be set only at the folder level." },
+        { "id": "D", "text": "Share permissions can be enabled to secure resources across the network that are not on an NTFS partition." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 71,
+      "question": "You have installed an antivirus program on your Windows 8.1 workstation. When configuring it, what should you set the update frequency to?",
+      "options": [
+        { "id": "A", "text": "Automatic" },
+        { "id": "B", "text": "Once per week" },
+        { "id": "C", "text": "Once per month" },
+        { "id": "D", "text": "Once per year" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 72,
+      "question": "Your manager is concerned that your company could divulge PII. Which of the following types of data is not considered PII?",
+      "options": [
+        { "id": "A", "text": "First name" },
+        { "id": "B", "text": "Home address" },
+        { "id": "C", "text": "Family member names" },
+        { "id": "D", "text": "Employee ID number" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 73,
+      "question": "A user reports that his Windows 8.1 installation keeps on crashing. He has installed numerous third-party apps on the computer, and you believe that some of these apps are causing the instability. After entering the Windows Recovery Environment, which option should you choose to repair Windows and delete all but the default apps?",
+      "options": [
+        { "id": "A", "text": "Recover" },
+        { "id": "B", "text": "Refresh" },
+        { "id": "C", "text": "Reset" },
+        { "id": "D", "text": "Restore" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 74,
+      "question": "On a Windows 7 workstation, there are two NTFS volumes. The Managers group has Modify access to the C:\\mgmt directory. You move the folder to the D:\\keyfiles folder, to which the Managers group has Read access. What level of permissions will the Managers group have to the new D:\\keyfiles\\mgmt directory?",
+      "options": [
+        { "id": "A", "text": "Full Control" },
+        { "id": "B", "text": "Modify" },
+        { "id": "C", "text": "Read & Execute" },
+        { "id": "D", "text": "Read" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 75,
+      "question": "You are training mobile users on potential security risks. Which of the following could make users more susceptible to a man-in-the-middle attack?",
+      "options": [
+        { "id": "A", "text": "Unintended Wi-Fi connection" },
+        { "id": "B", "text": "Unauthorized account access" },
+        { "id": "C", "text": "Unauthorized location tracking" },
+        { "id": "D", "text": "Unauthorized camera activation" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 76,
+      "question": "The network you manage has a dozen Windows 7 workstations. You want to ensure that users do not have the ability to change the boot order, so they can't boot to an unauthorized device. Which step should you take?",
+      "options": [
+        { "id": "A", "text": "Set a BIOS/UEFI password." },
+        { "id": "B", "text": "Disable autorun." },
+        { "id": "C", "text": "Restrict user permissions." },
+        { "id": "D", "text": "Enable a strong password policy." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 77,
+      "question": "A user needs to travel for a presentation and wants to be sure his laptop does not run off battery power, so he wants to turn it off. However, he wants to leave his files and applications running, so when he turns it back on, the applications are already open. Which of the following statements is true?",
+      "options": [
+        { "id": "A", "text": "The user will be unable to do this." },
+        { "id": "B", "text": "The user should put his computer into standby mode." },
+        { "id": "C", "text": "The user needs to activate the sleep power plan." },
+        { "id": "D", "text": "The user should have his computer hibernate." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 78,
+      "question": "You are working on a Windows 7 workstation that will not properly load Windows. Another technician suggests using a snapshot to restore the system. Where do you do this from?",
+      "options": [
+        { "id": "A", "text": "Windows RE" },
+        { "id": "B", "text": "Windows pre-installation environment" },
+        { "id": "C", "text": "Safe Mode" },
+        { "id": "D", "text": "Backup and Restore" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 79,
+      "question": "A user's NTFS permissions for the docs folder are Read & Execute. His share permissions are Full Control. What is his effective access when connecting to the resource across the network?",
+      "options": [
+        { "id": "A", "text": "No access" },
+        { "id": "B", "text": "Full Control" },
+        { "id": "C", "text": "Read & Execute" },
+        { "id": "D", "text": "Read only" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 80,
+      "question": "You have a Linux server on your network. You want to back up all files in the /user/files volume without disrupting user access. What should you use to do this?",
+      "options": [
+        { "id": "A", "text": "Time Machine" },
+        { "id": "B", "text": "Linux Backup" },
+        { "id": "C", "text": "Snapshot" },
+        { "id": "D", "text": "Image recovery" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 81,
+      "question": "You open a command prompt on a Windows 7 workstation and type in the sfc command. You receive an error message telling you that you need to be an administrator to run the command. What should you do next?",
+      "options": [
+        { "id": "A", "text": "Run the sfc /admin command." },
+        { "id": "B", "text": "Run the sfc /elevate command." },
+        { "id": "C", "text": "Click Start âž¢ All Programs âž¢ Accessories; then right-click Command Prompt and choose Run As Administrator. Then run the sfc command." },
+        { "id": "D", "text": "Click Start âž¢ All Programs âž¢ Accessories; then right-click Command Prompt and choose Run With Elevated Privileges. Then run the sfc command." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 82,
+      "question": "You want to see events that your Windows 8.1 workstation has logged. Which of the following is not a type of log that is contained in Event Viewer?",
+      "options": [
+        { "id": "A", "text": "Security" },
+        { "id": "B", "text": "System" },
+        { "id": "C", "text": "Login" },
+        { "id": "D", "text": "Application" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 83,
+      "question": "You want to grant a user the ability to make changes to files and run programs located in an NTFS folder. However, you do not want him to be able to delete files in the folder. Which level of access should you allow him?",
+      "options": [
+        { "id": "A", "text": "Read & Execute, and Write" },
+        { "id": "B", "text": "Modify" },
+        { "id": "C", "text": "Full Control" },
+        { "id": "D", "text": "Write" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 84,
+      "question": "Your company has decided to stop purchasing commercial cloud services and enter into a cloud partnership with a sister company. What type of cloud will your company and the sister company create?",
+      "options": [
+        { "id": "A", "text": "Public" },
+        { "id": "B", "text": "Private" },
+        { "id": "C", "text": "Hybrid" },
+        { "id": "D", "text": "Community" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"]
+    },
+    {
+      "id": 85,
+      "question": "You have a Windows 7 Professional workstation installed in a workgroup. There is no centralized security. Which tool should you use to help protect yourself against malicious network attacks?",
+      "options": [
+        { "id": "A", "text": "Windows Firewall" },
+        { "id": "B", "text": "Advanced Security" },
+        { "id": "C", "text": "Local Security Policy" },
+        { "id": "D", "text": "Computer Management" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"]
+    },
+    {
+      "id": 86,
+      "question": "You are working on a client's desktop computer, and the video card is dead. You can get a warranty replacement, but it will take three days to arrive. Or you can replace it with a more expensive card today, but he would need to pay the difference. Which of the following is the best way for you to continue the service call?",
+      "options": [
+        { "id": "A", "text": "Tell him that the video card is dead. It will take three days for the video card to arrive, and you will return then to replace it." },
+        { "id": "B", "text": "Tell him that the video card is dead. It will take three days for a warranty replacement to arrive (at no cost), or you can replace it with an upgraded model today if he wants to pay the difference in cost." },
+        { "id": "C", "text": "Tell him that the video card is dead. Offer to replace it today with a more expensive video card, and he can pay the difference in cost." },
+        { "id": "D", "text": "Tell him that he will be without a computer for three days, but then you will come back and fix it." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"]
+    },
+    {
+      "id": 87,
+      "question": "A friend is recycling his old computer and wants to be sure that no one can access his private information. He decides to format the hard drive and chooses a quick format. Which of the following statements are true?",
+      "options": [
+        { "id": "A", "text": "His private information is safe because the old data has been permanently removed from the hard drive." },
+        { "id": "B", "text": "His private information is safe because once the file allocation table has been removed, none of the old data is accessible." },
+        { "id": "C", "text": "His private information is not safe because the quick format only writes a new file allocation table." },
+        { "id": "D", "text": "His private information is not safe because the quick format only removes the old operating system files." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"]
+    },
+    {
+      "id": 88,
+      "question": "When you begin synchronization of an iPhone to a desktop computer, what type of authentication occurs?",
+      "options": [
+        { "id": "A", "text": "There is no authentication required for synchronization." },
+        { "id": "B", "text": "Both devices authenticate each other." },
+        { "id": "C", "text": "The iPhone authenticates the desktop computer." },
+        { "id": "D", "text": "The desktop computer authenticates the iPhone." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"]
+    },
+    {
+      "id": 89,
+      "question": "Which of the following types of threats are specific examples of social engineering? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Spoofing" },
+        { "id": "B", "text": "Viruses" },
+        { "id": "C", "text": "Shoulder surfing" },
+        { "id": "D", "text": "Spear phishing" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["C", "D"]
+    },
+    {
+      "id": 90,
+      "question": "You are attempting to update a Windows Vista workstation using Windows Update. The update fails with this message: 'Failure configuring Windows updates. Reverting changes.' You reboot and try again but receive the same error. What should you try next? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Wait until changes are reverted. Unplug removable media from your computer and try again." },
+        { "id": "B", "text": "Wait until changes are reverted. Run a virus scan and try again." },
+        { "id": "C", "text": "Wait until changes are reverted. Run the Windows Update Troubleshooter." },
+        { "id": "D", "text": "Ignore the update." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["A", "C"]
+    }
+  ]
+}

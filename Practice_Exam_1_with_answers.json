@@ -1,0 +1,1199 @@
+{
+  "examInfo": {
+    "title": "CompTIA A+ Practice Exam 1",
+    "code": "220-901",
+    "chapter": "Chapter 10",
+    "totalQuestions": 90,
+    "timeLimit": 90,
+    "description": "Hardware and Network Troubleshooting"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "You are investigating computer specifications for a new desktop workstation. If the specifications include 256KB of L2 cache, approximately how much L1 cache would it be reasonable to expect the computer to have?",
+      "options": [
+        { "id": "A", "text": "64KB" },
+        { "id": "B", "text": "256KB" },
+        { "id": "C", "text": "512KB" },
+        { "id": "D", "text": "12MB" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "L1 cache is generally the smallest and fastest cache. Therefore, it’s reasonable to expect that the computer will have less L1 cache than L2."
+    },
+    {
+      "id": 2,
+      "question": "You have installed a printer on your Windows 10 computer using TCP printing and configured it to use the RAW protocol. Which port number will you need to open in Windows Firewall for this to work successfully?",
+      "options": [
+        { "id": "A", "text": "9100" },
+        { "id": "B", "text": "721" },
+        { "id": "C", "text": "515" },
+        { "id": "D", "text": "443" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "TCP printing’s RAW protocol uses TCP port 9100 by default. The alternative, LPR, uses source ports 721–731 and the destination port 515."
+    },
+    {
+      "id": 3,
+      "question": "A user reports that his iPhone will not make any sounds. He has turned the phone off and back on, and the problem is still there. You check his settings, and the phone is not on silent mode and the volume is set to maximum. What can you do to fix this problem?",
+      "options": [
+        { "id": "A", "text": "Reset the phone to factory specifications." },
+        { "id": "B", "text": "Replace the speakers." },
+        { "id": "C", "text": "Replace the sound card." },
+        { "id": "D", "text": "Replace the phone." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "If the speakers have failed on a mobile device, it’s time for a new device. First, make sure that it’s not set to silent operation and check the volume settings."
+    },
+    {
+      "id": 4,
+      "question": "You have a laptop with a dead hard drive. You want to replace it with a newer SSD but have a few concerns. What disadvantages do SSDs have versus HDDs? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "They produce more heat." },
+        { "id": "B", "text": "They are more expensive." },
+        { "id": "C", "text": "They are more susceptible to damage." },
+        { "id": "D", "text": "They have less capacity." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["B", "D"],
+      "explanation": "SSDs have many advantages over HDDs, but they are more expensive per byte and generally have less capacity."
+    },
+    {
+      "id": 5,
+      "question": "You purchased a new monitor that has a native resolution of 1920x1080. What aspect ratio is this, and is it compatible with widescreen television aspect ratios?",
+      "options": [
+        { "id": "A", "text": "16:9, yes" },
+        { "id": "B", "text": "16:9, no" },
+        { "id": "C", "text": "16:10, yes" },
+        { "id": "D", "text": "16:10, no" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The monitor has a resolution of 16:9. You can determine this by dividing 1920 by 16 (which is 120) and multiplying that by 9 to get 1080. This is the same aspect ratio as widescreen televisions."
+    },
+    {
+      "id": 6,
+      "question": "A laser printer you are working on is producing images that have vertical black streaks running the length of the page. Which of the following could be causing this? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Scratch in the EP drum" },
+        { "id": "B", "text": "Fusing assembly not heating up properly" },
+        { "id": "C", "text": "Worn exit rollers" },
+        { "id": "D", "text": "Dirty charging corona wire" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["A", "D"],
+      "explanation": "A scratch in the EP drum or a dirty charging corona wire can cause vertical black streaks. The drum can't hold a charge in the scratched area, and toner sticks to it. Similarly, a dirty corona wire prevents a proper charge from being applied."
+    },
+    {
+        "id": 7,
+        "question": "You have installed an 802.11g Wi-Fi network. The network has three overlapping wireless access points. What channels should you set the access points to in order to avoid communications problems?",
+        "options": [
+            { "id": "A", "text": "1, 5, and 9." },
+            { "id": "B", "text": "1, 6, and 11." },
+            { "id": "C", "text": "2, 7, and 12." },
+            { "id": "D", "text": "Any three different channels will work fine." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["B"],
+        "explanation": "To avoid communications problems, you need to set the wireless access points to have nonoverlapping channels. In 802.11g, the three nonoverlapping channels are 1, 6, and 11."
+    },
+    {
+        "id": 8,
+        "question": "You are installing an ATX power supply. Which of the following is not a voltage provided by the power supply?",
+        "options": [
+            { "id": "A", "text": "-3.3VDC" },
+            { "id": "B", "text": "+5VDC" },
+            { "id": "C", "text": "+12VDC" },
+            { "id": "D", "text": "-12VDC" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["A"],
+        "explanation": "ATX power supplies provide the following voltages for the computer: +3.3VDC, +5VDC, –5VDC (on older systems), +12VDC, and –12VDC."
+    },
+    {
+        "id": 9,
+        "question": "A user complains that his desktop computer randomly reboots. He does not see any error messages before it happens, and there is not a specific program that triggers the reboot. Which of the following components is most likely to be causing this problem?",
+        "options": [
+            { "id": "A", "text": "RAM" },
+            { "id": "B", "text": "Hard drive" },
+            { "id": "C", "text": "BIOS" },
+            { "id": "D", "text": "Network adapter" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["A"],
+        "explanation": "Memory problems can cause system lockups, unexpected shutdowns or reboots, or errors such as Blue Screen of Death (BSOD) in Windows or the rotating pinwheel in MacOS."
+    },
+    {
+        "id": 10,
+        "question": "A user calls the help desk to report that she has no network connectivity. She had connectivity yesterday, but when she booted up her desktop computer this morning, she could not connect. She does not use the wireless network. No other users have reported issues. What is the first thing you should do?",
+        "options": [
+            { "id": "A", "text": "Check to see whether the network card driver is responding." },
+            { "id": "B", "text": "Run IPCONFIG to see what her IP address is." },
+            { "id": "C", "text": "Use a loopback plug to test the network card." },
+            { "id": "D", "text": "Check to ensure that the network cable is plugged in." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "Rule #1 of troubleshooting is to always check your connections first. The most common issue that prevents network connectivity on a wired network is a bad or unplugged patch cable."
+    },
+    {
+        "id": 11,
+        "question": "A user calls to report that he can't access the Internet or a corporate server. However, he is still able to print to a printer nearby. He has not received any error messages. Other users in his area are able to access all network resources and the Internet. What is most likely the problem?",
+        "options": [
+            { "id": "A", "text": "Incorrect subnet mask" },
+            { "id": "B", "text": "Network card failure" },
+            { "id": "C", "text": "IP address conflict" },
+            { "id": "D", "text": "Default gateway is down" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["A"],
+        "explanation": "You can immediately rule out client-side hardware issues because the user can connect to some resources. This points to a TCP/IP configuration issue. An incorrect subnet mask is the most likely culprit."
+    },
+    {
+        "id": 12,
+        "question": "Which of the following statements are true regarding CPUs and operating systems? (Choose two.)",
+        "options": [
+            { "id": "A", "text": "A 64-bit OS can run on a 32-bit CPU or a 64-bit CPU." },
+            { "id": "B", "text": "A 32-bit OS can run on a 32-bit CPU or a 64-bit CPU." },
+            { "id": "C", "text": "A 32-bit OS can run only on a 32-bit CPU." },
+            { "id": "D", "text": "A 64-bit OS can run only on a 64-bit CPU." }
+        ],
+        "multipleAnswer": true,
+        "correctAnswersCount": 2,
+        "correctAnswer": ["B", "D"],
+        "explanation": "A 32-bit OS can run on either a 32-bit or 64-bit processor, although you will not be able to fully utilize the 64-bit processor's capabilities with a 32-bit OS. A 64-bit OS will run only on a 64-bit processor."
+    },
+    {
+        "id": 13,
+        "question": "Which of the following wireless connection types generally has a functional communication distance of 10 meters?",
+        "options": [
+            { "id": "A", "text": "NFC" },
+            { "id": "B", "text": "IR" },
+            { "id": "C", "text": "Bluetooth" },
+            { "id": "D", "text": "Wi-Fi" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "Bluetooth is a short-range wireless technology that operates at about 10 meters, or 33 feet. It was designed to replace wired connections between devices."
+    },
+    {
+        "id": 14,
+        "question": "The Southbridge on a motherboard is responsible for managing which type of communications?",
+        "options": [
+            { "id": "A", "text": "High-speed peripherals" },
+            { "id": "B", "text": "Slower onboard peripherals" },
+            { "id": "C", "text": "CPU to RAM" },
+            { "id": "D", "text": "CPU to HDD" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["B"],
+        "explanation": "The Southbridge is responsible for providing support to the slower onboard peripherals, such as USB, serial, and parallel ports."
+    },
+    {
+        "id": 15,
+        "question": "In your company's lobby, there is a desktop computer with an LCD monitor that plays a continuous loop of a welcome video. The monitor is enclosed in a cabinet. Recently, the monitor will shut itself down near the end of the day, for no apparent reason. What is likely causing this problem?",
+        "options": [
+            { "id": "A", "text": "Backlight failure" },
+            { "id": "B", "text": "Incorrect video resolution" },
+            { "id": "C", "text": "Video card failure" },
+            { "id": "D", "text": "Monitor overheating" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "Monitors have their own internal power supply, and they can overheat. Make sure the air vents on the back of the monitor are dust and debris free. Enclosing it in a cabinet could cause overheating."
+    },
+    {
+        "id": 16,
+        "question": "One of your network users develops software for multiple operating systems. He asks for a specialized computer that will allow him to run multiple operating systems at the same time in virtualized environments. Which two components should you optimize in his computer? (Choose two.)",
+        "options": [
+            { "id": "A", "text": "CPU" },
+            { "id": "B", "text": "RAM" },
+            { "id": "C", "text": "HDD" },
+            { "id": "D", "text": "GPU" }
+        ],
+        "multipleAnswer": true,
+        "correctAnswersCount": 2,
+        "correctAnswer": ["A", "B"],
+        "explanation": "This user needs a virtualization workstation. To ensure that the operating systems have the most resources possible, optimize the processors (the more cores, the better) and memory."
+    },
+    {
+        "id": 17,
+        "question": "The design of the micro-ATX motherboard makes which of the following statements true?",
+        "options": [
+            { "id": "A", "text": "It will fit in standard ATX cases." },
+            { "id": "B", "text": "It will fit in standard ATX cases when used with a mounting adapter kit." },
+            { "id": "C", "text": "It will fit in standard ATX cases but can't support full-length expansion cards." },
+            { "id": "D", "text": "It will not fit in standard ATX cases." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["A"],
+        "explanation": "The micro-ATX form factor is designed to work in standard ATX cases, as well as its own smaller cases."
+    },
+    {
+        "id": 18,
+        "question": "A 32-bit PCI expansion bus will operate at one of which of the following two data rates? (Choose two.)",
+        "options": [
+            { "id": "A", "text": "33MBps" },
+            { "id": "B", "text": "66MBps" },
+            { "id": "C", "text": "133MBps" },
+            { "id": "D", "text": "266MBps" }
+        ],
+        "multipleAnswer": true,
+        "correctAnswersCount": 2,
+        "correctAnswer": ["C", "D"],
+        "explanation": "PCI expansion buses operate at 33MHz or 66MHz over a 32-bit (4-byte) channel, resulting in data rates of 133MBps and 266MBps, respectively."
+    },
+    {
+        "id": 19,
+        "question": "What is the maximum speed of an ExpressCard 1.x card running in PCIe 1.0 x1 mode?",
+        "options": [
+            { "id": "A", "text": "480Mbps" },
+            { "id": "B", "text": "2.5Gbps" },
+            { "id": "C", "text": "5.0Gbps" },
+            { "id": "D", "text": "6.0Gbps" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["B"],
+        "explanation": "ExpressCard 1.x cards running in PCIe 1.0 x1 mode have a maximum speed of 2.5Gbps. When running in USB 2.0 mode, the speed is 480Mbps."
+    },
+    {
+        "id": 20,
+        "question": "Which two TCP/IP protocols are designed to download email from mail servers? (Choose two.)",
+        "options": [
+            { "id": "A", "text": "SMTP" },
+            { "id": "B", "text": "POP3" },
+            { "id": "C", "text": "IMAP" },
+            { "id": "D", "text": "SMB" }
+        ],
+        "multipleAnswer": true,
+        "correctAnswersCount": 2,
+        "correctAnswer": ["B", "C"],
+        "explanation": "POP3 (Post Office Protocol 3) and IMAP (Internet Message Access Protocol) are both used for downloading email. SMTP (Simple Mail Transfer Protocol) is for sending email."
+    },
+    {
+        "id": 21,
+        "question": "You are testing the power levels provided to the paper transport motor inside a laser printer. What voltage does this motor require?",
+        "options": [
+            { "id": "A", "text": "+5VDC" },
+            { "id": "B", "text": "-5VDC" },
+            { "id": "C", "text": "+24VDC" },
+            { "id": "D", "text": "-24VDC" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "The DC power supply (DCPS) in a laser printer converts AC current into three voltages: +5VDC and -5VDC for logic circuitry, and +24VDC for paper-transport motors."
+    },
+    {
+        "id": 22,
+        "question": "You are examining an existing coaxial cable installation and notice that the previous technician installed a splitter. Which of the following statements is true?",
+        "options": [
+            { "id": "A", "text": "The splitter will degrade the quality of the network signal." },
+            { "id": "B", "text": "The splitter will cause the network connection to fail." },
+            { "id": "C", "text": "The splitter will increase the distance the network signal will travel." },
+            { "id": "D", "text": "The splitter will have no effect on the network signal." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["A"],
+        "explanation": "Splitters divide the signal, which degrades the quality (attenuation). While it may not cause a complete failure, it will weaken the signal."
+    },
+    {
+        "id": 23,
+        "question": "Users on your network complain of poor wireless network access in a certain part of your building. They say that the connection is slow and disconnects frequently. You are using 802.11n wireless routers and access points. What tool should you use to troubleshoot the situation?",
+        "options": [
+            { "id": "A", "text": "Wi-Fi analyzer" },
+            { "id": "B", "text": "Protocol analyzer" },
+            { "id": "C", "text": "Tone generator and probe" },
+            { "id": "D", "text": "Multimeter" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["A"],
+        "explanation": "A Wi-Fi analyzer is software installed on a laptop or mobile device to detect and analyze Wi-Fi signals. It can detect where signals are strong or weak to determine whether there are potential security issues or coverage gaps."
+    },
+    {
+        "id": 24,
+        "question": "In which scenario would you use the Fn key and the F7 key shown here?",
+        "hasImage": true,
+        "options": [
+            { "id": "A", "text": "To turn the screen brightness down" },
+            { "id": "B", "text": "To turn the screen brightness up" },
+            { "id": "C", "text": "To turn the speaker volume down" },
+            { "id": "D", "text": "To turn the speaker volume up" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["A"],
+        "explanation": "The icon on the F7 key (a sun with a down arrow) indicates that pressing Fn + F7 will decrease the screen brightness."
+    },
+    {
+        "id": 25,
+        "question": "A desktop computer will not retain the system time or date. The user always needs to reset them after their system is powered off. What should you do to fix the problem?",
+        "options": [
+            { "id": "A", "text": "Flash the BIOS." },
+            { "id": "B", "text": "Replace the BIOS chip." },
+            { "id": "C", "text": "Replace the CMOS battery." },
+            { "id": "D", "text": "Use the jumper on the motherboard to set the BIOS back to factory specifications." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "The BIOS uses a small CMOS battery on the motherboard to retain settings like time and date when the system power is off. If this battery fails, the settings won't be saved. Replacing the battery will solve the problem."
+    },
+    {
+        "id": 26,
+        "question": "What type of power connector is shown here, and what device does it provide power to?",
+        "hasImage": true,
+        "options": [
+            { "id": "A", "text": "ATX, motherboard" },
+            { "id": "B", "text": "Molex, hard drive" },
+            { "id": "C", "text": "PCIe, PCIe adapters" },
+            { "id": "D", "text": "SATA, hard drive" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["B"],
+        "explanation": "The four-pin power connector shown is a Molex connector. It's used to provide power to older IDE hard drives and optical drives."
+    },
+    {
+        "id": 27,
+        "question": "You have just installed a new printer on a client's workstation. When you attempt to print, nothing but garbled characters appear on the paper. Which two things are most likely to cause a problem like this? (Choose two.)",
+        "options": [
+            { "id": "A", "text": "The print spooler" },
+            { "id": "B", "text": "The printer driver" },
+            { "id": "C", "text": "The formatter board" },
+            { "id": "D", "text": "The printer's memory" }
+        ],
+        "multipleAnswer": true,
+        "correctAnswersCount": 2,
+        "correctAnswer": ["B", "C"],
+        "explanation": "Garbled characters are often a sign of a communication problem. This can be caused by an incorrect or corrupt printer driver, or a malfunctioning formatter board on the printer itself."
+    },
+    {
+        "id": 28,
+        "question": "A user has turned in a tablet computer that has a swollen battery. What should you do to resolve the problem?",
+        "options": [
+            { "id": "A", "text": "Turn the tablet off, let it cool down, and then return it to the user." },
+            { "id": "B", "text": "Order a new tablet for the user, drain the excess electrolyte from the battery, and then dispose of the defective one in the trash." },
+            { "id": "C", "text": "Order a new tablet for the user and dispose of the defective one in the trash." },
+            { "id": "D", "text": "Order a new tablet for the user and take the defective one to a recycling center." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "A swollen battery is a serious safety hazard and should be handled with care. The device should be replaced, and the defective tablet must be disposed of properly at a designated electronics recycling center, not in regular trash."
+    },
+    {
+        "id": 29,
+        "question": "You are troubleshooting a Windows 10 desktop computer that boots into VGA mode. You have tried changing the resolution and reinstalled the video driver, but it still will only boot into VGA mode. What should you do next?",
+        "options": [
+            { "id": "A", "text": "Replace the monitor." },
+            { "id": "B", "text": "Replace the video card." },
+            { "id": "C", "text": "Flash the system BIOS." },
+            { "id": "D", "text": "Flash the video card BIOS." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["B"],
+        "explanation": "If reinstalling the driver and changing resolution settings don't work, the system is likely reverting to a basic video mode because of a hardware failure in the video card."
+    },
+    {
+        "id": 30,
+        "question": "You are troubleshooting a laptop computer that will not boot properly. When you power it on, there is nothing on the display, and you hear beeps in a pattern of 1-3-3. What two things could you use to troubleshoot the problem? (Choose two.)",
+        "options": [
+            { "id": "A", "text": "Manufacturer's website" },
+            { "id": "B", "text": "PCIe POST card" },
+            { "id": "C", "text": "USB POST card" },
+            { "id": "D", "text": "BOOT tester" }
+        ],
+        "multipleAnswer": true,
+        "correctAnswersCount": 2,
+        "correctAnswer": ["A", "C"],
+        "explanation": "The beeps are a BIOS beep code indicating a POST error. The manufacturer's website will have documentation explaining what this specific code means. A USB POST card can be used on a laptop to get a numeric error code for further diagnosis."
+    },
+    {
+        "id": 31,
+        "question": "When creating a custom computer configuration, what type of system will most benefit from high-end video card and cooling systems?",
+        "options": [
+            { "id": "A", "text": "Thick client" },
+            { "id": "B", "text": "Gaming PC" },
+            { "id": "C", "text": "Home theater PC" },
+            { "id": "D", "text": "A/V editing workstation" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["B"],
+        "explanation": "Gaming PCs require powerful GPUs (high-end video cards) and effective cooling systems to handle the intense processing load and heat generated by modern games."
+    },
+    {
+        "id": 32,
+        "question": "Which RAM modules have 240 pins? (Choose two.)",
+        "options": [
+            { "id": "A", "text": "DIMM DDR2" },
+            { "id": "B", "text": "DIMM DDR3" },
+            { "id": "C", "text": "SODIMM DDR2" },
+            { "id": "D", "text": "SODIMM DDR3" }
+        ],
+        "multipleAnswer": true,
+        "correctAnswersCount": 2,
+        "correctAnswer": ["A", "B"],
+        "explanation": "Standard desktop DIMMs for both DDR2 and DDR3 have 240 pins. SODIMMs (for laptops) have a different pin count (DDR2 has 200, DDR3 has 204)."
+    },
+    {
+        "id": 33,
+        "question": "Several Bluetooth devices are connected in an ad hoc network. Which acronym best describes this type of network?",
+        "options": [
+            { "id": "A", "text": "LAN" },
+            { "id": "B", "text": "WAN" },
+            { "id": "C", "text": "PAN" },
+            { "id": "D", "text": "MAN" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "A Personal Area Network (PAN) is a small-scale network designed around one person, typically using Bluetooth technology to connect devices like headsets, keyboards, and phones in an ad hoc manner."
+    },
+    {
+        "id": 34,
+        "question": "Your motherboard supports up-plugging for PCIe adapter cards. Which of the following statements is true?",
+        "options": [
+            { "id": "A", "text": "You can't put an x8 card into an x16 slot." },
+            { "id": "B", "text": "You can put an x8 card into an x16 slot, but it will run at x1 speed." },
+            { "id": "C", "text": "You can put an x8 card into an x16 slot, and it will run at x8 speed." },
+            { "id": "D", "text": "You can put an x8 card into an x16 slot, and it will run at x16 speed." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "Up-plugging allows you to insert a smaller PCIe card (like an x8 card) into a larger slot (like x16). The card will function at its native speed (x8)."
+    },
+    {
+        "id": 35,
+        "question": "The AES security algorithm was introduced with which Wi-Fi encryption standard?",
+        "options": [
+            { "id": "A", "text": "WEP" },
+            { "id": "B", "text": "WPA" },
+            { "id": "C", "text": "WPA2" },
+            { "id": "D", "text": "TKIP" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "WPA2 (Wi-Fi Protected Access 2) is the standard that made AES (Advanced Encryption Standard) mandatory, providing a much stronger level of security than the older WEP and WPA (which used TKIP)."
+    },
+    {
+        "id": 36,
+        "question": "You need to create several UTP patch cables from a roll of bulk cable. Your company uses the T568A standard. What is the correct order for wires in the connectors?",
+        "options": [
+            { "id": "A", "text": "White/orange, orange, white/green, blue, white/blue, green, white/brown, brown" },
+            { "id": "B", "text": "White/orange, green, white/green, blue, white/blue, orange, white/brown, brown" },
+            { "id": "C", "text": "White/green, green, white/orange, blue, white/blue, orange, white/brown, brown" },
+            { "id": "D", "text": "White/green, green, orange, blue, white/blue, white/orange, white/brown, brown" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "The T568A wiring standard follows the color code: White/green, green, white/orange, blue, white/blue, orange, white/brown, brown."
+    },
+    {
+        "id": 37,
+        "question": "You are troubleshooting wireless networking issues on a Windows 8.1 laptop. Which command should you use to check the laptop's IP address?",
+        "options": [
+            { "id": "A", "text": "IFCONFIG" },
+            { "id": "B", "text": "IPCONFIG" },
+            { "id": "C", "text": "PING" },
+            { "id": "D", "text": "NETSTAT" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["B"],
+        "explanation": "The IPCONFIG command is used in Windows to display the current TCP/IP network configuration values. IFCONFIG is the equivalent for Linux and macOS."
+    },
+    {
+        "id": 38,
+        "question": "Identify the connectors shown here.",
+        "hasImage": true,
+        "options": [
+            { "id": "A", "text": "ST" },
+            { "id": "B", "text": "SC" },
+            { "id": "C", "text": "LC" },
+            { "id": "D", "text": "BNC" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["A"],
+        "explanation": "The connectors shown are ST (Straight Tip) connectors for fiber-optic cable. They use a bayonet-style locking mechanism."
+    },
+    {
+        "id": 39,
+        "question": "Which computer component is most likely to use a DB15 connector?",
+        "options": [
+            { "id": "A", "text": "Modem" },
+            { "id": "B", "text": "Hard drive" },
+            { "id": "C", "text": "Monitor" },
+            { "id": "D", "text": "Keyboard" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "A DB15 connector (specifically, a high-density DE15) is commonly used for VGA connections to analog monitors."
+    },
+    {
+        "id": 40,
+        "question": "Which of the following statements is true about the function of the laser in the exposing step of the laser printer imaging process?",
+        "options": [
+            { "id": "A", "text": "It increases the charge from +100VDC to +600VDC." },
+            { "id": "B", "text": "It decreases the charge from +600VDC to +100VDC." },
+            { "id": "C", "text": "It increases the charge from -100VDC to -600VDC." },
+            { "id": "D", "text": "It decreases the charge from -600VDC to -100VDC." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "In the exposing step, the laser beam neutralizes the charge on specific areas of the photosensitive drum. It reduces the strong negative charge (around -600VDC) to a slight negative charge (around -100VDC), creating an electrostatic image."
+    },
+    {
+        "id": 41,
+        "question": "Your co-worker needs to transfer files from a mobile device using a memory card reader and an SD memory card. He quickly finds out that his maximum capacity is only 4GB. Which technology does he have?",
+        "options": [
+            { "id": "A", "text": "SD" },
+            { "id": "B", "text": "SDLC" },
+            { "id": "C", "text": "SDHC" },
+            { "id": "D", "text": "SDXC" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["A"],
+        "explanation": "The original Secure Digital (SD) standard has a maximum capacity of 4GB. SDHC (High Capacity) goes up to 32GB, and SDXC (eXtended Capacity) goes up to 2TB."
+    },
+    {
+        "id": 42,
+        "question": "You need to purchase new RAM for two computer systems, both of which have an FSB speed of 667MHz. The computer specifications require DDR2. Which RAM modules should you purchase?",
+        "options": [
+            { "id": "A", "text": "PC2-667" },
+            { "id": "B", "text": "PC2-3200" },
+            { "id": "C", "text": "PC2-5300" },
+            { "id": "D", "text": "PC2-6400" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "For DDR2 RAM, you can calculate the module name by multiplying the FSB speed by 8. In this case, 667MHz * 8 is approximately 5300MBps, which corresponds to PC2-5300."
+    },
+    {
+        "id": 43,
+        "question": "After a lightning storm, the laser printer in your office will not power up. You are testing it with a multimeter. What voltage do you expect to see from pin 9?",
+        "options": [
+            { "id": "A", "text": "-24v" },
+            { "id": "B", "text": "+24v" },
+            { "id": "C", "text": "-5v" },
+            { "id": "D", "text": "+5v" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["B"],
+        "explanation": "In a typical laser printer DC power supply connector, pin 9 provides +24VDC, which is used to power motors within the printer."
+    },
+    {
+        "id": 44,
+        "question": "You need to print documents containing sensitive information, but all the printers are in a shared workspace. Which technology will allow you to hold the print job until you enter a PIN on the printer?",
+        "options": [
+            { "id": "A", "text": "Virtual printing" },
+            { "id": "B", "text": "Safe printing" },
+            { "id": "C", "text": "Cloud printing" },
+            { "id": "D", "text": "Secure printing" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "Secure printing (or private printing) is a feature that holds a print job in the printer's memory until the user physically goes to the printer and enters a PIN to release it, ensuring confidentiality."
+    },
+    {
+        "id": 45,
+        "question": "A guest speaker plugs an external projector into her laptop, using the VGA port on the back of the laptop. The projector is on but just shows a blue screen instead of her presentation. What is the easiest way for her to fix this issue?",
+        "options": [
+            { "id": "A", "text": "Turn the projector off and back on to synchronize it with the laptop." },
+            { "id": "B", "text": "Press the Fn key on her keyboard and toggle the projector backlight Function key until the image appears." },
+            { "id": "C", "text": "Press the Fn key on her keyboard and toggle the video output Function key until the image appears." },
+            { "id": "D", "text": "Press the Fn key on her keyboard and toggle the screen brightness Function key until the image appears." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "Laptops have a function key (often marked with a monitor icon) that, when pressed with the Fn key, cycles through display modes: laptop only, duplicate, extend, and external display only. She needs to toggle this key."
+    },
+    {
+        "id": 46,
+        "question": "Which of the following IP addresses is not routable on the Internet?",
+        "options": [
+            { "id": "A", "text": "192.168.1.1" },
+            { "id": "B", "text": "192.169.1.1" },
+            { "id": "C", "text": "168.192.1.1" },
+            { "id": "D", "text": "169.192.1.1" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["A"],
+        "explanation": "The IP address 192.168.1.1 falls within the private IP address range (192.168.0.0/16) and is not routable on the public Internet."
+    },
+    {
+        "id": 47,
+        "question": "A technician is troubleshooting a computer in the field and calls you to report that she is getting a S.M.A.R.T. error ID 188, Command timeout. Which component is likely to be causing this error?",
+        "options": [
+            { "id": "A", "text": "CPU" },
+            { "id": "B", "text": "RAM" },
+            { "id": "C", "text": "Motherboard" },
+            { "id": "D", "text": "HDD" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "S.M.A.R.T. (Self-Monitoring, Analysis, and Reporting Technology) errors are specific to storage devices like Hard Disk Drives (HDDs) and Solid-State Drives (SSDs). A command timeout error indicates a problem with the drive communicating."
+    },
+    {
+        "id": 48,
+        "question": "A user reports that when he presses the L key on his laptop keyboard, the L character repeats across the screen and doesn't stop until he presses the L key several more times. When you look at the laptop, it does not appear that the key is physically sticking. What should you tell him to do next?",
+        "options": [
+            { "id": "A", "text": "Replace the keyboard." },
+            { "id": "B", "text": "Replace the L key." },
+            { "id": "C", "text": "Clean under the key with compressed air." },
+            { "id": "D", "text": "Reboot the laptop." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "This issue, where a key repeats without being physically stuck, is often a temporary glitch in the keyboard controller or software. A simple reboot is the first and easiest troubleshooting step."
+    },
+    {
+        "id": 49,
+        "question": "A technician is configuring a wireless router for use on a small office network. If he wants to assign private IP addresses to client computers but still allow them to have Internet access from the ISP, what option does he need to configure?",
+        "options": [
+            { "id": "A", "text": "DHCP" },
+            { "id": "B", "text": "DMZ" },
+            { "id": "C", "text": "NAT" },
+            { "id": "D", "text": "UPnP" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "Network Address Translation (NAT) is the service on a router that translates private IP addresses from the internal network into a single public IP address (provided by the ISP) for Internet access."
+    },
+    {
+        "id": 50,
+        "question": "You are troubleshooting a computer with a RAID 10 array using four disks. One of the disks fails. What can you do to recover the array?",
+        "options": [
+            { "id": "A", "text": "Replace the failed disk and restore from backup." },
+            { "id": "B", "text": "Remove the failed disk and rebuild the array." },
+            { "id": "C", "text": "Rebuild the failed disk and restore from backup." },
+            { "id": "D", "text": "Replace the failed disk and rebuild the array." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "RAID 10 (a stripe of mirrors) is fault-tolerant. If one disk fails, you can replace the failed disk, and the array will rebuild the data automatically from its mirrored pair."
+    },
+    {
+        "id": 51,
+        "question": "A technician has two hard drives and wants to increase the data access speed of her computer. Which of the following is her best option?",
+        "options": [
+            { "id": "A", "text": "Install both drives and configure them as separate volumes." },
+            { "id": "B", "text": "Install both drives and implement RAID 0." },
+            { "id": "C", "text": "Install both drives and implement RAID 1." },
+            { "id": "D", "text": "Install both drives and implement RAID 5." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["B"],
+        "explanation": "RAID 0 (disk striping) writes data across multiple drives simultaneously, which significantly increases read and write performance. However, it offers no fault tolerance."
+    },
+    {
+        "id": 52,
+        "question": "What type of converter requires power, either from its own source or from the interface it plugs into?",
+        "options": [
+            { "id": "A", "text": "DVI to HDMI" },
+            { "id": "B", "text": "PS/2 to USB" },
+            { "id": "C", "text": "Thunderbolt to DVI" },
+            { "id": "D", "text": "HDMI to VGA" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "Converting a digital signal (HDMI) to an analog signal (VGA) requires an active converter, which contains a chip to perform the conversion. This chip needs power."
+    },
+    {
+        "id": 53,
+        "question": "During the charging step of the laser printer printing process, what charge is applied to the imaging drum?",
+        "options": [
+            { "id": "A", "text": "-100VDC" },
+            { "id": "B", "text": "-600VDC" },
+            { "id": "C", "text": "+600VDC" },
+            { "id": "D", "text": "+100VDC" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["B"],
+        "explanation": "During the charging step, the charging corona applies a strong, uniform negative charge of approximately -600VDC to the surface of the imaging drum."
+    },
+    {
+        "id": 54,
+        "question": "Your laptop has an internal Mini PCIe expansion slot. The documentation for an expansion card says that it supports Mini PCIe USB 3.0 functionality. What speed does the expansion card run at?",
+        "options": [
+            { "id": "A", "text": "480Mbps" },
+            { "id": "B", "text": "2.5Gbps" },
+            { "id": "C", "text": "5.0Gbps" },
+            { "id": "D", "text": "6.0Gbps" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "Mini PCIe cards that support USB 3.0 functionality operate at the USB 3.0 speed, which is 5.0Gbps."
+    },
+    {
+        "id": 55,
+        "question": "You are purchasing a mobile device that requires the use of a stylus to input information; it does not respond to the touch of a finger. What type of touch screen technology does this device use?",
+        "options": [
+            { "id": "A", "text": "Tempered" },
+            { "id": "B", "text": "Resistive" },
+            { "id": "C", "text": "Capacitive" },
+            { "id": "D", "text": "Object-oriented" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["B"],
+        "explanation": "Resistive touch screens respond to pressure from any object, such as a stylus or a fingernail. They are less common now than capacitive screens, which respond to the electrical properties of a human finger."
+    },
+    {
+        "id": 56,
+        "question": "What is the maximum data throughput rate of a SATA 3 hard drive?",
+        "options": [
+            { "id": "A", "text": "1.5Gbps" },
+            { "id": "B", "text": "3Gbps" },
+            { "id": "C", "text": "6Gbps" },
+            { "id": "D", "text": "10Gbps" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "SATA Revision 3.0 provides a maximum data throughput of 6Gbps."
+    },
+    {
+        "id": 57,
+        "question": "In a laptop computer, which component is responsible for providing the right kind of energy to light the display?",
+        "options": [
+            { "id": "A", "text": "Inverter" },
+            { "id": "B", "text": "LCD" },
+            { "id": "C", "text": "Backlight" },
+            { "id": "D", "text": "Screen" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["A"],
+        "explanation": "The inverter is a small circuit board that converts the DC power from the laptop's battery or AC adapter into the high-voltage AC power required by the CCFL backlight in older LCD screens."
+    },
+    {
+        "id": 58,
+        "question": "A user complains of a burning smell and smoke coming from his computer. After shutting it down, you notice that the motherboard has burn marks on it. You replace the motherboard. The next day, the user complains of more smoke, and you see this motherboard is burnt as well. What should you do next?",
+        "options": [
+            { "id": "A", "text": "Replace the motherboard." },
+            { "id": "B", "text": "Replace the power supply." },
+            { "id": "C", "text": "Replace the motherboard and power supply." },
+            { "id": "D", "text": "Plug the computer into a different wall outlet." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "A failing power supply can send incorrect voltages to the motherboard, causing it to burn out. Replacing the motherboard alone won't fix the root cause. Both the motherboard and the faulty power supply must be replaced."
+    },
+    {
+        "id": 59,
+        "question": "What type of connector is shown here on the left?",
+        "hasImage": true,
+        "options": [
+            { "id": "A", "text": "USB micro" },
+            { "id": "B", "text": "USB mini" },
+            { "id": "C", "text": "USB type A" },
+            { "id": "D", "text": "Lightning" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["A"],
+        "explanation": "The connector shown on the left is a USB Micro-B connector, commonly found on Android smartphones and other mobile devices."
+    },
+    {
+        "id": 60,
+        "question": "You have a network installation that requires transmission speeds of 10Gbps at a distance of 85 meters. Among the UTP standards listed, which one is the oldest one that meets the requirements for this network?",
+        "options": [
+            { "id": "A", "text": "CAT5" },
+            { "id": "B", "text": "CAT5e" },
+            { "id": "C", "text": "CAT6" },
+            { "id": "D", "text": "CAT7" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "CAT6 can handle 10Gbps but only up to 55 meters. CAT6a and CAT7 can handle 10Gbps up to 100 meters. Since CAT7 is listed, it's the correct answer that meets the requirement."
+    },
+    {
+        "id": 61,
+        "question": "You are troubleshooting a Windows 7 computer and suspect that the hard drive has some bad sectors. Which utility should you use to scan the hard drive and attempt to fix the bad sectors?",
+        "options": [
+            { "id": "A", "text": "format" },
+            { "id": "B", "text": "bootrec" },
+            { "id": "C", "text": "diskpart" },
+            { "id": "D", "text": "chkdsk" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "The chkdsk (Check Disk) utility can scan a disk for file system errors and bad sectors. Using the `/r` switch (e.g., `chkdsk /r`) will locate bad sectors and attempt to recover readable information."
+    },
+    {
+        "id": 62,
+        "question": "Which of the following is not verified as part of the POST routine?",
+        "options": [
+            { "id": "A", "text": "BIOS integrity" },
+            { "id": "B", "text": "Hard drive integrity" },
+            { "id": "C", "text": "Size of primary memory" },
+            { "id": "D", "text": "System buses" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["B"],
+        "explanation": "The Power-On Self-Test (POST) checks essential hardware like the CPU, memory (RAM), and video card to ensure the system can boot. It does not perform an integrity check (like scanning for bad sectors) on the hard drive."
+    },
+    {
+        "id": 63,
+        "question": "A UTP cable just failed, and you need to replace it. You have a spool of cable and connectors but no pre-made cables. Which tool do you need to use to make a new cable?",
+        "options": [
+            { "id": "A", "text": "Cable stripper" },
+            { "id": "B", "text": "Punchdown tool" },
+            { "id": "C", "text": "Multimeter" },
+            { "id": "D", "text": "Crimper" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "A crimper is the tool used to attach an RJ-45 connector to the end of a UTP (unshielded twisted-pair) network cable."
+    },
+    {
+        "id": 64,
+        "question": "You are installing and configuring DHCP on one of your servers. What port numbers are used by DHCP? (Choose two.)",
+        "options": [
+            { "id": "A", "text": "TCP 67" },
+            { "id": "B", "text": "TCP 68" },
+            { "id": "C", "text": "UDP 67" },
+            { "id": "D", "text": "UDP 68" }
+        ],
+        "multipleAnswer": true,
+        "correctAnswersCount": 2,
+        "correctAnswer": ["C", "D"],
+        "explanation": "DHCP uses UDP ports for communication. Servers listen on port 67, and clients listen on port 68."
+    },
+    {
+        "id": 65,
+        "question": "You are contemplating purchasing either a tablet or an e-reader to read books and magazines. What are two advantages an e-reader has over a tablet? (Choose two.)",
+        "options": [
+            { "id": "A", "text": "Longer battery life" },
+            { "id": "B", "text": "Better color representation" },
+            { "id": "C", "text": "Easier to read in bright conditions" },
+            { "id": "D", "text": "More memory" }
+        ],
+        "multipleAnswer": true,
+        "correctAnswersCount": 2,
+        "correctAnswer": ["A", "C"],
+        "explanation": "E-readers use E Ink screens, which consume very little power (leading to longer battery life) and are glare-free, making them much easier to read in direct sunlight compared to the backlit LCD/OLED screens of tablets."
+    },
+    {
+        "id": 66,
+        "question": "A user reports having an error message pop up and tell them that Windows has detected an IP address conflict. Your network uses a DHCP server. What should you do to resolve the problem?",
+        "options": [
+            { "id": "A", "text": "On their computer, run ipconfig /release and ipconfig /renew." },
+            { "id": "B", "text": "On the DHCP server, exclude their IP address from the scope." },
+            { "id": "C", "text": "On their computer, ensure that it's set to Obtain An IP Address Automatically." },
+            { "id": "D", "text": "On their computer, ensure that it's set to Use The Following IP Address." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "An IP address conflict in a DHCP environment is most often caused by a device being configured with a static IP address that falls within the DHCP server's address pool. The first step is to ensure the user's computer is set to obtain an IP address automatically."
+    },
+    {
+        "id": 67,
+        "question": "A technician is troubleshooting a RAID 5 array with four hard disks. Two of the disks have failed. What can he do to recover the array?",
+        "options": [
+            { "id": "A", "text": "Rebuild the failed disks and restore from backup." },
+            { "id": "B", "text": "Remove the failed disks and rebuild the array." },
+            { "id": "C", "text": "Replace the failed disks and rebuild the array." },
+            { "id": "D", "text": "Replace the failed disks and restore from backup." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "RAID 5 can only tolerate the failure of one disk. If two disks fail, the array is lost and the data is unrecoverable from parity. The only way to recover is to replace the failed disks and restore the data from a backup."
+    },
+    {
+        "id": 68,
+        "question": "You are at a Windows server with a command prompt open. You want to share the D:\\corp\\acctrec directory and have users connect to it with the name receipts. Which command is correct to do this?",
+        "options": [
+            { "id": "A", "text": "net share receipts=D:\\corp\\acctrec" },
+            { "id": "B", "text": "net share D:\\corp\\acctrec=receipts" },
+            { "id": "C", "text": "netdom share receipts=D:\\corp\\acctrec" },
+            { "id": "D", "text": "netdom share D:\\corp\\acctrec=receipts" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["A"],
+        "explanation": "The correct syntax for the `net share` command is `net share <sharename>=<drive>:<path>`."
+    },
+    {
+        "id": 69,
+        "question": "MicroSD cards, often used in mobile phones, are the smallest memory cards commonly used. What is the size of a MicroSD card?",
+        "options": [
+            { "id": "A", "text": "25mm x 20mm" },
+            { "id": "B", "text": "21.5mm x 20mm" },
+            { "id": "C", "text": "15mm x 11mm" },
+            { "id": "D", "text": "11mm x 8mm" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "A MicroSD card measures 15mm × 11mm."
+    },
+    {
+        "id": 70,
+        "question": "You are troubleshooting a laptop that will not power up while plugged into a wall outlet. You verified that the outlet works and have tried a second AC adapter, but it still won't power up when plugged in. If you unplug it from the wall, it will power up from the battery. What should you do to get it to power up while plugged into the wall outlet?",
+        "options": [
+            { "id": "A", "text": "Replace the AC adapter." },
+            { "id": "B", "text": "Remove the battery, power it up, and reinsert the battery." },
+            { "id": "C", "text": "Drain the battery completely and then power it up." },
+            { "id": "D", "text": "Replace the battery." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["B"],
+        "explanation": "This issue can sometimes be caused by a fault in the charging circuit or a confused power management system. Removing the battery and powering on with AC only can reset the circuit. If it powers on, you can then reinsert the battery."
+    },
+    {
+        "id": 71,
+        "question": "When setting up your network, you configured your clients to obtain IP addressing information automatically from a DHCP server. Which of the following configuration items can the DHCP server provide?",
+        "options": [
+            { "id": "A", "text": "IP address" },
+            { "id": "B", "text": "IP address and subnet mask" },
+            { "id": "C", "text": "IP address, subnet mask, and default gateway" },
+            { "id": "D", "text": "IP address, subnet mask, default gateway, and DNS server address" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "A DHCP server can provide all necessary TCP/IP configuration information to clients, including the IP address, subnet mask, default gateway, and DNS server addresses."
+    },
+    {
+        "id": 72,
+        "question": "Your office just increased from 20 to about 40 people. Everyone uses the same laser printer. When you print, jobs are often processed very slowly. Other than get a new printer, what can you do to help eliminate the problem?",
+        "options": [
+            { "id": "A", "text": "Upgrade the printer's memory." },
+            { "id": "B", "text": "Upgrade the printer's processor." },
+            { "id": "C", "text": "Stop and restart the print spooler." },
+            { "id": "D", "text": "Implement printing priorities for the most important users." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["A"],
+        "explanation": "If print jobs are processed very slowly, especially complex ones or in a high-volume environment, it's often a sign that the printer is running out of memory. Upgrading the printer's RAM can resolve this."
+    },
+    {
+        "id": 73,
+        "question": "A user with an 802.11g network adapter is trying to join your new 802.11ac network. Her laptop is next to yours, which is connected to the network. However, she is unable to locate the SSID. What is most likely the cause of the problem?",
+        "options": [
+            { "id": "A", "text": "SSID broadcasting is disabled on the wireless access point." },
+            { "id": "B", "text": "The user is out of range of the wireless access point." },
+            { "id": "C", "text": "The SSID has been changed." },
+            { "id": "D", "text": "802.11g is not compatible with 802.11ac." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "802.11g operates at 2.4GHz, while 802.11ac operates exclusively at 5GHz. An 802.11g adapter cannot 'see' or connect to a 5GHz network. (Note: Many 802.11ac routers are dual-band and can also broadcast a 2.4GHz signal for backward compatibility, but the 802.11ac network itself is 5GHz)."
+    },
+    {
+        "id": 74,
+        "question": "During the transferring step of the laser printer imaging process, what charge is applied to the paper?",
+        "options": [
+            { "id": "A", "text": "-100VDC" },
+            { "id": "B", "text": "-600VDC" },
+            { "id": "C", "text": "+600VDC" },
+            { "id": "D", "text": "+100VDC" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "A strong positive charge (around +600VDC) is applied to the paper by the transfer corona wire. This allows the negatively charged toner on the imaging drum to be attracted to and transfer onto the paper."
+    },
+    {
+        "id": 75,
+        "question": "In which situation would you want to use the special function key F8, shown here?",
+        "hasImage": true,
+        "options": [
+            { "id": "A", "text": "To turn off your laptop's Wi-Fi connection" },
+            { "id": "B", "text": "To turn off your laptop's Bluetooth connection" },
+            { "id": "C", "text": "To mute your laptop's speakers" },
+            { "id": "D", "text": "To mute your laptop's microphone" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "The icon on the F8 key (a microphone with a slash through it) indicates that pressing Fn + F8 will mute the laptop's microphone."
+    },
+    {
+        "id": 76,
+        "question": "You have configured four 1TB hard drives as a RAID 10 array. After the array is configured, how much usable storage space will you have for data?",
+        "options": [
+            { "id": "A", "text": "1TB" },
+            { "id": "B", "text": "2TB" },
+            { "id": "C", "text": "3TB" },
+            { "id": "D", "text": "4TB" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["B"],
+        "explanation": "RAID 10 (a stripe of mirrors) combines mirroring (RAID 1) and striping (RAID 0). Half of the total disk space is used for mirroring, providing fault tolerance. So, with four 1TB drives (4TB total), you will have 2TB of usable storage."
+    },
+    {
+        "id": 77,
+        "question": "A client has an older Windows 7 laptop with an integrated 802.11b network adapter. She wants faster wireless access, and the network access points all support 802.11n. What is the best way to upgrade her system?",
+        "options": [
+            { "id": "A", "text": "Remove the old card, and replace it with an internal 802.11n NIC." },
+            { "id": "B", "text": "Leave the old card in the system, and add a new internal 802.11n mini-PCIe NIC. The system will automatically disable the old card." },
+            { "id": "C", "text": "Add a USB 802.11n NIC. If needed, disable the old card in Device Manager." },
+            { "id": "D", "text": "Add a USB 802.11n NIC. If needed, disable the old card in System Manager." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "Adding an external USB wireless NIC is the easiest and most common way to upgrade a laptop's wireless capabilities. If there are conflicts, the old internal adapter can be easily disabled in Windows' Device Manager."
+    },
+    {
+        "id": 78,
+        "question": "You are troubleshooting a Windows 7 desktop computer that does not produce video when it boots. You tried a second monitor, one that you know works, on this computer and there still is no video. What should you do to fix the problem?",
+        "options": [
+            { "id": "A", "text": "Replace the monitor." },
+            { "id": "B", "text": "Reinstall the video card driver." },
+            { "id": "C", "text": "Replace the video connector on the video card." },
+            { "id": "D", "text": "Replace the video card." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "Since a known-good monitor doesn't work, the problem is not the monitor. This strongly points to a failed video card, which needs to be replaced."
+    },
+    {
+        "id": 79,
+        "question": "In the laser printer printing process, which step comes immediately before the fusing step?",
+        "options": [
+            { "id": "A", "text": "Transferring" },
+            { "id": "B", "text": "Developing" },
+            { "id": "C", "text": "Cleaning" },
+            { "id": "D", "text": "Exposing" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["A"],
+        "explanation": "The seven steps of the laser printing process are: Processing, Charging, Exposing, Developing, Transferring, Fusing, and Cleaning. The Transferring step comes right before Fusing."
+    },
+    {
+        "id": 80,
+        "question": "On an IPv6 network, if you want to send a single message to a group of computers at the same time, what type of address class do you need to use?",
+        "options": [
+            { "id": "A", "text": "Multicast" },
+            { "id": "B", "text": "Anycast" },
+            { "id": "C", "text": "Unicast" },
+            { "id": "D", "text": "Broadcast" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["A"],
+        "explanation": "A multicast address in IPv6 is used to send a packet to a group of devices. IPv6 does not use broadcast addresses."
+    },
+    {
+        "id": 81,
+        "question": "Which TCP/IP Internet layer protocol is responsible for resolving IP addresses to MAC addresses?",
+        "options": [
+            { "id": "A", "text": "IP" },
+            { "id": "B", "text": "ICMP" },
+            { "id": "C", "text": "ARP" },
+            { "id": "D", "text": "RARP" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "Address Resolution Protocol (ARP) is used to discover the hardware address (MAC address) of a device from its known IP address."
+    },
+    {
+        "id": 82,
+        "question": "A technician on your team has been asked to replace memory in a laptop. She has removed the old memory and brought it to you; it's shown here. What type of memory does she need to replace this with?",
+        "hasImage": true,
+        "options": [
+            { "id": "A", "text": "SODIMM" },
+            { "id": "B", "text": "MicroDIMM" },
+            { "id": "C", "text": "DIMM" },
+            { "id": "D", "text": "Flash" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["B"],
+        "explanation": "The memory module shown is a MicroDIMM, which is smaller than a SODIMM and was used in some subnotebooks and older laptops."
+    },
+    {
+        "id": 83,
+        "question": "In IPv6, which address range is the multicast range?",
+        "options": [
+            { "id": "A", "text": "2000::/3" },
+            { "id": "B", "text": "FC00::/7" },
+            { "id": "C", "text": "FE80::/10" },
+            { "id": "D", "text": "FF00::/8" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "IPv6 addresses that start with FF00::/8 are designated for multicast."
+    },
+    {
+        "id": 84,
+        "question": "You are wearing a smart watch enabled with GPS and are hiking in the mountains. How many satellites must your watch communicate with for you to know your location and elevation?",
+        "options": [
+            { "id": "A", "text": "One" },
+            { "id": "B", "text": "Two" },
+            { "id": "C", "text": "Three" },
+            { "id": "D", "text": "Four" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "GPS requires signals from at least three satellites to determine your 2D position (latitude and longitude). A fourth satellite is needed to determine your 3D position (latitude, longitude, and altitude/elevation)."
+    },
+    {
+        "id": 85,
+        "question": "Data transfers for which wireless connection type will be interrupted if someone walks between the sending and receiving devices?",
+        "options": [
+            { "id": "A", "text": "Bluetooth" },
+            { "id": "B", "text": "Wi-Fi" },
+            { "id": "C", "text": "RF" },
+            { "id": "D", "text": "IR" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "Infrared (IR) communication requires a direct, unobstructed line of sight between the transmitter and receiver. Any object blocking this path will interrupt the signal."
+    },
+    {
+        "id": 86,
+        "question": "You are configuring a wireless 802.11ac router for its first use. Which of the following configuration options is recommended?",
+        "options": [
+            { "id": "A", "text": "Change the router's SSID." },
+            { "id": "B", "text": "Choose WPA as the encryption method." },
+            { "id": "C", "text": "Leave the administrator password as the default." },
+            { "id": "D", "text": "Enable the DMZ." }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["A"],
+        "explanation": "Changing the default SSID (network name) is a recommended security practice. Also, you should change the default admin password and use WPA2 encryption, not WPA."
+    },
+    {
+        "id": 87,
+        "question": "Which network device comes in two types: active, which is powered, and passive, which is not?",
+        "options": [
+            { "id": "A", "text": "Bridge" },
+            { "id": "B", "text": "Router" },
+            { "id": "C", "text": "Switch" },
+            { "id": "D", "text": "Hub" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "Hubs can be passive (simply connecting wires electrically) or active (using power to regenerate and amplify the signal before sending it to all other ports)."
+    },
+    {
+        "id": 88,
+        "question": "How much data throughput does a PCIe 1.1 x16 slot provide when operating bidirectionally?",
+        "options": [
+            { "id": "A", "text": "2GBps" },
+            { "id": "B", "text": "4GBps" },
+            { "id": "C", "text": "8GBps" },
+            { "id": "D", "text": "16GBps" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["B"],
+        "explanation": "A single lane (x1) of PCIe 1.1 provides 250MBps throughput in each direction (500MBps total bidirectional). An x16 slot, therefore, provides 16 * 250MBps = 4GBps unidirectionally, or 8GBps bidirectionally. However, the CompTIA A+ exam often refers to the unidirectional speed as the total throughput. In that context, 4GBps would be the correct answer. The question's wording is slightly ambiguous but points towards 4GBps as the standard answer."
+    },
+    {
+        "id": 89,
+        "question": "You are purchasing a new LCD monitor for a small conference room. It will be viewed by people sitting at wide angles to the screen. Which technology should you purchase?",
+        "options": [
+            { "id": "A", "text": "Fluorescent" },
+            { "id": "B", "text": "LED" },
+            { "id": "C", "text": "TN" },
+            { "id": "D", "text": "IPS" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["D"],
+        "explanation": "IPS (In-Plane Switching) panel technology is known for its superior color accuracy and wide viewing angles compared to TN (Twisted Nematic) panels, making it ideal for situations where viewers are not directly in front of the screen."
+    },
+    {
+        "id": 90,
+        "question": "A technician needs to choose an optical disc technology that provides the greatest storage space possible. Which technology will best meet her needs?",
+        "options": [
+            { "id": "A", "text": "DVD+R DS, DL" },
+            { "id": "B", "text": "BD-R SS, SL" },
+            { "id": "C", "text": "BD-R DS, DL" },
+            { "id": "D", "text": "CD SS" }
+        ],
+        "multipleAnswer": false,
+        "correctAnswer": ["C"],
+        "explanation": "Blu-ray Disc (BD) offers the highest capacity. A dual-sided, dual-layer (DS, DL) Blu-ray disc can hold up to 100GB of data, which is the highest capacity among the choices."
+    }
+  ]
+}
