@@ -1,0 +1,896 @@
+{
+  "examInfo": {
+    "title": "CompTIA A+ Chapter 9 Practice Exam",
+    "code": "220-902",
+    "chapter": "Chapter 9",
+    "totalQuestions": 68,
+    "timeLimit": 70,
+    "description": "Operational Procedures"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "You have a client who is looking to plug three workstations and monitors into a wall outlet that has only two plugs. He's looking for the least expensive solution available. What should you recommend he purchase?",
+      "options": [
+        { "id": "A", "text": "UPS" },
+        { "id": "B", "text": "Voltage conserver" },
+        { "id": "C", "text": "Surge protector" },
+        { "id": "D", "text": "Power strip" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Power strips come in all shapes and sizes and are convenient for plugging multiple devices into one wall outlet. Most of them even have an on/off switch so that you can turn all the devices on or off at the same time. Don't make the mistake of thinking that power strips will protect you from electrical surges, though. If you get a strong power surge through one of these $10 devices, the strip and everything plugged into it can be fried."
+    },
+    {
+      "id": 2,
+      "question": "A technician is troubleshooting a desktop computer that he suspects has a network card problem. He has tested his theory to determine the cause of the problem. According to troubleshooting theory, which step should he take next?",
+      "options": [
+        { "id": "A", "text": "Conduct external or internal research based on symptoms." },
+        { "id": "B", "text": "Document findings, actions, and outcomes." },
+        { "id": "C", "text": "Verify full system functionality." },
+        { "id": "D", "text": "Establish a plan of action to resolve the problem and implement the solution." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Troubleshooting theory for the A+ exam consists of six steps: identify the problem; establish a theory of probable cause; test the theory to determine cause; establish a plan of action to resolve the problem and implement the solution; verify full system functionality and, if applicable, implement preventive measures; and document findings, actions, and outcomes."
+    },
+    {
+      "id": 3,
+      "question": "You are upgrading a video card in a desktop computer. You are following appropriate safety procedures. When you open the case, what is the most common danger that you should watch out for?",
+      "options": [
+        { "id": "A", "text": "Electrical shock" },
+        { "id": "B", "text": "Sharp edges" },
+        { "id": "C", "text": "Burns" },
+        { "id": "D", "text": "Flying debris" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "One component that people frequently overlook is the case. Cases are generally made of metal, and some computer cases have sharp edges inside, so be careful when handling them. You can, for example, cut yourself by jamming your fingers between the case and the frame when you try to force the case back on."
+    },
+    {
+      "id": 4,
+      "question": "You are troubleshooting a laptop that you suspect was infected with malware. You have established your plan of action and implemented the solution. According to troubleshooting theory, which step should you take next?",
+      "options": [
+        { "id": "A", "text": "Test the theory to determine cause." },
+        { "id": "B", "text": "Determine next steps to solve the problem." },
+        { "id": "C", "text": "Verify full system functionality and, if applicable, implement preventive measures." },
+        { "id": "D", "text": "Document findings, actions, and outcomes." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Troubleshooting theory for the A+ exam consists of six steps: identify the problem; establish a theory of probable cause; test the theory to determine cause; establish a plan of action to resolve the problem and implement the solution; verify full system functionality and, if applicable, implement preventive measures; and document findings, actions, and outcomes."
+    },
+    {
+      "id": 5,
+      "question": "You work in a dusty manufacturing environment. Which of the following tools is recommended to clean the inside of computer cases?",
+      "options": [
+        { "id": "A", "text": "Damp cloth" },
+        { "id": "B", "text": "Disk cleaning kit" },
+        { "id": "C", "text": "Compressed air" },
+        { "id": "D", "text": "A dehumidifier" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "One way to keep dust and debris out of your computer is to use an enclosure, which is basically an extra case. But if dust and debris do get inside your case, the best way to remove it is to use compressed air instead of vacuuming. Compressed air can be more easily directed and doesn't easily produce ESD damage as a vacuum could. Simply blow the dust from inside the computer by using a stream of compressed air. However, make sure to do this outside so that you don't blow dust all over your work area or yourself."
+    },
+    {
+      "id": 6,
+      "question": "You are training several new employees at your company. One of them asks why you should not use a magnetic screwdriver around a computer. What should you tell them?",
+      "options": [
+        { "id": "A", "text": "The screwdriver will erase the CMOS, and you will need to reconfigure the BIOS." },
+        { "id": "B", "text": "The screwdriver will erase data on hard drives." },
+        { "id": "C", "text": "The screwdriver can induce current into components and damage them." },
+        { "id": "D", "text": "You can use magnetic screwdrivers around computers." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Cables are a common cause of tripping. If at all possible, run cables through drop ceilings or through conduits to keep them out of the way. If you need to lay a cable through a trafficked area, use a cable floor guard to keep the cables in place and safe from crushing."
+    },
+    {
+      "id": 7,
+      "question": "You have been asked to dispose of several old computers. What should you do with them?",
+      "options": [
+        { "id": "A", "text": "Throw them in the trash." },
+        { "id": "B", "text": "Remove the hard drives to avoid having someone steal confidential data and then throw them in the trash." },
+        { "id": "C", "text": "Dispose of them in compliance with local government regulations." },
+        { "id": "D", "text": "Put them at the curb for someone to take for free." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Part of identifying the problem is to question the user, identify user changes to the computer, and perform backups before making changes. One could argue that doing external or internal research is part of identifying the problem as well, but in A+ troubleshooting theory, that step is part of establishing a theory of probable cause."
+    },
+    {
+      "id": 8,
+      "question": "You are at a Windows Vista command prompt. What command can you type to close the command prompt window?",
+      "options": [
+        { "id": "A", "text": "quit" },
+        { "id": "B", "text": "exit" },
+        { "id": "C", "text": "close" },
+        { "id": "D", "text": "/x" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Troubleshooting theory for the A+ exam consists of six steps: identify the problem; establish a theory of probable cause; test the theory to determine cause; establish a plan of action to resolve the problem and implement the solution; verify full system functionality and, if applicable, implement preventive measures; and document findings, actions, and outcomes. Questioning the user and identifying user changes is part of the first step of identifying the problem."
+    },
+    {
+      "id": 9,
+      "question": "You are looking for general information about a Windows workstation's hardware resources. Which command do you need to type into the Run box to display the utility shown here?",
+      "options": [
+        { "id": "A", "text": "DXDIAG" },
+        { "id": "B", "text": "COMPMGMT" },
+        { "id": "C", "text": "MSINFO32" },
+        { "id": "D", "text": "MMC" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "When you buy an application, you aren't actually buying the application. Instead, you're buying the right to use the application in a limited way as prescribed by the licensing agreement that comes with it. Don't like the terms? Too bad. No negotiation is allowed. If you don't accept the end-user license agreement (EULA), your only recourse is to return the software for a refund."
+    },
+    {
+      "id": 10,
+      "question": "Your manager has asked you to investigate the possibility of installing a database on a Windows 8.1 computer. Which Windows management utility should you use to enable this?",
+      "options": [
+        { "id": "A", "text": "Task Scheduler" },
+        { "id": "B", "text": "Event Viewer" },
+        { "id": "C", "text": "Component Services" },
+        { "id": "D", "text": "Data Sources" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The System Configuration tool's Tools tab shows you a short list of available administrative tools. When dealing with customers, you should always maintain a proper attitude, positive demeanor, and show active listening skills. Taking notes and asking appropriate questions is part of good customer service."
+    },
+    {
+      "id": 11,
+      "question": "You are at a customer's workstation and have finished the repair. What is the proper next step?",
+      "options": [
+        { "id": "A", "text": "Tell them to call if anything breaks again and leave." },
+        { "id": "B", "text": "Verify full system functionality." },
+        { "id": "C", "text": "Document findings, actions, and outcomes." },
+        { "id": "D", "text": "Offer different repair options if applicable." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "After completing repairs, always verify full system functionality before considering the job complete. This is part of the troubleshooting methodology."
+    },
+    {
+      "id": 12,
+      "question": "You just got off a repair job at a customer's site, and it was difficult. To make matters worse, the customer was argumentative and difficult to work with. Which of the following should you not do?",
+      "options": [
+        { "id": "A", "text": "Document the situation in your work log." },
+        { "id": "B", "text": "Try to put the experience out of your mind and focus on your next call." },
+        { "id": "C", "text": "Call your manager and explain the situation." },
+        { "id": "D", "text": "Post the experience on social media." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Never post customer information or experiences on social media. This violates professionalism and potentially customer confidentiality. Document the situation properly through official channels."
+    },
+    {
+      "id": 13,
+      "question": "You recently purchased software that you installed on your laptop. It worked for 30 days and now tells you that you must activate the product. What will be required to activate the software?",
+      "options": [
+        { "id": "A", "text": "EULA" },
+        { "id": "B", "text": "DRM" },
+        { "id": "C", "text": "Product key" },
+        { "id": "D", "text": "Open source code" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Software activation typically requires a product key, which is a unique alphanumeric code that verifies the software is legitimate and allows it to be activated."
+    },
+    {
+      "id": 14,
+      "question": "You are fixing a broken printer on the second floor of your office building. When you get the printer running again, you notice that it's printing off employee paychecks. What should you do?",
+      "options": [
+        { "id": "A", "text": "Take pictures of the paychecks and post it on social media." },
+        { "id": "B", "text": "Look to see how much everyone gets paid compared to what you get paid." },
+        { "id": "C", "text": "Ignore the information and focus on making sure the printer is fixed." },
+        { "id": "D", "text": "Text your friends and tell them that you make more than they do." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "When working with confidential or private materials, always maintain professionalism and respect privacy. Ignore the information and focus on the technical task at hand."
+    },
+    {
+      "id": 15,
+      "question": "When you are working at a client's site, which of the following is the most appropriate behavior you should exhibit?",
+      "options": [
+        { "id": "A", "text": "Taking personal calls" },
+        { "id": "B", "text": "Taking notes and asking questions" },
+        { "id": "C", "text": "Visiting social media sites" },
+        { "id": "D", "text": "Talking to co-workers" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "When dealing with customers, you should always maintain a proper attitude and show active listening skills. Avoid personal calls, texting, talking to co-workers, and other personal interruptions. Taking notes and asking appropriate questions is part of good customer service."
+    },
+    {
+      "id": 16,
+      "question": "You are in the field replacing a defective PCI network card in a desktop computer. You realize that you forgot your ESD strap. The computer needs to be fixed quickly. What is the best way to proceed?",
+      "options": [
+        { "id": "A", "text": "Practice self-grounding by bending down to touch the ground before working on the PC" },
+        { "id": "B", "text": "Practice self-grounding by touching the plastic front of the case while working on the PC" },
+        { "id": "C", "text": "Practice self-grounding by staying in contact with the computer's desk while working on the PC" },
+        { "id": "D", "text": "Practice self-grounding by staying in contact with the metal part of the case while working on the PC" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Self-grounding is not as effective as using proper anti-ESD gear, but it makes up for that with its simplicity. To self-ground, make sure the computer is turned off but plugged in. Then touch an exposed (but not hot or sharp!) metal part of the case. That will drain electrical charge from you. Better yet is if you can maintain constant contact with that metal part. That should keep you at the same bias as the case."
+    },
+    {
+      "id": 17,
+      "question": "A technician is troubleshooting a Windows 7 laptop that won't boot properly. She has established a theory of probable cause. According to troubleshooting theory, what should she do next?",
+      "options": [
+        { "id": "A", "text": "Identify the problem." },
+        { "id": "B", "text": "Test the theory to determine cause." },
+        { "id": "C", "text": "Establish a plan of action to resolve the problem and implement the solution." },
+        { "id": "D", "text": "Document findings." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Troubleshooting theory for the A+ exam consists of six steps: identify the problem; establish a theory of probable cause; test the theory to determine cause; establish a plan of action to resolve the problem and implement the solution; verify full system functionality and, if applicable, implement preventive measures; and document findings, actions, and outcomes."
+    },
+    {
+      "id": 18,
+      "question": "A technician is concerned that he fried some RAM with ESD. Another technician says to not worry about it if he didn't feel the shock. Which of the following statements regarding ESD is true?",
+      "options": [
+        { "id": "A", "text": "People can feel a shock of 300 volts, and it takes 3,000 volts to damage computer components." },
+        { "id": "B", "text": "People can feel a shock of 3,000 volts, and it takes 300 volts to damage computer components." },
+        { "id": "C", "text": "People can feel a shock of 3,000 volts, and it takes 10,000 volts to damage computer components." },
+        { "id": "D", "text": "People can feel a shock of 10,000 volts, and it takes 3,000 volts to damage computer components." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The lowest static voltage transfer that you can feel is around 3,000 volts; it doesn't electrocute you because there is extremely little current. A static transfer that you can see is at least 10,000 volts. However, a component can be damaged with less than 300 volts!"
+    },
+    {
+      "id": 19,
+      "question": "When working with a customer, which of the following demonstrates proper communication technique and professionalism?",
+      "options": [
+        { "id": "A", "text": "Staring at religious artifacts hanging on the wall" },
+        { "id": "B", "text": "Imitating the client's accent when speaking to them" },
+        { "id": "C", "text": "Using the client's title when speaking to them" },
+        { "id": "D", "text": "Laughing at the client's choice of clothing" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Be culturally sensitive. Some people may have a language barrier that makes it difficult to explain their problem. Others may have different habits or practices in their workplace. Be respectful of their world. In some cases, using the appropriate professional titles is a sign of respect, and not using them is an insult."
+    },
+    {
+      "id": 20,
+      "question": "You are practicing appropriate safety procedures as you fix computers. Which of the following are times you should wear an ESD strap? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "When working inside a desktop case" },
+        { "id": "B", "text": "When working inside a power supply" },
+        { "id": "C", "text": "When working inside a CRT monitor" },
+        { "id": "D", "text": "When working inside a laptop case" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "D"],
+      "explanation": "To use the ESD strap, you attach one end to an earth ground (typically, the computer case) and wrap the other end around your wrist. This strap grounds your body and keeps it at a zero charge. Never wear an ESD strap if you're working inside a monitor or inside a power supply. If you wear one while working on the inside of these components, you increase the chance of getting a lethal shock."
+    },
+    {
+      "id": 21,
+      "question": "While cleaning out an old filing cabinet, you discover a box filled with discarded batteries. What is the proper way to dispose of them?",
+      "options": [
+        { "id": "A", "text": "Burn them." },
+        { "id": "B", "text": "Throw them in the trash." },
+        { "id": "C", "text": "Crush them." },
+        { "id": "D", "text": "Recycle them." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "When batteries are thrown away and deposited into landfills, they can release harmful chemicals into the environment. Batteries should always be recycled at proper recycling centers."
+    },
+    {
+      "id": 22,
+      "question": "Your company has a policy prohibiting illegal content on work computers. A user reports that another user has illegal content, and you are the first responder at the scene. What is the first step you should take as the first responder?",
+      "options": [
+        { "id": "A", "text": "Follow the chain of custody." },
+        { "id": "B", "text": "Report through proper channels." },
+        { "id": "C", "text": "Document the incident and what's on the screen." },
+        { "id": "D", "text": "Identify the prohibited content." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "As the first responder, the first step is to identify the prohibited content to verify that there is actually a policy violation before taking further action."
+    },
+    {
+      "id": 23,
+      "question": "You are about to begin repairing a computer. You suspect that there is an issue with the power supply. According to safety procedures, which of the following should you do first?",
+      "options": [
+        { "id": "A", "text": "Put on an ESD strap." },
+        { "id": "B", "text": "Remove all jewelry." },
+        { "id": "C", "text": "Disconnect the power before servicing the PC." },
+        { "id": "D", "text": "Use a magnetic screwdriver." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Before working on any computer, especially when dealing with power supply issues, always disconnect the power first to prevent electrical shock."
+    },
+    {
+      "id": 24,
+      "question": "You are explaining proper work attire to several new hires at your company. Which of the following is the most appropriate advice?",
+      "options": [
+        { "id": "A", "text": "Wear comfortable clothes, including an old T-shirt." },
+        { "id": "B", "text": "Wear a lot of jewelry to show professionalism." },
+        { "id": "C", "text": "Wear a company uniform if applicable." },
+        { "id": "D", "text": "Dress to match the customer's attire." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Professional appearance is important. If your company has a uniform policy, follow it. Otherwise, dress professionally and appropriately for a business environment."
+    },
+    {
+      "id": 25,
+      "question": "A client asks you to move a printer from one side of their desk to another. The printer cable is a bit too short to reach. Which of the following would be the best solution?",
+      "options": [
+        { "id": "A", "text": "Replace the cable with a longer one." },
+        { "id": "B", "text": "Use two cables with a gender changer to connect them together." },
+        { "id": "C", "text": "Move the computer to accommodate the shorter cable." },
+        { "id": "D", "text": "Use a parallel port extender." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The best and most reliable solution is to replace the cable with a longer one that is appropriate for the distance needed."
+    },
+    {
+      "id": 26,
+      "question": "You are trying to troubleshoot a computer that is malfunctioning. The user is in a bad mood and tells you that nothing you are doing is working and that you are just wasting their time. How should you react?",
+      "options": [
+        { "id": "A", "text": "Accuse the user of being the source of the problem." },
+        { "id": "B", "text": "Be defensive and return the anger." },
+        { "id": "C", "text": "Avoid arguing with the user or becoming defensive." },
+        { "id": "D", "text": "Call your supervisor right away." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "When dealing with customers, it's important to maintain a positive attitude and project confidence. Avoid arguing and becoming defensive. They are counting on you to resolve the problem!"
+    },
+    {
+      "id": 27,
+      "question": "You are troubleshooting a network connectivity problem for a user. After a few minutes of troubleshooting, you determine that the problem is outside of your area of expertise. What should you do?",
+      "options": [
+        { "id": "A", "text": "Continue working on it anyway." },
+        { "id": "B", "text": "Tell the user you can't fix the problem and leave." },
+        { "id": "C", "text": "Escalate the problem as necessary." },
+        { "id": "D", "text": "Document findings, actions, and outcomes." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Set and meet—or exceed—expectations and communicate timelines and status. Customers want to know what is going on. When a problem is outside your expertise, escalate it to the appropriate person or department."
+    },
+    {
+      "id": 28,
+      "question": "You are at a customer's location and need to make a phone call. What is the proper protocol?",
+      "options": [
+        { "id": "A", "text": "Use the customer's phone without asking." },
+        { "id": "B", "text": "Use your cell phone to avoid bothering the customer." },
+        { "id": "C", "text": "Ask for permission before using the customer's phone." },
+        { "id": "D", "text": "Use your cell phone but step outside first." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "When dealing with customers, it's important to maintain a positive attitude and project confidence. Always ask permission before using a customer's resources."
+    },
+    {
+      "id": 29,
+      "question": "You are about to begin troubleshooting a laptop with no display. According to troubleshooting theory, before you begin troubleshooting, what should you always consider?",
+      "options": [
+        { "id": "A", "text": "The user's feelings" },
+        { "id": "B", "text": "The cost associated with hardware replacement" },
+        { "id": "C", "text": "The implications of delivering bad news to management" },
+        { "id": "D", "text": "The corporate policies, procedures, and impacts before implementing changes" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "It's always good to consider the feelings of the user, such that you don't make them feel worse for a situation that they likely already feel bad about. But, the right answer is to consider corporate policies, procedures, and impacts before implementing changes. Perhaps considering user feelings should be part of the corporate policies and procedures for technicians."
+    },
+    {
+      "id": 30,
+      "question": "You are working on an LCD monitor that has a flickering display. Which component inside the monitor poses the biggest risk for delivering an electrical shock?",
+      "options": [
+        { "id": "A", "text": "Backlight" },
+        { "id": "B", "text": "Capacitors" },
+        { "id": "C", "text": "Inverter" },
+        { "id": "D", "text": "Screen" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "LCD monitors do not use capacitors like CRT monitors did. Instead, they require an inverter, which provides the high-voltage, high-frequency energy needed to power the backlight. The inverter is a small circuit board installed behind the LCD panel that takes DC power and converts (inverts) it for the backlight. Inverters store energy even when their power source is cut off, so they have the potential to discharge that energy if you mess with them."
+    },
+    {
+      "id": 31,
+      "question": "Your office uses five HP laser jet printers. An administrator has placed used toner cartridges in boxes and stacked them in the storage room. Which of the following statements is true regarding toner cartridge disposal?",
+      "options": [
+        { "id": "A", "text": "Toner is not harmful, but because they contain plastic, they should be recycled." },
+        { "id": "B", "text": "Toner is not harmful and the cartridges are made of biodegradable plastic, so they can be thrown away." },
+        { "id": "C", "text": "Toner is a carcinogen, so cartridges should be taken to an authorized recycling center." },
+        { "id": "D", "text": "Toner will make a mess if it gets out of the cartridge, so to avoid making a mess, cartridges should be burned." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The toner itself is a carcinogen, and the cartridges can contain heavy metals that are bad for the environment. PC recycling centers will take old toner cartridges and properly dispose of them. Most toner cartridge manufacturers will also take them back for recycling."
+    },
+    {
+      "id": 32,
+      "question": "A desktop computer you are working on has a failed power supply. Another technician suggests that it could just be a failed capacitor inside the power supply, and you could fix it. What should you do?",
+      "options": [
+        { "id": "A", "text": "Open the power supply and attempt to fix it." },
+        { "id": "B", "text": "Replace the entire power supply." },
+        { "id": "C", "text": "Send the power supply to the manufacturer for repair." },
+        { "id": "D", "text": "Test the power supply with a multimeter first." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Although it is possible to open a power supply to work on it, doing so is not recommended. Power supplies contain several capacitors that can hold lethal charges long after they have been unplugged! It is extremely dangerous to open the case of a power supply. Besides, power supplies are pretty cheap. It would probably cost less to replace one than to try to fix it, and this approach would be much safer. Open a power supply only if you have been specifically trained how to repair them."
+    },
+    {
+      "id": 33,
+      "question": "You have been called to fix a computer that has been experiencing random shutdowns. The user reports that the shutdowns seem to happen more frequently when the computer is working hard. What environmental condition should you investigate?",
+      "options": [
+        { "id": "A", "text": "Low humidity" },
+        { "id": "B", "text": "High humidity" },
+        { "id": "C", "text": "Poor ventilation and overheating" },
+        { "id": "D", "text": "Excessive dust" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Creating a policy is the most important part of dealing with prohibited content or actions. Without a policy in place that specifically defines what is and what isn't allowed and what actions will be taken when a violation of the policy occurs, you don't really have a leg to stand on when a situation happens."
+    },
+    {
+      "id": 34,
+      "question": "One of your users asks you about the difference between a blackout and a brownout. What should you tell them?",
+      "options": [
+        { "id": "A", "text": "A blackout is a complete power loss, and a brownout is a temporary drop in power. Brownouts can damage electrical components." },
+        { "id": "B", "text": "A blackout is a drop in power, and a brownout is a complete power loss. Brownouts can damage electrical components." },
+        { "id": "C", "text": "A blackout is a temporary drop in power, and a brownout is a complete power loss. Blackouts can damage electrical components." },
+        { "id": "D", "text": "A brownout is a complete power loss, and a blackout is a drop in power without power loss. Neither one damages electrical components." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Having too little power, such as when a blackout (a complete loss of power) occurs, can wreak havoc on electrical circuits. Power blackouts are generally easy to detect. Power sags without a complete loss, called a brownout, are also very damaging to electrical components but oftentimes go unnoticed."
+    },
+    {
+      "id": 35,
+      "question": "When dealing with a customer, which of the following demonstrates the communication technique for using proper language?",
+      "options": [
+        { "id": "A", "text": "Using jargon" },
+        { "id": "B", "text": "Using acronyms" },
+        { "id": "C", "text": "Using slang terms" },
+        { "id": "D", "text": "Using basic terms" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Use proper language and avoid using jargon, abbreviations, and acronyms. Every field has its own language, and outsiders feel lost when they start hearing it. Put yourself in the position of someone not in the field and explain what is going on by using words they understand. Start off with basic terms. If the customer is tech savvy, they will usually let you know, and then you can use more advanced terms as needed."
+    },
+    {
+      "id": 36,
+      "question": "You have downloaded open-source software onto your personal laptop. Which of the following statements are true regarding open-source licenses? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "You can modify the application in any way you'd like." },
+        { "id": "B", "text": "You do not need to pay for the application." },
+        { "id": "C", "text": "You can make changes only to the applications that are approved by the originator." },
+        { "id": "D", "text": "You pay a fee for every user of the application." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "B"],
+      "explanation": "Open-source software is free: not only is the application free, but the source code (code used by programmers) is also shared to encourage others to contribute to the future development and improvement of the application. Open-source software can't be sold, although it can be bundled with commercial products that are sold. Contrast open source with commercial licenses, where you pay per user and can't modify the program except for as allowed by the developer."
+    },
+    {
+      "id": 37,
+      "question": "You want to install an electrical device that lets you plug in multiple devices at the same time. It should have a fuse in it so that if there is a power surge, the fuse will be blown and not the electronics plugged into it. It does not need a battery backup. What type of device do you need?",
+      "options": [
+        { "id": "A", "text": "UPS" },
+        { "id": "B", "text": "Power strip" },
+        { "id": "C", "text": "Voltage conserver" },
+        { "id": "D", "text": "Surge protector" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Devices that actually attempt to keep power surges at bay are called surge protectors. They often look similar to a power strip, so it's easy to mistake them for each other, but protectors are more expensive, usually starting in the $25 range. They are designed to protect electrical equipment from power surges."
+    },
+    {
+      "id": 38,
+      "question": "You have several old CRT monitors that are collecting dust in a storage room. To clear out space, you decide to dispose of them. What is the proper way to do this?",
+      "options": [
+        { "id": "A", "text": "Throw them in a Dumpster." },
+        { "id": "B", "text": "Smash them to bits with a hammer and then throw them in the Dumpster." },
+        { "id": "C", "text": "Burn them." },
+        { "id": "D", "text": "Recycle them." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "CRT monitors contain hazardous materials and should always be recycled properly at authorized recycling centers. Never throw them in the trash, smash them, or burn them as these methods can release harmful substances into the environment."
+    },
+    {
+      "id": 39,
+      "question": "When dealing with a customer and demonstrating proper communication techniques, what is meant by actively listening?",
+      "options": [
+        { "id": "A", "text": "Taking notes and making eye contact" },
+        { "id": "B", "text": "Asking many questions and moving the customer on to the important information" },
+        { "id": "C", "text": "Walking to the computer with the problem and starting to open it while listening" },
+        { "id": "D", "text": "Answering texts while listening" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Active listening involves taking notes, making eye contact, and demonstrating that you understand what the customer is saying. It's important to avoid distractions and focus on the customer when they are explaining their problem."
+    },
+    {
+      "id": 40,
+      "question": "You are troubleshooting a desktop computer that is prone to shorting out and rebooting. When you open the case, there is a layer of grime on all the internal components. When you remove the expansion cards and memory, what should you use to clean the metal contacts on the cards?",
+      "options": [
+        { "id": "A", "text": "Demineralized water" },
+        { "id": "B", "text": "Mild soap and water" },
+        { "id": "C", "text": "Denatured isopropyl alcohol" },
+        { "id": "D", "text": "Compressed air" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Denatured isopropyl alcohol is the best choice for cleaning metal contacts on expansion cards and memory modules. It evaporates quickly and doesn't leave residue that could cause problems."
+    },
+    {
+      "id": 41,
+      "question": "You are installing a server for a small company. They want to be sure that the server can be shut down properly in the event of a blackout, so they don't lose data. Which device should you recommend they plug the server into?",
+      "options": [
+        { "id": "A", "text": "UPS" },
+        { "id": "B", "text": "Voltage conserver" },
+        { "id": "C", "text": "Surge protector" },
+        { "id": "D", "text": "Power strip" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "An uninterruptible power supply (UPS) provides battery backup power in the event of a blackout, allowing the server to shut down gracefully and prevent data loss. This is essential for servers and critical systems."
+    },
+    {
+      "id": 42,
+      "question": "You need to upgrade the RAM in a desktop computer. Which of the following should you do before beginning the procedure?",
+      "options": [
+        { "id": "A", "text": "Leave the power running." },
+        { "id": "B", "text": "Put the desktop into hibernate mode." },
+        { "id": "C", "text": "Turn the power off." },
+        { "id": "D", "text": "Put the desktop into standby mode." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Before upgrading RAM or performing any internal computer maintenance, always turn the power off completely to prevent electrical shock and damage to components."
+    },
+    {
+      "id": 43,
+      "question": "You are moving computer equipment from an old office to a new office. Which of the following are good personal safety measures to follow to avoid injuries? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Bend at the knees and lift with your legs." },
+        { "id": "B", "text": "Bend at the waist and lift straight up." },
+        { "id": "C", "text": "Observe weight limitations and lift with a partner if needed." },
+        { "id": "D", "text": "When lifting, lift objects as high as possible to avoid running into things." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "C"],
+      "explanation": "Proper lifting techniques include bending at the knees and lifting with your legs to avoid back injury. Also, observe weight limitations and ask for help when moving heavy equipment. Never bend at the waist when lifting heavy objects."
+    },
+    {
+      "id": 44,
+      "question": "You have opened a desktop computer case and will be upgrading the memory. To help prevent ESD, you put on an ESD strap. Where should you connect the other end?",
+      "options": [
+        { "id": "A", "text": "The RAM" },
+        { "id": "B", "text": "The motherboard" },
+        { "id": "C", "text": "The metal case" },
+        { "id": "D", "text": "The plastic table" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The ESD strap should be connected to the metal case of the computer, which provides a proper ground. This keeps you and the computer at the same electrical potential and prevents ESD damage to components."
+    },
+    {
+      "id": 45,
+      "question": "You are purchasing new spreadsheet software for your company. Your manager has instructed you to ensure that you purchase enough licenses for everyone in the office to use the product. What type of license will you likely purchase, designed for large groups of users? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Corporate" },
+        { "id": "B", "text": "Single user" },
+        { "id": "C", "text": "Concurrent" },
+        { "id": "D", "text": "Shareware" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "C"],
+      "explanation": "Corporate licenses and concurrent licenses are designed for large groups of users. A corporate license typically covers all users in an organization, while a concurrent license allows a specified number of users to access the software simultaneously."
+    },
+    {
+      "id": 46,
+      "question": "You have several old computers that you want to dispose of. When should you do with them?",
+      "options": [
+        { "id": "A", "text": "Throw them in the trash." },
+        { "id": "B", "text": "Remove the hard drives to avoid having someone steal confidential data and then throw them in the trash." },
+        { "id": "C", "text": "Dispose of them in compliance with local government regulations." },
+        { "id": "D", "text": "Put them at the curb for someone to take for free." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Old computers contain hazardous materials and must be disposed of in compliance with local government regulations. Many areas have electronic waste recycling programs specifically designed for proper computer disposal."
+    },
+    {
+      "id": 47,
+      "question": "You are troubleshooting a laptop with a video problem. According to troubleshooting theory, there are two immediate steps you can take after testing the theory to determine cause. What are those two steps? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Determine next steps to resolve the problem." },
+        { "id": "B", "text": "If necessary, conduct external or internal research based on symptoms." },
+        { "id": "C", "text": "Question the user and identify user changes to the computer." },
+        { "id": "D", "text": "Reestablish new theory or escalate." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "D"],
+      "explanation": "After testing the theory to determine cause, if the theory is confirmed, determine next steps to resolve the problem. If the theory is not confirmed, reestablish a new theory or escalate the issue."
+    },
+    {
+      "id": 48,
+      "question": "You fixed a customer's laptop about three days ago. Which of the following demonstrates proper communication techniques and professionalism?",
+      "options": [
+        { "id": "A", "text": "Call the customer to see whether she is satisfied with the repair." },
+        { "id": "B", "text": "Post 'Another satisfied customer!' on your social media sites with a picture of her office building." },
+        { "id": "C", "text": "Provide an accurate bill for services provided." },
+        { "id": "D", "text": "Call the customer and ask if she has additional work you can do." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Following up with customers after a repair to verify satisfaction is a professional practice that demonstrates good customer service. Never post customer information on social media."
+    },
+    {
+      "id": 49,
+      "question": "You have taken an old CRT monitor into a television repair shop. The technician opens the back of the monitor and prepares to discharge the capacitors. What tool will he use to do this?",
+      "options": [
+        { "id": "A", "text": "High-voltage probe" },
+        { "id": "B", "text": "Multimeter" },
+        { "id": "C", "text": "Voltmeter" },
+        { "id": "D", "text": "ESD strap" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "A high-voltage probe is used to safely discharge capacitors in CRT monitors. CRT monitors can hold dangerous voltages even when unplugged, and only trained technicians should work on them."
+    },
+    {
+      "id": 50,
+      "question": "You are troubleshooting problems in a client's office, and the client starts arguing with you as to what the problem is. What should you do?",
+      "options": [
+        { "id": "A", "text": "Avoid arguing and becoming defensive." },
+        { "id": "B", "text": "Argue back to prove that you are correct." },
+        { "id": "C", "text": "Tell the client that they are making you uncomfortable and leave immediately." },
+        { "id": "D", "text": "Tell the client that if they know so much, they can fix it themselves. Then leave." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "When dealing with difficult customers, always avoid arguing and becoming defensive. Maintain professionalism and focus on resolving the problem."
+    },
+    {
+      "id": 51,
+      "question": "Your company has a policy prohibiting illegal content on work computers. You have identified illegal content on a company-owned workstation. What is your next step?",
+      "options": [
+        { "id": "A", "text": "Get a verifier." },
+        { "id": "B", "text": "Report through proper channels." },
+        { "id": "C", "text": "Ask the user to delete the material." },
+        { "id": "D", "text": "Preserve the data or device." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "After identifying illegal content, the next step is to report it through proper channels according to your company's policy and incident response plan."
+    },
+    {
+      "id": 52,
+      "question": "You are going to be upgrading the RAM on several desktop computers. Which of the following environmental conditions increases the risk of ESD damaging computer components?",
+      "options": [
+        { "id": "A", "text": "High temperature" },
+        { "id": "B", "text": "Low temperature" },
+        { "id": "C", "text": "High humidity" },
+        { "id": "D", "text": "Low humidity" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Low humidity increases the risk of ESD (electrostatic discharge) because dry air allows static electricity to build up more easily. Higher humidity helps dissipate static charges."
+    },
+    {
+      "id": 53,
+      "question": "Your company has a policy prohibiting illegal content on work computers. You have found illegal content on a user's workstation. What is the proper way to preserve the data or device?",
+      "options": [
+        { "id": "A", "text": "Document what is on the screen and/or take pictures of the screen." },
+        { "id": "B", "text": "Turn off the workstation immediately." },
+        { "id": "C", "text": "Copy all files to a network drive." },
+        { "id": "D", "text": "Shut down all applications and log off." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "If you have your policy in place, then your incident response plan should be relatively scripted. After identifying illegal content, you need to preserve the device. The data or device should immediately be removed from the possession of the offending party and preserved. This will ensure that the data doesn't mysteriously disappear before the proper parties are notified. Document what is on the screen by taking pictures or screenshots."
+    },
+    {
+      "id": 54,
+      "question": "Your company has decided to recycle several old workstations. You are concerned that confidential company information on the workstations' hard drives might be compromised. What should you do?",
+      "options": [
+        { "id": "A", "text": "Delete all files on the hard drives." },
+        { "id": "B", "text": "Format the hard drives." },
+        { "id": "C", "text": "Use a drive wipe utility to sanitize the hard drives." },
+        { "id": "D", "text": "Remove the hard drives and store them." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Use a drive wipe utility to sanitize the hard drives. Simply deleting or formatting doesn't fully remove the data, which can still be recovered. Drive wipe utilities overwrite the data multiple times to ensure it cannot be recovered."
+    },
+    {
+      "id": 55,
+      "question": "You are troubleshooting a laptop that appears to have malware on it. According to the CompTIA troubleshooting methodology, which step comes immediately after identifying the problem?",
+      "options": [
+        { "id": "A", "text": "Conduct external or internal research based on symptoms." },
+        { "id": "B", "text": "Establish a theory of probable cause." },
+        { "id": "C", "text": "Test the theory to determine cause." },
+        { "id": "D", "text": "Establish a plan of action to resolve the problem and implement the solution." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "According to CompTIA troubleshooting theory, after identifying the problem, the next step is to establish a theory of probable cause. This involves questioning the obvious and conducting research if necessary."
+    },
+    {
+      "id": 56,
+      "question": "You are troubleshooting a power issue. The power supply is failing and causing the computer to spontaneously reboot. Which type of documentation should you consult regarding this problem?",
+      "options": [
+        { "id": "A", "text": "Network topology diagram" },
+        { "id": "B", "text": "Incident documentation" },
+        { "id": "C", "text": "Knowledge base" },
+        { "id": "D", "text": "Regulatory and compliance policy" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A knowledge base contains documented solutions to common problems and is the best resource for troubleshooting known issues like power supply failures. It provides historical information about similar problems and their solutions."
+    },
+    {
+      "id": 57,
+      "question": "You have chosen to use compressed air to clean away dirt and debris from the inside of a desktop computer case. What is the recommended safety gear you should wear?",
+      "options": [
+        { "id": "A", "text": "Safety goggles and an air mask" },
+        { "id": "B", "text": "Safety goggles and a respirator" },
+        { "id": "C", "text": "Safety goggles, a respirator, and a hair net" },
+        { "id": "D", "text": "A biohazard suit" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "When using compressed air, particles of dirt and debris can become airborne, and they can be inhaled or get into your eyes. Always wear proper safety gear, such as safety goggles and an air mask."
+    },
+    {
+      "id": 58,
+      "question": "You are troubleshooting a desktop computer that is exhibiting erratic behavior. As part of establishing a theory of probable cause, what step should you take, as part of the troubleshooting process?",
+      "options": [
+        { "id": "A", "text": "Question the user and identify user changes to the computer." },
+        { "id": "B", "text": "Determine next steps to resolve the problem." },
+        { "id": "C", "text": "Establish a plan of action to resolve the problem." },
+        { "id": "D", "text": "If necessary, conduct external or internal research based on symptoms." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Part of establishing a theory of probable cause is to perform external or internal research based on symptoms. One could argue that questioning the user is also part of this step, but according to CompTIA troubleshooting methodology, questioning the user is part of identifying the problem (the previous step)."
+    },
+    {
+      "id": 59,
+      "question": "You need to dispose of a chemical solvent but are unsure how to properly do so. Where will you find information on this as well as the potential dangers the solvent possesses?",
+      "options": [
+        { "id": "A", "text": "MSDS" },
+        { "id": "B", "text": "OSHA" },
+        { "id": "C", "text": "Warning label" },
+        { "id": "D", "text": "Bottom of the container" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The Material Safety Data Sheet (MSDS) provides detailed information about chemical hazards, proper handling, storage, and disposal procedures. Always consult the MSDS before disposing of any chemical substance."
+    },
+    {
+      "id": 60,
+      "question": "You are discussing the placement of several new computers with one of your co-workers. Which of the following are the best places to put them? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "In the corner of a room that is typically about 15 degrees warmer than room temperature" },
+        { "id": "B", "text": "In an open area at room temperature" },
+        { "id": "C", "text": "In the corner of a room that is typically about 15 degrees colder than room temperature" },
+        { "id": "D", "text": "In an enclosed kiosk so that no users can damage the system" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["B", "C"],
+      "explanation": "Computers should be placed in areas with proper ventilation and moderate temperatures. Room temperature or slightly cooler is ideal. Avoid areas that are too warm, as this can cause overheating. Good air circulation is important for computer longevity."
+    },
+    {
+      "id": 61,
+      "question": "A user's work area is littered with debris and crumbs, and he reports that keys on his keyboard stick or sometimes make a crunching sound. What should you recommend he clean his keyboard with?",
+      "options": [
+        { "id": "A", "text": "Denatured isopropyl alcohol" },
+        { "id": "B", "text": "Demineralized water" },
+        { "id": "C", "text": "Computer vacuum" },
+        { "id": "D", "text": "Compressed air" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Compressed air is the best option for cleaning keyboards. It can blow debris and crumbs out from between the keys without damaging the keyboard or leaving residue. Using liquids on keyboards should be avoided unless the keyboard is specifically designed to be cleaned that way."
+    },
+    {
+      "id": 62,
+      "question": "You are performing a safety audit for your company and are examining the company's fire extinguishers. Which type of fire extinguisher is designed to put out electrical fires?",
+      "options": [
+        { "id": "A", "text": "A" },
+        { "id": "B", "text": "B" },
+        { "id": "C", "text": "C" },
+        { "id": "D", "text": "D" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Class C fire extinguishers are designed for electrical fires. If you expect to have a fire in a server room or other computer area (which, hopefully, never happens, but which may be related to a shorted-out wire in a power supply), make sure the fire extinguisher will work for class C fires."
+    },
+    {
+      "id": 63,
+      "question": "You have a set meeting time with a client to upgrade their computer. Your prior service call runs long, and you will be late to the meeting. What should you do?",
+      "options": [
+        { "id": "A", "text": "Get to your meeting as soon as you can." },
+        { "id": "B", "text": "Take your time; you're already late and a few more minutes won't matter." },
+        { "id": "C", "text": "Don't show up. Call the client later and tell them you were sick." },
+        { "id": "D", "text": "Call the client and apologize for being late and that your last call went over. You will be there as soon as possible or can reschedule if they would prefer." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Be on time. If you're going to be late, be sure to contact your customer. Not doing so indicates that you think their problem isn't important. Always communicate professionally and offer options when delays occur."
+    },
+    {
+      "id": 64,
+      "question": "You are asked to help a client who is unable to send or receive email. When you get to the client's desk, what should you do?",
+      "options": [
+        { "id": "A", "text": "Tell him that this problem is nothing and you have dealt with far worse issues today." },
+        { "id": "B", "text": "Ask him what he did to break his email." },
+        { "id": "C", "text": "Tell him that you would rather be working on updating the server, but you suppose you'll deal with him first." },
+        { "id": "D", "text": "Clarify the scope of the problem and verify that you understand what isn't working." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Providing good customer service involves proper communication and professionalism. Dismissing customer problems is not good. Neither is asking accusatory questions. Clarify the scope of the problem and ask clarifying questions to ensure you understand what isn't working properly."
+    },
+    {
+      "id": 65,
+      "question": "You are running network cables to support 20 new workstations in an office area. Which of the following is the best way to handle cable management and avoid safety issues?",
+      "options": [
+        { "id": "A", "text": "Run the cables along the floor next to the cubicle walls." },
+        { "id": "B", "text": "Run the cables across the floor and duct tape them down." },
+        { "id": "C", "text": "Run the cables through a raised floor or drop ceiling." },
+        { "id": "D", "text": "Run the cables across the floor and use a cable guard." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Cables are a common cause of tripping. If at all possible, run cables through drop ceilings or through conduits to keep them out of the way. If you need to lay a cable through a trafficked area, use a cable floor guard to keep the cables in place and safe from crushing. In a pinch, and without a floor cable guard, you can use tape, such as duct tape, to secure your cables to the floor. This is recommended only as a temporary fix for two reasons. First, it's not much less of a trip hazard than just having the cables run across the floor. Second, duct tape doesn't protect the cables from being crushed if people step on them or heavy objects are moved over them."
+    },
+    {
+      "id": 66,
+      "question": "You need to troubleshoot a laptop computer that is having video problems. According to troubleshooting theory, what is the first step you should take?",
+      "options": [
+        { "id": "A", "text": "Establish a theory of probable cause." },
+        { "id": "B", "text": "Establish a plan of action to resolve the problem and implement the solution." },
+        { "id": "C", "text": "Identify the problem." },
+        { "id": "D", "text": "Conduct external or internal research based on symptoms." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Troubleshooting theory for the A+ exam consists of six steps: identify the problem; establish a theory of probable cause; test the theory to determine cause; establish a plan of action to resolve the problem and implement the solution; verify full system functionality and, if applicable, implement preventive measures; and document findings, actions, and outcomes. The first step is always to identify the problem."
+    },
+    {
+      "id": 67,
+      "question": "While changing a laser printer toner cartridge, a technician spilled toner on a desk. What should she use to clean the mess up?",
+      "options": [
+        { "id": "A", "text": "Compressed air" },
+        { "id": "B", "text": "Mild soap and water" },
+        { "id": "C", "text": "Toner vacuum" },
+        { "id": "D", "text": "Denatured isopropyl alcohol" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "One unique challenge when cleaning printers is spilled toner. Getting it wet will make an inky mess. It sticks to everything and should not be blown into the air and inhaled—it's a carcinogen. Use an electronics vacuum that is designed specifically to pick up toner. A normal vacuum's filter isn't fine enough to catch all of the particles, so the toner may be circulated into the air. Normal electronics vacuums may melt the toner instead of picking it up."
+    },
+    {
+      "id": 68,
+      "question": "You are repairing a desktop PC and upgrading the memory. What is the most important reason that equipment grounding is an important safety procedure?",
+      "options": [
+        { "id": "A", "text": "To prevent an electrical shock to the technician" },
+        { "id": "B", "text": "To prevent an electrical shock from damaging components" },
+        { "id": "C", "text": "To prevent fire from starting inside the case" },
+        { "id": "D", "text": "To prevent the desktop PC from slipping off of the workspace" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The most important reason for equipment grounding is to prevent electrical shock to the technician. While grounding also helps protect components from ESD damage, the primary safety concern is protecting human life from potentially lethal electrical shocks."
+    }
+  ]
+}

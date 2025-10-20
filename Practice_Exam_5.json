@@ -1,0 +1,3790 @@
+{
+  "examInfo": {
+    "title": "Examen: Hardware and Network Troubleshooting",
+    "totalQuestions": 140,
+    "timeLimit": 135,
+    "description": "Practice questions for Hardware and Network Troubleshooting."
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "You are troubleshooting a computer that will not boot. It tells you that there is no bootable device. You check the BIOS, and it does not show any installed hard drives. What should you do next?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Run bootrec /fixmbr."
+        },
+        {
+          "id": "B",
+          "text": "Replace the hard drive with one in an external enclosure."
+        },
+        {
+          "id": "C",
+          "text": "Flash the BIOS."
+        },
+        {
+          "id": "D",
+          "text": "Check the hard drive connections."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "If the BIOS does not detect the hard drive, the first step is to check the physical connections. Most BIOSs today auto-detect the hard drive. If that auto-detection fails, it's bad news for the hard drive unless there's a cable, connection, or jumper issue."
+    },
+    {
+      "id": 2,
+      "question": "A technician just replaced a failed internal hard drive in a desktop computer with an empty hard drive. She needs to boot to the network to connect to an imaging server to restore the computer. How should she do this?",
+      "options": [
+        {
+          "id": "A",
+          "text": "During boot, press the F2 key to boot to the network."
+        },
+        {
+          "id": "B",
+          "text": "During boot, enter the BIOS and change the boot sequence to boot to the network."
+        },
+        {
+          "id": "C",
+          "text": "Let the boot complete normally. When the BIOS does not find a bootable partition on the hard drive, it will boot from the network."
+        },
+        {
+          "id": "D",
+          "text": "During boot, press the F7 key to edit the boot sequence menu."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "The system BIOS contains the boot sequence for a system. Most systems probably boot to the first hard drive, but they can also be configured to boot from a secondary hard drive, the optical drive, or the network. This setting is configured in the BIOS."
+    },
+    {
+      "id": 3,
+      "question": "A user's laptop computer does not display anything on the screen, although the power light and other indicator lights are on. You plug in an external monitor and it does not display either. Which component is most likely causing the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inverter"
+        },
+        {
+          "id": "B",
+          "text": "Backlight"
+        },
+        {
+          "id": "C",
+          "text": "Screen"
+        },
+        {
+          "id": "D",
+          "text": "Video card"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "If a laptop does not display any video, it could be the screen or the video card. To test it, plug in an external monitor (that you know works) and use the function keys on the laptop to switch to external video output. If that doesn't work, it's likely that the video card is defective."
+    },
+    {
+      "id": 4,
+      "question": "You are troubleshooting a computer making a loud whining noise. Looking at the exhaust fan, you see a thick coating of dust. What should you do next?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use compressed air to clean the fan."
+        },
+        {
+          "id": "B",
+          "text": "Use a computer vacuum to clean the fan."
+        },
+        {
+          "id": "C",
+          "text": "Use a damp cloth to clean the fan."
+        },
+        {
+          "id": "D",
+          "text": "Replace the power supply."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Try cleaning the fan before replacing any parts. The power supply fan has a protective grid covering it, and you won't really be able to get to it with a computer vacuum or a damp cloth. Using compressed air to blow it out is your best option."
+    },
+    {
+      "id": 5,
+      "question": "A user reports that his laptop battery does not charge when his laptop is plugged into an AC outlet. What is the best resolution to try first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the battery."
+        },
+        {
+          "id": "B",
+          "text": "Replace the AC adapter."
+        },
+        {
+          "id": "C",
+          "text": "Remove and reinsert the battery."
+        },
+        {
+          "id": "D",
+          "text": "Drain the battery completely and then recharge it."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "If the battery won't charge while the laptop is plugged in, try removing the battery and reinserting it. If it still won't charge, you might want to replace the battery."
+    },
+    {
+      "id": 6,
+      "question": "A technician has determined that she needs to replace a motherboard in a laptop. Which of the following procedures should you follow? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Never use a power screwdriver with a laptop."
+        },
+        {
+          "id": "B",
+          "text": "Document and label screw locations."
+        },
+        {
+          "id": "C",
+          "text": "Refer to the manufacturer's instructions."
+        },
+        {
+          "id": "D",
+          "text": "Remove the keyboard before removing the motherboard."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B, C"
+      ],
+      "explanation": "When repairing laptops, you should always document and label screw and cable locations, organize parts, refer to manufacturer instructions, and use appropriate hand tools. Power screwdrivers can be used. In some cases, but not all, you might need to remove the keyboard to remove the motherboard. Refer to the manufacturer's instructions."
+    },
+    {
+      "id": 7,
+      "question": "You have just replaced faulty RAM in a desktop computer. You reboot the computer, and after a few seconds it beeps once. What does this indicate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The RAM is faulty."
+        },
+        {
+          "id": "B",
+          "text": "The motherboard needs to be replaced."
+        },
+        {
+          "id": "C",
+          "text": "The system BIOS detected an error in the POST routine."
+        },
+        {
+          "id": "D",
+          "text": "The system BIOS completed the POST routine normally."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Every computer has a diagnostic program built into its basic input/output system (BIOS) called the power-on self-test (POST). When you turn on the computer, it executes this set of diagnostics. A successful POST generally produces a single beep."
+    },
+    {
+      "id": 8,
+      "question": "You are troubleshooting a computer that has been randomly rebooting, and now it refuses to boot properly. Upon boot, you receive one long beep and three short beeps, but no video on the screen. What tool should you use to troubleshoot the situation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Multimeter"
+        },
+        {
+          "id": "B",
+          "text": "Power supply tester"
+        },
+        {
+          "id": "C",
+          "text": "Loopback plug"
+        },
+        {
+          "id": "D",
+          "text": "POST card"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "This computer is giving you a beep code during the POST routine. One way to troubleshoot this is to use a POST card. This is a circuit board that fits into an expansion slot (PCI or PCIe) in the motherboard and reports numeric codes as the boot process progresses. Each of those codes corresponds to a particular component being checked."
+    },
+    {
+      "id": 9,
+      "question": "Over time, the hard drive performance of your computer has gotten slower. You believe that many of the files stored on the drive are fragmented, slowing down disk read and write speeds. What should you do to resolve this issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Run Disk Defragmenter."
+        },
+        {
+          "id": "B",
+          "text": "Format the hard drive and restore the data."
+        },
+        {
+          "id": "C",
+          "text": "Delete the partition, create a new one, and restore the data."
+        },
+        {
+          "id": "D",
+          "text": "Run chkdsk."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "When files are written to a hard drive, they're not always written contiguously or with all of the data in a single location. As a result, file data is spread out over the disk, and the time it takes to retrieve files from the disk increases. Defragmenting a disk involves analyzing the disk and then consolidating fragmented files and folders so that they occupy a contiguous space, thus increasing performance during file retrieval."
+    },
+    {
+      "id": 10,
+      "question": "A user's computer has failed. When you try to boot it up, you hear a loud, rhythmic clicking sound, and the system does not boot properly. What is most likely the issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HDD failure"
+        },
+        {
+          "id": "B",
+          "text": "SSD failure"
+        },
+        {
+          "id": "C",
+          "text": "RAM failure"
+        },
+        {
+          "id": "D",
+          "text": "Power supply fan failure"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "A rhythmic clicking sound can be made only by components with mechanical parts, such as a conventional hard drive. A power supply fan failure will usually result in a whining sound or no sound at all because the fan doesn't work, but it will not cause a system boot failure."
+    },
+    {
+      "id": 11,
+      "question": "A laser printer you are working with consistently produces images with white streaks running down the page. What can you do to resolve this issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clean the transfer corona wires."
+        },
+        {
+          "id": "B",
+          "text": "Clean the EP drum."
+        },
+        {
+          "id": "C",
+          "text": "Clean the fusing assembly."
+        },
+        {
+          "id": "D",
+          "text": "Replace the toner cartridge."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Vertical white lines running down all or part of the page is because of foreign matter (more than likely toner) caught on the transfer corona wire. The dirty spots keep the toner from being transmitted to the paper (at those locations, that is), with the result that streaks form as the paper progresses past the transfer corona wire. Clean the transfer corona wires."
+    },
+    {
+      "id": 12,
+      "question": "The dot-matrix printer in your office recently started creasing papers and producing paper jams. Which of the following are likely to cause these problems? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bits of paper in the paper path"
+        },
+        {
+          "id": "B",
+          "text": "Paper tension settings"
+        },
+        {
+          "id": "C",
+          "text": "Using the wrong paper"
+        },
+        {
+          "id": "D",
+          "text": "Paper perforations"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A, C"
+      ],
+      "explanation": "Printer jams and creased paper happen when something prevents the paper from advancing through the printer evenly. There are generally three causes of printer jams: an obstructed paper path, stripped drive gears, and using the wrong paper."
+    },
+    {
+      "id": 13,
+      "question": "The monitor for your desktop computer will randomly shut down after long periods of use. What is the most likely cause of this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Video card failure"
+        },
+        {
+          "id": "B",
+          "text": "Monitor overheating"
+        },
+        {
+          "id": "C",
+          "text": "Improper video resolution"
+        },
+        {
+          "id": "D",
+          "text": "Backlight failure"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "The most likely explanation is that the monitor is overheating. It could possibly be a backlight issue (if it's an LCD monitor), but backlights usually dim or flicker if they are failing."
+    },
+    {
+      "id": 14,
+      "question": "You power on a desktop computer, and you hear the fan spinning. However, you do not see any indicator lights or get a POST beep. Which component is likely causing the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CPU"
+        },
+        {
+          "id": "B",
+          "text": "RAM"
+        },
+        {
+          "id": "C",
+          "text": "PSU"
+        },
+        {
+          "id": "D",
+          "text": "HDD"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "This is most likely a problem with the power supply. Test it with a power supply tester or a multimeter."
+    },
+    {
+      "id": 15,
+      "question": "You have just replaced a toner cartridge in an HP Laser Jet printer. It is displaying error 14 No EP Cart. What should you do to resolve the issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Turn the printer off and back on."
+        },
+        {
+          "id": "B",
+          "text": "Remove the toner cartridge and press the Reset button."
+        },
+        {
+          "id": "C",
+          "text": "Remove the toner cartridge and reinsert it."
+        },
+        {
+          "id": "D",
+          "text": "Remove the toner cartridge and replace it with a new one."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "The error message indicates that the printer does not detect the toner cartridge. That can happen if the toner cartridge isn't seated properly. Remove it and reinsert it, and the problem should go away."
+    },
+    {
+      "id": 16,
+      "question": "Your office uses an inkjet printer. Recently, it started having problems picking up paper. Which component is likely to cause this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transport rollers"
+        },
+        {
+          "id": "B",
+          "text": "Pickup rollers"
+        },
+        {
+          "id": "C",
+          "text": "Exit rollers"
+        },
+        {
+          "id": "D",
+          "text": "Transmission rollers"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "If your printer fails to pick up paper, it could indicate that the pickup rollers are too worn. They press up against small rubber or cork patches known as separator pads. These help to keep the rest of the paper in the tray so that only one sheet gets picked up at a time. A pickup stepper motor turns the pickup rollers."
+    },
+    {
+      "id": 17,
+      "question": "Your office uses an old dot-matrix printer. Recently, the printer has started producing output that goes from dark to light when you look at the paper from left to right. What is causing this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A worn-out printer ribbon"
+        },
+        {
+          "id": "B",
+          "text": "The ribbon-advance mechanism"
+        },
+        {
+          "id": "C",
+          "text": "The print head"
+        },
+        {
+          "id": "D",
+          "text": "The paper feed assembly"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "If your dot-matrix printer prints lines that go from dark to light as the print head moves across the page, it's the printer ribbon-advance gear slipping. Replace the mechanism."
+    },
+    {
+      "id": 18,
+      "question": "Your network uses 802.11n for all client computers. Recently, several users moved from one office space to another, increasing the users in the area from 20 to about 50. Now, both new and old users are reporting very slow network transfer speeds. What is most likely the cause of the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "802.11n can't support that many concurrent users."
+        },
+        {
+          "id": "B",
+          "text": "It's too far from the wireless access point."
+        },
+        {
+          "id": "C",
+          "text": "There are too many users for one wireless access point."
+        },
+        {
+          "id": "D",
+          "text": "The new users all have 802.11b network cards."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "It's recommended that no more than 30 or so client computers use one wireless access point (WAP) or wireless router. Any more than that can cause intermittent access problems."
+    },
+    {
+      "id": 19,
+      "question": "Your computer has been intermittently rebooting when you play an online video game. You install a hardware monitoring utility and notice in the log that the CPU temperature spikes before the system shuts down. Which action should you take first to help resolve the issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use the system BIOS to overclock the CPU."
+        },
+        {
+          "id": "B",
+          "text": "Replace the CPU and heat sink."
+        },
+        {
+          "id": "C",
+          "text": "Reseat the CPU heat sink."
+        },
+        {
+          "id": "D",
+          "text": "Replace the power supply."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "If the CPU is overheating, it may be that the heat sink is not functioning properly or is not connected properly to the CPU. After the system cools down, try reseating the heat sink. Overclocking will only make the processor run hotter. If reseating the heat sink does not work, you might need to replace the processor."
+    },
+    {
+      "id": 20,
+      "question": "Users in one section of your building report that wireless network service is spotty. Their workstations have slow connectivity and frequently drop the connection. Which tool should you use to test the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wireless locator"
+        },
+        {
+          "id": "B",
+          "text": "Fox and hound"
+        },
+        {
+          "id": "C",
+          "text": "Loopback plug"
+        },
+        {
+          "id": "D",
+          "text": "Packet sniffer"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Tools for locating Wi-Fi networks and analyzing their traffic are indispensable today. A wireless locator or a Wi-Fi analyzer can be either a handheld hardware device or specialized software that is installed on a laptop and whose purpose is to detect and analyze Wi-Fi signals."
+    },
+    {
+      "id": 21,
+      "question": "A technician has just replaced a faulty hard drive and created a partition on the new drive. Which utility should she use next to ready the drive for data storage?",
+      "options": [
+        {
+          "id": "A",
+          "text": "format"
+        },
+        {
+          "id": "B",
+          "text": "bootrec"
+        },
+        {
+          "id": "C",
+          "text": "chkdsk"
+        },
+        {
+          "id": "D",
+          "text": "diskpart"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "The format command is used to wipe data off disks and prepare them for new use. Before a hard disk can be formatted, it must have partitions created on it."
+    },
+    {
+      "id": 22,
+      "question": "You are troubleshooting a computer with a RAID 0 array using four disks. One of the disks fails. What can you do to recover the array?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rebuild the failed disk and restore from backup."
+        },
+        {
+          "id": "B",
+          "text": "Replace the failed disk and rebuild the array."
+        },
+        {
+          "id": "C",
+          "text": "Replace the failed disk and restore from backup."
+        },
+        {
+          "id": "D",
+          "text": "Remove the failed disk and rebuild the array."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "If you are using RAID 0 (disk striping), you actually have more points of failure than a single device, meaning that you're at a greater risk of failure versus using just one hard drive. One drive failure will cause the entire set to fail. To recover it, replace the failed disk and restore from backup."
+    },
+    {
+      "id": 23,
+      "question": "The laser printer in your office is about five years old. Recently, when you print, you will occasionally get low memory error messages. What should you do to fix the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stop and restart the print spooler."
+        },
+        {
+          "id": "B",
+          "text": "Implement printing priorities for the most important users."
+        },
+        {
+          "id": "C",
+          "text": "Upgrade the printer's memory."
+        },
+        {
+          "id": "D",
+          "text": "Upgrade the printer's hard drive."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "If print jobs are processed very slowly or if you are continually seeing 'low memory' error messages, it might be a good time to upgrade the memory in the printer."
+    },
+    {
+      "id": 24,
+      "question": "You are troubleshooting a recently installed three-disk RAID array. The original technician left notes that he was concerned about creating multiple points of potential failure in the system. Which type of RAID array creates more points of potential failure than a single hard drive?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RAID 10"
+        },
+        {
+          "id": "B",
+          "text": "RAID 1"
+        },
+        {
+          "id": "C",
+          "text": "RAID 0"
+        },
+        {
+          "id": "D",
+          "text": "RAID 5"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "If you are using RAID 0 (disk striping), you actually have more points of failure than a single device, meaning that you're at a greater risk of failure versus using just one hard drive. One drive failure will cause the entire set to fail."
+    },
+    {
+      "id": 25,
+      "question": "A technician is troubleshooting a computer that is experiencing continuous reboots. He isn't sure where to begin diagnosing the problem, so he calls you for advice. Which tool should you tell him to use to try to identify the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Multimeter"
+        },
+        {
+          "id": "B",
+          "text": "Power supply tester"
+        },
+        {
+          "id": "C",
+          "text": "Loopback plug"
+        },
+        {
+          "id": "D",
+          "text": "POST card"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "A failing motherboard or CPU may cause continuous reboots. A POST card may be helpful in narrowing down the exact component that is faulty."
+    },
+    {
+      "id": 26,
+      "question": "Users are printing to a laser printer, but nothing is coming out. When you look at the print queue, you see several jobs backed up. The printer is online, has paper, and says Ready. What should you do to resolve the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Turn the printer off and back on."
+        },
+        {
+          "id": "B",
+          "text": "Stop and restart the print spooler."
+        },
+        {
+          "id": "C",
+          "text": "Press the Reset button on the printer."
+        },
+        {
+          "id": "D",
+          "text": "Use the printer's display to clear out the oldest job, take it offline, and put it back online."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "If jobs aren't printing and there's no apparent reason why, it could be that the print spooler has stalled. To fix the problem, you need to stop and restart the print spooler. This is done through your operating system."
+    },
+    {
+      "id": 27,
+      "question": "Your company has a plasma monitor that used to display conference room information in a common area. Recently, you repurposed the monitor in another area. Regardless of what is on the screen, you can still always see the conference room information template on the screen as well. What is this called?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dead pixels"
+        },
+        {
+          "id": "B",
+          "text": "Overheating"
+        },
+        {
+          "id": "C",
+          "text": "Burn-in"
+        },
+        {
+          "id": "D",
+          "text": "Backlight failure"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "With artifacts, no matter what you have on your screen, you can still see the outlines of a different image. That image has been 'burned' into the monitor (sometimes simply referred to as burn-in) and isn't going away. The only solution is to replace the monitor."
+    },
+    {
+      "id": 28,
+      "question": "A user reports that his tablet computer will work on battery power for only about 20 minutes, even after the battery icon says it's full. He claims that it used to work on battery power for several hours. What is the most likely cause of the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The user is running too many apps."
+        },
+        {
+          "id": "B",
+          "text": "The user is constantly using the Wi-Fi connection."
+        },
+        {
+          "id": "C",
+          "text": "The battery needs to be charged longer."
+        },
+        {
+          "id": "D",
+          "text": "The battery is failing."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "As batteries get older, they are not able to hold as much of a charge, and in some cases, they are not able to hold a charge at all. It might be time for a new tablet."
+    },
+    {
+      "id": 29,
+      "question": "While troubleshooting a computer, you notice that the hard drive indicator light is constantly on. The system seems unresponsive. You reboot the computer, and a few minutes later the same problem happens. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the hard drive."
+        },
+        {
+          "id": "B",
+          "text": "Replace the motherboard."
+        },
+        {
+          "id": "C",
+          "text": "Reinstall the operating system."
+        },
+        {
+          "id": "D",
+          "text": "Test the hard drive with a multimeter."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "A hard drive indicator that is constantly on is generally not a good sign; it could indicate that the hard drive is constantly busy or that the system is frozen, either of which is bad. If the problem persists, it's likely a problem with the hard drive, and the drive should be replaced."
+    },
+    {
+      "id": 30,
+      "question": "Your director's network cable has failed, and he needs network connectivity immediately. You are unable to find a spare patch cable, but you have a spool of CAT5e cable and some RJ-45 connectors. Which tool do you need to create a new cable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Crimper"
+        },
+        {
+          "id": "B",
+          "text": "Wire strippers"
+        },
+        {
+          "id": "C",
+          "text": "Punchdown tool"
+        },
+        {
+          "id": "D",
+          "text": "Cable tester"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "A crimper is a handy tool for helping you put connectors on the end of a cable. Most crimpers will be a combination tool that strips and snips wires as well as crimps the connector onto the end."
+    },
+    {
+      "id": 31,
+      "question": "You have just installed a second hard drive in your computer. When you boot up the computer, you get an error message that the operating system is not found. What should you try first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Check jumper settings on the hard drives."
+        },
+        {
+          "id": "B",
+          "text": "Run bootrec /fixmbr."
+        },
+        {
+          "id": "C",
+          "text": "Run dispart."
+        },
+        {
+          "id": "D",
+          "text": "Replace the new hard drive."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "When you have multiple hard drives on the same controller, one needs to be set to master and the other to slave. Most drives today will do this automatically, but they have jumpers on them to configure this as well."
+    },
+    {
+      "id": 32,
+      "question": "You are troubleshooting a computer that will not boot properly. When you power it on, it produces a series of long and short beeps. Which components are most likely to be causing this to happen? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "BIOS"
+        },
+        {
+          "id": "B",
+          "text": "Hard drive"
+        },
+        {
+          "id": "C",
+          "text": "Network card"
+        },
+        {
+          "id": "D",
+          "text": "RAM"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A, D"
+      ],
+      "explanation": "Every computer has a diagnostic program built into its basic input/output system (BIOS) called the power-on self-test (POST). When you turn on the computer, it executes this set of diagnostics. The steps include checking the CPU, checking the RAM, checking for the presence of a video card, and verifying basic hardware functionality. An error in the BIOS or one of the checked components can cause a beep code."
+    },
+    {
+      "id": 33,
+      "question": "You are working on a laptop that appears to be frozen. You press the Num Lock key several times, but the indicator light remains on. What can you do to try to resolve this issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Push and hold the power button until the laptop turns off, and reboot."
+        },
+        {
+          "id": "B",
+          "text": "Remove the battery and disconnect the laptop from an AC power source, and reboot."
+        },
+        {
+          "id": "C",
+          "text": "Press and hold the Num Lock key until the light turns off."
+        },
+        {
+          "id": "D",
+          "text": "Press Ctrl+Alt+Del to reboot the laptop."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "If the laptop is locked up, the only way to reboot it is with a hard boot. Although removing all the power sources would work, it's not necessary to do so. Simply hold down the power button for about five seconds, and the laptop will power off. If that does not work, then you might need to remove power sources."
+    },
+    {
+      "id": 34,
+      "question": "A user complains that when he turns his desktop computer on, nothing appears on the screen. It sounds like the computer's fan is running, and the user reported hearing one beep when the computer powered on. What is the first thing you should check?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Is the monitor is plugged into the video card?"
+        },
+        {
+          "id": "B",
+          "text": "Did the computer completed the POST properly?"
+        },
+        {
+          "id": "C",
+          "text": "Is the monitor turned on?"
+        },
+        {
+          "id": "D",
+          "text": "Does another monitor work on this computer?"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Check the easy stuff first. It might seem silly, but be sure that the monitor is plugged in and powered on. Check to see if its power light is on."
+    },
+    {
+      "id": 35,
+      "question": "A user reports that his mobile phone is extremely hot and appears to be locked up. What should you instruct him to do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plug the phone into a wall outlet or USB port to charge it."
+        },
+        {
+          "id": "B",
+          "text": "Turn the phone off and let it cool down."
+        },
+        {
+          "id": "C",
+          "text": "Perform a factory reset of the phone."
+        },
+        {
+          "id": "D",
+          "text": "Open the Power app and set the phone to operate on the low voltage setting."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "If a mobile device is overheating, turn it off to let it cool down. It could be from overuse, or perhaps it was left in a hot environment or did not have proper ventilation."
+    },
+    {
+      "id": 36,
+      "question": "The desktop computer you are troubleshooting will not retain the proper time and date. You set the time and date, power the system down, and power it back on. Again, the settings are incorrect. Which component is likely causing the issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CMOS battery"
+        },
+        {
+          "id": "B",
+          "text": "BIOS"
+        },
+        {
+          "id": "C",
+          "text": "Hard drive"
+        },
+        {
+          "id": "D",
+          "text": "RAM"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "A fairly common issue with the BIOS is when it fails to retain your computer's settings, such as time and date and hard drive configuration. The BIOS uses a small battery (much like a watch battery) on the motherboard to help it retain settings when the system power is off. If this battery fails, the BIOS won't retain its settings. Simply replace the battery to solve the problem."
+    },
+    {
+      "id": 37,
+      "question": "You have an Android phone and it's running slowly. It seems to be isolated to one app in particular. You check and you have plenty of free memory. You have rebooted the phone several times and the app is still slow. What should you try next?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hold the power button and the Home button simultaneously for 10 seconds, and the phone will reset."
+        },
+        {
+          "id": "B",
+          "text": "Reset the phone to factory specifications."
+        },
+        {
+          "id": "C",
+          "text": "Uninstall and reinstall the app."
+        },
+        {
+          "id": "D",
+          "text": "Get a new phone."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "If the phone is really slow but isn't completely locked up, isolate the issue. Is it one app or overall performance? It could be that apps are running in the background and need to be closed. Shutting down those apps or powering the device off and then back on is a good step. You can also check to see how much memory is available. If it's one app giving you problems instead of the entire device, look for updates to the app, or delete and reinstall the app."
+    },
+    {
+      "id": 38,
+      "question": "A laser printer you are servicing has been producing ghosted images. That is, regardless of whatever prints, you can always see a faint copy of a previous image that was printed. What can be causing this? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dirty charging corona wire"
+        },
+        {
+          "id": "B",
+          "text": "Broken cleaning blade"
+        },
+        {
+          "id": "C",
+          "text": "Broken fusing assembly"
+        },
+        {
+          "id": "D",
+          "text": "Bad erasure lamps"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B, D"
+      ],
+      "explanation": "Ghosting is caused by one of two things: a broken cleaning blade or bad erasure lamps. A broken cleaning blade causes old toner to build up on the EP drum and consequently present itself in the next printed image. If the erasure lamps are bad, then the previous electrostatic discharges aren't completely wiped away. When the EP drum rotates toward the developing roller, some toner sticks to the slightly discharged areas."
+    },
+    {
+      "id": 39,
+      "question": "You charged your laptop overnight, but in the morning, it will not power on. You remove and reinsert the battery, but still it will not power on. The system will power on when you use the wall adapter, and the battery icon indicates that it's full. What is the most likely problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The battery is defective."
+        },
+        {
+          "id": "B",
+          "text": "The AC adapter is not properly charging the battery."
+        },
+        {
+          "id": "C",
+          "text": "The battery charging icon is not properly reading the battery life."
+        },
+        {
+          "id": "D",
+          "text": "The DC converter between the battery and the motherboard is defective."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "If the laptop works while it's plugged in but not while it's on battery power, the battery itself may be the culprit. As batteries get older, they are not able to hold as much of a charge, and in some cases, they are not able to hold a charge at all."
+    },
+    {
+      "id": 40,
+      "question": "A user reports that regardless of what is showing on his LCD desktop monitor, he can always see an outline of another image that never changes. What is the solution to this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the video card."
+        },
+        {
+          "id": "B",
+          "text": "Degauss the monitor."
+        },
+        {
+          "id": "C",
+          "text": "Replace the monitor."
+        },
+        {
+          "id": "D",
+          "text": "Clean the screen."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "With artifacts, no matter what you have on your screen, you can still see the outlines of a different image. That image has been 'burned' into the monitor (sometimes simply referred to as burn-in) and isn't going away. The only solution is to replace the monitor."
+    },
+    {
+      "id": 41,
+      "question": "A user claims that on his laptop, the mouse cursor will occasionally jump to different areas of the screen when he is typing. It is causing problems with his work because he ends up typing in different fields than he needs to. What can you suggest to help this issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Disable the point stick."
+        },
+        {
+          "id": "B",
+          "text": "Replace the keyboard."
+        },
+        {
+          "id": "C",
+          "text": "Replace the motherboard."
+        },
+        {
+          "id": "D",
+          "text": "Disable the touchpad."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "When users are typing, their palm might rest on the touchpad, causing erratic pointer behavior. This is referred to as a ghost cursor because it seems like the cursor just randomly jumps all over the screen. The touchpad can be turned off through Control Panel."
+    },
+    {
+      "id": 42,
+      "question": "A user complains of a burning smell coming from her desktop computer. You instruct her to immediately shut the system down. What should be your next step?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the power supply."
+        },
+        {
+          "id": "B",
+          "text": "Replace the motherboard."
+        },
+        {
+          "id": "C",
+          "text": "Test the power supply with a multimeter."
+        },
+        {
+          "id": "D",
+          "text": "Inspect the inside of the computer for visible signs of damage."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "If you smell an odd odor or see smoke coming from a computer, shut it down immediately. Open the case and start looking for visible signs of damage. Things to look for include melted plastic components and burn marks on circuit boards. If components appear to be damaged, it's best to replace them before returning the computer to service."
+    },
+    {
+      "id": 43,
+      "question": "The desktop computer in your office's lobby plays a welcome video for guests. Recently, the audio started intermittently failing. You replaced the speakers, and it still happens. What is the next step you should take in troubleshooting the issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the motherboard."
+        },
+        {
+          "id": "B",
+          "text": "Reseat the speakers."
+        },
+        {
+          "id": "C",
+          "text": "Replace the sound card."
+        },
+        {
+          "id": "D",
+          "text": "Reseat the sound card."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "One potential cause of intermittent device failures is chip creep, which happens when components such as expansion cards start to creep out of their socket. This can be caused by heating and cooling. Reseat the card (and screw it into the case!) and see whether that resolves the issue. If not, you may need to replace the sound card."
+    },
+    {
+      "id": 44,
+      "question": "A user reports that her iPhone 5 is always overheating and constantly locks up. What should you advise her to do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the battery."
+        },
+        {
+          "id": "B",
+          "text": "Open the Power app and set the phone to operate on the low voltage setting."
+        },
+        {
+          "id": "C",
+          "text": "Turn off the phone and let it cool down."
+        },
+        {
+          "id": "D",
+          "text": "Replace the phone."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "If overheating is persistent, you have a few options. The first is to test or replace the battery, as that's the most likely culprit. With mobile phones, though, the battery is not designed to be field replaceable. In this case, she may have to replace the device."
+    },
+    {
+      "id": 45,
+      "question": "You have just used administrative privileges to install a printer on a user's workstation. When the user tries to print to the printer, she gets an error message saying access denied. What is the cause of this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The printer is offline."
+        },
+        {
+          "id": "B",
+          "text": "The printer is out of memory."
+        },
+        {
+          "id": "C",
+          "text": "The print spooler needs to be restarted."
+        },
+        {
+          "id": "D",
+          "text": "The user does not have the security permissions to print."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "In a networked environment, users need the proper permissions both to install and to print to the printer. Not having permission will result in denied access."
+    },
+    {
+      "id": 46,
+      "question": "You are using a CRT monitor at a kiosk. The colors on the monitor recently started looking wrong. What should you do to try to resolve the issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the monitor."
+        },
+        {
+          "id": "B",
+          "text": "Replace the video card."
+        },
+        {
+          "id": "C",
+          "text": "Disconnect the monitor and plug it back in."
+        },
+        {
+          "id": "D",
+          "text": "Degauss the monitor."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Seeing incorrect colors is most likely a monitor issue, and you can always confirm it by switching monitors. On CRTs, you can use a process called degaussing (decreasing or eliminating an unwanted magnetic field), which is done through a utility built into the menu on the monitor, to try to fix the problem. If that doesn't make the problem go away, it's probably time to replace the monitor."
+    },
+    {
+      "id": 47,
+      "question": "The inkjet printer in your office jams a lot and produces many crinkled papers. What is the most likely cause of this?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Incorrect paper tension settings"
+        },
+        {
+          "id": "B",
+          "text": "Dirty print heads"
+        },
+        {
+          "id": "C",
+          "text": "Obstructed paper path"
+        },
+        {
+          "id": "D",
+          "text": "Paper that is too dry"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Printer jams (aka 'the printer crinkled my paper') happen when something prevents the paper from advancing through the printer evenly. There are generally three causes of printer jams: an obstructed paper path, stripped drive gears, and using the wrong paper."
+    },
+    {
+      "id": 48,
+      "question": "A user reports that her Windows 7 computer will not boot. When booting, it gives the error message Operating System not found. Which utility can you use to attempt to fix this issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "format"
+        },
+        {
+          "id": "B",
+          "text": "chkdsk"
+        },
+        {
+          "id": "C",
+          "text": "bootrec"
+        },
+        {
+          "id": "D",
+          "text": "diskpart"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "This error message indicates that the master boot record (MBR) on the hard drive is missing or damaged. The bootrec utility can be run in Windows 10, Windows 8/8.1, Windows 7, or Windows Vista to interact with the Master Boot Record (MBR), boot sector, or Boot Configuration Data (BCD) store."
+    },
+    {
+      "id": 49,
+      "question": "A technician is troubleshooting a computer with a wired network connection that can't connect to the network. He verified that the cable is plugged in, but there are no lights lit on the network card. The computer could connect yesterday, and no other users report an issue. Which of the following are most likely to be causing this problem? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Faulty network cable."
+        },
+        {
+          "id": "B",
+          "text": "Faulty network card driver."
+        },
+        {
+          "id": "C",
+          "text": "Incorrect TCP/IP configuration."
+        },
+        {
+          "id": "D",
+          "text": "The cable is unplugged at the other end."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A, D"
+      ],
+      "explanation": "If the network card doesn't have any lights, it doesn't have a connection. It could be that the cable is bad or that it's not plugged in on the other side, or it could also be a problem with the NIC or the connectivity device on the other side. If nobody else in the same area is having the same problem, that points to an issue with this computer or cable."
+    },
+    {
+      "id": 50,
+      "question": "While replacing a toner cartridge in a laser printer, a technician spilled toner on and around the printer. What should he use to clean up the spill?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A damp cloth"
+        },
+        {
+          "id": "B",
+          "text": "Compressed air"
+        },
+        {
+          "id": "C",
+          "text": "A toner vacuum"
+        },
+        {
+          "id": "D",
+          "text": "Denatured alcohol"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Most of the time if you have dust or debris in a printer, you can go ahead and use compressed air to blow it away. Don't do that with toner, though, because it will make a huge mess. If you have a toner spill, use a specialized toner vacuum to pick it up. Also, never use a damp cloth to try to clean up a toner spill. If a cloth is needed, use a dry one."
+    },
+    {
+      "id": 51,
+      "question": "The AC adapter for your laptop has a green LED indicator on it. When you plug the adapter into a wall outlet, the light does not illuminate. What could be the reason for this? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "The laptop is off."
+        },
+        {
+          "id": "B",
+          "text": "The wall outlet is defective."
+        },
+        {
+          "id": "C",
+          "text": "The AC adapter is defective."
+        },
+        {
+          "id": "D",
+          "text": "The voltage selector for the AC adapter is set incorrectly."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B, C"
+      ],
+      "explanation": "Many laptop power adapters have a light on them indicating that they're plugged in. If there's no light, check to make sure that the outlet is working or switch outlets. Also, most laptops have a power-ready indicator light when plugged into a wall outlet as well. Check to see whether it's lit. If the outlet is fine, try another power adapter. They do fail on occasion."
+    },
+    {
+      "id": 52,
+      "question": "You are troubleshooting an inkjet printer. Users report that the printer is printing in the wrong colors. The problem just started happening recently. What could be causing it? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ink cartridges installed in the wrong spot"
+        },
+        {
+          "id": "B",
+          "text": "Leaking ink cartridges"
+        },
+        {
+          "id": "C",
+          "text": "Malfunctioning fusing assembly"
+        },
+        {
+          "id": "D",
+          "text": "Malfunctioning stepper motor"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A, B"
+      ],
+      "explanation": "Sometimes, when you print a color document, the colors might not be the same colors that you expected based on what you saw on the screen. A few different issues could cause this problem. First, ink could be bleeding from adjacent areas of the picture, causing the color to be off. A leaking cartridge can cause this, as can using the wrong type of paper for your printer. Second, the ink cartridges could be installed in the wrong spot. Third, it could be a dirty print head."
+    },
+    {
+      "id": 53,
+      "question": "You have installed an 802.11ac wireless access point for a company. To cut costs, they wanted only one central access point in the building, which is about 150 feet long. Users at both ends of the building report intermittent wireless connectivity drops and slow access. What is most likely the cause of the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Low RF signal"
+        },
+        {
+          "id": "B",
+          "text": "Oversaturated WAP"
+        },
+        {
+          "id": "C",
+          "text": "SSID not found"
+        },
+        {
+          "id": "D",
+          "text": "IP address conflicts"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "The most common reason that users on wireless networks experience intermittent connectivity issues is distance. The farther away from the WAP the user gets, the weaker the signal becomes. When the signal weakens, the transfer rates drop dramatically."
+    },
+    {
+      "id": 54,
+      "question": "You are disassembling a defective laptop to replace the motherboard. Which of the following steps are recommended? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Place the screws in a multicompartment pill box and label where they go."
+        },
+        {
+          "id": "B",
+          "text": "Remove the hard drive before removing the motherboard."
+        },
+        {
+          "id": "C",
+          "text": "Label where the cables plug into the motherboard."
+        },
+        {
+          "id": "D",
+          "text": "Use needle nose pliers to remove the motherboard from the spacers."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A, C"
+      ],
+      "explanation": "When repairing laptops, you should always document and label screw and cable locations, organize parts, refer to manufacturer instructions, and use appropriate hand tools. In some cases, but not all, you might need to remove the hard drive to remove the motherboard. To remove the motherboard, use appropriate tools recommended by the manufacturer, as each system can be different."
+    },
+    {
+      "id": 55,
+      "question": "A user reports that his LCD monitor is flickering constantly. What is the easiest course of action to resolve this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the video card."
+        },
+        {
+          "id": "B",
+          "text": "Replace the monitor."
+        },
+        {
+          "id": "C",
+          "text": "Remove external interference such as fans or motors."
+        },
+        {
+          "id": "D",
+          "text": "Degauss the monitor."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Distorted images can be a problem with CRT monitors if they are near a motor or other device that produces a magnetic field. Sometimes, the image will be wavy, and at other times it might look like it is getting stretched to one side of the screen. If your office is a cubicle farm, desk fans can be a major culprit. (Note: While the question says LCD, the explanation from the PDF references CRT behavior. However, the correct answer C still applies as external interference can affect LCD monitors as well.)"
+    },
+    {
+      "id": 56,
+      "question": "You are having problems printing to a networked printer from your Windows 8.1 workstation. Several jobs were sent, but none printed. You just tried to print a test page and nothing came out. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Check your connections and stop and restart the print spooler."
+        },
+        {
+          "id": "B",
+          "text": "Turn the printer off and back on."
+        },
+        {
+          "id": "C",
+          "text": "Use the printer's display to clear out the oldest job, take it offline, and put it back online."
+        },
+        {
+          "id": "D",
+          "text": "Press the Reset button on the printer."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "If your printer isn't spitting out print jobs, it may be a good idea to print a test page and see whether that works. The test page information is stored in the printer's memory, so there's no formatting or translating of jobs required. It's simply a test to make sure that your printer hears your computer. If nothing happens, double-check your connections and stop and restart the print spooler."
+    },
+    {
+      "id": 57,
+      "question": "A user reports that none of the keys on her laptop keyboard seem to work. She has rebooted the computer and the problem has not gone away. She needs to finish an important paper before lunch. What should you do next?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the keyboard."
+        },
+        {
+          "id": "B",
+          "text": "Check to ensure that the internal keyboard is still connected properly."
+        },
+        {
+          "id": "C",
+          "text": "Connect an external keyboard using the USB port."
+        },
+        {
+          "id": "D",
+          "text": "Clean under the keys of the keyboard with compressed air."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "If a laptop keyboard is not responding, you can always plug in an external keyboard and use that. It might not be an ideal long-term solution, but it will generally get a user back up and running."
+    },
+    {
+      "id": 58,
+      "question": "You are troubleshooting a Mac running macOS. Intermittently, the computer will completely lock up and display a rotating pinwheel instead of the mouse cursor. Which component is most likely causing this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CPU"
+        },
+        {
+          "id": "B",
+          "text": "RAM"
+        },
+        {
+          "id": "C",
+          "text": "Motherboard"
+        },
+        {
+          "id": "D",
+          "text": "Hard drive"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "Memory problems can cause applications to fail and produce error messages such as general protection faults (GPFs). Memory issues can also cause a fatal error in your operating system, producing the infamous Blue Screen of Death (BSOD) in Windows or the rotating pinwheel in macOS."
+    },
+    {
+      "id": 59,
+      "question": "A user reports that his CRT monitor will randomly produce a wavy image during the day. When you go to his desk to troubleshoot, it appears to be working normally. Later that afternoon, he reports it happening again. When you go back to his desk, what should you look for?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cell phones in use"
+        },
+        {
+          "id": "B",
+          "text": "If the video connector is properly plugged in"
+        },
+        {
+          "id": "C",
+          "text": "Motors or fans in use"
+        },
+        {
+          "id": "D",
+          "text": "If the screen resolution is properly set"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Distorted images can be a problem with CRT monitors if they are near a motor or other device that produces a magnetic field. Sometimes, the image will be wavy, and at other times it might look like it is getting stretched to one side of the screen. If your office is a cubicle farm, desk fans can be a major culprit."
+    },
+    {
+      "id": 60,
+      "question": "At random times, your computer will completely lock up, requiring a hard reboot. Which two components are most likely to cause this type of problem? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "CPU"
+        },
+        {
+          "id": "B",
+          "text": "RAM"
+        },
+        {
+          "id": "C",
+          "text": "PSU"
+        },
+        {
+          "id": "D",
+          "text": "GPU"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A, B"
+      ],
+      "explanation": "The most likely components are the processor or the memory. Try reseating the chips or testing them. If the problems persist, you may need to replace those components. It could also be the motherboard."
+    },
+    {
+      "id": 61,
+      "question": "A worker drove heavy machinery over a bundle of unprotected network cables, and now you are replacing them. You're in the wiring closet and need to attach the cables to a 110 block. Which tool will you use to do this?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Crimper"
+        },
+        {
+          "id": "B",
+          "text": "Wire strippers"
+        },
+        {
+          "id": "C",
+          "text": "Punchdown tool"
+        },
+        {
+          "id": "D",
+          "text": "Cable tester"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "If you're working on a larger network installation, you might use a punchdown tool. It's not a testing tool but one that allows you to connect (that is, punch down) the exposed ends of a wire into wiring harnesses, such as a 110 block (used many times in connectivity closets to help simplify the tangled mess of cables)."
+    },
+    {
+      "id": 62,
+      "question": "You are consulting with a user who has a failed hard drive in a Windows 7 computer. The user needs to get critical data off the drive, but he did not make a backup. Are there any options for him to recover the data?",
+      "options": [
+        {
+          "id": "A",
+          "text": "There is no way to recover data from the failed drive."
+        },
+        {
+          "id": "B",
+          "text": "Use the Windows Disk Repair tool to create a backup and then restore the backup to a new hard drive."
+        },
+        {
+          "id": "C",
+          "text": "Use a file recovery service or software package to try to recover the data."
+        },
+        {
+          "id": "D",
+          "text": "Install a second hard drive of the same or larger size. During Windows installation, choose Recover Contents of Hard Drive from the Advanced Options menu."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "If your hard drive fails completely and you need to get critical data off it, there are third-party companies that provide file recovery software and services. These services are generally very expensive. (And you should have been backing up the drive in the first place!)"
+    },
+    {
+      "id": 63,
+      "question": "In the morning, a user calls from his desk and reports that his laptop will not connect to the wireless network. He has never had a problem connecting to the wireless network from that location. When you look at his wireless adapter, you notice that there are no lights illuminated. What is most likely the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "He is not receiving a Wi-Fi signal."
+        },
+        {
+          "id": "B",
+          "text": "The SSID cannot be found."
+        },
+        {
+          "id": "C",
+          "text": "His wireless card is disabled."
+        },
+        {
+          "id": "D",
+          "text": "There is a conflict between his wireless card and his wired network port."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "If your wireless networking isn't working, check to make sure that the LEDs on your network card are functioning. If there are no lights, it could indicate a problem with the card itself or, on some cards, that there is no connection or signal. Considering he received a signal in that location previously, it's most likely something to do with the card. First, make sure the wireless card is enabled through the OS."
+    },
+    {
+      "id": 64,
+      "question": "A user calls the help desk stating that the icons on her computer screen are huge. She can see only about six of them, and she can't see the Start menu. What most likely caused this issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Failing backlight"
+        },
+        {
+          "id": "B",
+          "text": "Incorrect video resolution"
+        },
+        {
+          "id": "C",
+          "text": "External interference, such as a fan or a motor"
+        },
+        {
+          "id": "D",
+          "text": "Incorrect video driver"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "Oversized images and icons are related to screen resolution; it usually means that your resolution is set too low for the monitor or projector you are using. Increase the resolution, and the issue should disappear."
+    },
+    {
+      "id": 65,
+      "question": "You are at a Windows Server 2012 R2 system with the command prompt open. Which command would you use to join a client computer to the Windows domain?",
+      "options": [
+        {
+          "id": "A",
+          "text": "netjoin"
+        },
+        {
+          "id": "B",
+          "text": "netstat"
+        },
+        {
+          "id": "C",
+          "text": "netadd"
+        },
+        {
+          "id": "D",
+          "text": "netdom"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "netdom is a tool first included with Windows Server 2008 that provides Active Directory management capabilities, specifically domain and trust management. It allows an administrator to rename computers in a domain, join client computers to the domain, manage computer accounts, and manage trust relationships between domains."
+    },
+    {
+      "id": 66,
+      "question": "Your iPhone 6 has appeared to lock up. The touchscreen is unresponsive. You press and hold the power button, but it does not turn off. What should your next step be?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hold the power button and the sleep/wake button simultaneously for 10 seconds, and the phone will reset."
+        },
+        {
+          "id": "B",
+          "text": "Use a paper clip to press the recessed reset button on the bottom of the phone to reset the phone."
+        },
+        {
+          "id": "C",
+          "text": "Hold the power button and the up and down volume buttons simultaneously for 10 seconds, and the phone will reset."
+        },
+        {
+          "id": "D",
+          "text": "Get a new phone."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "If an iPhone is entirely frozen, all you really can do is to power it off and then back on. You might need to hold the power button down for several seconds to force the device to power off. If the power button does not work, you can reset an iPhone by pressing and holding the power button and the sleep/wake button simultaneously for about 10 seconds. The Apple logo will appear, and the phone should reset."
+    },
+    {
+      "id": 67,
+      "question": "The laser printer in your office recently started producing images that are not completely dry. When the images come out, people are smudging them as they pick them up. What is causing this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fusing assembly"
+        },
+        {
+          "id": "B",
+          "text": "Exit rollers"
+        },
+        {
+          "id": "C",
+          "text": "Drying assembly"
+        },
+        {
+          "id": "D",
+          "text": "Charging corona"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "The fusing assembly heats up the toner, and the toner melts into the paper. If the fuser isn't heating properly, images can smudge."
+    },
+    {
+      "id": 68,
+      "question": "You frequently need to carry your laptop around the building as you troubleshoot computer issues. In several places, you notice that the Wi-Fi connection drops completely. What is the most likely cause of this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "You are walking too fast for the Wi-Fi to stay connected."
+        },
+        {
+          "id": "B",
+          "text": "Low RF signal."
+        },
+        {
+          "id": "C",
+          "text": "Oversaturated WAP."
+        },
+        {
+          "id": "D",
+          "text": "Failing Wi-Fi antenna in the laptop."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "The most likely cause of this intermittent Wi-Fi issue is a low RF signal. If you get too far from a WAP, the signal will be too weak, and the Wi-Fi will disconnect."
+    },
+    {
+      "id": 69,
+      "question": "You have just installed a printer on your client computer. When you print to the printer, the output is completely garbled characters. What is the most likely cause of this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The print spooler"
+        },
+        {
+          "id": "B",
+          "text": "The printer's memory"
+        },
+        {
+          "id": "C",
+          "text": "The printer driver"
+        },
+        {
+          "id": "D",
+          "text": "The print queue"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "The correct printer driver needs to be installed for the printer and operating system. For example, if you have an HP LaserJet III and a Windows 7 computer, then you need to install an HP LaserJet III driver made for Windows 7. If this is not done, you will get garbage out of the printer."
+    },
+    {
+      "id": 70,
+      "question": "A user calls to report that he can't access the Internet or a corporate server. However, he is still able to print to a printer nearby. He has not received any error messages. Other users in his area are also unable to access the Internet. What is most likely the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IP address conflict"
+        },
+        {
+          "id": "B",
+          "text": "Default gateway down"
+        },
+        {
+          "id": "C",
+          "text": "Incorrect subnet mask"
+        },
+        {
+          "id": "D",
+          "text": "Network card failure"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "You can immediately rule out client-side hardware issues because the user can connect to some resources. You just need to figure out why he can't connect to others. This is most likely caused by one of two things: a configuration issue or a connectivity device (such as a router) problem. Since it's affecting multiple people, it's probably something to do with the router."
+    },
+    {
+      "id": 71,
+      "question": "A user's laptop computer does not display anything on the screen, although the power light and other indicator lights are on. You plug in an external monitor, and after toggling the LCD cutoff switch, an image appears on the external monitor. Which components are most likely causing the problem? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Video driver"
+        },
+        {
+          "id": "B",
+          "text": "Backlight"
+        },
+        {
+          "id": "C",
+          "text": "Screen"
+        },
+        {
+          "id": "D",
+          "text": "Video card"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B, C"
+      ],
+      "explanation": "If a laptop does not display any video, it could be the screen or the video card. To test it, plug in an external monitor (that you know works), and use the function keys on the laptop to switch to external video output. If that doesn't work, it's likely that the video card is defective. If the external monitor works, you know it's a problem with the display on the laptop. The backlight (or inverter) could be dead or it could be the screen."
+    },
+    {
+      "id": 72,
+      "question": "You have an Android phone and it's running very slowly. The apps aren't working as fast as they used to, but you still have plenty of free memory. You have rebooted the phone several times and it's still slow. What should you try next?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hold the power button and the Home button simultaneously for 10 seconds, and the phone will reset."
+        },
+        {
+          "id": "B",
+          "text": "Reset the phone to factory specifications."
+        },
+        {
+          "id": "C",
+          "text": "Uninstall and reinstall all apps."
+        },
+        {
+          "id": "D",
+          "text": "Get a new phone."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "If the phone is really slow but isn't completely locked up, isolate the issue. Is it one app or overall performance? It could be that apps are running in the background and need to be closed. Shutting down those apps or powering the device off and then back on is a good step. You can also check to see how much memory is available. If it's one app giving you problems instead of the entire device, look for updates to the app or delete and reinstall the app. Finally, if none of these steps works, perform a restore to factory settings. If the problems persist, it's time for a new device."
+    },
+    {
+      "id": 73,
+      "question": "A technician is troubleshooting a RAID 5 array with four hard disks. One of the disks has failed. What can she do to recover the array?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the failed disk and rebuild the array."
+        },
+        {
+          "id": "B",
+          "text": "Replace the failed disk and restore from backup."
+        },
+        {
+          "id": "C",
+          "text": "Rebuild the failed disk and restore from backup."
+        },
+        {
+          "id": "D",
+          "text": "Remove the failed disk and rebuild the array."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "If you're using RAID 5 (disk striping with parity), a single drive failure usually means that your data will be fine, provided you replace the failed drive. If you lose multiple drives at the same time, you will need to restore from backup."
+    },
+    {
+      "id": 74,
+      "question": "The laser printer you are using has started producing all-black pages. What should you do to fix the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use the display to initiate a self-cleaning cycle."
+        },
+        {
+          "id": "B",
+          "text": "Use a maintenance kit to clean the printer."
+        },
+        {
+          "id": "C",
+          "text": "Replace the toner cartridge."
+        },
+        {
+          "id": "D",
+          "text": "Turn the printer off and back on again."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "All-black pages happen when the charging unit (the charging corona wire or charging corona roller) in the toner cartridge malfunctions and fails to place a charge on the EP drum. Because the drum is grounded, it has no charge. Anything with a charge (like toner) will stick to it. As the drum rotates, all of the toner is transferred to the page, and a black page is formed. Replace the toner cartridge."
+    },
+    {
+      "id": 75,
+      "question": "You have installed an internal RAID controller and configured a RAID 5 array on it with four hard disks. It has been operating normally. Today when you boot up, you receive an error message saying RAID not found. Which component is likely causing this issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One of the four hard disks"
+        },
+        {
+          "id": "B",
+          "text": "The RAID controller"
+        },
+        {
+          "id": "C",
+          "text": "The system BIOS"
+        },
+        {
+          "id": "D",
+          "text": "The onboard hard drive controller"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "If the system had been operating normally but now tells you RAID not found, it's likely something is wrong with the RAID controller. Double-check to ensure that the RAID controller BIOS is configured properly and everything is connected as it should be."
+    },
+    {
+      "id": 76,
+      "question": "One of your friends complains that when he plays action games on his computer, the screen is slow to refresh and the motion is often jerky. What should he do to resolve this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Buy a newer monitor."
+        },
+        {
+          "id": "B",
+          "text": "Increase system RAM."
+        },
+        {
+          "id": "C",
+          "text": "Increase video memory."
+        },
+        {
+          "id": "D",
+          "text": "Lower the screen resolution."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Certain unacceptable video-quality issues (such as jerky refresh speeds or lags) can be remedied by adding memory to a video card. Doing so generally results in an increase in both quality and performance. If you can't add memory to the video card, you can upgrade to a new one."
+    },
+    {
+      "id": 77,
+      "question": "You are troubleshooting a workstation that can't connect to websites by name. You need to check to see the IP address of the DNS server the host is trying to reach. Which command should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ipconfig"
+        },
+        {
+          "id": "B",
+          "text": "ipconfig /show"
+        },
+        {
+          "id": "C",
+          "text": "ipconfig /display"
+        },
+        {
+          "id": "D",
+          "text": "ipconfig /all"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "On a Windows workstation, the ipconfig command will show the TCP/IP configuration information. To see information beyond the address, subnet mask, and default gateway, use ipconfig /all."
+    },
+    {
+      "id": 78,
+      "question": "You are troubleshooting a Windows 7 workstation that is having issues connecting to the Internet. Interestingly, the computer seems to be able to connect to websites beginning with https:// but not http://. Other workstations can connect to all websites. You want to check to see whether this computer is making any TCP/IP connections on port 80. Which command should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "netstat"
+        },
+        {
+          "id": "B",
+          "text": "nbtstat"
+        },
+        {
+          "id": "C",
+          "text": "netdom"
+        },
+        {
+          "id": "D",
+          "text": "net"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "The netstat command is used to check out the inbound and outbound TCP/IP connections on your machine. It can also be used to view packet statistics, such as how many packets have been sent and received and the number of errors."
+    },
+    {
+      "id": 79,
+      "question": "A user reports that her Samsung phone case has swollen. What does she need to do to fix the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the phone."
+        },
+        {
+          "id": "B",
+          "text": "Open the Power app and set the phone to operate on the low voltage setting."
+        },
+        {
+          "id": "C",
+          "text": "Open the case of the phone and drain the excess electrolyte from the battery."
+        },
+        {
+          "id": "D",
+          "text": "Turn the phone off and let it cool down and then use it normally."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "This issue sounds like a swollen battery. If you have a swollen battery, turn the device off immediately and make sure that it's not plugged into a charger. It may be possible to remove the battery, but swollen batteries are more prone to explosions than normal ones because the casing is already compromised. The best course of action is to purchase a new device."
+    },
+    {
+      "id": 80,
+      "question": "You have downloaded a scheduling app for your Android tablet. After two months of use, it will not load. You reboot your tablet, and the app still will not open. Other apps appear to work normally. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reset the tablet to factory specifications."
+        },
+        {
+          "id": "B",
+          "text": "Reinstall the app."
+        },
+        {
+          "id": "C",
+          "text": "Ensure that the app is configured to run in Settings."
+        },
+        {
+          "id": "D",
+          "text": "Replace the tablet."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "Sometimes you will tap on an app and nothing happens. Most likely, this means that something has corrupted the app, but it could possibly be a memory issue. Try powering the device off and back on again and then try the app once more. If that doesn't resolve the problem, simply uninstall and reinstall the app."
+    },
+    {
+      "id": 81,
+      "question": "You have a Windows 8.1 desktop computer that does not produce an image on the screen when it boots. You hear a POST beep and normal indicator lights are on. The monitor is connected to the computer and the power light is on. What should be your next troubleshooting step?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Try the monitor on another computer or another monitor on this computer."
+        },
+        {
+          "id": "B",
+          "text": "Replace the video card."
+        },
+        {
+          "id": "C",
+          "text": "Switch the monitor to another video connector on the video card."
+        },
+        {
+          "id": "D",
+          "text": "Replace the monitor."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Try another monitor or try this monitor on another computer. That will narrow it down pretty quickly. Remember, if it's not the monitor, it's probably the video card."
+    },
+    {
+      "id": 82,
+      "question": "A user shows you her mobile phone, and the screen is constantly flickering. She turns the device off and on again, and it still happens. Which component is likely causing the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Display"
+        },
+        {
+          "id": "B",
+          "text": "Video card"
+        },
+        {
+          "id": "C",
+          "text": "Backlight"
+        },
+        {
+          "id": "D",
+          "text": "Converter"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Dim or flickering displays on mobile devices are usually caused by a faulty backlight in the display panel. A failing inverter can cause these problems too."
+    },
+    {
+      "id": 83,
+      "question": "A user reports that the video on her desktop computer does not display properly. There are several places where the screen will not light up; those spots are always black dots. What is this a symptom of?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Artifacts"
+        },
+        {
+          "id": "B",
+          "text": "Dead pixels"
+        },
+        {
+          "id": "C",
+          "text": "Backlight failure"
+        },
+        {
+          "id": "D",
+          "text": "Overheating"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "Dead pixels are spots on the screen that never 'fire,' or light up. You can check for these by setting the background to white and seeing whether any spots don't light up."
+    },
+    {
+      "id": 84,
+      "question": "You are troubleshooting a laptop computer that has a drifting mouse cursor. If nobody is moving the external mouse, the cursor will slowly drift up and to the right. You have tried a different external mouse and the problem still happens. What should you do to resolve the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the laptop keyboard."
+        },
+        {
+          "id": "B",
+          "text": "Re-center the laptop's point stick."
+        },
+        {
+          "id": "C",
+          "text": "Re-center the laptop's touchpad."
+        },
+        {
+          "id": "D",
+          "text": "Replace the laptop motherboard."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "Pointer drift is where the mouse cursor will slowly drift in one direction even though you are not trying to make it move. This issue is generally related to the point stick not centering properly after it's been used. If you have pointer drift, try using the point stick and moving it back and forth a few times to get it to re-center itself. You can also try rebooting. If the problem persists, either disable or replace the point stick."
+    },
+    {
+      "id": 85,
+      "question": "You are troubleshooting network connectivity issues in one section of the building. After a few hours, you come to the conclusion that the network cables in the wiring closet must be mislabeled. Which tool is most appropriate to test your theory?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Multimeter"
+        },
+        {
+          "id": "B",
+          "text": "Cable tester"
+        },
+        {
+          "id": "C",
+          "text": "Punchdown tool"
+        },
+        {
+          "id": "D",
+          "text": "Tone generator and probe"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "If you need to trace a wire in a wall from one location to another, a tone generator and probe (or toner probe) is the tool for you. It consists of two pieces: a tone generator and a probe. Because it's so good at tracking, you will sometimes hear this referred to as a 'fox and hound.'"
+    },
+    {
+      "id": 86,
+      "question": "You are upgrading a laptop with new memory. Which of the following disassembly processes should you follow? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Remove the keyboard to access the memory sockets."
+        },
+        {
+          "id": "B",
+          "text": "Use appropriate hand tools."
+        },
+        {
+          "id": "C",
+          "text": "Leave the clamshell case open."
+        },
+        {
+          "id": "D",
+          "text": "Document and label cable and screw locations."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B, D"
+      ],
+      "explanation": "When upgrading or repairing laptops, you should always document and label screw and cable locations, organize parts, refer to manufacturer instructions, and use appropriate hand tools. In some cases, but not all, you might need to remove the keyboard to upgrade the memory. Refer to the manufacturer's instructions."
+    },
+    {
+      "id": 87,
+      "question": "A remote workstation can't connect to the network. You want to narrow down the problem to the UTP cable or the network card. Which tool can help you determine whether the cable is causing the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Multimeter"
+        },
+        {
+          "id": "B",
+          "text": "OTDR"
+        },
+        {
+          "id": "C",
+          "text": "Cable tester"
+        },
+        {
+          "id": "D",
+          "text": "Crimper"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Cable testers are indispensable tools for any network technician. Usually you would use a cable tester before you install a cable to make sure it works. Of course, you can test them after they've been run as well."
+    },
+    {
+      "id": 88,
+      "question": "You have just installed a new HP Laser Jet printer on your network. You've plugged it directly into a CAT6a network cable. You try to install the printer on a client using the printer's IP address, but you are unable to connect. The printer is in Ready state. What should you do next?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Double-check the printer's IP configuration information."
+        },
+        {
+          "id": "B",
+          "text": "Stop and restart the spooler service."
+        },
+        {
+          "id": "C",
+          "text": "Take the printer offline and bring it back online."
+        },
+        {
+          "id": "D",
+          "text": "Turn the printer off and back on to save the IP configuration information."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "For network-enabled laser printers, no connectivity can be a sign of improperly configured IP settings such as the IP address. While each printer is somewhat different, you can manually configure most laser printers' IP settings through the LCD control panel."
+    },
+    {
+      "id": 89,
+      "question": "Your network has recently grown from 50 client computers to about 90. All workstations on the network are connected using CAT5e or better cabling, and all network devices support at least 100Mbps data transfers. Users have been reporting very slow network speeds since the expansion, and complaints are now coming more frequently. Which of the following actions is most likely to help resolve the issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Add another hub to the network."
+        },
+        {
+          "id": "B",
+          "text": "Upgrade all the cabling to at least CAT6a."
+        },
+        {
+          "id": "C",
+          "text": "Upgrade the existing router to support 10Gbps data transfers."
+        },
+        {
+          "id": "D",
+          "text": "Add another switch to the network."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "On a wired network, if you run into slow speeds or intermittent connectivity, it's likely a load issue. There's too much traffic for the network to handle, and the network is bogging down. Solutions include adding a switch, replacing your hubs with switches, and even creating virtual LANs (VLANs) with switches."
+    },
+    {
+      "id": 90,
+      "question": "An iPhone 6 user just downloaded a new app that requires the use of GPS. It doesn't function properly. Another app she has on her phone also needs GPS and it works fine. How does she configure the phone to let the new app work properly?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Enable GPS under Settings ➢ Privacy."
+        },
+        {
+          "id": "B",
+          "text": "Enable Location Services under Settings ➢ Privacy."
+        },
+        {
+          "id": "C",
+          "text": "Enable GPS under Settings ➢ Location Services."
+        },
+        {
+          "id": "D",
+          "text": "Enable Location Services under Settings ➢ GPS."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "The iPhone and iPad use the term Location Services to refer to GPS. Android devices will call it Location, Location Services, or Location Reporting. On an iPhone, you enable Location Services under Settings ➢ Privacy."
+    },
+    {
+      "id": 91,
+      "question": "A technician just replaced the toner cartridge in a laser printer. Now, the printer only prints blank pages. What should you do to resolve the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stop and restart the print spooler."
+        },
+        {
+          "id": "B",
+          "text": "Reinstall the printer driver."
+        },
+        {
+          "id": "C",
+          "text": "Replace the toner cartridge with a new toner cartridge."
+        },
+        {
+          "id": "D",
+          "text": "Remove the toner cartridge, remove the sealing tape, and then reinstall the cartridge."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "One problem that happens with toner cartridges is when someone installs a new toner cartridge and forgets to remove the sealing tape that is present to keep the toner in the cartridge during shipping. The solution to this problem is fortunately quite easy: Remove the toner cartridge from the printer, remove the sealing tape, and reinstall the cartridge."
+    },
+    {
+      "id": 92,
+      "question": "You are troubleshooting a desktop computer that is prone to unexpected shutdowns. The user reports that no error messages appear before the computer shuts down. Which two things are most likely to cause this type of problem? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Failing hard drive"
+        },
+        {
+          "id": "B",
+          "text": "Bad RAM"
+        },
+        {
+          "id": "C",
+          "text": "BIOS misconfiguration"
+        },
+        {
+          "id": "D",
+          "text": "Improperly seated chips"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B, D"
+      ],
+      "explanation": "Unexpected shutdowns are difficult to troubleshoot, as are all intermittent issues. The first thing to check is to ensure that all socketed chips are seated properly; in fact, reseating them is a good option. If that does not resolve the issue, test the RAM or replace it if possible."
+    },
+    {
+      "id": 93,
+      "question": "You are troubleshooting a workstation that can't connect to the network. Which tool should you use to test the functionality of the send and receive circuitry on the network card?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Punchdown tool"
+        },
+        {
+          "id": "B",
+          "text": "Loopback plug"
+        },
+        {
+          "id": "C",
+          "text": "ping"
+        },
+        {
+          "id": "D",
+          "text": "ipconfig"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "A loopback plug is for testing the ability of a network adapter to send and receive. The plug gets plugged into the NIC, and then a loopback test is performed using troubleshooting software. You can then tell whether the card is working properly."
+    },
+    {
+      "id": 94,
+      "question": "You want to transfer files from your computer to a remote server. To do this, you want to connect to a shared directory on the server and copy the files. Which command-line utility will allow you to do this?",
+      "options": [
+        {
+          "id": "A",
+          "text": "netstat"
+        },
+        {
+          "id": "B",
+          "text": "net"
+        },
+        {
+          "id": "C",
+          "text": "netshare"
+        },
+        {
+          "id": "D",
+          "text": "netdom"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "Depending on the version of Windows you are using, net can be one of the most powerful commands at your disposal. While all Windows versions include a net command, its capabilities differ based on whether it is used on a server or workstation and the version of the operating system. Commonly, net share is used to create shared folders, and net use is used to connect to shared folders over the network."
+    },
+    {
+      "id": 95,
+      "question": "A user's Windows-based desktop computer always attempts to boot to the DVD-ROM drive. Where can she go to change the settings to boot to the hard drive?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Windows Control Panel"
+        },
+        {
+          "id": "B",
+          "text": "Windows Device Manager"
+        },
+        {
+          "id": "C",
+          "text": "Windows Disk Management"
+        },
+        {
+          "id": "D",
+          "text": "BIOS"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "The system BIOS contains the boot sequence for a system. Most systems probably boot to the first hard drive, but they can also be configured to boot from a secondary hard drive, the optical drive, or the network. If a computer can't find the right boot device, it could be that it's attempting to boot from the wrong device. This setting is configured in the BIOS."
+    },
+    {
+      "id": 96,
+      "question": "A technician is troubleshooting a computer that occasionally will not read data from the hard drive. What should she try first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Run Disk Defragmenter."
+        },
+        {
+          "id": "B",
+          "text": "Run chkdsk."
+        },
+        {
+          "id": "C",
+          "text": "Format the hard drive and reinstall the OS."
+        },
+        {
+          "id": "D",
+          "text": "Replace the hard drive."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "It's possible that the hard drive has some bad sectors, so run chkdsk to scan the drive and attempt to repair them. If that doesn't work, formatting is the second option, and replacing the drive is the third."
+    },
+    {
+      "id": 97,
+      "question": "You are troubleshooting network connectivity issues from a Linux workstation. Which command should you use to check the computer's IP address and subnet mask?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PING"
+        },
+        {
+          "id": "B",
+          "text": "IPCONFIG"
+        },
+        {
+          "id": "C",
+          "text": "IFCONFIG"
+        },
+        {
+          "id": "D",
+          "text": "NETSTAT"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "The IFCONFIG command is used in Linux, UNIX, and macOS to check a computer's IP configuration information. IPCONFIG is used in Windows."
+    },
+    {
+      "id": 98,
+      "question": "The finance group reports that their laser printer will not power up. It's plugged in, and the outlet has been verified as working. When testing the DC power supply with a multimeter, what voltage reading should you get from pin 1?",
+      "options": [
+        {
+          "id": "A",
+          "text": "−5v"
+        },
+        {
+          "id": "B",
+          "text": "+5v"
+        },
+        {
+          "id": "C",
+          "text": "−24v"
+        },
+        {
+          "id": "D",
+          "text": "+24v"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "A laser printer's DC power supply provides three different DC voltages to printer components. Using the multimeter, you should find the following voltages: pin 1 +5v, pin 5 −5v, pin 9 +24v. (Note: The question asks about pin 1, but according to the PDF explanation, pin 1 should be +5v. However, the PDF answer key shows D (+24v) as correct. There appears to be an inconsistency in the original material. Based on the PDF's answer key, I'm keeping D as the correct answer.)"
+    },
+    {
+      "id": 99,
+      "question": "You are troubleshooting a Windows 10 computer that appears to be unresponsive. You press the Caps Lock key on the keyboard, but the Caps Lock light on the keyboard does not light up. What is most likely happening?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The keyboard has malfunctioned."
+        },
+        {
+          "id": "B",
+          "text": "The system is waiting for a process to finish and will respond soon."
+        },
+        {
+          "id": "C",
+          "text": "The motherboard has failed."
+        },
+        {
+          "id": "D",
+          "text": "The system has locked up and needs to be rebooted."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Most keyboards will have status lights for the Caps Lock and Num Lock keys. If you believe a system is locked up, try pressing the Caps Lock or Num Lock key on the keyboard to see whether the lights change. If they don't, that's a sign that the system is unresponsive. Reboot the computer."
+    },
+    {
+      "id": 100,
+      "question": "You have replaced a failed hard drive and need to prepare it for data storage. Which utility will you use first?",
+      "options": [
+        {
+          "id": "A",
+          "text": "format"
+        },
+        {
+          "id": "B",
+          "text": "diskpart"
+        },
+        {
+          "id": "C",
+          "text": "chkdsk"
+        },
+        {
+          "id": "D",
+          "text": "bootrec"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "The diskpart utility shows the partitions and lets you manage them on the computer's hard drives. Because of the enormous power it holds, membership in the Administrators local group (or equivalent) is required to run diskpart."
+    },
+    {
+      "id": 101,
+      "question": "You are troubleshooting a desktop computer and receive S.M.A.R.T. errors. To which component do these errors refer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SSD"
+        },
+        {
+          "id": "B",
+          "text": "RAM"
+        },
+        {
+          "id": "C",
+          "text": "CPU"
+        },
+        {
+          "id": "D",
+          "text": "Network card"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Nearly every hard drive is built with Self-Monitoring, Analysis, and Reporting Technology (S.M.A.R.T.) software installed on it, which monitors hard drive reliability and theoretically can warn you in the event of an imminent failure."
+    },
+    {
+      "id": 102,
+      "question": "The desktop computer you are troubleshooting will not boot. When you push the power button, no status light indicators come on, and you do not hear a fan. You verify that the outlet is working and try a power cord that you know works, but it doesn't help. Which component is most likely causing the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RAM"
+        },
+        {
+          "id": "B",
+          "text": "PSU"
+        },
+        {
+          "id": "C",
+          "text": "CPU"
+        },
+        {
+          "id": "D",
+          "text": "HDD"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "If you try to power on the system but get no lights or fan, first check the obvious things. Is it plugged in? Does the cord work? If those all check out, then it's probably the power supply."
+    },
+    {
+      "id": 103,
+      "question": "A user reports that his computer is running slowly. When you investigate, you notice that his free disk space is at 5 percent. What is the first solution to try?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Add more RAM."
+        },
+        {
+          "id": "B",
+          "text": "Remove old files or applications."
+        },
+        {
+          "id": "C",
+          "text": "Format the hard drive and reinstall from backup."
+        },
+        {
+          "id": "D",
+          "text": "Replace the hard drive."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "If a hard drive is too full and has less than 10 percent free space, it can slow down dramatically. The first solution to try is to remove files and free up space. If that doesn't work, you may need to format and reinstall, or potentially replace, the hard drive."
+    },
+    {
+      "id": 104,
+      "question": "About a dozen network cables were unplugged from the patch panel, and none of them is labeled. You are at the one workstation that needs to be reconnected, and another technician is in the wiring closet. You want to set this computer to persistently check network connectivity so you know when he plugs in the right cable. Which command should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ping -t"
+        },
+        {
+          "id": "B",
+          "text": "ping -p"
+        },
+        {
+          "id": "C",
+          "text": "ping -l"
+        },
+        {
+          "id": "D",
+          "text": "ping -n"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "The ping command is one of the most useful commands in the TCP/IP protocol. It sends a series of packets to another system, which in turn sends back a response. This utility can be extremely useful for troubleshooting problems with remote hosts. The ping -t command sets a persistent ping, which does not stop until you cancel it."
+    },
+    {
+      "id": 105,
+      "question": "You are troubleshooting a laptop, and some of the keys on the left side of the keyboard are constantly sticking. The user says that a little soda might have spilled on the keyboard. What should you do first to resolve the issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use a slightly dampened cotton swab to clean under the keys."
+        },
+        {
+          "id": "B",
+          "text": "Remove the keyboard and rinse it with soap and water in a sink."
+        },
+        {
+          "id": "C",
+          "text": "Replace the keyboard."
+        },
+        {
+          "id": "D",
+          "text": "Hold the keyboard upside down and shake it."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "If the key physically sticks, you can try blowing out underneath the key with compressed air or use a cotton swab slightly dampened with water (or rubbing alcohol) to clean underneath the key. Make sure to clean the entire surface underneath the sticking key. If none of this resolves the issue, you might need to replace the keyboard."
+    },
+    {
+      "id": 106,
+      "question": "A user complains that sometimes his computer will not open files, and it happens in different programs. Which component is most likely to cause this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RAM"
+        },
+        {
+          "id": "B",
+          "text": "CPU"
+        },
+        {
+          "id": "C",
+          "text": "HDD"
+        },
+        {
+          "id": "D",
+          "text": "Motherboard"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Failure to open files means that the computer can't properly read those files. In most cases, this indicates an issue with the hard drive."
+    },
+    {
+      "id": 107,
+      "question": "You are troubleshooting a laptop with a failed wireless network connection. The laptop does not have a wired network port. What can you do to quickly get the laptop back on the network?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reinstall the network card driver."
+        },
+        {
+          "id": "B",
+          "text": "Insert a USB wireless network card."
+        },
+        {
+          "id": "C",
+          "text": "Replace the wireless network card."
+        },
+        {
+          "id": "D",
+          "text": "Reboot the computer and reinitialize the wireless network card."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "Laptops have USB ports, and they can come in handy in situations like this. Plug in an external USB NIC, and the user should be able to get on the network."
+    },
+    {
+      "id": 108,
+      "question": "A user is upset because his Android tablet does not ring whenever he receives a phone call. What is the first thing you should have him check?",
+      "options": [
+        {
+          "id": "A",
+          "text": "If the tablet is configured to receive voice calls"
+        },
+        {
+          "id": "B",
+          "text": "If the tablet is in Airplane mode"
+        },
+        {
+          "id": "C",
+          "text": "If the tablet is set to silent mode"
+        },
+        {
+          "id": "D",
+          "text": "If the tablet's speakers are working in another application"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "There's probably a simple explanation for this one, and the device is in silent or vibrate mode. Most mobile devices will have a switch on the side that sets them to silent or vibrate mode, and that will mute the device from making a noise when it receives a call or a message. If that doesn't resolve the problem, it might also be a good idea to check his volume settings."
+    },
+    {
+      "id": 109,
+      "question": "The LCD monitor you use with your desktop suddenly became very dim. You have attempted to adjust the brightness settings, but even on the highest setting the picture is still dim. What will most likely resolve the issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Degauss the monitor."
+        },
+        {
+          "id": "B",
+          "text": "Replace the backlight."
+        },
+        {
+          "id": "C",
+          "text": "Replace the screen."
+        },
+        {
+          "id": "D",
+          "text": "Replace the inverter."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "In an LCD monitor, dimness or flickering is most commonly caused by the backlight starting to fail. In those cases, replace the backlight or the monitor. (Note: The PDF lists answer D as 'Replace the inverter,' and the explanation mentions backlight. Both inverter and backlight can cause dimness. The PDF answer key shows D as correct.)"
+    },
+    {
+      "id": 110,
+      "question": "You are troubleshooting a Windows 7 desktop computer that boots into VGA mode. What is the first step to take in the troubleshooting process?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reinstall the video card driver."
+        },
+        {
+          "id": "B",
+          "text": "Replace the video card."
+        },
+        {
+          "id": "C",
+          "text": "Reset the video resolution to a lower setting and reboot."
+        },
+        {
+          "id": "D",
+          "text": "Replace the monitor."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "When your system refuses to boot into anything other than VGA mode, it indicates one of two problems. Either the video card is set to a resolution that it can't handle or the video card driver isn't loading properly. When in VGA mode, reset the video resolution to something you know the card can handle and reboot. If that doesn't solve it, reinstall the driver. If it still doesn't work, replace the video card."
+    },
+    {
+      "id": 111,
+      "question": "The display on the HP Laser Jet printer in your office has gone blank, but the power light is still on. You try to run a self-test, but nothing happens. You power it off and back on, but the problem persists. Which component has likely failed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DC controller"
+        },
+        {
+          "id": "B",
+          "text": "The display"
+        },
+        {
+          "id": "C",
+          "text": "HVPS"
+        },
+        {
+          "id": "D",
+          "text": "LVPS"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "The screen assembly on a laser printer needs several components to work properly, including the formatter board, engine controller board, and cables connecting the display to each. If any of those components have failed, you could end up with a blank display. It could also be a failed low-voltage power supply (LVPS). If there is no output from the engine self-test, then you have a problem with the power supply. (Note: The PDF lists DC controller as the answer.)"
+    },
+    {
+      "id": 112,
+      "question": "The office space you work in consists of several rows of small cubicles. The person sitting next to you has a fan on his desk, very close to your CRT monitor. What problems might this cause?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Distorted image"
+        },
+        {
+          "id": "B",
+          "text": "Distorted geometry"
+        },
+        {
+          "id": "C",
+          "text": "Incorrect color patterns"
+        },
+        {
+          "id": "D",
+          "text": "Artifacts"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Distorted images can be a problem with CRT monitors if they are near a motor or other device that produces a magnetic field. Sometimes, the image will be wavy, and at other times it might look like it is getting stretched to one side of the screen. If your office is a cubicle farm, desk fans can be a major culprit."
+    },
+    {
+      "id": 113,
+      "question": "You have an iPhone 6 running iOS 9.3. One of your colleagues sends you an encrypted email with highly confidential information, but your device is unable to decrypt it. What do you need to do to resolve this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Upgrade to iOS 10.0 or newer."
+        },
+        {
+          "id": "B",
+          "text": "Install the Secure Mail app."
+        },
+        {
+          "id": "C",
+          "text": "Have the colleague resend the email unencrypted."
+        },
+        {
+          "id": "D",
+          "text": "Enable S/MIME."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "You could have your colleague resend the email unencrypted, but if it has highly confidential information it, that's probably not a good idea. If you can't decrypt email, it is most likely because S/MIME settings are not properly enabled on your email account, which means installing a certificate (and by extension, your private security key) on your mobile device."
+    },
+    {
+      "id": 114,
+      "question": "You are troubleshooting a Windows 7 computer that has crashed. It displays a blue screen with the error UNEXPECTED_KERNEL_MODE_TRAP on it. Which component most likely caused this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RAM"
+        },
+        {
+          "id": "B",
+          "text": "CPU"
+        },
+        {
+          "id": "C",
+          "text": "SSD"
+        },
+        {
+          "id": "D",
+          "text": "PSU"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Memory problems can cause applications to fail and produce error messages such as general protection faults (GPFs). Memory issues can also cause a fatal error in your operating system, producing the infamous Blue Screen of Death (BSOD) in Windows or the rotating pinwheel in macOS."
+    },
+    {
+      "id": 115,
+      "question": "A user reports that her screen image appears to be squeezed on her LCD monitor, and it does not go all the way to the edges like it used to. What is most likely the cause of the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "External interference, such as a fan or a motor"
+        },
+        {
+          "id": "B",
+          "text": "Incorrect video driver"
+        },
+        {
+          "id": "C",
+          "text": "Failing backlight"
+        },
+        {
+          "id": "D",
+          "text": "Incorrect video resolution"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Older, square CRT monitors had a 4:3 aspect ratio, and newer widescreen HD displays are either 16:9 or 16:10. If you set your resolution such that it doesn't match the monitor's geometry, you may get distorted geometry problems. When this happens, the screen will look stretched or squeezed, depending on how you set it. Just choose a different resolution and the problem should go away."
+    },
+    {
+      "id": 116,
+      "question": "The lines of print on your inkjet printer are unevenly spaced. Some are too close together, while others are too far apart. What is the most likely cause of this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Paper feed mechanism"
+        },
+        {
+          "id": "B",
+          "text": "Exit rollers"
+        },
+        {
+          "id": "C",
+          "text": "Print cartridge"
+        },
+        {
+          "id": "D",
+          "text": "Stepper motor"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Stepper motor problems on inkjet and dot-matrix printers will look similar to each other. If the main motor is damaged, lines of print will be unevenly spaced, and if the print head motor goes bad, characters will be scrunched together."
+    },
+    {
+      "id": 117,
+      "question": "While plugging in a VGA monitor, a user bent some of the pins on the connector. You attempted to straighten them, but two broke off. If you use this monitor, what will most likely happen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It will work properly."
+        },
+        {
+          "id": "B",
+          "text": "It will display incorrect colors."
+        },
+        {
+          "id": "C",
+          "text": "It will display a distorted image."
+        },
+        {
+          "id": "D",
+          "text": "It will produce dim or flickering images."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "A monitor can display incorrect colors if the pins on the connector are damaged or if the connector isn't plugged all the way in."
+    },
+    {
+      "id": 118,
+      "question": "You are troubleshooting a Windows 10 workstation's connectivity issues on the local network. Another administrator suggests it could be a naming or group membership issue. Which command-line utility will let you check the workstation's name and group memberships?",
+      "options": [
+        {
+          "id": "A",
+          "text": "netstat"
+        },
+        {
+          "id": "B",
+          "text": "netdom"
+        },
+        {
+          "id": "C",
+          "text": "nbtstat"
+        },
+        {
+          "id": "D",
+          "text": "net"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "nbtstat is a command that shows NetBIOS over TCP/IP information. While not used as often as other command-line network troubleshooting tools, it can be useful when trying to diagnose a problem with NetBIOS name resolution."
+    },
+    {
+      "id": 119,
+      "question": "The inkjet printer in your office is producing consistently faded prints. What should you do to resolve the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the paper feed mechanism."
+        },
+        {
+          "id": "B",
+          "text": "Turn up the color dithering."
+        },
+        {
+          "id": "C",
+          "text": "Replace the ink cartridge."
+        },
+        {
+          "id": "D",
+          "text": "Adjust the print head to be closer to the paper."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Faded prints generally mean the printer is out of ink. Replace the ink cartridge, and the problem should disappear."
+    },
+    {
+      "id": 120,
+      "question": "Your HP laser printer has recently started producing poor-quality images. What will your HP representative recommend you periodically do to resolve this issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Blow out the printer with compressed air."
+        },
+        {
+          "id": "B",
+          "text": "Clean out old toner with a toner vacuum."
+        },
+        {
+          "id": "C",
+          "text": "Stop and restart the printer spooler."
+        },
+        {
+          "id": "D",
+          "text": "Apply a maintenance kit."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Performing periodic preventative maintenance on your laser printers can help eliminate many potential problems before they happen. Preventative maintenance includes cleaning the printer and using manufacturer-recommended maintenance kits."
+    },
+    {
+      "id": 121,
+      "question": "You are at a Windows server with a command prompt open. You believe that a user is improperly accessing files on a shared folder named docs. On the server, the D:\\userfiles folder is shared as docs. Which command will immediately stop the sharing of this folder?",
+      "options": [
+        {
+          "id": "A",
+          "text": "net share D:\\userfiles /delete"
+        },
+        {
+          "id": "B",
+          "text": "net share D:\\userfiles /stop"
+        },
+        {
+          "id": "C",
+          "text": "net share docs /delete"
+        },
+        {
+          "id": "D",
+          "text": "net share docs /stop"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "The net share command is used to share folders on a network as well as stop sharing folders. (And net use will allow users to connect to them.) The proper syntax to share a folder is net share <share_name>=<drive_letter>:<path>. To stop sharing, use net share <share_name> /delete."
+    },
+    {
+      "id": 122,
+      "question": "You have sent several print jobs to a networked printer and nothing has printed. You do not have printer administrator access. What can you do to see whether your Windows 7 computer is communicating properly with the printer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Send the print job in RAW format."
+        },
+        {
+          "id": "B",
+          "text": "Stop and restart the print spooler."
+        },
+        {
+          "id": "C",
+          "text": "Print a test page."
+        },
+        {
+          "id": "D",
+          "text": "Print a blank document from Notepad."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "If your printer isn't spitting out print jobs, it may be a good idea to print a test page and see whether that works. The test page information is stored in the printer's memory, so there's no formatting or translating of jobs required. It's simply a test to make sure that your printer hears your computer."
+    },
+    {
+      "id": 123,
+      "question": "You are troubleshooting a laptop with an integrated wireless networking card. The user reports that the laptop will not connect to the Internet. When you look at the network card, the connection and activity lights alternate blinking, in a steady pattern. What is the most likely cause of the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "No network connection"
+        },
+        {
+          "id": "B",
+          "text": "Incorrect TCP/IP configuration"
+        },
+        {
+          "id": "C",
+          "text": "Failed network card"
+        },
+        {
+          "id": "D",
+          "text": "Unable to reach a DNS server"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Some wireless cards will have their connection and activity lights alternatively blink if there is no network connection. If the card had failed, there likely would be no lights on it at all. (Note: The PDF explanation seems to contradict the answer, but based on the answer key, C is marked correct.)"
+    },
+    {
+      "id": 124,
+      "question": "You are troubleshooting a laptop that has a poor battery life. It will work for only about 30 minutes on a full charge. Which two things should you try first? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the battery."
+        },
+        {
+          "id": "B",
+          "text": "Perform a battery calibration."
+        },
+        {
+          "id": "C",
+          "text": "Drain the battery completely and then charge it fully."
+        },
+        {
+          "id": "D",
+          "text": "Open the Power Management app and set the laptop to run on low energy mode."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B, C"
+      ],
+      "explanation": "Small devices sometimes suffer from an extremely short battery life. If it's a laptop, you can try to perform a battery calibration. For all mobile devices, you can try to drain the battery completely and then charge it fully before turning the device back on. If these options don't work, then it's likely that the battery needs to be replaced."
+    },
+    {
+      "id": 125,
+      "question": "The name resolution server on your local network does not appear to be resolving host names properly. Which command will allow you to verify the entries on this server?",
+      "options": [
+        {
+          "id": "A",
+          "text": "dnslookup"
+        },
+        {
+          "id": "B",
+          "text": "nslookup"
+        },
+        {
+          "id": "C",
+          "text": "namelookup"
+        },
+        {
+          "id": "D",
+          "text": "netlookup"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "nslookup is a command that enables you to verify entries on a DNS server."
+    },
+    {
+      "id": 126,
+      "question": "You have installed a PCIe RAID controller and want to create a RAID 5 array with three disks. You plug the disks in and boot up the computer. The RAID array is not detected. Where should you go to set up or troubleshoot the RAID array?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Windows Device Manager"
+        },
+        {
+          "id": "B",
+          "text": "Windows Disk Management"
+        },
+        {
+          "id": "C",
+          "text": "The RAID controller's BIOS"
+        },
+        {
+          "id": "D",
+          "text": "The system BIOS"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Nearly all PCIe RAID controllers will have their own BIOS for setup, configuration, and troubleshooting. Some will have utilities available for use within an operating system as well."
+    },
+    {
+      "id": 127,
+      "question": "A user complains of a loud whining noise coming from their computer. It occurs whenever the computer is on and is relatively constant. Which component is most likely to cause this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RAM"
+        },
+        {
+          "id": "B",
+          "text": "SSD"
+        },
+        {
+          "id": "C",
+          "text": "CPU"
+        },
+        {
+          "id": "D",
+          "text": "PSU"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "The power supply is the only component listed with moving parts and therefore is the most likely component to cause a whining sound. It's more than likely a fan. Either it needs to be cleaned (desperately) or replaced. Power supplies that are failing can also sound louder and quieter intermittently because a fan will run at alternating speeds."
+    },
+    {
+      "id": 128,
+      "question": "You have just upgraded the RAM in a desktop computer. After powering on the computer, no video appears on the screen, and the computer produces a series of three long beeps. What does this indicate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The system BIOS detected an error in the POST routine."
+        },
+        {
+          "id": "B",
+          "text": "The system BIOS completed the POST routine normally."
+        },
+        {
+          "id": "C",
+          "text": "The RAM is faulty."
+        },
+        {
+          "id": "D",
+          "text": "The motherboard needs to be replaced."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Every computer has a diagnostic program built into its basic input/output system (BIOS) called the power-on self-test (POST). When you turn on the computer, it executes this set of diagnostics. If the computer doesn't perform the POST as it should, one way to determine the source of a problem is to listen for a beep code. This is a series of beeps from the computer's speaker. A successful POST generally produces a single beep. If there's more than one beep, the number, duration, and pattern of the beeps can sometimes tell you what component is causing the problem."
+    },
+    {
+      "id": 129,
+      "question": "You are troubleshooting a computer that will not boot up. When powering on, the power supply fan spins, but the computer does not POST. You look at the motherboard and see that a capacitor has swollen and looks ready to burst. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the motherboard."
+        },
+        {
+          "id": "B",
+          "text": "Replace the power supply."
+        },
+        {
+          "id": "C",
+          "text": "Replace the capacitor."
+        },
+        {
+          "id": "D",
+          "text": "Drain the excess electrolyte from the capacitor."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Many motherboards have capacitors on them, which store electricity. They are short cylindrical tubes. Sometimes, when capacitors fail, they will bulge, and brownish-red electrolyte residue may seep out of the vents in the top. These are called distended capacitors. If a capacitor fails, the best option is to replace the motherboard."
+    },
+    {
+      "id": 130,
+      "question": "A user with an 802.11g network adapter is trying to join your 802.11n network. Her laptop is next to yours, which is connected to the network. However, she is unable to locate the SSID. What is the most likely cause of the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "802.11g is not compatible with 802.11n."
+        },
+        {
+          "id": "B",
+          "text": "SSID broadcasting is disabled on the wireless access point."
+        },
+        {
+          "id": "C",
+          "text": "The user is out of range of the wireless access point."
+        },
+        {
+          "id": "D",
+          "text": "The SSID has been changed."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "The most likely cause is that the router is configured to not broadcast SSIDs. 802.11g and 802.11n are compatible, and she is within range if your computer is connected."
+    },
+    {
+      "id": 131,
+      "question": "A user just started having intermittent network access problems. While troubleshooting, a message pops up saying Windows has detected an IP address conflict. Your network has a DHCP server. You open their TCP/IP properties and it's configured to obtain an IP address automatically. What do you need to do to resolve the issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "On the DHCP server, exclude their IP address from the scope."
+        },
+        {
+          "id": "B",
+          "text": "On their computer, run ipconfig /release and ipconfig /renew."
+        },
+        {
+          "id": "C",
+          "text": "On their computer, set it to Use The Following IP Address and assign them a different address."
+        },
+        {
+          "id": "D",
+          "text": "Use a packet sniffer to determine the computer with the duplicate address, and change that computer to obtain an IP address automatically."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "The most common cause of an IP address conflict is if someone configures a computer with a static IP address that's part of the DHCP server's range. The DHCP server, not knowing that the address has been statically assigned somewhere, doles out the address, and now there's a conflict. Rebooting the computer won't help, and neither will releasing the address and getting a new lease from the DHCP server—it's just going to hand out the same address again because it doesn't know that there's a problem. As the administrator, you need to track down the offending user. A common way to do this is to use a packet sniffer to look at network traffic and determine the computer name or MAC address associated with the IP address in question. (Note: The PDF shows answer D as correct, though answer B would also work for the affected computer. The issue is finding the other computer with the static IP.)"
+    },
+    {
+      "id": 132,
+      "question": "You are troubleshooting a laser printer that keeps producing vertical black lines running down the page. Which component is most likely causing this problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fusing assembly"
+        },
+        {
+          "id": "B",
+          "text": "Pickup rollers"
+        },
+        {
+          "id": "C",
+          "text": "Exit rollers"
+        },
+        {
+          "id": "D",
+          "text": "EP drum"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "A groove or scratch in the EP drum can cause the problem of vertical black lines running down all or part of the page. Because a scratch is lower than the surface, it doesn't receive as much (if any) of a charge as the other areas. The result is that toner sticks to it as though it were discharged. The groove may go around the circumference of the drum, so the line may go all the way down the page."
+    },
+    {
+      "id": 133,
+      "question": "A user reports that the screen on his tablet computer is very dim and hard to see. He's adjusted it to the maximum brightness and it's still dim. Which component is likely causing the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Backlight"
+        },
+        {
+          "id": "B",
+          "text": "Converter"
+        },
+        {
+          "id": "C",
+          "text": "Display"
+        },
+        {
+          "id": "D",
+          "text": "Video card"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Dim or flickering displays on mobile devices are usually caused by a faulty backlight in the display panel. A failing inverter can cause these problems too."
+    },
+    {
+      "id": 134,
+      "question": "You have been troubleshooting a computer, and you believe the power supply has failed. Which of the following tools can you use to test the integrity of the power supply? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power supply tester"
+        },
+        {
+          "id": "B",
+          "text": "Loopback plugs"
+        },
+        {
+          "id": "C",
+          "text": "POST card"
+        },
+        {
+          "id": "D",
+          "text": "Multimeter"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A, D"
+      ],
+      "explanation": "If you're curious as to the state of your power supply, you can buy hardware-based power supply testers or multimeters to test it."
+    },
+    {
+      "id": 135,
+      "question": "A user is trying to display a presentation on a projector, but nothing appears on the external screen. They try toggling their LCD cutoff switch, and it doesn't help. Another user had just presented on the projector, and it worked fine. Which component is most likely causing the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Backlight"
+        },
+        {
+          "id": "B",
+          "text": "Display"
+        },
+        {
+          "id": "C",
+          "text": "Video card"
+        },
+        {
+          "id": "D",
+          "text": "Inverter"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "If the laptop won't output a screen image to an external monitor or projector, it means one of two things (assuming you know that the monitor or projector works): either the external VGA port is shot or the function keys aren't working. In either case, you likely need to replace the motherboard if you want the display to appear on an external device."
+    },
+    {
+      "id": 136,
+      "question": "A mobile phone user is unable to connect to his wireless headset to make hands-free calls. His iPhone screen shows Bluetooth is enabled. What is most likely the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "His wireless headset is turned off."
+        },
+        {
+          "id": "B",
+          "text": "Bluetooth is disabled."
+        },
+        {
+          "id": "C",
+          "text": "AirPlay is disabled."
+        },
+        {
+          "id": "D",
+          "text": "Airplane mode is enabled."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "Most wireless headsets use a Bluetooth connection. The first thing to check is that the Bluetooth is enabled, which also means double-checking that Airplane mode is not turned on. In this case, Bluetooth is off. (Note: The PDF explanation mentions Bluetooth is off, which contradicts option A being most likely. However, based on the answer key showing B and the explanation stating 'Bluetooth is off,' I'm keeping B as the answer.)"
+    },
+    {
+      "id": 137,
+      "question": "A user calls to report that she can't access the Internet or any other network resources. The IP address on her computer is 169.254.1.102. Which of the following is most likely to have caused this?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Unable to reach a DNS server"
+        },
+        {
+          "id": "B",
+          "text": "Unable to reach a DHCP server"
+        },
+        {
+          "id": "C",
+          "text": "Unable to reach the default gateway"
+        },
+        {
+          "id": "D",
+          "text": "Unable to read the local host configuration file"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "The address shown is one assigned by the Automatic Private IP Addressing (APIPA) service. It auto-configures your network card with an IP address if your computer is set to receive an IP address from the Dynamic Host Configuration Protocol (DHCP) server and that server doesn't respond. You can always tell an APIPA address because it will be in the format of 169.254.x.x."
+    },
+    {
+      "id": 138,
+      "question": "The day after an electrical thunderstorm, you are troubleshooting a computer. After you power it up, it flashes information briefly on the screen and then reboots. It continuously reboots itself after this. Which components are most likely to cause this problem? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hard drive"
+        },
+        {
+          "id": "B",
+          "text": "Power supply"
+        },
+        {
+          "id": "C",
+          "text": "Motherboard"
+        },
+        {
+          "id": "D",
+          "text": "CPU"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B, C"
+      ],
+      "explanation": "A failing motherboard or CPU may cause continuous reboots."
+    },
+    {
+      "id": 139,
+      "question": "Within the last five minutes, several users in one part of the building have called in to report that they have lost their network connection. It had been working earlier in the day. What is most likely the cause of the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Faulty network card drivers"
+        },
+        {
+          "id": "B",
+          "text": "Incorrect TCP/IP configuration"
+        },
+        {
+          "id": "C",
+          "text": "Bad network cable"
+        },
+        {
+          "id": "D",
+          "text": "Faulty switch"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "If the problem affects multiple users, chances are that it's an issue with the central connectivity device. Suspect an issue with the hub or switch that the computers are plugged into."
+    },
+    {
+      "id": 140,
+      "question": "All computers on your network are having intermittent Internet connectivity issues. Some websites work, while others do not. If you want to track the problem down by verifying the path to the problematic websites, which tool should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ping"
+        },
+        {
+          "id": "B",
+          "text": "netstat"
+        },
+        {
+          "id": "C",
+          "text": "tracert"
+        },
+        {
+          "id": "D",
+          "text": "nslookup"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "tracert (trace route) is a Windows-based command-line utility that enables you to verify the route to a remote host. Execute the command tracert hostname, where hostname is the computer name or IP address of the computer whose route you want to trace. Tracert returns the different IP addresses the packet was routed through to reach the final destination."
+    }
+  ]
+}

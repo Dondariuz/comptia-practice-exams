@@ -1,0 +1,1992 @@
+{
+  "examInfo": {
+    "title": "CompTIA A+ Chapter 5 Practice Exam",
+    "code": "220-902",
+    "chapter": "Chapter 5",
+    "totalQuestions": 152,
+    "timeLimit": 140,
+    "description": "Windows Operating Systems"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "You want to create a backup of your Windows 8.1 system configuration so you can restore it in the event of a system crash. What should you create?",
+      "options": [
+        { "id": "A", "text": "Restore point" },
+        { "id": "B", "text": "System restore" },
+        { "id": "C", "text": "Windows backup" },
+        { "id": "D", "text": "Shadow copy" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "A restore point is a copy of your system configuration at a given point in time. Restore points are useful for when Windows fails to boot but the computer appears to be fine otherwise or when Windows doesn't seem to be acting right and you think it was because of a recent configuration change. Restore points are created in the System Restore utility."
+    },
+    {
+      "id": 2,
+      "question": "You have a Windows 7 Professional computer with multiple printers installed. Which of the following administrative tools allows you to manage multiple print servers and printers from a single interface?",
+      "options": [
+        { "id": "A", "text": "Printers app in Control Panel" },
+        { "id": "B", "text": "Print Management" },
+        { "id": "C", "text": "Device Manager" },
+        { "id": "D", "text": "Services" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Print Management allows you to manage multiple printers and print servers from a single interface. It is not available for Windows 7 in any edition lower than Windows 7 Professional. In all other editions, you must manage individual printers using the Printers applet in Control Panel, and you are limited in what you can manage."
+    },
+    {
+      "id": 3,
+      "question": "Microsoft offers users free access to a cloud-based storage account. What is the name of that service?",
+      "options": [
+        { "id": "A", "text": "OneDrive" },
+        { "id": "B", "text": "WinCloud" },
+        { "id": "C", "text": "Shadow Copy" },
+        { "id": "D", "text": "Windows Backup" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "CompTIA refers to this as two words (One Drive), but Microsoft refers to it as one (OneDrive). Either way, it is the online/cloud storage account that comes with your Microsoft account. You can save files there from applications or move them there (and back again) using File Explorer (previously called Windows Explorer). There is a limited amount of storage given to each account for free, and you can purchase more as you need it."
+    },
+    {
+      "id": 4,
+      "question": "Which Windows application allows you to create and edit documents and comes with all versions of Windows but is less configurable than Word?",
+      "options": [
+        { "id": "A", "text": "WordPerfect" },
+        { "id": "B", "text": "Notepad" },
+        { "id": "C", "text": "Word" },
+        { "id": "D", "text": "Edit" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Notepad is a simple Windows program, and it comes standard with all versions of Windows. Both Word and Notepad are used to create and edit documents, but Word is far more configurable and powerful. It's also not a free Windows application; you must purchase it separately."
+    },
+    {
+      "id": 5,
+      "question": "The System Configuration tool has a tab that displays a short list of available administrative tools. What is the name of that tab?",
+      "options": [
+        { "id": "A", "text": "Tools" },
+        { "id": "B", "text": "Utilities" },
+        { "id": "C", "text": "Accessories" },
+        { "id": "D", "text": "Administrative" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The System Configuration tool's Tools tab shows you a short list of available administrative tools. System configuration (MSCONFIG.EXE) has five tabs: General, Boot, Services, Startup, and Tools."
+    },
+    {
+      "id": 6,
+      "question": "Which encryption system is available only in specific editions of Windows 7 and allows encryption/decryption of files stored in NTFS volumes?",
+      "options": [
+        { "id": "A", "text": "BitLocker" },
+        { "id": "B", "text": "EFS" },
+        { "id": "C", "text": "NTFS Encryption" },
+        { "id": "D", "text": "DES" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Encrypting File System (EFS) is available in the Professional, Enterprise, and Ultimate editions of Windows 7. It allows for the encryption/decryption of files stored in NTFS volumes. EFS can be used by all users, whereas BitLocker can only be used by administrators."
+    },
+    {
+      "id": 7,
+      "question": "If you have a problem accessing a shared folder or shared printer, which administrative tool would you open to see shared resources and manage them?",
+      "options": [
+        { "id": "A", "text": "Hard drives" },
+        { "id": "B", "text": "File permissions" },
+        { "id": "C", "text": "Windows Firewall" },
+        { "id": "D", "text": "Shared folders" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The Shared Folders node in Computer Management allows you to see shared resources and manage them. You can access it through Computer Management or by typing FSMGMT.MSC at a command prompt."
+    },
+    {
+      "id": 8,
+      "question": "You are at a Windows Vista command prompt. What command can you type to close the command prompt window?",
+      "options": [
+        { "id": "A", "text": "quit" },
+        { "id": "B", "text": "exit" },
+        { "id": "C", "text": "close" },
+        { "id": "D", "text": "/x" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The exit command is used to close the command prompt window. This is one of the most basic commands you should know."
+    },
+    {
+      "id": 9,
+      "question": "You are looking for general information about a Windows workstation's hardware resources. Which command do you need to type into the Run box to display the utility shown here?",
+      "options": [
+        { "id": "A", "text": "DXDIAG" },
+        { "id": "B", "text": "COMPMGMT" },
+        { "id": "C", "text": "MSINFO32" },
+        { "id": "D", "text": "MMC" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "MSINFO32 displays the System Information utility, which shows general information about a Windows workstation's hardware resources, including the OS version, manufacturer, processor, RAM, and more."
+    },
+    {
+      "id": 10,
+      "question": "Your manager has asked you to investigate the possibility of installing a database on a Windows 8.1 computer. Which operating system are you dealing with?",
+      "options": [
+        { "id": "A", "text": "Windows 8.1" },
+        { "id": "B", "text": "macOS" },
+        { "id": "C", "text": "Windows Vista" },
+        { "id": "D", "text": "Linux" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Windows 8.1 is a Windows operating system that can host databases. The question directly states you are working with a Windows 8.1 computer."
+    },
+    {
+      "id": 11,
+      "question": "You need to install a video driver on a Windows 7 workstation. Which Control Panel utility should you use?",
+      "options": [
+        { "id": "A", "text": "Programs" },
+        { "id": "B", "text": "System Utilities" },
+        { "id": "C", "text": "Disk Management" },
+        { "id": "D", "text": "Control Panel" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Device drivers are installed through Device Manager, which is accessible through Control Panel or Computer Management. Device Manager allows you to update, roll back, or uninstall drivers."
+    },
+    {
+      "id": 12,
+      "question": "What command would you type to display information about the Resultant Set of Policy (RSoP) report for a remote user and computer?",
+      "options": [
+        { "id": "A", "text": "gpedit" },
+        { "id": "B", "text": "gpupdate" },
+        { "id": "C", "text": "gpresult" },
+        { "id": "D", "text": "gpconfig" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The gpresult command is used to show the Resultant Set of Policy (RSoP) report/values for a remote user and computer. Bear in mind that configuration settings occur at any number of places; they are set for a computer, a user, a local workstation, the domain, and so on. Often one of the big unknowns is which set of configuration settings takes precedence and which is overridden. gpresult will tell you which settings apply."
+    },
+    {
+      "id": 13,
+      "question": "You are working on a Windows 8.1 workstation and want to quickly access Task Manager to kill an application. Which of the following key combinations will do this?",
+      "options": [
+        { "id": "A", "text": "Ctrl+Alt+Del" },
+        { "id": "B", "text": "Ctrl+Shift+Esc" },
+        { "id": "C", "text": "Ctrl+Alt+Tab" },
+        { "id": "D", "text": "Alt+F4" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Task Manager can be accessed by pressing Ctrl+Shift+Esc. Alternatively, you can right-click the taskbar and choose Task Manager from the pop-up menu that appears, or you can press Ctrl+Alt+Del and select Task Manager from the menu."
+    },
+    {
+      "id": 14,
+      "question": "You have a Windows 7 workstation and need to configure programs to load upon startup. Which management tool should you use to do this?",
+      "options": [
+        { "id": "A", "text": "Task Scheduler" },
+        { "id": "B", "text": "System Configuration" },
+        { "id": "C", "text": "Computer Management" },
+        { "id": "D", "text": "Programs and Applications" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The System Configuration tool allows you to set up programs to boot automatically at startup, using the Startup tab. System configuration (MSCONFIG.EXE) has five tabs: General, Boot, Services, Startup, and Tools."
+    },
+    {
+      "id": 15,
+      "question": "You have chosen to install Windows 8 Pro on a workstation that is currently running Windows 7 Professional. You choose a Custom installation but do not format the hard drive. Which of the following statements is true regarding Windows 7 Professional?",
+      "options": [
+        { "id": "A", "text": "It is permanently removed from the hard drive." },
+        { "id": "B", "text": "Its settings are migrated to Windows 8, and it is removed from the hard drive." },
+        { "id": "C", "text": "It remains available as a dual-boot option for 28 days and then is removed from the hard drive." },
+        { "id": "D", "text": "Its files are placed in a folder named Windows.old and retained for 28 days and then is removed from the hard drive." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "When you install Windows 8 and choose Custom, you can choose whether to format the hard disk. If you choose not to format the hard disk, the old operating system is placed in a folder named Windows.old to allow you to attempt to return to the old operating system if needed. After 28 days, any files placed in the Windows.old folder are automatically deleted."
+    },
+    {
+      "id": 16,
+      "question": "Your manager has asked you to prepare for an unattended installation of 50 Windows 7 workstations, each with the same hardware. What type of installation will be most efficient for this type of installation?",
+      "options": [
+        { "id": "A", "text": "Clean" },
+        { "id": "B", "text": "Upgrade" },
+        { "id": "C", "text": "Custom" },
+        { "id": "D", "text": "Image deployment" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The heart of an unattended installation is utilizing image deployment, which is sort of like copying an ideal image over from one machine to another."
+    },
+    {
+      "id": 17,
+      "question": "Which Windows 8 utility lets you view items in category view or classic view?",
+      "options": [
+        { "id": "A", "text": "Administrative Tools" },
+        { "id": "B", "text": "System Utilities" },
+        { "id": "C", "text": "Disk Management" },
+        { "id": "D", "text": "Control Panel" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "In Windows 8, when you first open Control Panel, it appears in Category view. Control Panel programs have been organized into different categories, and this view provides you with the categories from which you can choose. However, you can change this view to Classic view (or Small/Large Icons in Windows 7 and Windows 8), which displays all of the Control Panel programs in a list, as in older versions of Windows."
+    },
+    {
+      "id": 18,
+      "question": "Which feature of Windows 8 allows you to write script files based on the Microsoft .NET programming framework?",
+      "options": [
+        { "id": "A", "text": "OneDrive" },
+        { "id": "B", "text": "Event Viewer" },
+        { "id": "C", "text": "PowerShell" },
+        { "id": "D", "text": "Task scheduler" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Windows PowerShell (one word per Microsoft and two per CompTIA) has been around for several years and was available with previous versions of Windows as well. It can be thought of as a greatly enhanced command interface where you can write script files based on the .NET programming framework."
+    },
+    {
+      "id": 19,
+      "question": "A user wants to ensure that their hard drive is encrypted for maximum data security. What are two commands you can have the user type into the Run box to see whether the BitLocker Drive Encryption Service is enabled?",
+      "options": [
+        { "id": "A", "text": "SERVICES.MSC" },
+        { "id": "B", "text": "PERFMON.EXE" },
+        { "id": "C", "text": "COMPMGMT.MSC" },
+        { "id": "D", "text": "BLDES.MSC" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "C"],
+      "explanation": "Both SERVICES.MSC and COMPMGMT.MSC will allow you to see if the BitLocker Drive Encryption Service is enabled. SERVICES.MSC opens the Services console directly, while COMPMGMT.MSC opens Computer Management, which contains the Services node."
+    },
+    {
+      "id": 20,
+      "question": "You have a computer running Windows 7 Home Premium 64-bit and you want to upgrade to Windows 7 Ultimate 64-bit. What should you run to determine whether your computer can support the new operating system?",
+      "options": [
+        { "id": "A", "text": "Hardware Compatibility List" },
+        { "id": "B", "text": "Windows Upgrade Assistant" },
+        { "id": "C", "text": "Windows Upgrade Advisor" },
+        { "id": "D", "text": "Windows Easy Transfer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Windows Upgrade Advisor is a tool that scans your system and tells you if it can run a specific version of Windows. It will check your hardware, devices, and installed programs for known compatibility issues."
+    },
+    {
+      "id": 21,
+      "question": "What feature of Windows allows you to place icons of your favorite apps on the Start menu, desktop, or taskbar to get to them quickly?",
+      "options": [
+        { "id": "A", "text": "Sticking" },
+        { "id": "B", "text": "Pinning" },
+        { "id": "C", "text": "Posting" },
+        { "id": "D", "text": "Easy launch" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Pinning allows you to place icons of your favorite apps on the Start menu, desktop, or taskbar to get to them quickly. You can pin applications by right-clicking them and selecting the appropriate pin option."
+    },
+    {
+      "id": 22,
+      "question": "You are at a Windows 7 command prompt. There is a directory named d:\\files that you want to delete. It currently has six subdirectories and dozens of files in it. Which command should you use to delete d:\\files?",
+      "options": [
+        { "id": "A", "text": "del d:\\files /s" },
+        { "id": "B", "text": "del d:\\files /q" },
+        { "id": "C", "text": "rd d:\\files /s" },
+        { "id": "D", "text": "rd d:\\files /q" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The rd (remove directory) command with the /s switch removes a directory and all subdirectories and files within it. The del command is used for deleting files, not directories with subdirectories."
+    },
+    {
+      "id": 23,
+      "question": "Which Windows feature, introduced with Vista, allows you to place customizable programs on the desktop, such as a clock or the weather?",
+      "options": [
+        { "id": "A", "text": "Charms" },
+        { "id": "B", "text": "Widgets" },
+        { "id": "C", "text": "Gadgets" },
+        { "id": "D", "text": "Sidebar" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Gadgets were introduced with Windows Vista and allowed users to place customizable mini-applications on the desktop, such as clocks, weather displays, and system monitors. They were discontinued in Windows 8 due to security concerns."
+    },
+    {
+      "id": 24,
+      "question": "You have just upgraded a Windows XP Home computer to Windows Vista Home Basic. A few days after the upgrade is complete, you reboot the computer and it tells you that you can use Windows Vista for only 25 more days. What must you do to remove this message?",
+      "options": [
+        { "id": "A", "text": "Purchase a full version of Windows Vista Home Basic." },
+        { "id": "B", "text": "Upgrade to Windows Vista Home Premium." },
+        { "id": "C", "text": "Register Windows Vista Home Basic." },
+        { "id": "D", "text": "Activate Windows Vista Home Basic." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Windows Vista requires activation within 30 days of installation. Activation is an antipiracy mechanism that confirms you are using a genuine copy of Windows. You can activate Windows online or by phone."
+    },
+    {
+      "id": 25,
+      "question": "Which of the following are true statements about Windows To Go (WTG)? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "It does not support BitLocker." },
+        { "id": "B", "text": "It requires a USB 3.0 drive." },
+        { "id": "C", "text": "It does not support OS upgrades." },
+        { "id": "D", "text": "It is available in Windows 7 and Windows 8/8.1." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["B", "C"],
+      "explanation": "Windows To Go (WTG) allows you to boot and run Windows from a USB drive. It supports both USB 2.0 and USB 3.0 ports, but it requires USB 3.0 drives. WTG does not support OS upgrades, but it is compatible with BitLocker."
+    },
+    {
+      "id": 26,
+      "question": "What feature of Windows 7 provides anti-spyware protection?",
+      "options": [
+        { "id": "A", "text": "Windows Defender" },
+        { "id": "B", "text": "Windows Firewall" },
+        { "id": "C", "text": "Windows Protector" },
+        { "id": "D", "text": "Windows Action Center" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Windows Defender can identify spyware, and it is included with all versions of Windows from Windows Vista onward. As with similar programs, for Windows Defender to function properly, you need to keep the definitions current and scan on a regular basis."
+    },
+    {
+      "id": 27,
+      "question": "You are at a Windows 8.1 command prompt, and the directory you are in has a Windows cabinet file in it. Which command do you use if you want to get a file out of that cabinet file?",
+      "options": [
+        { "id": "A", "text": "extract" },
+        { "id": "B", "text": "expand" },
+        { "id": "C", "text": "unzip" },
+        { "id": "D", "text": "excab" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The extract command is used to extract compressed files from a cabinet file. There are only a handful of parameters that work with it, and the most useful are /l to specify another location to place the extracted files (the current directory is the default) and /y to avoid prompting you for every file that is being overwritten."
+    },
+    {
+      "id": 28,
+      "question": "You believe that someone is trying to hack into a Windows 8.1 workstation using brute-force methods to guess the password. To deter the attacker, you want to lock out the account if there are five failed login attempts. Which management tool should you use to configure this?",
+      "options": [
+        { "id": "A", "text": "SECPOL.MSC" },
+        { "id": "B", "text": "COMPMGMT.MSC" },
+        { "id": "C", "text": "SECMON.EXE" },
+        { "id": "D", "text": "MSRA.EXE" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "You want to use the Local Security Policy tool, which is SECPOL.MSC. It allows you to set the default security settings for the system. This includes password settings, lockout policies, audit policy, and other security settings."
+    },
+    {
+      "id": 29,
+      "question": "Which feature available in Windows Vista and Windows 7 is used to create a snapshot of file, even when the file is in use, for retrieval if the original file is accidentally deleted or overwritten?",
+      "options": [
+        { "id": "A", "text": "Shadow Copy" },
+        { "id": "B", "text": "Windows Backup" },
+        { "id": "C", "text": "OneDrive" },
+        { "id": "D", "text": "Easy Transfer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The Volume Shadow Copy Service creates copies from which you can recover should a file be accidentally deleted or overwritten. Windows 7 adds to Vista by including an interface for configuring storage used by volume shadow copies. The Properties dialog box for a file contains a Previous Versions tab that can be used to return to another version of the file."
+    },
+    {
+      "id": 30,
+      "question": "Sitting at a Windows 8.1 command prompt, you want to delete the read-only doc.txt file in the directory you are in. You do not want Windows to ask you for permission to delete the file. What is the syntax to delete the file?",
+      "options": [
+        { "id": "A", "text": "del doc.txt /y /r" },
+        { "id": "B", "text": "del doc.txt /y /f" },
+        { "id": "C", "text": "del doc.txt /q /r" },
+        { "id": "D", "text": "del doc.txt /q /f" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The del command, short for delete, is used to delete files. The /q switch is for quiet mode. It will not ask for confirmation to delete the file. The /f switch forces deletion of read-only files. /y and /r are not valid switches for the del command."
+    },
+    {
+      "id": 31,
+      "question": "You are preparing to make major configuration changes to a Windows 8.1 workstation. Before you begin, which command can you run to ensure that there is a current restore point for the workstation?",
+      "options": [
+        { "id": "A", "text": "MSRA.EXE" },
+        { "id": "B", "text": "RSTRUI.EXE" },
+        { "id": "C", "text": "MSTSC.EXE" },
+        { "id": "D", "text": "COMPMGMT.MSC" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Restore points are created and managed in the System Restore utility (RSTRUI.EXE). A restore point is a copy of your system configuration at a given point in time. Restore points are useful for when Windows fails to boot but the computer appears to be fine otherwise or when Windows doesn't seem to be acting right and you think it was because of a recent configuration change."
+    },
+    {
+      "id": 32,
+      "question": "You need to check the integrity of key Windows system files on the C: drive, which are hidden from view by default. Which tool can you use to allow you to view hidden files?",
+      "options": [
+        { "id": "A", "text": "Computer Management" },
+        { "id": "B", "text": "System Configuration" },
+        { "id": "C", "text": "Local Security Policy" },
+        { "id": "D", "text": "Windows Explorer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Some of the more important files that you will need to work on are hidden by default as a security precaution. To make certain folders or files visible, you need to change the display properties of Windows Explorer. This is generally done by going to Folder Options and deselecting Hide Protected Operating System Files."
+    },
+    {
+      "id": 33,
+      "question": "Which of the following features were first featured in a Microsoft operating system with Windows 8? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Pinning" },
+        { "id": "B", "text": "Windows Store" },
+        { "id": "C", "text": "PowerShell" },
+        { "id": "D", "text": "Charms" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["B", "D"],
+      "explanation": "The Windows Store and charms were introduced with Windows 8. The Windows Store is an online site from which you can download apps, games, software, and so on. Charms are controls that are available on the side of the screen for every Windows Store app. They consist of Search, Share, Start, Devices, and Settings."
+    },
+    {
+      "id": 34,
+      "question": "You are creating a network for a small office with Windows 7 and Windows 8/8.1 workstations. They do not want centralized security, but they want it to be easy to share printers and files, including libraries. What type of network setup should you recommend?",
+      "options": [
+        { "id": "A", "text": "Workgroup" },
+        { "id": "B", "text": "HomeGroup" },
+        { "id": "C", "text": "Distributed" },
+        { "id": "D", "text": "Domain" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The purpose behind a HomeGroup is to simplify home or small office networking and, more specifically, the sharing of files and printers. Windows 7 Starter can only join a HomeGroup, while all other editions of Windows 7 can both join and create a HomeGroup. The location from which you network must be set to Home. Shared files can include libraries, which is a big feature of Windows 7."
+    },
+    {
+      "id": 35,
+      "question": "A client wants to install a new video game, and he's read that the game requires DirectX 11. He's afraid that his Windows 8.1 computer doesn't support this version; which command should you tell him to run to see whether he's correct?",
+      "options": [
+        { "id": "A", "text": "MSTSC" },
+        { "id": "B", "text": "MSINFO32" },
+        { "id": "C", "text": "MMC" },
+        { "id": "D", "text": "DXDIAG" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "DirectX is a collection of application programming interfaces (APIs) related to multimedia. A great utility is the DxDiag (DirectX Diagnostic) tool, which allows you to test DirectX functionality. When you start it, you can also verify that Microsoft has signed your drivers."
+    },
+    {
+      "id": 36,
+      "question": "You need to install a copy of Windows 7 onto a PC with no current operating system. Which boot methods are acceptable to begin this installation? (Choose all that apply.)",
+      "options": [
+        { "id": "A", "text": "PXE" },
+        { "id": "B", "text": "CD-ROM" },
+        { "id": "C", "text": "USB" },
+        { "id": "D", "text": "Internal hard drive" },
+        { "id": "E", "text": "DVD" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "C", "E"],
+      "explanation": "Windows 7 can be installed from three sources: PXE (over the network), DVD, or USB. Windows 7 does not come on CD-ROM. In this instance, the computer has no operating system, so the internal hard drive is not bootable."
+    },
+    {
+      "id": 37,
+      "question": "You are working on a Windows 8.1 workstation and want to view statistics for how busy the processor is and how much memory is in use. Which two of the following tools will easily allow you to do this? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "CONTROL.EXE SYSTEM" },
+        { "id": "B", "text": "COMPMGMT.MSC" },
+        { "id": "C", "text": "SERVICES.MSC" },
+        { "id": "D", "text": "PERFMON.EXE" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["B", "D"],
+      "explanation": "The Computer Management console (COMPMGMT.EXE) contains Performance Monitor, which allows you to view hardware performance statistics. PERFMON.EXE is the executable for Performance Monitor, which can be used to monitor CPU and memory usage in real time."
+    },
+    {
+      "id": 38,
+      "question": "You are planning to install Windows 7 on several dozen computers that will join an existing Windows Server domain. What is the least powerful edition of Windows 7 you can install on these client computers?",
+      "options": [
+        { "id": "A", "text": "Windows 7 Enterprise" },
+        { "id": "B", "text": "Windows 7 Starter" },
+        { "id": "C", "text": "Windows 7 Professional" },
+        { "id": "D", "text": "Windows 7 Home Premium" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Windows 7 Professional is the minimum edition required to join a Windows Server domain. Windows 7 Starter and Home Premium editions cannot join a domain."
+    },
+    {
+      "id": 39,
+      "question": "What feature of Windows 8 allows users to log into the OS, download apps from the Windows Store, and sync files to the cloud with only one sign-on?",
+      "options": [
+        { "id": "A", "text": "Microsoft SSO" },
+        { "id": "B", "text": "Login sync" },
+        { "id": "C", "text": "OneDrive" },
+        { "id": "D", "text": "Live sign in" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "OneDrive (or Microsoft account) allows users to log into Windows 8, download apps from the Windows Store, and sync files to the cloud with a single sign-on. This provides seamless integration across Microsoft services."
+    },
+    {
+      "id": 40,
+      "question": "You have several Windows 7 and Windows 8.1 workstations on your network. Before any operating system patches get applied to your workstations, you want to review them. Which tool do you configure this setting in?",
+      "options": [
+        { "id": "A", "text": "Windows Patch Management" },
+        { "id": "B", "text": "Windows Update" },
+        { "id": "C", "text": "Computer Management" },
+        { "id": "D", "text": "System Configuration" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Windows Update is the tool used to manage operating system patches and updates. You can configure it to download updates but notify you before installation, allowing you to review them first."
+    },
+    {
+      "id": 41,
+      "question": "You have recently connected your Windows 7 workstation to a cloud storage service. You want to ensure that the cloud-based service synchronizes with your desktop every morning at 2:30 a.m. Which Windows management utility should you use to enable this?",
+      "options": [
+        { "id": "A", "text": "Task Scheduler" },
+        { "id": "B", "text": "Event Viewer" },
+        { "id": "C", "text": "Component Services" },
+        { "id": "D", "text": "Data Sources" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Task Scheduler allows you to schedule automated tasks to run at specific times or when certain conditions are met. You can use it to schedule the cloud synchronization to occur at 2:30 a.m. every morning."
+    },
+    {
+      "id": 42,
+      "question": "You are working on a Windows workstation and do not know what edition of Windows it is running. Which command can you type in the search box to determine the edition and display the information shown here?",
+      "options": [
+        { "id": "A", "text": "wined" },
+        { "id": "B", "text": "winspec" },
+        { "id": "C", "text": "wininfo" },
+        { "id": "D", "text": "winver" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The winver command displays the About Windows dialog box, which shows the Windows edition, version number, and build information."
+    },
+    {
+      "id": 43,
+      "question": "You are installing Windows 7 on a workstation. You want to format the hard drive with a file system that is also supported by Linux. Which file system should you choose?",
+      "options": [
+        { "id": "A", "text": "NTFS" },
+        { "id": "B", "text": "NFS" },
+        { "id": "C", "text": "ExFAT" },
+        { "id": "D", "text": "FAT32" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "FAT32 is supported by both Windows and Linux natively. While Linux can read NTFS with additional software, FAT32 is the best choice for native cross-platform compatibility."
+    },
+    {
+      "id": 44,
+      "question": "You are at a Windows 7 command prompt. You want to display a list of Windows commands and what they do. Which command can you type to get this list?",
+      "options": [
+        { "id": "A", "text": "help" },
+        { "id": "B", "text": "/?" },
+        { "id": "C", "text": "/*" },
+        { "id": "D", "text": "/#" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The help command displays a list of system commands that you can type. For more information about a specific command, type help followed by the command name (e.g., help rd)."
+    },
+    {
+      "id": 45,
+      "question": "Which type of server on your network could have its functionality replaced with NAS or a SAN?",
+      "options": [
+        { "id": "A", "text": "File server" },
+        { "id": "B", "text": "Print server" },
+        { "id": "C", "text": "DNS server" },
+        { "id": "D", "text": "DHCP server" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "File servers can be replaced with Network Attached Storage (NAS) or Storage Area Network (SAN) devices, which are dedicated file storage solutions that provide similar functionality."
+    },
+    {
+      "id": 46,
+      "question": "You have a Windows 7 workstation and need to find out what edition of Windows it is running, as well as details about updates and activation. Which utility can you launch to find this information?",
+      "options": [
+        { "id": "A", "text": "MSINFO32" },
+        { "id": "B", "text": "WINVER" },
+        { "id": "C", "text": "System Properties" },
+        { "id": "D", "text": "DXDIAG" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "System Properties (accessible through Control Panel > System or by right-clicking Computer and selecting Properties) shows the Windows edition, activation status, and other system information."
+    },
+    {
+      "id": 47,
+      "question": "Your office is planning to replace a Windows XP workstation with a Windows 8.1 workstation. The old workstation has data and some application settings that need to be migrated. Which Windows tool is recommended for this migration?",
+      "options": [
+        { "id": "A", "text": "User State Migration Tool" },
+        { "id": "B", "text": "Windows Easy Transfer" },
+        { "id": "C", "text": "Files and Settings Transfer Wizard" },
+        { "id": "D", "text": "Windows Migration Assistant" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Windows Easy Transfer is the Microsoft-recommended tool for migrating user files and settings from one Windows computer to another. It can transfer user accounts, files, and program settings."
+    },
+    {
+      "id": 48,
+      "question": "Which Windows command is used to refresh Group Policy settings and force their changes to take effect?",
+      "options": [
+        { "id": "A", "text": "gpedit" },
+        { "id": "B", "text": "gpresult" },
+        { "id": "C", "text": "gprefresh" },
+        { "id": "D", "text": "gpupdate" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The gpupdate command refreshes local and Active Directory-based Group Policy settings, including security settings. The /force parameter can be used to reapply all policy settings."
+    },
+    {
+      "id": 49,
+      "question": "You are at a command prompt in Windows. You want to change to a different directory. Which command should you use?",
+      "options": [
+        { "id": "A", "text": "dir" },
+        { "id": "B", "text": "cd" },
+        { "id": "C", "text": "md" },
+        { "id": "D", "text": "rd" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The cd (change directory) command is used to change the current directory at the command prompt. For example, cd C:\\Windows changes to the Windows directory."
+    },
+    {
+      "id": 50,
+      "question": "You are at a Windows command prompt and want to view a list of network connections and listening ports. Which command should you use?",
+      "options": [
+        { "id": "A", "text": "netstat" },
+        { "id": "B", "text": "ipconfig" },
+        { "id": "C", "text": "nslookup" },
+        { "id": "D", "text": "ping" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The netstat command displays active TCP connections, ports on which the computer is listening, Ethernet statistics, the IP routing table, and other network-related statistics."
+    },
+    {
+      "id": 51,
+      "question": "What is the name of the user interface introduced with Windows 8?",
+      "options": [
+        { "id": "A", "text": "Aero" },
+        { "id": "B", "text": "Metro" },
+        { "id": "C", "text": "WinPE" },
+        { "id": "D", "text": "Windows Explorer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Microsoft came up with a new user interface for Windows 8. This was originally called the Metro interface, but the name was changed after its release to the new Windows UI (or the Windows 8 UI)."
+    },
+    {
+      "id": 52,
+      "question": "One of your workstations is running Windows 7 and has been occasionally crashing. You believe it's an OS issue and not a hardware issue. You decide to upgrade the computer to Windows 8.1; however, you want to avoid continuing to have errors if they were software-related. What type of installation should you perform?",
+      "options": [
+        { "id": "A", "text": "Upgrade" },
+        { "id": "B", "text": "Unattended" },
+        { "id": "C", "text": "Migration" },
+        { "id": "D", "text": "Clean" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The best plan in this scenario is to format the hard drive, which by definition makes it a clean installation. This ensures that any software-related issues from Windows 7 are not carried over to the new installation."
+    },
+    {
+      "id": 53,
+      "question": "You have a Windows 7 command prompt open. You are in the D:\\users directory and want to copy all 20 of the files with a .doc extension into the D:\\files directory. Which of the following statements is true?",
+      "options": [
+        { "id": "A", "text": "You need to copy the files one at a time." },
+        { "id": "B", "text": "You can use the command copy *.doc d:\\files." },
+        { "id": "C", "text": "You can use the command copy all.doc d:\\files." },
+        { "id": "D", "text": "You can use the command copy .doc d:\\files." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The copy command makes a copy of a file in a second location. One useful tip is to use wildcards. The asterisk (*) is a wildcard that means everything. So, you could type copy *.doc d:\\files to copy all files that have a .doc filename extension."
+    },
+    {
+      "id": 54,
+      "question": "After you install Windows 8.1, you notice that an application called Windows Firewall is enabled. What is Windows Firewall designed to help protect your computer against?",
+      "options": [
+        { "id": "A", "text": "Viruses and worms" },
+        { "id": "B", "text": "Spyware" },
+        { "id": "C", "text": "Fires" },
+        { "id": "D", "text": "Malicious network traffic" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Windows 7 incorporates Windows Firewall, which can be used to stop incoming and outgoing network traffic. Traffic is allowed or denied by specific rules that are part of an access control list (ACL). By default, Windows Firewall blocks incoming traffic."
+    },
+    {
+      "id": 55,
+      "question": "A Windows Vista user uses a lot of memory-intensive applications and has been recently getting out of memory error messages. Her computer has 16GB RAM and can't be upgraded any further. You want to ensure that her system has ample virtual memory as well; what is the minimum recommended size that her swap file should be?",
+      "options": [
+        { "id": "A", "text": "8GB" },
+        { "id": "B", "text": "16GB" },
+        { "id": "C", "text": "24GB" },
+        { "id": "D", "text": "48GB" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "In general, the swap file should be at least 1.5 times the amount of RAM in the machine. With 16GB of RAM, the minimum recommended swap file size would be 24GB. You should place the swap file on a drive with plenty of empty space."
+    },
+    {
+      "id": 56,
+      "question": "You are going to install a Windows 8.1 workstation from an image located on a server. What does the workstation need to support to enable this installation?",
+      "options": [
+        { "id": "A", "text": "Netboot" },
+        { "id": "B", "text": "Unattended installation" },
+        { "id": "C", "text": "PXE boot" },
+        { "id": "D", "text": "USB boot" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "An install can be started many ways, and an image and setup files can also be located on and installed from a network, thus saving you from having to keep all the files on the local machine. Often called a network installation, this process is also referred to as PXE (Preboot Execution Environment) boot."
+    },
+    {
+      "id": 57,
+      "question": "The ability to have a Windows taskbar appear on multiple monitors was introduced with what version of Windows?",
+      "options": [
+        { "id": "A", "text": "Windows 8" },
+        { "id": "B", "text": "Windows 7" },
+        { "id": "C", "text": "Windows Vista" },
+        { "id": "D", "text": "Windows 8.1" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Windows 8 introduced the ability to have the taskbar appear on multiple monitors. This feature helps users with multiple monitor setups to have better access to their running applications."
+    },
+    {
+      "id": 58,
+      "question": "You have chosen to install Windows 8 Pro on a workstation that is currently running Windows 7 Professional. You choose a Custom installation and format the hard drive. What type of installation are you performing?",
+      "options": [
+        { "id": "A", "text": "Migration" },
+        { "id": "B", "text": "Clean" },
+        { "id": "C", "text": "Upgrade" },
+        { "id": "D", "text": "Incremental" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "When you choose a Custom installation and format the hard drive, you are performing a clean installation. This removes all existing data and operating system files and installs Windows from scratch."
+    },
+    {
+      "id": 59,
+      "question": "You are at a Windows 8 command prompt. Which command allows you to copy files and directories, copy NTFS permissions, and mirror a directory tree?",
+      "options": [
+        { "id": "A", "text": "copy" },
+        { "id": "B", "text": "xcopy" },
+        { "id": "C", "text": "robocopy" },
+        { "id": "D", "text": "copyall" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Robocopy (Robust File Copy) is a command-line utility that can copy files and directories, copy NTFS permissions, and mirror a directory tree. It's more powerful than both copy and xcopy commands."
+    },
+    {
+      "id": 60,
+      "question": "You need to install Windows 7 onto several client computers that currently have no OS. You have created a PXE server and will perform the installation over the network. What is required to create the PXE environment?",
+      "options": [
+        { "id": "A", "text": "WinPE" },
+        { "id": "B", "text": "WinRE" },
+        { "id": "C", "text": "A flash drive" },
+        { "id": "D", "text": "Netboot" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Windows Preinstallation Environment (WinPE) is required to create a PXE environment. WinPE is a lightweight version of Windows that can boot from a network and is used to install, deploy, and repair Windows operating systems."
+    },
+    {
+      "id": 61,
+      "question": "A user has poor eyesight and is having trouble reading the small fonts on his monitor, including desktop icons. What should you do to make everything on the desktop appear larger?",
+      "options": [
+        { "id": "A", "text": "Open Control Panel → Appearance and Personalization and decrease the resolution." },
+        { "id": "B", "text": "Open Control Panel → Appearance and Personalization and increase the resolution." },
+        { "id": "C", "text": "Open Control Panel → Appearance and Personalization and decrease the refresh rate." },
+        { "id": "D", "text": "Open Control Panel → Appearance and Personalization and increase the refresh rate." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Decreasing the screen resolution makes everything appear larger on the screen, including text, icons, and windows. Lower resolutions have fewer pixels, which makes items appear bigger."
+    },
+    {
+      "id": 62,
+      "question": "Which Windows command can be used to find the path to an executable file?",
+      "options": [
+        { "id": "A", "text": "path" },
+        { "id": "B", "text": "where" },
+        { "id": "C", "text": "find" },
+        { "id": "D", "text": "locate" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The where command displays the location of files that match a search pattern. It's commonly used to find the path to executable files in the system."
+    },
+    {
+      "id": 63,
+      "question": "You are at a Windows 7 command prompt. You want to display the contents of a directory. Which command should you use?",
+      "options": [
+        { "id": "A", "text": "ls" },
+        { "id": "B", "text": "list" },
+        { "id": "C", "text": "dir" },
+        { "id": "D", "text": "show" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The dir command displays a list of files and subdirectories in a directory. It's one of the most commonly used command prompt commands in Windows."
+    },
+    {
+      "id": 64,
+      "question": "You need to create a new directory at a Windows command prompt. Which command should you use?",
+      "options": [
+        { "id": "A", "text": "cd" },
+        { "id": "B", "text": "md" },
+        { "id": "C", "text": "mkdir" },
+        { "id": "D", "text": "Both B and C" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Both md (make directory) and mkdir are valid commands to create a new directory at the Windows command prompt. They perform the same function."
+    },
+    {
+      "id": 65,
+      "question": "You are at a Windows command prompt and in the D:\\users directory. You need to create a subdirectory named files. What is the proper command and syntax to do this?",
+      "options": [
+        { "id": "A", "text": "cd d:\\files" },
+        { "id": "B", "text": "cd files d:\\" },
+        { "id": "C", "text": "md d:\\files" },
+        { "id": "D", "text": "md files d:\\" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The md (make directory) command with the full path creates a new directory. The syntax is md d:\\files to create the files directory."
+    },
+    {
+      "id": 66,
+      "question": "A user's Windows 7 workstation seems to be using an excessive amount of memory. Which management tool can you use to identify the application that is using the most memory?",
+      "options": [
+        { "id": "A", "text": "Performance Monitor" },
+        { "id": "B", "text": "Computer Management" },
+        { "id": "C", "text": "Windows Memory Diagnostics" },
+        { "id": "D", "text": "Task Manager" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Task Manager shows you which applications and processes are currently running and how much memory each one is using. You can sort by memory usage to quickly identify which application is consuming the most memory."
+    },
+    {
+      "id": 67,
+      "question": "For which operating system can you get a preconfigured virtual machine (that runs in the Windows Virtual PC emulator) that allows users to run Windows XP-based applications?",
+      "options": [
+        { "id": "A", "text": "Windows Vista" },
+        { "id": "B", "text": "Windows 7" },
+        { "id": "C", "text": "Windows 8" },
+        { "id": "D", "text": "Windows 8.1" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Windows 7 Professional, Enterprise, and Ultimate editions included Windows XP Mode, which was a preconfigured virtual machine that allowed users to run Windows XP-based applications in a virtualized environment."
+    },
+    {
+      "id": 68,
+      "question": "A Windows 8 workstation appears to have an application that's locked up, but the keyboard is still responsive. Which system tool can you use to kill the application?",
+      "options": [
+        { "id": "A", "text": "Performance Monitor" },
+        { "id": "B", "text": "Task Manager" },
+        { "id": "C", "text": "Computer Management" },
+        { "id": "D", "text": "MSCONFIG" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Task Manager allows you to end tasks and processes that are not responding. You can right-click the application and select End Task to terminate it."
+    },
+    {
+      "id": 69,
+      "question": "Which of the following file systems was not designed for hard drives but rather for optical media?",
+      "options": [
+        { "id": "A", "text": "CDFS" },
+        { "id": "B", "text": "ExFAT" },
+        { "id": "C", "text": "FAT32" },
+        { "id": "D", "text": "NFS" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "CDFS (Compact Disc File System) was designed specifically for optical media like CDs. It's optimized for the read-only nature of optical discs rather than for read/write operations on hard drives."
+    },
+    {
+      "id": 70,
+      "question": "A junior technician is trying to troubleshoot a Windows 8.1 workstation, and he is having some problems. You go to help, and when you get there, he has opened the utility you see here. Which utility is he running?",
+      "options": [
+        { "id": "A", "text": "TASKMGR.EXE" },
+        { "id": "B", "text": "CONTROL.EXE" },
+        { "id": "C", "text": "MSCONFIG.EXE" },
+        { "id": "D", "text": "MSINFO32.EXE" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "MSCONFIG.EXE is the System Configuration utility. It has five tabs: General, Boot, Services, Startup, and Tools. It's commonly used for troubleshooting boot issues and managing startup programs."
+    },
+    {
+      "id": 71,
+      "question": "You are trying to troubleshoot a remote Windows 7 workstation and want to use Remote Assistance. However, the workstation will not allow you to connect. Where do you tell the user to go to enable Remote Assistance connections to her computer?",
+      "options": [
+        { "id": "A", "text": "Computer Management → Remote" },
+        { "id": "B", "text": "Advanced Security → Remote" },
+        { "id": "C", "text": "System Properties → Remote" },
+        { "id": "D", "text": "Network and Sharing Center → Remote" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Remote Assistance settings are configured in System Properties under the Remote tab. Users need to check the Allow Remote Assistance connections to this computer option to enable Remote Assistance."
+    },
+    {
+      "id": 72,
+      "question": "Which command is used to configure remote desktop connections in Windows?",
+      "options": [
+        { "id": "A", "text": "REMOTE.EXE" },
+        { "id": "B", "text": "MSTSC.EXE" },
+        { "id": "C", "text": "RDP.EXE" },
+        { "id": "D", "text": "MSRA.EXE" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "MSTSC (Remote Desktop Connection) is used to configure remote desktop connections. It offers a variety of options and can be started from the command line or configured through the graphical interface."
+    },
+    {
+      "id": 73,
+      "question": "You want to create a new partition on a Windows 7 workstation. Which tool can you use to do this?",
+      "options": [
+        { "id": "A", "text": "Device Manager" },
+        { "id": "B", "text": "Disk Defragmenter" },
+        { "id": "C", "text": "Disk Management" },
+        { "id": "D", "text": "Computer Management" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "With Windows Disk Management, you can shrink a partition and create a new partition with the empty space. Disk Management is the primary tool for managing disk partitions in Windows."
+    },
+    {
+      "id": 74,
+      "question": "You want to revert a Windows 8.1 system to a previous configuration. Where do you create and manage restore points?",
+      "options": [
+        { "id": "A", "text": "System Restore utility" },
+        { "id": "B", "text": "Backup and Restore" },
+        { "id": "C", "text": "Computer Management" },
+        { "id": "D", "text": "Windows RE" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Restore points are created in the System Restore utility. A restore point is a copy of your system configuration at a given point in time. Restore points are useful for when Windows fails to boot but the computer appears to be fine otherwise or when Windows doesn't seem to be acting right."
+    },
+    {
+      "id": 75,
+      "question": "You are at a Windows command prompt and need help with a specific command. Which command or syntax can you use to get more information about that command?",
+      "options": [
+        { "id": "A", "text": "info [command]" },
+        { "id": "B", "text": "man [command]" },
+        { "id": "C", "text": "help [command]" },
+        { "id": "D", "text": "[command] --help" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The help command does what it says: it gives you help. If you just type help and press Enter, your computer gives you a list of system commands. To get more information, type help followed by the name of the command you want to learn about (for example, help rd)."
+    },
+    {
+      "id": 76,
+      "question": "A Windows 7 workstation will not boot properly. Upon boot, you receive the error message Boot sector not found. You boot to the Windows installation CD and enter the Windows Recovery Environment. Which command should you use to fix this error?",
+      "options": [
+        { "id": "A", "text": "bootrec.exe /scanos" },
+        { "id": "B", "text": "bootrec.exe /rebuildbcd" },
+        { "id": "C", "text": "bootrec.exe /fixmbr" },
+        { "id": "D", "text": "bootrec.exe /fixboot" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The bootrec.exe utility can be run in Windows 8/8.1, Windows 7, or Windows Vista to interact with the Master Boot Record (MBR), boot sector, or Boot Configuration Data (BCD) store. The options for bootrec are /fixboot (to write a new boot sector), /fixmbr (to write a new MBR), /rebuildbcd (to rebuild the BCD store), and /scanos (to scan all disks for installations the Boot Manager menu is not listing)."
+    },
+    {
+      "id": 77,
+      "question": "You need to format a hard drive so you can install Windows 7 on it. Which file system will you not be able to choose?",
+      "options": [
+        { "id": "A", "text": "NFS" },
+        { "id": "B", "text": "FAT32" },
+        { "id": "C", "text": "ext4" },
+        { "id": "D", "text": "NTFS" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The ext3 and ext4 file systems are supported by Linux but not natively by Windows Vista, Windows 7, or Windows 8/8.1."
+    },
+    {
+      "id": 78,
+      "question": "Which feature of Windows Vista, Windows 7, and Windows 8/8.1 allows you to use a removable drive as temporary cache space to speed up the system?",
+      "options": [
+        { "id": "A", "text": "OneDrive" },
+        { "id": "B", "text": "ReadyBoost" },
+        { "id": "C", "text": "Shadow Copy" },
+        { "id": "D", "text": "Windows Easy Transfer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "ReadyBoost allows you to use free space on a removable drive (usually USB) as virtual memory and speed up a system. For the option even to be possible, at least 256MB of space must be available on the removable media. ReadyBoost is configured from the ReadyBoost tab of the Properties dialog box for the removable media device."
+    },
+    {
+      "id": 79,
+      "question": "You have purchased a dozen Windows 8.1 workstations from a computer vendor. The vendor has set aside space on the hard drive to hold an extra copy of key operating system files. What is this space called?",
+      "options": [
+        { "id": "A", "text": "Restore partition" },
+        { "id": "B", "text": "Recovery partition" },
+        { "id": "C", "text": "Reinstallation partition" },
+        { "id": "D", "text": "System image" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A recovery partition is an area of the hard drive set aside to hold files that can be used to recover the operating system in the event of a failure. You can copy the information from this partition to another location (usually a USB drive) to use in the event that the partition fails."
+    },
+    {
+      "id": 80,
+      "question": "You want to configure a Windows 8.1 workstation to boot from an external hard drive. Which of the following must be true for that to happen? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "The drive must be USB." },
+        { "id": "B", "text": "The computer's BIOS must support it." },
+        { "id": "C", "text": "BitLocker needs to be enabled." },
+        { "id": "D", "text": "The external drive must be listed in the BIOS boot order." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["B", "D"],
+      "explanation": "Rather than booting from an internal drive, it is possible to install and boot Windows from an external drive if your BIOS supports it (and looks for the external drive in the boot order). As silly as it sounds, bear in mind when taking the exam that an external drive will not boot if it is not found at startup."
+    },
+    {
+      "id": 81,
+      "question": "Which version of Windows was the first to feature side-by-side apps, where two applications can be snapped to the side of a widescreen display, each taking up half of the screen?",
+      "options": [
+        { "id": "A", "text": "Windows Vista" },
+        { "id": "B", "text": "Windows 7" },
+        { "id": "C", "text": "Windows 8" },
+        { "id": "D", "text": "Windows 8.1" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Windows 8 was the first to feature side-by-side apps. Snapped applications will take up half of the screen by default. On larger screens, up to four apps can be snapped."
+    },
+    {
+      "id": 82,
+      "question": "The data storage partition on your Windows 7 workstation is nearly out of room. It's configured as a basic volume. What needs to be true for you to extend this partition? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "You need to convert it to a dynamic volume." },
+        { "id": "B", "text": "It must be formatted with NTFS." },
+        { "id": "C", "text": "It must be extended into contiguous free space." },
+        { "id": "D", "text": "It must be a primary partition." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["B", "C"],
+      "explanation": "In Windows Vista and newer, you can extend existing partitions to give them more space, provided of course that the hard disk has unpartitioned space available. To extend a basic volume, it either needs to be raw or formatted with NTFS, and you can only extend it into contiguous disk space. Both primary and extended partitions can be extended."
+    },
+    {
+      "id": 83,
+      "question": "You have a Windows 7 workstation configured in a workgroup. Before you reboot your computer to apply a change, you want to be sure that no one else is remotely connected to your workstation. Which administrative tool can you use to do this?",
+      "options": [
+        { "id": "A", "text": "Users and Groups" },
+        { "id": "B", "text": "Performance Monitor" },
+        { "id": "C", "text": "Control Panel → Networking" },
+        { "id": "D", "text": "Task Manager" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Task Manager's Users tab provides you with information about the users connected to the local machine. You'll see the username, ID, status, client name, and session type. You can right-click the name of any connected user to perform a variety of functions, including sending the user a message, disconnecting the user, logging off the user, and initiating a remote-control session to the user's machine."
+    },
+    {
+      "id": 84,
+      "question": "You are installing a new network for a small office. They are concerned about security and therefore want it managed by one computer. When installing the Windows computers, what type of network setup will you choose?",
+      "options": [
+        { "id": "A", "text": "Workgroup" },
+        { "id": "B", "text": "HomeGroup" },
+        { "id": "C", "text": "Distributed" },
+        { "id": "D", "text": "Domain" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "A domain is a group of computers that are tightly connected or associated and share a common domain name. It has a single authority (called a domain controller) that manages security for all of the computers. All users will log in to the Windows domain using their centrally created user account."
+    },
+    {
+      "id": 85,
+      "question": "You are at a Windows 7 command prompt. A process has frozen and is making the computer slow to respond. What is the syntax used to find the process and how much CPU time it has used?",
+      "options": [
+        { "id": "A", "text": "tasklist /s" },
+        { "id": "B", "text": "tasklist /v" },
+        { "id": "C", "text": "tasklist /svc" },
+        { "id": "D", "text": "tasklist /c" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The tasklist utility is used at the command line to see a list of all the running processes (and their process ID number), similar to what you see in the GUI by using Task Manager. By using the /v switch, you can see additional information including CPU time."
+    },
+    {
+      "id": 86,
+      "question": "You are migrating user files and applications for a few user accounts from Windows Vista to Windows 7. Which tool does Microsoft recommend you use to make this transfer?",
+      "options": [
+        { "id": "A", "text": "User State Migration Tool (USMT)" },
+        { "id": "B", "text": "Windows Easy Transfer (WET)" },
+        { "id": "C", "text": "Windows Migration Tool (WMT)" },
+        { "id": "D", "text": "User Accounts in Control Panel" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Windows Easy Transfer is Microsoft's recommended tool for migrating user files and applications from one Windows computer to another. It's designed for individual users or small-scale migrations."
+    },
+    {
+      "id": 87,
+      "question": "You are at a Windows 8.1 command prompt, in the D:\\users\\jdoe\\files directory. What command can you use to get to the D:\\ directory?",
+      "options": [
+        { "id": "A", "text": "cd\\" },
+        { "id": "B", "text": "cd.." },
+        { "id": "C", "text": "cd/" },
+        { "id": "D", "text": "cd\\\\" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The cd\\ command changes the directory to the root directory of the current drive. In this case, it would take you from D:\\users\\jdoe\\files to D:\\."
+    },
+    {
+      "id": 88,
+      "question": "You are at a Windows command prompt and want to view the current directory path. Which command should you use?",
+      "options": [
+        { "id": "A", "text": "path" },
+        { "id": "B", "text": "cd" },
+        { "id": "C", "text": "pwd" },
+        { "id": "D", "text": "dir" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Typing cd without any parameters displays the current directory path. This is useful when you need to know your current location in the file system."
+    },
+    {
+      "id": 89,
+      "question": "Which Windows utility allows you to create a bootable USB drive for installing Windows?",
+      "options": [
+        { "id": "A", "text": "Windows USB/DVD Download Tool" },
+        { "id": "B", "text": "Disk Management" },
+        { "id": "C", "text": "Device Manager" },
+        { "id": "D", "text": "Computer Management" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The Windows USB/DVD Download Tool is a Microsoft utility that allows you to create a bootable USB drive or DVD from a Windows ISO file for installing Windows."
+    },
+    {
+      "id": 90,
+      "question": "You need to determine which network adapter a Windows 7 workstation is using. Which command can you use to display network adapter information?",
+      "options": [
+        { "id": "A", "text": "netstat" },
+        { "id": "B", "text": "ipconfig /all" },
+        { "id": "C", "text": "ping" },
+        { "id": "D", "text": "tracert" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The ipconfig /all command displays detailed information about all network adapters in the system, including their MAC addresses, IP addresses, subnet masks, default gateways, and DHCP information."
+    },
+    {
+      "id": 91,
+      "question": "Which Windows feature allows you to record actions taken on a computer for troubleshooting purposes?",
+      "options": [
+        { "id": "A", "text": "Event Viewer" },
+        { "id": "B", "text": "Problem Steps Recorder" },
+        { "id": "C", "text": "Performance Monitor" },
+        { "id": "D", "text": "Reliability Monitor" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Problem Steps Recorder (PSR) allows you to record steps taken on a computer, capturing screenshots and annotations. This is useful for documenting issues to share with technical support or other technicians."
+    },
+    {
+      "id": 92,
+      "question": "You are looking at a Windows 7 workstation's hard drives using the Disk Management utility. You want to find the partition that the computer boots from. What must the partition be marked?",
+      "options": [
+        { "id": "A", "text": "Basic" },
+        { "id": "B", "text": "Primary" },
+        { "id": "C", "text": "Active" },
+        { "id": "D", "text": "Bootable" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The boot partition must be marked as Active in Disk Management. Only one partition per physical disk can be marked as active at a time. This is the partition that the BIOS looks for to start the boot process."
+    },
+    {
+      "id": 93,
+      "question": "You are at a Windows Vista command prompt. You believe that one of the Windows system files is corrupt. Which command should you use to scan and repair problematic system files?",
+      "options": [
+        { "id": "A", "text": "sfc /scanfile" },
+        { "id": "B", "text": "sfc /scannow" },
+        { "id": "C", "text": "sfc /verifyfile" },
+        { "id": "D", "text": "sfc /revert" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The System File Checker (SFC) utility scans for and repairs corrupt system files. The /scannow parameter scans all protected system files and replaces incorrect versions with correct Microsoft versions."
+    },
+    {
+      "id": 94,
+      "question": "You have just configured an alternative IP address on a Windows 8.1 workstation. What is the purpose of configuring this alternative address?",
+      "options": [
+        { "id": "A", "text": "To allow the workstation to participate on multiple networks" },
+        { "id": "B", "text": "To allow the workstation to have an IPv4 and IPv6 address at the same time" },
+        { "id": "C", "text": "To provide an available address if the first choice is not available" },
+        { "id": "D", "text": "To mask the IP address and hide the workstation's identity" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "An alternative IP configuration provides a fallback IP address if the primary configuration (usually DHCP) is not available. This allows the computer to still function on the network using a static IP address when DHCP fails."
+    },
+    {
+      "id": 95,
+      "question": "You are at a Windows command prompt. You remember the name of the command-line tool that you want to run, but you don't remember the switch you need to use with it. What switch can you use to show the context and switches used for that command?",
+      "options": [
+        { "id": "A", "text": "/help" },
+        { "id": "B", "text": "/?" },
+        { "id": "C", "text": "/*" },
+        { "id": "D", "text": "/#" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Most Windows command-line tools support the /? switch, which displays help information about the command and its available parameters and switches."
+    },
+    {
+      "id": 96,
+      "question": "Which Windows feature, introduced with Vista, is designed to prevent unintentional or unauthorized changes to the computer by prompting for permission to continue?",
+      "options": [
+        { "id": "A", "text": "BitLocker" },
+        { "id": "B", "text": "PowerShell" },
+        { "id": "C", "text": "Security Center" },
+        { "id": "D", "text": "User Account Control" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "User Account Control (UAC) was introduced with Windows Vista to prevent unauthorized changes to the operating system by prompting for permission or administrator credentials when certain actions are attempted."
+    },
+    {
+      "id": 97,
+      "question": "You are working at a Windows 7 command prompt. Which of the following commands require administrative privileges to run? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "chkdsk" },
+        { "id": "B", "text": "diskpart" },
+        { "id": "C", "text": "tasklist" },
+        { "id": "D", "text": "sfc" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["B", "D"],
+      "explanation": "Both diskpart and sfc require administrative privileges to run. Diskpart manages disk partitions, and sfc scans and repairs system files. These operations require elevated permissions to protect system integrity."
+    },
+    {
+      "id": 98,
+      "question": "A user reports that her Windows 8.1 workstation seems to be having issues with the operating system. You want to repair the installation but allow her to keep her personal files and apps. Which option should you choose in the Windows Recovery Environment?",
+      "options": [
+        { "id": "A", "text": "Reset" },
+        { "id": "B", "text": "Restore" },
+        { "id": "C", "text": "Recover" },
+        { "id": "D", "text": "Refresh" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The Refresh option in Windows 8/8.1 reinstalls Windows while keeping your personal files, settings, and Windows Store apps intact. It removes desktop applications, which will need to be reinstalled."
+    },
+    {
+      "id": 99,
+      "question": "Users are sending jobs to a printer managed by a Windows 7 computer, but the jobs are not printing. The printer is online and connected. From your A+ test preparation, you know that you are supposed to stop and restart the print spooler. Where can you do this?",
+      "options": [
+        { "id": "A", "text": "Control Panel → System" },
+        { "id": "B", "text": "Computer Management → Device Manager" },
+        { "id": "C", "text": "Computer Management → Services" },
+        { "id": "D", "text": "Control Panel → Printers and Scanners" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The Print Spooler service can be stopped and restarted through Computer Management → Services. You can also access Services directly by typing SERVICES.MSC at the Run prompt."
+    },
+    {
+      "id": 100,
+      "question": "You are at a Windows 8 workstation and have a command prompt open. Which of the following commands is used to refresh Group Policy settings and force their changes to take effect?",
+      "options": [
+        { "id": "A", "text": "gpedit" },
+        { "id": "B", "text": "gpresult" },
+        { "id": "C", "text": "gprefresh" },
+        { "id": "D", "text": "gpupdate" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The gpupdate command refreshes local and Active Directory-based Group Policy settings, including security settings. The /force parameter can be used to reapply all policy settings."
+    },
+    {
+      "id": 101,
+      "question": "You are training new technicians on network sharing. How do you tell them to identify administrative shares?",
+      "options": [
+        { "id": "A", "text": "They all start with the word admin." },
+        { "id": "B", "text": "They all end with a dollar sign ($)." },
+        { "id": "C", "text": "They all end with an at symbol (@)." },
+        { "id": "D", "text": "They all end with a percent sign (%)." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Administrative shares are created on servers running Windows on the network for administrative purposes. These shares can differ slightly based on which OS is running, but they end with a dollar sign ($) to make them hidden. There is one for each volume on a hard drive (C$, D$, and so forth) as well as admin$ (the root folder—usually C:\\WINDOWS), and print$ (where the print drivers are located)."
+    },
+    {
+      "id": 102,
+      "question": "Which of the following describes the functionality of compatibility mode in Windows 7?",
+      "options": [
+        { "id": "A", "text": "It allows you to run 64-bit applications within a 32-bit operating system." },
+        { "id": "B", "text": "It allows you to run 32-bit applications within a 32-bit operating system." },
+        { "id": "C", "text": "It allows you to run programs designed for a different operating system than Windows." },
+        { "id": "D", "text": "It allows you to configure programs to believe they are running on an older version of Windows." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Program Compatibility is included with various versions of Windows to configure programs to believe that they are running with an older version of Windows. To enable it for Windows 7, for example, choose Start → Control Panel → Programs and then click Run Programs Made For Previous Versions of Windows."
+    },
+    {
+      "id": 103,
+      "question": "You would like to configure a test workstation to be able to boot to Windows Vista, Windows 7, and Windows 8.1. Which of the following statements is true regarding installation of these operating systems?",
+      "options": [
+        { "id": "A", "text": "You can't install all three operating systems on one workstation." },
+        { "id": "B", "text": "You should install the oldest operating system first and work toward the newest." },
+        { "id": "C", "text": "You should install the newest operating system first and work toward the oldest." },
+        { "id": "D", "text": "The order of operating system installation does not matter in this situation." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "If there is sufficient space on a machine and the hardware will support it, you can have more than one operating system and choose which one to run when you boot. A rule of thumb from Microsoft is that you should always install older operating systems first and then work forward (have Windows Vista on before installing Windows 7 and then Windows 8, for example)."
+    },
+    {
+      "id": 104,
+      "question": "You are installing a Windows 8.1 client in a Windows Server 2012 R2 domain. The client computer will need to be able to implement file and share permissions. Which Windows-native file system best meets your needs?",
+      "options": [
+        { "id": "A", "text": "FAT32" },
+        { "id": "B", "text": "NFS" },
+        { "id": "C", "text": "NTFS" },
+        { "id": "D", "text": "ext4" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Introduced along with Windows NT, NTFS is available with all current versions of Windows. NTFS is a much more advanced file system in almost every way than all versions of the FAT file system. It includes such features as individual file security, compression, and RAID support as well as support for extremely large file and partition sizes and disk transaction monitoring."
+    },
+    {
+      "id": 105,
+      "question": "You need the ability to remotely boot up computers on the network by sending a signal to their network cards. Which technology do you need to ensure that the network cards support?",
+      "options": [
+        { "id": "A", "text": "Remote Boot" },
+        { "id": "B", "text": "Network Boot" },
+        { "id": "C", "text": "Wake-on-LAN" },
+        { "id": "D", "text": "NetBIOS" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Wake-on-LAN is an Ethernet standard implemented via a network card that allows a sleeping machine to awaken when it receives a wakeup signal."
+    },
+    {
+      "id": 106,
+      "question": "You are at a Windows 7 command prompt, and you need to kill the process named winword.exe. What is the right context to kill this process?",
+      "options": [
+        { "id": "A", "text": "taskkill /IM winword.exe" },
+        { "id": "B", "text": "taskkill /PID winword.exe" },
+        { "id": "C", "text": "taskkill /S winword.exe" },
+        { "id": "D", "text": "taskkill /FI winword.exe" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The taskkill command is used to terminate processes, just like you can do in Task Manager in Windows. To kill a process by its name, use the /IM switch. If you know the process ID, use the /PID switch. The /S switch is used to specify a remote system, and the /FI switch applies a filter to a set of tasks."
+    },
+    {
+      "id": 107,
+      "question": "You have created a reference image for an unattended installation. Now you need to edit the image for customization of a few workstations. Which tool should you use to easily do this?",
+      "options": [
+        { "id": "A", "text": "Sysprep" },
+        { "id": "B", "text": "ADK" },
+        { "id": "C", "text": "MDT" },
+        { "id": "D", "text": "WIM" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "For an unattended installation, you create a reference image for deployment to the physical machines. Once it's created, you can edit this image with the System Preparation Tool (Sysprep) and create a Windows Imaging (WIM) file to roll out."
+    },
+    {
+      "id": 108,
+      "question": "You are installing a Windows Vista workstation on a network. The network is small, and each user manages their own security. What type of network setup is most appropriate for this workstation?",
+      "options": [
+        { "id": "A", "text": "Workgroup" },
+        { "id": "B", "text": "Domain" },
+        { "id": "C", "text": "HomeGroup" },
+        { "id": "D", "text": "Localgroup" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "When configuring Windows, the three types of networks are workgroup, HomeGroup, and domain. A workgroup is a peer-to-peer network where each user manages their own security. It's appropriate for small networks where centralized security is not required."
+    },
+    {
+      "id": 109,
+      "question": "You are installing Windows 8.1 on a workstation and want to create a striped volume on its three hard disks. What type of partition do you need to create in Disk Management to allow this?",
+      "options": [
+        { "id": "A", "text": "Primary" },
+        { "id": "B", "text": "Extended" },
+        { "id": "C", "text": "Logical" },
+        { "id": "D", "text": "Dynamic" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "To create a striped volume across multiple disks, you need to convert the disks to dynamic disks. Basic disks can only have simple volumes on a single disk, while dynamic disks support spanned, striped, and mirrored volumes across multiple disks."
+    },
+    {
+      "id": 110,
+      "question": "You have a desktop computer running Windows Vista Starter 64-bit. To which of the following operating systems can you do an in-place upgrade?",
+      "options": [
+        { "id": "A", "text": "Windows 7 Home Premium 32-bit" },
+        { "id": "B", "text": "Windows 7 Home Premium 64-bit" },
+        { "id": "C", "text": "Windows 7 Ultimate 64-bit" },
+        { "id": "D", "text": "None of the above" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Windows Vista Starter cannot be upgraded to any edition of Windows 7 using an in-place upgrade. You must perform a clean installation."
+    },
+    {
+      "id": 111,
+      "question": "You have a workstation with a 64-bit processor and no operating system. When you install an operating system on the workstation, which of the following is true?",
+      "options": [
+        { "id": "A", "text": "You can only install a 64-bit operating system." },
+        { "id": "B", "text": "You can only install a 32-bit operating system." },
+        { "id": "C", "text": "You can install either a 64-bit or a 32-bit operating system." },
+        { "id": "D", "text": "You can install a 64-bit operating system or a 32-bit operating system running in compatibility mode." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A 64-bit processor can run both 64-bit and 32-bit operating systems. However, a 32-bit processor can only run 32-bit operating systems."
+    },
+    {
+      "id": 112,
+      "question": "You are installing a second hard drive in a Windows 7 workstation. On the drive, you will need to create six different logical partitions. What type of partition should you create to enable this?",
+      "options": [
+        { "id": "A", "text": "Primary" },
+        { "id": "B", "text": "Extended" },
+        { "id": "C", "text": "Active" },
+        { "id": "D", "text": "Spanned" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "An extended partition can contain multiple logical drives. You can have up to four primary partitions, or three primary partitions and one extended partition. The extended partition can then contain multiple logical drives."
+    },
+    {
+      "id": 113,
+      "question": "You have a Windows 7 computer that you want to upgrade to Windows 8 Core. Which two operating systems can you upgrade to this version of Windows 8? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Windows 7 Starter" },
+        { "id": "B", "text": "Windows 7 Professional" },
+        { "id": "C", "text": "Windows 7 Enterprise" },
+        { "id": "D", "text": "Windows 7 Home Premium" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "D"],
+      "explanation": "Windows 7 Starter and Windows 7 Home Premium can be upgraded to Windows 8 Core. Windows 7 Professional and Enterprise have different upgrade paths to Windows 8 Pro or Enterprise editions."
+    },
+    {
+      "id": 114,
+      "question": "You have just installed Windows 8.1 on a workstation. After the installation is complete, the sound card does not work. It worked previously, and Device Manager appears to have detected the card. What step should you try to get the card working again?",
+      "options": [
+        { "id": "A", "text": "Reseat the sound card." },
+        { "id": "B", "text": "Uninstall Windows 8.1 and reinstall the previous OS." },
+        { "id": "C", "text": "Ensure that the MIDI port is enabled in Device Manager." },
+        { "id": "D", "text": "Install an alternate third-party driver." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "When hardware that previously worked stops functioning after an OS installation, the most likely cause is a driver compatibility issue. Installing an alternate or updated driver from the manufacturer's website often resolves the problem."
+    },
+    {
+      "id": 115,
+      "question": "You have a Windows Vista workstation with a built-in network card. The card is intermittently malfunctioning. You install a USB network card and want to permanently disable the internal card to avoid any conflicts. Which administrative tool should you use?",
+      "options": [
+        { "id": "A", "text": "Computer Management" },
+        { "id": "B", "text": "System Configuration" },
+        { "id": "C", "text": "Device Manager" },
+        { "id": "D", "text": "Services" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Device Manager is used to manage hardware devices, including enabling and disabling them. You can right-click a device in Device Manager and select Disable to prevent it from being used."
+    },
+    {
+      "id": 116,
+      "question": "You have a workstation with a 32-bit processor and no operating system. When you install an operating system on the workstation, which of the following is true?",
+      "options": [
+        { "id": "A", "text": "You can only install a 32-bit operating system." },
+        { "id": "B", "text": "You can only install a 64-bit operating system." },
+        { "id": "C", "text": "You can install either a 64-bit or a 32-bit operating system." },
+        { "id": "D", "text": "You can install a 32-bit operating system or a 64-bit operating system running in compatibility mode." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "A 32-bit processor can only run 32-bit operating systems. 64-bit operating systems require a 64-bit processor."
+    },
+    {
+      "id": 117,
+      "question": "You have installed a secondary hard drive into a Windows 8 workstation. The user asks you to create a logical partition. Which of the following is the defining characteristic of a logical partition?",
+      "options": [
+        { "id": "A", "text": "It spans multiple hard drives." },
+        { "id": "B", "text": "It is active." },
+        { "id": "C", "text": "It has a drive letter." },
+        { "id": "D", "text": "It is created within an extended partition." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "A logical partition is created within an extended partition. While it can have a drive letter, that's not its defining characteristic. Extended partitions can contain multiple logical partitions."
+    },
+    {
+      "id": 118,
+      "question": "An application on a user's Windows 7 workstation has frozen. You open Task Manager and find that the application is not responding. What should you do to close the application?",
+      "options": [
+        { "id": "A", "text": "Select the application and click Switch To." },
+        { "id": "B", "text": "Select the application and click End Task." },
+        { "id": "C", "text": "Select the application and click End Process." },
+        { "id": "D", "text": "Select the application and click Delete." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "In Task Manager, when an application is not responding, you select it and click End Task to force it to close. End Process is used for processes on the Processes tab, not applications."
+    },
+    {
+      "id": 119,
+      "question": "Which Windows tool allows you to view application errors, security audits, and system errors?",
+      "options": [
+        { "id": "A", "text": "Performance Monitor" },
+        { "id": "B", "text": "Task Manager" },
+        { "id": "C", "text": "Computer Management" },
+        { "id": "D", "text": "Event Viewer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Event Viewer is the Windows tool that allows you to view application error logs, security audit records, and system errors. It's available in most versions of Windows and is an essential troubleshooting tool."
+    },
+    {
+      "id": 120,
+      "question": "A Windows 8.1 workstation is running slowly. Which tool can you use to determine which application is using the most CPU resources?",
+      "options": [
+        { "id": "A", "text": "Resource Monitor" },
+        { "id": "B", "text": "Event Viewer" },
+        { "id": "C", "text": "MSCONFIG" },
+        { "id": "D", "text": "Performance Monitor" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Resource Monitor provides detailed real-time information about CPU, memory, disk, and network usage. It allows you to see which applications and processes are consuming the most resources."
+    },
+    {
+      "id": 121,
+      "question": "Which command-line utility can you use to view and modify the Windows Registry?",
+      "options": [
+        { "id": "A", "text": "REGSRV32" },
+        { "id": "B", "text": "REGEDIT" },
+        { "id": "C", "text": "MSCONFIG" },
+        { "id": "D", "text": "REGSVR32" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "REGEDIT is the Registry Editor utility used to view and modify the Windows Registry. Be careful when editing the Registry, as incorrect changes can render a system inoperable. There is no undo feature."
+    },
+    {
+      "id": 122,
+      "question": "Which Windows Vista utility provides a single interface for viewing messages, resolving problems, seeing your computer's security status, and performing troubleshooting and maintenance steps?",
+      "options": [
+        { "id": "A", "text": "Control Panel" },
+        { "id": "B", "text": "Action Center" },
+        { "id": "C", "text": "System and Security" },
+        { "id": "D", "text": "Windows Defender" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "In Windows Vista, the Security Center (renamed to Action Center in Windows 7) provides a single interface for viewing messages, resolving problems, seeing your computer's security status, and performing troubleshooting and maintenance steps."
+    },
+    {
+      "id": 123,
+      "question": "Several workstations in your office are running Windows XP Professional. You want to upgrade them to Windows Vista. To which versions of Vista can you upgrade Windows XP Professional? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Windows Vista Enterprise" },
+        { "id": "B", "text": "Windows Vista Home Premium" },
+        { "id": "C", "text": "Windows Vista Ultimate" },
+        { "id": "D", "text": "Windows Vista Business" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["C", "D"],
+      "explanation": "Windows XP Professional can be upgraded only to Windows Vista Business or Windows Vista Ultimate. Windows Vista Enterprise is typically installed as a clean install."
+    },
+    {
+      "id": 124,
+      "question": "You have just installed a Windows Vista workstation for a user. Company policy is that the user's TEMP folder should not be located on the system partition. Which administrative tool can you use to change the location of the user's temporary files folder?",
+      "options": [
+        { "id": "A", "text": "Computer Management" },
+        { "id": "B", "text": "Users and Groups" },
+        { "id": "C", "text": "Local Security Policy" },
+        { "id": "D", "text": "System Configuration" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The user's TEMP directory is a user environment variable and is accessed through Users and Groups (or User Accounts). You can modify environment variables through System Properties → Advanced → Environment Variables."
+    },
+    {
+      "id": 125,
+      "question": "You are installing Windows Vista on an empty mechanical hard drive. When formatting the drive, you want to choose a file system that is lightweight. The user is not concerned about data security. Which file system best meets the user's needs?",
+      "options": [
+        { "id": "A", "text": "ExFAT" },
+        { "id": "B", "text": "NFS" },
+        { "id": "C", "text": "NTFS" },
+        { "id": "D", "text": "FAT32" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "FAT32 is lightweight and relatively fast. It allows for 32-bit cluster addressing, which provides for a maximum partition size of 2 terabytes. FAT32 does not have individual file security permissions, making it less secure than NTFS but adequate when security is not a concern."
+    },
+    {
+      "id": 126,
+      "question": "You have a desktop running Windows Vista Home Basic 32-bit and want to upgrade your OS. To which of the following operating systems can you perform an in-place upgrade?",
+      "options": [
+        { "id": "A", "text": "Windows 7 Ultimate 32-bit" },
+        { "id": "B", "text": "Windows 7 Professional 32-bit" },
+        { "id": "C", "text": "Windows 7 Professional 64-bit" },
+        { "id": "D", "text": "None of the above" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Windows Vista Home Basic is upgradeable to Windows 7 Home Premium or Windows 7 Ultimate but not Windows 7 Professional."
+    },
+    {
+      "id": 127,
+      "question": "Which Windows Vista utility provides a single interface for configuring your firewall, getting automatic updates, and setting up malware protection?",
+      "options": [
+        { "id": "A", "text": "Action Center" },
+        { "id": "B", "text": "Security Center" },
+        { "id": "C", "text": "Windows Defender" },
+        { "id": "D", "text": "Windows Firewall" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "In Vista, Windows Security Center provides a single interface for firewall settings, automatic updating, malware protection, and other security settings. In Windows 7, other options were added, and it was renamed to Action Center."
+    },
+    {
+      "id": 128,
+      "question": "One of the developers in your organization has created a new software package for Windows 8.1 client computers. He wants to custom configure application-specific access permissions. Which administrative tool would he use to do this?",
+      "options": [
+        { "id": "A", "text": "System Configuration" },
+        { "id": "B", "text": "Advanced Security" },
+        { "id": "C", "text": "Component Services" },
+        { "id": "D", "text": "Users and Groups" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Component Services is an MMC snap-in in Windows 7 that allows you to administer, as well as deploy, component services and configure behavior such as application-specific security. If you hear the terms DCOM or COM+ mentioned in conjunction with Windows, Component Services is the tool needed for their management."
+    },
+    {
+      "id": 129,
+      "question": "Several workstations in your office are running Windows Vista Business. You want to upgrade them to Windows 8.1 Pro. Which of the following statements is true?",
+      "options": [
+        { "id": "A", "text": "There is no direct upgrade path from Vista to Windows 8.1. You must perform a clean install." },
+        { "id": "B", "text": "You can upgrade Windows Vista Business only to Windows 8.1 Enterprise." },
+        { "id": "C", "text": "You can upgrade Windows Vista Business only to Windows 8.1 Basic." },
+        { "id": "D", "text": "When you begin the upgrade, choose Custom and then do not format the hard drive." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "There is no direct upgrade path from Windows XP or Vista to Windows 8/8.1. You must do a clean installation. You can upgrade from Windows Vista to Windows 7 and then upgrade Windows 7 to Windows 8/8.1."
+    },
+    {
+      "id": 130,
+      "question": "You want to format a hard drive with the NTFS file system. It's the D: drive on a Windows Vista computer. Which command do you use at the command prompt to do this?",
+      "options": [
+        { "id": "A", "text": "format d: /fs:ntfs" },
+        { "id": "B", "text": "format d: /ntfs" },
+        { "id": "C", "text": "format d: /v:ntfs" },
+        { "id": "D", "text": "format d: /q:ntfs" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The format command is used to format hard drives. Before you format any drive, be sure that you have it backed up or are prepared to lose whatever is on it. The /fs:[filesystem] switch specifies the file system."
+    },
+    {
+      "id": 131,
+      "question": "You are trying to update a Windows Vista workstation. After you make changes to the configuration, the system does not boot properly. Another technician suggests reverting the OS to the previous configuration settings. Which tool can you use to do this?",
+      "options": [
+        { "id": "A", "text": "Windows Update" },
+        { "id": "B", "text": "Computer Management" },
+        { "id": "C", "text": "System Restore" },
+        { "id": "D", "text": "System Configuration" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "To revert to a previous configuration, you need to apply a restore point. Restore points are created and managed in the System Restore utility. A restore point is a copy of your system configuration at a given point in time. Restore points are useful for when Windows fails to boot but the computer appears to be fine otherwise or when Windows doesn't seem to be acting right and you think it was because of a recent configuration change."
+    },
+    {
+      "id": 132,
+      "question": "A user reports that it seems like her network performance has recently become very slow. While investigating her network card properties, you notice that her network card is set to half duplex. What does this mean?",
+      "options": [
+        { "id": "A", "text": "That is the normal operating setting for a network card." },
+        { "id": "B", "text": "The switch that she is connected to configured her network card to operate in this mode for backward compatibility." },
+        { "id": "C", "text": "The card needs to be set to simplex mode for it to run faster." },
+        { "id": "D", "text": "The card needs to be set to full duplex mode for it to run faster." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Duplexing is the means by which communication takes place. With full duplexing, the network card can send and receive at the same time. The main advantage of full-duplex over half-duplex communication is performance. NICs can operate twice as fast in full-duplex mode as they do normally in half-duplex mode."
+    },
+    {
+      "id": 133,
+      "question": "You have recently deployed a custom application to several Windows workstations on your network. The application appears to have a bug, and the developer suggests you edit the Registry to fix it. Which administrative tool would you use to do this?",
+      "options": [
+        { "id": "A", "text": "MSINFO32" },
+        { "id": "B", "text": "COMMAND" },
+        { "id": "C", "text": "REGEDIT" },
+        { "id": "D", "text": "NOTEPAD" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Windows configuration information is stored in a special configuration database known as the Registry. This centralized database also contains environmental settings for various Windows programs. To edit the Registry, use the REGEDIT tool. Be careful, though, because an incorrect Registry change can render a system inoperable."
+    },
+    {
+      "id": 134,
+      "question": "You will be installing several new resource-intensive applications on a Windows 7 workstation, and the user has concerns over system performance. You want to monitor memory and CPU performance and set up the workstation so that it logs performance over time. Which utility should you use to set this up?",
+      "options": [
+        { "id": "A", "text": "Resource Monitor" },
+        { "id": "B", "text": "Performance Monitor" },
+        { "id": "C", "text": "Task Manager" },
+        { "id": "D", "text": "Event Viewer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "There are three tools that quickly show you CPU and memory usage in Windows. They are Resource Monitor, Performance Monitor, and Task Manager. The only one that lets you set up logs is Performance Monitor. It will collect counter information and then send that information to a console or event log."
+    },
+    {
+      "id": 135,
+      "question": "Which Windows 7 utility allows you to view error messages generated by applications or login failures?",
+      "options": [
+        { "id": "A", "text": "Action Center" },
+        { "id": "B", "text": "Windows Defender" },
+        { "id": "C", "text": "Message Center" },
+        { "id": "D", "text": "Event Viewer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Event Viewer is the Windows tool that allows you to view application error logs, security audit records, and system errors. It's available in most versions of Windows."
+    },
+    {
+      "id": 136,
+      "question": "A user with a Windows 8.1 workstation recently received a second hard drive. Another administrator created a partition on the hard drive, and it's ready for use. He will store the raw video files he creates on that drive and insists that it be called the R: drive. Which of the following statements is true?",
+      "options": [
+        { "id": "A", "text": "You can use Disk Management to change the drive letter to R:." },
+        { "id": "B", "text": "You can use Disk Management to change the drive letter to R:, but only if it's a dynamic disk." },
+        { "id": "C", "text": "You can use Disk Management to change the drive letter to R:, but only if it's in an extended partition." },
+        { "id": "D", "text": "You will need to use Disk Management to delete the partition and re-create it as R:." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "In Windows Vista and newer, you can reassign or change a drive letter by using the Disk Management utility."
+    },
+    {
+      "id": 137,
+      "question": "You have a Windows 8 workstation with corrupt files in the operating system. It will not boot properly. You need to boot the computer using its network card to connect to an image server to restore Windows. What is this boot process called?",
+      "options": [
+        { "id": "A", "text": "Netboot" },
+        { "id": "B", "text": "PXE boot" },
+        { "id": "C", "text": "The WinPE process" },
+        { "id": "D", "text": "The WinRE process" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Booting from a network card is referred to as a PXE (Pixie) boot. Netboot is the process of booting the entire OS from a network server, such as from a thin client."
+    },
+    {
+      "id": 138,
+      "question": "You need to format a blank SDXC card and transfer files to it. Which file system is ideally suited for this type of media?",
+      "options": [
+        { "id": "A", "text": "CDFS" },
+        { "id": "B", "text": "FAT32" },
+        { "id": "C", "text": "NTFS" },
+        { "id": "D", "text": "ExFAT" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Microsoft created ExFAT, and it is a proprietary file system of choice for flash drives where NTFS cannot be used (because of overhead) and FAT32 is not acceptable (because of file system limitations). It is ideal for SD cards that hold a lot of information, and it is supported in all current versions of Windows."
+    },
+    {
+      "id": 139,
+      "question": "You have a Windows 8.1 workstation. You want to connect to a printer located on a Windows 7 workstation. What do you need to do?",
+      "options": [
+        { "id": "A", "text": "Right-click the printer, choose Printer Properties, and share the printer." },
+        { "id": "B", "text": "Right-click the printer, choose Printer Properties, and map the network printer." },
+        { "id": "C", "text": "Open the Add a Printer Wizard and share the printer." },
+        { "id": "D", "text": "Open the Add a Printer Wizard and map the network printer." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "To connect to a printer over the network, you map a network printer. If the printer is on your local computer and you want others to use it, you need to share the printer. You do this by right-clicking the printer, choosing Printer Properties, and then going to the Sharing tab. Check the box to share the printer."
+    },
+    {
+      "id": 140,
+      "question": "You are installing Windows Vista on a computer. When you partition the hard drive, which type of partition is limited to having only one logical drive on it?",
+      "options": [
+        { "id": "A", "text": "Primary" },
+        { "id": "B", "text": "Basic" },
+        { "id": "C", "text": "Extended" },
+        { "id": "D", "text": "GPT" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Windows supports both basic and dynamic storage. Basic storage can have a primary and an extended partition, while dynamic storage can be simple, spanned, or striped. In basic storage, Windows drives can be partitioned with primary or extended partitions. The difference is that extended partitions can be divided into one or more logical drives and primary partitions cannot be further subdivided."
+    },
+    {
+      "id": 141,
+      "question": "A laptop user has traveled to visit a client and forgot his power adapter. Before going to lunch with the client, he wants to conserve battery power, but he wants to enable the fastest possible startup when he gets back, with his applications already open. Which power mode will conserve battery life but enable the fastest startup?",
+      "options": [
+        { "id": "A", "text": "Shut down" },
+        { "id": "B", "text": "Sleep" },
+        { "id": "C", "text": "Hibernate" },
+        { "id": "D", "text": "Resting" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "While in sleep mode, the computer uses very little power. When you turn it back on, all the applications you left open will still be open. Sleep uses a little more power than hibernate but also boots up faster. Shutting down will save the most battery life but will also take the longest to reboot. There is no resting power mode in Windows, but some configurations will offer a standby power mode."
+    },
+    {
+      "id": 142,
+      "question": "You have just installed a second hard drive into a Windows 7 workstation. The drive is properly recognized by the BIOS when the system boots, but you are unable to see it in Windows Explorer. What do you need to do?",
+      "options": [
+        { "id": "A", "text": "Mount the drive." },
+        { "id": "B", "text": "Assign a drive letter." },
+        { "id": "C", "text": "Initialize the drive." },
+        { "id": "D", "text": "Create an array." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "New hard drives appear as not initialized in Windows. To use the disk, go into Disk Management and initialize the disk. Then you can create partitions, assign drive letters, and perform other disk management tasks."
+    },
+    {
+      "id": 143,
+      "question": "Which Windows user interface was the first one to have translucent windows and provides the ability to create a three-dimensional stack of open windows for users to cycle through?",
+      "options": [
+        { "id": "A", "text": "Metro" },
+        { "id": "B", "text": "Aero" },
+        { "id": "C", "text": "WinPE" },
+        { "id": "D", "text": "Windows Explorer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "An acronym for Authentic, Energetic, Reflective, and Open, Aero differs from previous GUIs in that its windows are translucent and it provides the ability to create a 3D stack of open windows and cycle through them (known as Flip 3D)."
+    },
+    {
+      "id": 144,
+      "question": "You have a Windows 7 workstation with four hard disks. You want to take advantage of having multiple disks by creating a disk array. What types of arrays can you create in Windows that will combine the disks into one volume? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Simple" },
+        { "id": "B", "text": "Spanned" },
+        { "id": "C", "text": "Mirrored" },
+        { "id": "D", "text": "Extended" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["B", "C"],
+      "explanation": "There are three types of volumes you can create in Disk Management: simple, spanned, striped, and mirrored. Simple volumes are on one disk. Spanned, striped, and mirrored will be made up of multiple physical disks."
+    },
+    {
+      "id": 145,
+      "question": "Which versions of Windows 7 support BitLocker? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Enterprise" },
+        { "id": "B", "text": "Professional" },
+        { "id": "C", "text": "Ultimate" },
+        { "id": "D", "text": "Home Premium" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["A", "C"],
+      "explanation": "BitLocker is available only for Windows 7 in the Enterprise and Ultimate editions."
+    },
+    {
+      "id": 146,
+      "question": "You are working on a Windows 8.1 workstation that you believe has cross-linked files. At a command prompt, you want to check for these files and automatically fix any problems. Which command should you run to do this?",
+      "options": [
+        { "id": "A", "text": "chkdsk /f" },
+        { "id": "B", "text": "chkdsk /c" },
+        { "id": "C", "text": "chkdsk /scan" },
+        { "id": "D", "text": "chkdsk /r" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "You can use the Windows chkdsk command to create and display status reports for the hard disk. chkdsk can also correct file system problems (such as cross-linked files) and scan for and attempt to repair disk errors. The correct switch to automatically fix any issues is /f."
+    },
+    {
+      "id": 147,
+      "question": "You are configuring a secondary hard drive using Disk Management in Windows Vista. When setting up basic storage, which two types of partitions can you create? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Primary" },
+        { "id": "B", "text": "Simple" },
+        { "id": "C", "text": "Extended" },
+        { "id": "D", "text": "Spanned" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["A", "C"],
+      "explanation": "Windows supports both basic and dynamic storage. Basic storage can have a primary partition and an extended partition, while dynamic storage can be simple, spanned, or striped."
+    },
+    {
+      "id": 148,
+      "question": "You are installing Windows 8.1 on a new workstation. Before you format the drive with NTFS, your manager tells you to perform a full format. Which of the following statements best describes what a full format does?",
+      "options": [
+        { "id": "A", "text": "Remove files from the partition, create a new file allocation table, and scan the hard disk for bad sectors." },
+        { "id": "B", "text": "Remove files from the partition and create a new file allocation table." },
+        { "id": "C", "text": "Create a new file allocation table and scan the hard disk for bad sectors." },
+        { "id": "D", "text": "Delete the partition, re-create the partition, create a new file allocation table, and scan the hard disk for bad sectors." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "When formatting a hard drive, you can usually choose between a quick format or a full format. With a quick format, a new file table is created on the hard disk, but files are not fully overwritten or erased from the disk. A full format removes old files, creates a new file allocation table, and scans the hard drive for bad sectors. The scan is what takes so long."
+    },
+    {
+      "id": 149,
+      "question": "You are at a Windows 8.1 command prompt. Which command should you use to create and manage partitions?",
+      "options": [
+        { "id": "A", "text": "fdisk" },
+        { "id": "B", "text": "diskpart" },
+        { "id": "C", "text": "sfc" },
+        { "id": "D", "text": "format" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The diskpart utility shows the partitions and lets you manage them on the computer's hard drives. Because of the enormous power it holds, membership in the Administrators local group (or equivalent) is required to run diskpart. diskpart replaced the older fdisk."
+    },
+    {
+      "id": 150,
+      "question": "You need to install Windows 8.1 on 30 identical workstations. You do not want to manually input information into each of the workstations. What type of installation should you perform?",
+      "options": [
+        { "id": "A", "text": "Upgrade" },
+        { "id": "B", "text": "Unattended" },
+        { "id": "C", "text": "Deployment" },
+        { "id": "D", "text": "Clean" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "An unattended installation, as the name implies, is one in which you don't need to be sitting in front of the machine to complete the operation. The heart of an unattended installation is utilizing image deployment, which is sort of like copying an ideal image over from one machine to another."
+    },
+    {
+      "id": 151,
+      "question": "You are working at a Windows Vista command prompt. Which command should you use to copy directories and subdirectories but not empty directories?",
+      "options": [
+        { "id": "A", "text": "xcopy /e" },
+        { "id": "B", "text": "xcopy /s" },
+        { "id": "C", "text": "xcopy /h" },
+        { "id": "D", "text": "xcopy /a" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The xcopy command is a more powerful version of copy. It lets you copy directories and also will copy file ownership and NTFS permissions. The /s switch is used to copy directories and subdirectories, except for empty ones. To copy those as well, use /e. The /h switch copies hidden and system files, and the /a switch copies only files with the Archive attribute set."
+    },
+    {
+      "id": 152,
+      "question": "You need to configure Internet connections on a Windows 7 workstation. In which tabs of Internet options do you set the home page and enable the pop-up blocker?",
+      "options": [
+        { "id": "A", "text": "Connections, security" },
+        { "id": "B", "text": "General, security" },
+        { "id": "C", "text": "General, privacy" },
+        { "id": "D", "text": "Connections, privacy" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The Internet options Windows Control Panel utility allows you to configure Internet connections. It has six tabs: General, Security, Privacy, Connections, Programs, and Advanced. (Some versions of Windows also have a Content tab.) The home page is set from the General tab, and the pop-up blocker is enabled on the Privacy tab. Proxy settings are configured here as well, in the Connections tab."
+    }
+  ]
+}

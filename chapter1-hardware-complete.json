@@ -1,0 +1,4665 @@
+{
+  "exam": {
+    "title": "Capitulo 1 - Hardware",
+    "chapter": "Hardware",
+    "examId": "hardware-ch1",
+    "timerMinutes": 150,
+    "totalQuestions": 171
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the distance limitation of the FireWire 800 standard when implemented over fiber-optic cable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "4.5 meters"
+        },
+        {
+          "id": "B",
+          "text": "100 meters"
+        },
+        {
+          "id": "C",
+          "text": "400 meters"
+        },
+        {
+          "id": "D",
+          "text": "800 meters"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "FireWire 800 can span 100 meters when implemented over fiber-optic cable. Over copper cable, it's limited to 4.5 meters, like FireWire 400."
+    },
+    {
+      "id": 2,
+      "question": "Which motherboard form factor measures 6.7 x 6.7?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mini-ITX"
+        },
+        {
+          "id": "B",
+          "text": "Nano-ITX"
+        },
+        {
+          "id": "C",
+          "text": "Pico-ITX"
+        },
+        {
+          "id": "D",
+          "text": "Mobile-ITX"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "A mini-ITX motherboard is a 6.7 square. Nano-ITX motherboards are 4.7 square, pico-ITX motherboards are 3.9 x 2.8, and mobile-ITX motherboards are 2.4 square."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following statements are not true regarding CPUs and operating systems? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 32-bit OS can run only on a 32-bit CPU."
+        },
+        {
+          "id": "B",
+          "text": "A 64-bit OS can run only on a 64-bit CPU."
+        },
+        {
+          "id": "C",
+          "text": "A 64-bit OS can run on a 32-bit CPU or a 64-bit CPU."
+        },
+        {
+          "id": "D",
+          "text": "A 32-bit OS can run on a 32-bit CPU or a 64-bit CPU."
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 32-bit OS can run on either a 32-bit or 64-bit processor, although you will not be able to fully utilize the 64-bit processor's capabilities with a 32-bit OS. A 64-bit OS will run only on a 64-bit processor."
+    },
+    {
+      "id": 4,
+      "question": "The DCPS within a laser printer converts AC power into what three voltages? (Choose three.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "+5VDC"
+        },
+        {
+          "id": "B",
+          "text": "-5VDC"
+        },
+        {
+          "id": "C",
+          "text": "+24VDC"
+        },
+        {
+          "id": "D",
+          "text": "-24VDC"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "The DC power supply (DCPS) converts house current into three voltages: +5VDC and -5VDC for the logic circuitry and +24VDC for the paper-transport motors."
+    },
+    {
+      "id": 5,
+      "question": "Identify the cable type shown here.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Component"
+        },
+        {
+          "id": "B",
+          "text": "Composite"
+        },
+        {
+          "id": "C",
+          "text": "Coaxial"
+        },
+        {
+          "id": "D",
+          "text": "RCA"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Three RCA-like connectors at the end of a cable indicate a component video cable."
+    },
+    {
+      "id": 6,
+      "question": "A technician is looking to buy a new LCD monitor. Which type of LCD monitor has faster response times and is less expensive than others?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TN"
+        },
+        {
+          "id": "B",
+          "text": "IPS"
+        },
+        {
+          "id": "C",
+          "text": "LED"
+        },
+        {
+          "id": "D",
+          "text": "Plasma"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "The two most popular methods of manufacturing LCD panels are twisted nematic (TN) and in-plane switching (IPS). Of the two, IPS is regarded as having the best color representation in all angles, while TN is faster and less expensive. LED and plasma are not types of LCD panels."
+    },
+    {
+      "id": 7,
+      "question": "Which computer peripheral is most likely to use a mini-DIN 6 connector?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Keyboard"
+        },
+        {
+          "id": "B",
+          "text": "Monitor"
+        },
+        {
+          "id": "C",
+          "text": "Hard drive"
+        },
+        {
+          "id": "D",
+          "text": "Sound card"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "A mini-DIN 6 connector is a round connector often called a PS/2 connector. It's historically used for a keyboard or a mouse. If you have only more modern USB peripherals, you can buy a PS/2 to USB adapter to plug them into one of these ports."
+    },
+    {
+      "id": 8,
+      "question": "Which type of storage device is composed of a conventional hard drive and a substantial amount of solid-state storage?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SSD"
+        },
+        {
+          "id": "B",
+          "text": "HDD"
+        },
+        {
+          "id": "C",
+          "text": "Mesh"
+        },
+        {
+          "id": "D",
+          "text": "Hybrid"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "A hybrid hard drive is a combination of a conventional magnetic hard disk drive and solid-state storage. The goal is to increase access speed for commonly accessed data while still providing larger capacity similar to a conventional HDD."
+    },
+    {
+      "id": 9,
+      "question": "An administrator ordered replacement printer paper that is a thicker caliper than recommended by the printer manufacturer. What is the biggest risk in using this paper?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Smeared images"
+        },
+        {
+          "id": "B",
+          "text": "Paper will not feed"
+        },
+        {
+          "id": "C",
+          "text": "Paper jams"
+        },
+        {
+          "id": "D",
+          "text": "Images will not print"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Thicker paper can cause paper jams, especially in printers with curved paper paths. Paper that is too thin may not get picked up by the printer rollers at all."
+    },
+    {
+      "id": 10,
+      "question": "You need to share printers on your network with multiple client operating systems, such as Windows, macOS, and Linux. Which of the following services will best meet your needs?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bonjour"
+        },
+        {
+          "id": "B",
+          "text": "AirPrint"
+        },
+        {
+          "id": "C",
+          "text": "TCP printing"
+        },
+        {
+          "id": "D",
+          "text": "Virtual printing"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "TCP printing allows client with different OSs to send jobs directly to printers without worrying about intra-OS conflicts. Bonjour and AirPrint are both Apple services, and virtual printing allows you to print output to documents such as PDF files. Whenever sharing printers for remote printing, be sure to set proper user authentication on the print device."
+    },
+    {
+      "id": 11,
+      "question": "Which one of the following connector types are you most likely to find on the end of a CAT6a cable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RJ-11"
+        },
+        {
+          "id": "B",
+          "text": "RJ-45"
+        },
+        {
+          "id": "C",
+          "text": "BNC"
+        },
+        {
+          "id": "D",
+          "text": "SATA"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "A CAT6a cable is a network cable, and you are most likely to find an RJ-45 connector at the end of it. RJ-11 connectors are for phone lines. BNC connectors are network connectors but are typically used with coaxial cable. SATA connectors are hard drive connectors."
+    },
+    {
+      "id": 12,
+      "question": "Identify the video connector shown here.",
+      "options": [
+        {
+          "id": "A",
+          "text": "DVI"
+        },
+        {
+          "id": "B",
+          "text": "VGA"
+        },
+        {
+          "id": "C",
+          "text": "HDMI"
+        },
+        {
+          "id": "D",
+          "text": "Composite"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "The connector shown is a DVI connector, used for digital video."
+    },
+    {
+      "id": 13,
+      "question": "What type of printer technology will often use a roll of paper as opposed to individual sheets?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ink-jet"
+        },
+        {
+          "id": "B",
+          "text": "Thermal"
+        },
+        {
+          "id": "C",
+          "text": "Laser"
+        },
+        {
+          "id": "D",
+          "text": "Fax machine"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "Thermal printers will often use a roll of paper as opposed to individual sheets. Fax machines may use thermal technology, but a fax machine in itself is not a printer technology."
+    },
+    {
+      "id": 14,
+      "question": "Which RAM feature will detect errors within memory but is not able to fix them?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Parity"
+        },
+        {
+          "id": "B",
+          "text": "Non-parity"
+        },
+        {
+          "id": "C",
+          "text": "ECC"
+        },
+        {
+          "id": "D",
+          "text": "Non-ECC"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Parity checking is a rudimentary RAM error-checking scheme that offers no error correction."
+    },
+    {
+      "id": 15,
+      "question": "Which of the following types of printers require the replacement of some sort of ink or toner? (Choose all that apply.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Laser"
+        },
+        {
+          "id": "B",
+          "text": "Thermal"
+        },
+        {
+          "id": "C",
+          "text": "Impact"
+        },
+        {
+          "id": "D",
+          "text": "Ink-jet"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explanation": "Laser printers need toner cartridges, impact printers need ink ribbons, and ink-jet printers use ink cartridges. Thermal printers heat up paper to produce images."
+    },
+    {
+      "id": 16,
+      "question": "You are working on repairing a defective laser printer. Which of the following is a true statement regarding the imaging drum in a laser printer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It can hold a charge only when it's not exposed to light."
+        },
+        {
+          "id": "B",
+          "text": "It can hold a charge only when it's exposed to light."
+        },
+        {
+          "id": "C",
+          "text": "It can hold a charge regardless of light exposure."
+        },
+        {
+          "id": "D",
+          "text": "It is not required to hold a charge."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "An imaging drum is a photosensitive drum that can hold a charge if it's not exposed to light. It is dark inside an EP printer, except when the laser scanning assembly shines on particular areas of the photosensitive drum."
+    },
+    {
+      "id": 17,
+      "question": "What are the dimensions of a micro-ATX motherboard?",
+      "options": [
+        {
+          "id": "A",
+          "text": "12 x 9.6"
+        },
+        {
+          "id": "B",
+          "text": "9.6 x 9.6"
+        },
+        {
+          "id": "C",
+          "text": "6.7 x 6.7"
+        },
+        {
+          "id": "D",
+          "text": "3.9 x 2.8"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "A micro-ATX motherboard is a 9.6 square. ATX motherboards are 12 x 9.6, mini-ITX motherboards are 6.7 x 6.7, and pico-ITX motherboards are 3.9 x 2.8."
+    },
+    {
+      "id": 18,
+      "question": "When discussing video monitors, what is the term used to describe the number of pixels used to draw the screen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Refresh rate"
+        },
+        {
+          "id": "B",
+          "text": "Frame rate"
+        },
+        {
+          "id": "C",
+          "text": "Aspect ratio"
+        },
+        {
+          "id": "D",
+          "text": "Resolution"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Resolution is the number of pixels used to draw a computer screen. Refresh rate determines how many times per second the screen can be redrawn. Frame rate tells you how many frames per second the original content was filmed in. Aspect ratio defines the dimensions (width x height) of an image."
+    },
+    {
+      "id": 19,
+      "question": "You have three hard disks, each 1TB in size. After installing them as a RAID 5 array in a computer, how much usable storage space will you have?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1.5TB"
+        },
+        {
+          "id": "B",
+          "text": "2TB"
+        },
+        {
+          "id": "C",
+          "text": "2.5TB"
+        },
+        {
+          "id": "D",
+          "text": "3TB"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "In a RAID 5 array, each stripe places data on n-1 disks, and parity computed from the data is placed on the remaining disk. The parity is interleaved across all the drives in the array so that neighboring stripes have parity on different disks. Said differently, you lose the equivalent of one hard disk worth of storage to hold the parity information."
+    },
+    {
+      "id": 20,
+      "question": "Which of the following statements most accurately describes the functionality of the disable execute bit?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It prevents the CPU from working if the computer is stolen."
+        },
+        {
+          "id": "B",
+          "text": "It prevents the CPU from working if the CPU has been set to run at too high a speed (overclocking)."
+        },
+        {
+          "id": "C",
+          "text": "It prevents the computer from being booted remotely in a PXE boot environment."
+        },
+        {
+          "id": "D",
+          "text": "It protects the computer from certain types of viruses or malicious code."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "The disable execute bit allows for the CPU to set aside an area of memory and refuse to execute any code placed into that memory location. Oftentimes this serves as a buffer area. The result is that malicious buffer overrun attacks are less likely to succeed."
+    },
+    {
+      "id": 21,
+      "question": "You need to enable clients to print to your networked printers, regardless of their location worldwide. Which service will best suit your needs?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bonjour"
+        },
+        {
+          "id": "B",
+          "text": "AirPrint"
+        },
+        {
+          "id": "C",
+          "text": "Virtual printing"
+        },
+        {
+          "id": "D",
+          "text": "Cloud printing"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Cloud printing allows for printing to a remote device, one that is not necessarily located on your local network. Essentially, you are using the Internet to send the print job from your device to the printer from which you want the output to come, and the printer can be located practically anywhere in the world."
+    },
+    {
+      "id": 22,
+      "question": "Identify the computer component shown here.",
+      "options": [
+        {
+          "id": "A",
+          "text": "CPU heat sink and fan"
+        },
+        {
+          "id": "B",
+          "text": "Passive CPU heat sink"
+        },
+        {
+          "id": "C",
+          "text": "Power supply fan"
+        },
+        {
+          "id": "D",
+          "text": "Secondary cooling fan"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Heat sinks are often made of metal, with many fins on them to increase surface area and dissipate heat faster. Many modern CPU heat sinks will have both a fan (which requires power) and the finned metal heat sink."
+    },
+    {
+      "id": 23,
+      "question": "Which of the following connectors transmit analog signals? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "VGA"
+        },
+        {
+          "id": "B",
+          "text": "RJ-45"
+        },
+        {
+          "id": "C",
+          "text": "RJ-11"
+        },
+        {
+          "id": "D",
+          "text": "HDMI"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "A",
+        "C"
+      ],
+      "explanation": "VGA is an analog video connector, and RJ-11 connectors are used with modems. Modems receive a digital signal from the computer but then modulate that signal to analog to transmit over common phone lines."
+    },
+    {
+      "id": 24,
+      "question": "A business partner who is visiting your corporate office wants to print to a printer using a Bluetooth connection. What type of connection is this?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Permanent"
+        },
+        {
+          "id": "B",
+          "text": "Ad hoc"
+        },
+        {
+          "id": "C",
+          "text": "On demand"
+        },
+        {
+          "id": "D",
+          "text": "Infrastructure"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "Wi-Fi and Bluetooth can be used to connect a printer temporarily to a single computer (or mobile device), and the connection does not have permanent status. This type of configuration is known as an ad hoc network connection."
+    },
+    {
+      "id": 25,
+      "question": "You have a motherboard that supports up-plugging. Which of the following statements regarding PCIe are true? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "You can put an x1 card into an x8 slot."
+        },
+        {
+          "id": "B",
+          "text": "You can put an x8 card into an x16 slot."
+        },
+        {
+          "id": "C",
+          "text": "You can put an x8 card into an x1 slot."
+        },
+        {
+          "id": "D",
+          "text": "You can put an x16 card into an x8 slot."
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "A",
+        "B"
+      ],
+      "explanation": "With up-plugging, you can put a smaller PCIe card into a larger slot, even though it does not fill it up completely. For example, you can insert an x8 card into an x16 slot. The x8 card won't completely fill the slot, but it will work at x8 speeds."
+    },
+    {
+      "id": 26,
+      "question": "A technician needs to increase the fault tolerance of his computer's storage system, and he has two hard drives available. Which of the following options is his best choice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Install both drives and configure them as separate volumes."
+        },
+        {
+          "id": "B",
+          "text": "Install both drives and implement RAID 0."
+        },
+        {
+          "id": "C",
+          "text": "Install both drives and implement RAID 1."
+        },
+        {
+          "id": "D",
+          "text": "Install both drives and implement RAID 5."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "RAID 1 is called disk mirroring; it writes data simultaneously to both drives. If one drive fails, the other still has a working copy of the data. RAID 0 is disk striping and does not provide fault tolerance. RAID 5 is striping with parity and provides fault tolerance, but it requires three hard disks."
+    },
+    {
+      "id": 27,
+      "question": "During which step of the laser printer imaging process does a fluorescent lamp discharge the photosensitive drum?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cleaning"
+        },
+        {
+          "id": "B",
+          "text": "Charging"
+        },
+        {
+          "id": "C",
+          "text": "Exposing"
+        },
+        {
+          "id": "D",
+          "text": "Developing"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "During the cleaning step, a rubber blade inside the toner cartridge scrapes any toner left on the drum into a used toner receptacle, and a fluorescent lamp discharges any remaining charge on the imaging drum. (Remember that the drum, being photosensitive, loses its charge when exposed to light.)"
+    },
+    {
+      "id": 28,
+      "question": "Which type of laptop monitor technology uses a current of electricity to stimulate a sealed panel of inert gas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "OLED"
+        },
+        {
+          "id": "B",
+          "text": "LED"
+        },
+        {
+          "id": "C",
+          "text": "Plasma"
+        },
+        {
+          "id": "D",
+          "text": "LCD"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Plasma displays place electrodes in front of and behind sealed chambers full of inert gas (such as neon) and vaporized mercury. Current is run through the gas to ionize it and cause it to light up."
+    },
+    {
+      "id": 29,
+      "question": "What type of front- or top-panel connector uses a standard 3.5mm jack to make connections?",
+      "options": [
+        {
+          "id": "A",
+          "text": "USB"
+        },
+        {
+          "id": "B",
+          "text": "Audio"
+        },
+        {
+          "id": "C",
+          "text": "FireWire"
+        },
+        {
+          "id": "D",
+          "text": "Thunderbolt"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "The audio connector on the front or top panel will use a round, 3.5mm connector. You can plug speakers or headphones into it."
+    },
+    {
+      "id": 30,
+      "question": "The motherboard in your desktop computer supports dual-channel memory. Which of the following statements regarding RAM is true?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The RAM will work only if it's installed in pairs."
+        },
+        {
+          "id": "B",
+          "text": "The RAM will work only if it's installed in pairs or if one double-sided RAM module is used."
+        },
+        {
+          "id": "C",
+          "text": "The RAM will work if only one module is installed, but only at half of its rated speed."
+        },
+        {
+          "id": "D",
+          "text": "The RAM will work if only one module is installed."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "With most dual-channel motherboards, RAM will work just fine if one module is installed. However, you will get better performance if you fill the entire bank."
+    },
+    {
+      "id": 31,
+      "question": "A single lane of PCIe 4.0 operates at what data rate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "250MBps"
+        },
+        {
+          "id": "B",
+          "text": "500MBps"
+        },
+        {
+          "id": "C",
+          "text": "1GBps"
+        },
+        {
+          "id": "D",
+          "text": "2GBps"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "There are four major versions of PCIe currently specified: 1.x, 2.x, 3.0, and 4.0. For the four versions, a single omnidirectional lane operates at a data rate of 250MBps, 500MBps, approximately 1GBps, and roughly 2GBps, respectively."
+    },
+    {
+      "id": 32,
+      "question": "A technician needs to replace a failed power supply in a desktop computer. When choosing a replacement power supply, which two specifications are most important to consider? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wattage"
+        },
+        {
+          "id": "B",
+          "text": "Dual rail"
+        },
+        {
+          "id": "C",
+          "text": "Dual voltage options"
+        },
+        {
+          "id": "D",
+          "text": "Number of connectors"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "A",
+        "D"
+      ],
+      "explanation": "When installing or replacing a power supply, always make sure that it has enough wattage to power the components in the computer. In addition, it should have enough connectors to connect to all the components that require their own power. Dual rail and dual voltage are optional features."
+    },
+    {
+      "id": 33,
+      "question": "What is an advantage of using double-sided memory over single-sided memory?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It allows the memory to operate twice as fast."
+        },
+        {
+          "id": "B",
+          "text": "It allows the CPU to access twice as much RAM at one time."
+        },
+        {
+          "id": "C",
+          "text": "It's required for use in dual-channel motherboards."
+        },
+        {
+          "id": "D",
+          "text": "It allows for twice as much memory to be used in the same amount of space."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Double-sided memory has chips on both sides of the RAM module instead of just on one side. It allows for doubling the amount of RAM on the module, so you get twice as much memory on one stick."
+    },
+    {
+      "id": 34,
+      "question": "You need to replace the magnetic hard drive in your manager's laptop. She wants a high-speed, high-capacity drive. What are the most common issues associated with her request? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increased battery usage"
+        },
+        {
+          "id": "B",
+          "text": "Increased heat production"
+        },
+        {
+          "id": "C",
+          "text": "Decreased component lifespan"
+        },
+        {
+          "id": "D",
+          "text": "Decreased space for other peripherals"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "A",
+        "B"
+      ],
+      "explanation": "Faster hard drives transfer more data than slower hard drives, but there is no specific correlation between hard drive speed and its lifespan. The downsides to faster hard drives can be increased battery usage and heat production."
+    },
+    {
+      "id": 35,
+      "question": "What are the two speeds at which PCI expansion buses can operate in desktop computers? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "33MHz"
+        },
+        {
+          "id": "B",
+          "text": "66MHz"
+        },
+        {
+          "id": "C",
+          "text": "133MHz"
+        },
+        {
+          "id": "D",
+          "text": "266MHz"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "A",
+        "B"
+      ],
+      "explanation": "PCI expansion buses operate at 33MHz or 66MHz (version 2.1) over a 32-bit (4-byte) channel, resulting in data rates of 133MBps and 266MBps, respectively, with 133MBps being the most common, server architectures excluded."
+    },
+    {
+      "id": 36,
+      "question": "A designer from the corporate office is visiting your field office. He tries to print from his MacBook Pro to a networked printer, but it does not work. Local users in the office are able to print to the device using their Windows 8 computers. What would most likely solve the problem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Select the Enable Mac Printing option in the print server configuration settings."
+        },
+        {
+          "id": "B",
+          "text": "Select the Enable Bonjour option in the print server configuration settings."
+        },
+        {
+          "id": "C",
+          "text": "Install a Mac printer driver on the print server."
+        },
+        {
+          "id": "D",
+          "text": "Stop and restart the print spooler service."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Print servers need to have the appropriate drivers for all operating systems that will be clients. It's possible that this print server does not have the Mac driver installed."
+    },
+    {
+      "id": 37,
+      "question": "The users on your network in the Human Resources department often have sensitive materials shown on their computer screens. What is their best option to dramatically limit the viewing angle of their monitors?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lower the brightness setting."
+        },
+        {
+          "id": "B",
+          "text": "Lower the contrast setting."
+        },
+        {
+          "id": "C",
+          "text": "Install an antiglare filter."
+        },
+        {
+          "id": "D",
+          "text": "Install a privacy filter."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "A privacy filter is a panel that fits over the front of a display and, through a polarization affect, intentionally limits the viewing angle of the monitor."
+    },
+    {
+      "id": 38,
+      "question": "Identify the peripheral connector shown here.",
+      "options": [
+        {
+          "id": "A",
+          "text": "USB Type A"
+        },
+        {
+          "id": "B",
+          "text": "USB Type B"
+        },
+        {
+          "id": "C",
+          "text": "USB Standard mini-B"
+        },
+        {
+          "id": "D",
+          "text": "Thunderbolt"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "The connector shown is USB Type B. It will plug into the USB peripheral device and is commonly used by printers."
+    },
+    {
+      "id": 39,
+      "question": "You have an OLED monitor that you just plugged into a desktop computer. One of your co-workers changes the resolution from 1920x1080 to 1920x1200, but then the image looks highly distorted. What is the most likely cause of this?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The video driver does not support 1920x1200 resolution."
+        },
+        {
+          "id": "B",
+          "text": "The monitor has a native resolution of 1920x1080."
+        },
+        {
+          "id": "C",
+          "text": "The video adapter has a native resolution of 1920x1080."
+        },
+        {
+          "id": "D",
+          "text": "The monitor is plugged into the wrong monitor interface to support the new resolution."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "Most digital monitors have a native resolution, which is a single, fixed resolution that they support. Attempting to change the resolution may result in distorted images, or the image may not display at all."
+    },
+    {
+      "id": 40,
+      "question": "Which of the following are advantages of using a CPU liquid cooling system over an air-based system? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Easier to install and maintain"
+        },
+        {
+          "id": "B",
+          "text": "More efficient"
+        },
+        {
+          "id": "C",
+          "text": "Quieter"
+        },
+        {
+          "id": "D",
+          "text": "Safer for internal components"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "B",
+        "C"
+      ],
+      "explanation": "Liquid cooling systems are generally quieter than air-based systems that use fans, and they are more efficient at cooling the processor. However, they are more complex to install, and if the liquid were to leak out, that could cause damage to internal components."
+    },
+    {
+      "id": 41,
+      "question": "You need to perform preventive maintenance on an impact printer. What are two areas you should examine that you would not need to on most inkjet printers? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ink cartridges"
+        },
+        {
+          "id": "B",
+          "text": "Output tray"
+        },
+        {
+          "id": "C",
+          "text": "Print head"
+        },
+        {
+          "id": "D",
+          "text": "Tractor feed mechanism"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "C",
+        "D"
+      ],
+      "explanation": "Impact printers create images by impacting the paper, which can wear down the print head. Always check that. Also, impact printers most often use tractor feed mechanisms to load the paper, and they can wear down as well."
+    },
+    {
+      "id": 42,
+      "question": "Which expansion bus technology uses lanes, which are switched point-to-point signal paths between two components?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PCI"
+        },
+        {
+          "id": "B",
+          "text": "PCI-X"
+        },
+        {
+          "id": "C",
+          "text": "PCIe"
+        },
+        {
+          "id": "D",
+          "text": "miniPCI"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "PCIe uses lanes. Each lane between any two intercommunicating devices comprises a separate pair of wires for both directions of traffic, which dramatically increases speed."
+    },
+    {
+      "id": 43,
+      "question": "You are installing new computers in a machine shop. The computers on the shop floor don't need to run local applications or have their own hard drives, but they do need to connect to the shop's server. What type of custom configuration should you recommend?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thin client"
+        },
+        {
+          "id": "B",
+          "text": "Thick client"
+        },
+        {
+          "id": "C",
+          "text": "Virtualization workstation"
+        },
+        {
+          "id": "D",
+          "text": "CAD/CAM workstation"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "A thin client is any machine that divests itself of all or most local storage and varying levels of RAM and processing power without necessarily giving up all ability to process instructions and data."
+    },
+    {
+      "id": 44,
+      "question": "Which PC component reboots the computer from a cold startup point without removing power from the components?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power button"
+        },
+        {
+          "id": "B",
+          "text": "Suspend button"
+        },
+        {
+          "id": "C",
+          "text": "Reset button"
+        },
+        {
+          "id": "D",
+          "text": "Reboot button"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "The reset button, usually located on the front or top panel, allows a user to reboot the computer from a cold startup point without removing power from the components. This can be particularly helpful for dealing with software lockups."
+    },
+    {
+      "id": 45,
+      "question": "Which type of LCD panel is considered to have the best color representation at wider angles of viewing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TN"
+        },
+        {
+          "id": "B",
+          "text": "IPS"
+        },
+        {
+          "id": "C",
+          "text": "LED"
+        },
+        {
+          "id": "D",
+          "text": "Plasma"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "The two most popular methods of manufacturing LCD panels are twisted nematic (TN) and in-plane switching (IPS). Of the two, IPS is regarded as having the best color representation in all angles, while TN is faster and less expensive. LED and plasma are not types of LCD panels."
+    },
+    {
+      "id": 46,
+      "question": "You have a user who needs recommendations for installing a home server PC. She wants her family to be able to share files and videos on their home network. She also wants her data to be protected in the event of a hard drive failure. Which two components do you recommend she include?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dedicated print server"
+        },
+        {
+          "id": "B",
+          "text": "RAID array"
+        },
+        {
+          "id": "C",
+          "text": "Gigabit NIC"
+        },
+        {
+          "id": "D",
+          "text": "Dual processors"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "B",
+        "C"
+      ],
+      "explanation": "A home server PC should be able to handle media streaming, as well as file and printer sharing. A dedicated print server is not likely needed, though, as the operating system can function as a print server. A gigabit NIC will be helpful to manage the network traffic, and a RAID array can help protect against hard drive failure."
+    },
+    {
+      "id": 47,
+      "question": "Your motherboard does not support up-plugging for PCIe adapter cards. Which of the following statements is true?",
+      "options": [
+        {
+          "id": "A",
+          "text": "You can't put an x8 card into an x16 slot."
+        },
+        {
+          "id": "B",
+          "text": "You can put an x8 card into an x16 slot, but it will run at x1 speed."
+        },
+        {
+          "id": "C",
+          "text": "You can put an x8 card into an x16 slot, and it will run at x8 speed."
+        },
+        {
+          "id": "D",
+          "text": "You can put an x8 card into an x16 slot, and it will run at x16 speed."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "The x8 card won't completely fill the x16 slot, but it will work at x8 speeds if up-plugging is supported by the motherboard. Otherwise, the specification requires up-plugged devices to operate at only the x1 rate."
+    },
+    {
+      "id": 48,
+      "question": "Which system component enables the use of Secure Boot technology?",
+      "options": [
+        {
+          "id": "A",
+          "text": "BIOS"
+        },
+        {
+          "id": "B",
+          "text": "UEFI"
+        },
+        {
+          "id": "C",
+          "text": "AMI"
+        },
+        {
+          "id": "D",
+          "text": "SATA"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "Secure Boot is an option enabled in system firmware. BIOS is not technically advanced enough to manage Secure Boot, but its successor UEFI is."
+    },
+    {
+      "id": 49,
+      "question": "Which type of DIMM has 184 pins?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DDR"
+        },
+        {
+          "id": "B",
+          "text": "DDR2"
+        },
+        {
+          "id": "C",
+          "text": "DDR3"
+        },
+        {
+          "id": "D",
+          "text": "SODIMM"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "DDR has 184 pins, DDR2 and DDR3 have 240 pins, and SODIMMs can have 72, 100, 144, 200, or 204 pins."
+    },
+    {
+      "id": 50,
+      "question": "Which CPU technology allows for the assignment of two logical cores for every physical core present?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Multicore"
+        },
+        {
+          "id": "B",
+          "text": "32-bit vs. 64-bit"
+        },
+        {
+          "id": "C",
+          "text": "Integrated GPU"
+        },
+        {
+          "id": "D",
+          "text": "Hyperthreading"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Hyperthreading-capable processors appear to the operating system to be two processors. As a result, the operating system can schedule two processes at the same time on the same physical core."
+    },
+    {
+      "id": 51,
+      "question": "On what type of printer are you most likely to use tractor feed paper?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dot-matrix"
+        },
+        {
+          "id": "B",
+          "text": "Thermal"
+        },
+        {
+          "id": "C",
+          "text": "Laser"
+        },
+        {
+          "id": "D",
+          "text": "Inkjet"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Dot-matrix printers are impact printers and typically require paper that always feeds at a consistent rate. To achieve this, the paper will have holes on the outside edges, which is fed into the printer using a tractor feed mechanism."
+    },
+    {
+      "id": 52,
+      "question": "Which type of flash memory is capable of being embedded on the circuit board of mobile devices?",
+      "options": [
+        {
+          "id": "A",
+          "text": "xD"
+        },
+        {
+          "id": "B",
+          "text": "miniSD"
+        },
+        {
+          "id": "C",
+          "text": "microSD"
+        },
+        {
+          "id": "D",
+          "text": "eMMC"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Embedded MultiMediaCard (eMMC) can be permanently embedded on the circuit board of a cheaper or smaller mobile device. All of the other flash memory standards, such as CompactFlash, xD, miniMMC, and microMMC are designed to be removable."
+    },
+    {
+      "id": 53,
+      "question": "Which motherboard form factor is common in desktop computers and measures 12 x 9.6?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ATX"
+        },
+        {
+          "id": "B",
+          "text": "MicroATX"
+        },
+        {
+          "id": "C",
+          "text": "Mini-ITX"
+        },
+        {
+          "id": "D",
+          "text": "ITX"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "ATX motherboards are common in desktop computers and measure 12 x 9.6. They are the largest motherboards commonly used in personal computers today."
+    },
+    {
+      "id": 54,
+      "question": "What two components within an inkjet printer are responsible for moving the print head into proper position?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Carriage and belt"
+        },
+        {
+          "id": "B",
+          "text": "Roller and belt"
+        },
+        {
+          "id": "C",
+          "text": "Carriage motor and roller"
+        },
+        {
+          "id": "D",
+          "text": "Carriage motor and belt"
+        },
+        {
+          "id": "E",
+          "text": "Belt motor and roller"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "The motor that makes the print head carriage move is also often called the carriage motor or carriage stepper motor. It has a belt attached to it, the carriage belt, which moves the print head carriage back and forth."
+    },
+    {
+      "id": 55,
+      "question": "Your company just hired a video producer to create exciting videos for the sales team. For her custom computer, which two upgrades are the most useful? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Video card"
+        },
+        {
+          "id": "B",
+          "text": "CPU"
+        },
+        {
+          "id": "C",
+          "text": "NIC"
+        },
+        {
+          "id": "D",
+          "text": "Hard drive"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "A",
+        "D"
+      ],
+      "explanation": "For an audio/video editing workstation, you should maximize the audio and video capabilities, including having at least two large monitors. Videos also take a lot of disk space, so significant storage space is required."
+    },
+    {
+      "id": 56,
+      "question": "You need to enable virtualization support for one of your Windows 8-based desktop computers using an Intel Core i5 CPU. Which two of the following must be true? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "The CPU must have Intel VT."
+        },
+        {
+          "id": "B",
+          "text": "The CPU must have Intel VR."
+        },
+        {
+          "id": "C",
+          "text": "You need to enable virtualization in Windows 8."
+        },
+        {
+          "id": "D",
+          "text": "You need to enable virtualization in the BIOS."
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "A",
+        "D"
+      ],
+      "explanation": "Intel's Virtualization Technology (Intel VT) is needed to support virtualization. It's enabled in the BIOS, not the operating system."
+    },
+    {
+      "id": 57,
+      "question": "Your business employs four graphic designers who need new computers. These designers create graphical content such as advertisements, posters, and full-color brochures. Which of the following components is the least important to enhance in their custom-configured machines?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hard drive"
+        },
+        {
+          "id": "B",
+          "text": "Processor"
+        },
+        {
+          "id": "C",
+          "text": "Video card"
+        },
+        {
+          "id": "D",
+          "text": "RAM"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Graphic design (or CAD/CAM) workstations require solid CPU power, RAM, and a high-end video card. Hard drive storage is the least important upgrade for these types of users."
+    },
+    {
+      "id": 58,
+      "question": "An analog LCD monitor is most likely to have what type of connector?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DisplayPort"
+        },
+        {
+          "id": "B",
+          "text": "RCA"
+        },
+        {
+          "id": "C",
+          "text": "VGA"
+        },
+        {
+          "id": "D",
+          "text": "BNC"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "The most common analog video connector is a VGA connector."
+    },
+    {
+      "id": 59,
+      "question": "What is the name of the measure that specifies how many times an image can be redrawn on a computer screen in one second?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Refresh rate"
+        },
+        {
+          "id": "B",
+          "text": "Frame rate"
+        },
+        {
+          "id": "C",
+          "text": "Native resolution"
+        },
+        {
+          "id": "D",
+          "text": "Aspect ratio"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Refresh rate defines the vertical scan frequency of a monitor and determines how many times, in one second, an image can be redrawn on the screen. Many LCD monitors have a fixed refresh rate."
+    },
+    {
+      "id": 60,
+      "question": "Which PC peripheral connection type operates at 20Gbps bandwidth, with a port that provides 18V and 9.9W of power?",
+      "options": [
+        {
+          "id": "A",
+          "text": "FireWire 800"
+        },
+        {
+          "id": "B",
+          "text": "USB 3.0"
+        },
+        {
+          "id": "C",
+          "text": "eSATA"
+        },
+        {
+          "id": "D",
+          "text": "Thunderbolt"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Thunderbolt v1 and v2 both provide 20Gbps of data bandwidth. In addition, Thunderbolt ports power the attached peripherals with 18V and 9.9W of power."
+    },
+    {
+      "id": 61,
+      "question": "Inside a laser printer, approximately what temperature does the fuser get heated to?",
+      "options": [
+        {
+          "id": "A",
+          "text": "250 F"
+        },
+        {
+          "id": "B",
+          "text": "350 F"
+        },
+        {
+          "id": "C",
+          "text": "450 F"
+        },
+        {
+          "id": "D",
+          "text": "550 F"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "The fuser heats up to approximately 350 degrees Fahrenheit. Do not touch it as it will cause burns!"
+    },
+    {
+      "id": 62,
+      "question": "You have a user who needs a custom PC configuration to run common desktop applications and simply meet the recommended requirements for a selected operating system. What should you recommend?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thin client"
+        },
+        {
+          "id": "B",
+          "text": "Thick client"
+        },
+        {
+          "id": "C",
+          "text": "Home server PC"
+        },
+        {
+          "id": "D",
+          "text": "Virtualization workstation"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "A standard thick client is not really a custom configuration; it's the standard configuration on which custom configurations are based. In other words, a thick client is a standard client computer system."
+    },
+    {
+      "id": 63,
+      "question": "In the laser printer printing process, which step immediately follows the exposing step?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Charging"
+        },
+        {
+          "id": "B",
+          "text": "Fusing"
+        },
+        {
+          "id": "C",
+          "text": "Developing"
+        },
+        {
+          "id": "D",
+          "text": "Transferring"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "The order of steps is processing, charging, exposing, developing, transferring, fusing, and cleaning."
+    },
+    {
+      "id": 64,
+      "question": "What are the two power requirements that a PCI expansion bus may have in a desktop computer? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "1.7V"
+        },
+        {
+          "id": "B",
+          "text": "3.3V"
+        },
+        {
+          "id": "C",
+          "text": "5V"
+        },
+        {
+          "id": "D",
+          "text": "6.6V"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "B",
+        "C"
+      ],
+      "explanation": "PCI slots and adapters are manufactured in 3.3V and 5V versions. Adapters are keyed to fit in a slot based on their voltage requirements. Universal adapters are keyed to fit in slots based on either of the two voltages."
+    },
+    {
+      "id": 65,
+      "question": "Which of the following is a standard for a secure cryptoprocessor that can secure hardware (and the system boot process) using cryptographic keys?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TPM"
+        },
+        {
+          "id": "B",
+          "text": "LoJack"
+        },
+        {
+          "id": "C",
+          "text": "Secure Boot"
+        },
+        {
+          "id": "D",
+          "text": "BitLocker"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Trusted Platform Module (TPM) is an international standard for a dedicated security coprocessor, or cryptoprocessor. Coupled with a BIOS, it can be configured to boot the system only after authenticating the boot device."
+    },
+    {
+      "id": 66,
+      "question": "In a laser printer, what is the function of the transfer corona assembly?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It transfers a high-voltage charge to the paper."
+        },
+        {
+          "id": "B",
+          "text": "It transfers a high-voltage charge to the imaging drum."
+        },
+        {
+          "id": "C",
+          "text": "It transfers the toner from the imaging drum to the paper."
+        },
+        {
+          "id": "D",
+          "text": "It transfers the image from the laser to the imaging drum."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "The transfer corona assembly is given a high-voltage charge, which is transferred to the paper, which in turn pulls the toner from the photosensitive imaging drum."
+    },
+    {
+      "id": 67,
+      "question": "What type of connector is shown here?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Molex"
+        },
+        {
+          "id": "B",
+          "text": "SATA"
+        },
+        {
+          "id": "C",
+          "text": "PCIe"
+        },
+        {
+          "id": "D",
+          "text": "ATX"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "This is an eight-pin PCIe connector. They also come in 6-pin configurations."
+    },
+    {
+      "id": 68,
+      "question": "A technician has installed a printer driver on a Windows 8 client computer. What is the best next step the technician can take to ensure that the printer is installed properly?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ping the printer's IP address."
+        },
+        {
+          "id": "B",
+          "text": "Check the printer status and ensure it says \"Ready.\""
+        },
+        {
+          "id": "C",
+          "text": "Stop and restart the spooler service."
+        },
+        {
+          "id": "D",
+          "text": "Print a test page."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "After installing a new printer, it's good practice to print a test page to ensure functionality."
+    },
+    {
+      "id": 69,
+      "question": "Which component within a laser printer converts AC current into usable energy for the charging corona and transfer corona?",
+      "options": [
+        {
+          "id": "A",
+          "text": "LVPS"
+        },
+        {
+          "id": "B",
+          "text": "HVPS"
+        },
+        {
+          "id": "C",
+          "text": "ACPS"
+        },
+        {
+          "id": "D",
+          "text": "Transfer corona assembly"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "The high-voltage power supply (HVPS) provides the high voltages used by both the charging corona and the transfer corona during the laser printing process."
+    },
+    {
+      "id": 70,
+      "question": "You are connecting a laptop to a printer on the network using Wi-Fi. The user will need to use the printer frequently when they are in the office. What type of wireless connection will you establish with the printer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Permanent"
+        },
+        {
+          "id": "B",
+          "text": "Ad hoc"
+        },
+        {
+          "id": "C",
+          "text": "On demand"
+        },
+        {
+          "id": "D",
+          "text": "Infrastructure"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Wi-Fi (802.11a, b, g, n, or ac) and Bluetooth can be used to connect a printer temporarily to a single computer (or mobile device), and the connection does not have permanent status. This type of configuration is known as an ad hoc network connection. When Wi-Fi is used to connect printers to a network on a more permanent basis, it is known as infrastructure mode."
+    },
+    {
+      "id": 71,
+      "question": "What is the maximum throughput of PCI-X adapters?",
+      "options": [
+        {
+          "id": "A",
+          "text": "533MBbps"
+        },
+        {
+          "id": "B",
+          "text": "1066MBps"
+        },
+        {
+          "id": "C",
+          "text": "4266MBps"
+        },
+        {
+          "id": "D",
+          "text": "8533MBps"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "PCI-X version 2.0 introduced the current maximum bus speed, 533MHz. With an 8-byte (64-bit) bus, this translates to maximum throughput of 4266MBps, roughly 4.3GBps."
+    },
+    {
+      "id": 72,
+      "question": "What is the name of the boot routine that verifies the size and integrity of the system memory?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RAMCheck"
+        },
+        {
+          "id": "B",
+          "text": "BIOS"
+        },
+        {
+          "id": "C",
+          "text": "UEFI"
+        },
+        {
+          "id": "D",
+          "text": "POST"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "The power-on-self-test (POST) is a series of system checks performed by the system BIOS. Checking the system memory is part of the POST routine."
+    },
+    {
+      "id": 73,
+      "question": "You have been asked to install and configure a RAID 10 storage array for a computer. What is the minimum number of hard disks required for this configuration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "RAID 10 (also known as RAID 1+0) provides fault tolerance to RAID 0 through the RAID 1 mirroring of each disk in the RAID 0 striped set. It requires four hard disks."
+    },
+    {
+      "id": 74,
+      "question": "Identify the peripheral connector shown here.",
+      "options": [
+        {
+          "id": "A",
+          "text": "HDMI"
+        },
+        {
+          "id": "B",
+          "text": "PATA"
+        },
+        {
+          "id": "C",
+          "text": "SATA"
+        },
+        {
+          "id": "D",
+          "text": "eSATA"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "The image is of a SATA connector, commonly used for internal hard drives."
+    },
+    {
+      "id": 75,
+      "question": "A technician is recommending that his company use removable memory cards. Which of the following should he tell his manager?",
+      "options": [
+        {
+          "id": "A",
+          "text": "MiniSD and microSD cards work in a standard SD card slot."
+        },
+        {
+          "id": "B",
+          "text": "MiniSD cards work in a standard SD slot, but microSD cards do not."
+        },
+        {
+          "id": "C",
+          "text": "MicroSD cards work in a standard SD slot, but miniSD cards do not."
+        },
+        {
+          "id": "D",
+          "text": "Neither miniSD nor microSD cards will work in a standard SD slot."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "MiniSD and microSD cards are smaller than standard SD memory cards. Adapters are available to allow them to work in standard SD slots."
+    },
+    {
+      "id": 76,
+      "question": "You are purchasing new laptops for your company. When thinking about the monitor quality, which type of backlight will produce better-quality pictures?",
+      "options": [
+        {
+          "id": "A",
+          "text": "LED"
+        },
+        {
+          "id": "B",
+          "text": "OLED"
+        },
+        {
+          "id": "C",
+          "text": "Plasma"
+        },
+        {
+          "id": "D",
+          "text": "Fluorescent"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "There are two backlight technologies for LCD monitors: LED and fluorescent. Of the two, LED produces higher-quality images. OLED and plasma are display technologies, not backlight technologies."
+    },
+    {
+      "id": 77,
+      "question": "Which component of the motherboard chipset is responsible for managing high-speed peripheral communications?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Northbridge"
+        },
+        {
+          "id": "B",
+          "text": "Southbridge"
+        },
+        {
+          "id": "C",
+          "text": "Eastbridge"
+        },
+        {
+          "id": "D",
+          "text": "Westbridge"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "The Northbridge is responsible for managing high-speed peripheral communications. The Southbridge manages slower onboard peripherals. There is no Eastbridge or Westbridge in a motherboard chipset."
+    },
+    {
+      "id": 78,
+      "question": "A graphical designer in your office needs two monitors to do her work. Which of the following should you install to set up her desktop computer for this configuration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A video splitter"
+        },
+        {
+          "id": "B",
+          "text": "A second video driver"
+        },
+        {
+          "id": "C",
+          "text": "A second video adapter"
+        },
+        {
+          "id": "D",
+          "text": "A video replicator"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "To use a second monitor on a desktop computer, you need to install a second video adapter or have one video adapter with two monitor interfaces. Laptops often have an external monitor interface and are capable of providing video to the built-in screen and an external monitor at the same time."
+    },
+    {
+      "id": 79,
+      "question": "Which of the following statements are true regarding buffered memory modules? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "They increase the electrical load placed on the controller."
+        },
+        {
+          "id": "B",
+          "text": "They decrease the electrical load placed on the controller."
+        },
+        {
+          "id": "C",
+          "text": "When used, the memory controller communicates in series with the register."
+        },
+        {
+          "id": "D",
+          "text": "When used, the memory controller communicates in parallel with the memory chips."
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "B",
+        "C"
+      ],
+      "explanation": "Buffered memory modules include specialized chips that act as buffers for signals from the memory controller. By buffering these signals, the electrical load placed on the controller is reduced because the memory controller communicates in series with the register, instead of in parallel with the memory chips. The register performs the parallel communication with the chips."
+    },
+    {
+      "id": 80,
+      "question": "You have a desktop computer that is about five years old, with a single-channel memory architecture. You want to upgrade the memory. After checking the documentation, you purchase a higher-capacity RAM module that runs at the required bus speed. After you install it, the new RAM is not recognized, but the old RAM is. The computer store tests the RAM and it's fine. What should you try next?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Flash the BIOS."
+        },
+        {
+          "id": "B",
+          "text": "Purchase a second memory module of the same type, and install them as a pair."
+        },
+        {
+          "id": "C",
+          "text": "Return the memory module and purchase a lower-capacity one."
+        },
+        {
+          "id": "D",
+          "text": "Replace the motherboard."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "That capacity of module might not have been in existence when the motherboard's chipset was released. Sometimes flashing the BIOS is all that is required."
+    },
+    {
+      "id": 81,
+      "question": "A client needs to connect to the Internet using telephone lines. What type of expansion card should you configure in his computer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "USB"
+        },
+        {
+          "id": "B",
+          "text": "Cellular"
+        },
+        {
+          "id": "C",
+          "text": "Modem"
+        },
+        {
+          "id": "D",
+          "text": "NIC"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "A modem allows computers to connect to a remote network (such as an ISP) via telephone lines. Modems were the most common Internet connection method in the 1990s but are uncommon today. NICs are expansion cards for network connections. USB and cellular are not expansion cards. Other types of expansion cards include video cards, sound cards, storage cards, TV tuner cards, and riser cards."
+    },
+    {
+      "id": 82,
+      "question": "Which of the following types of computer peripherals are considered input and output devices? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Digitizer"
+        },
+        {
+          "id": "B",
+          "text": "Touch screen"
+        },
+        {
+          "id": "C",
+          "text": "KVM"
+        },
+        {
+          "id": "D",
+          "text": "Printer"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "B",
+        "C"
+      ],
+      "explanation": "Touch screens, KVM switches, smart TVs, and set-top boxes are capable of both input and output. Digitizers are input devices, and printers are output devices. Multifunctional printers that have a scanner included can be classified as input and output devices, but a plain printer is output only."
+    },
+    {
+      "id": 83,
+      "question": "You have a motherboard designed to hold DDR3-1600 memory. What will happen if you attempt to install DDR2-667 memory into the motherboard?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It won't fit."
+        },
+        {
+          "id": "B",
+          "text": "It will operate at 667MHz."
+        },
+        {
+          "id": "C",
+          "text": "It will operate at 1133MHz."
+        },
+        {
+          "id": "D",
+          "text": "It will operate at 1600MHz."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "DDR2 and DDR3 memory slots are both keyed, but the keys are in different places. Therefore, the memory will not fit into the slots on the motherboard."
+    },
+    {
+      "id": 84,
+      "question": "What happens during the transferring step of the laser printer printing process?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The image is transferred to the imaging drum."
+        },
+        {
+          "id": "B",
+          "text": "The toner is transferred to the imaging drum."
+        },
+        {
+          "id": "C",
+          "text": "The toner is transferred to the paper."
+        },
+        {
+          "id": "D",
+          "text": "A strong, uniform negative charge is transferred to the imaging drum."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "During the transferring step, the positively charged paper pulls the negatively charged toner from the photosensitive drum at the line of contact between the roller and the paper."
+    },
+    {
+      "id": 85,
+      "question": "The set of signal pathways on a motherboard between the CPU and RAM is called what?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Northbridge"
+        },
+        {
+          "id": "B",
+          "text": "Southbridge"
+        },
+        {
+          "id": "C",
+          "text": "Frontside bus"
+        },
+        {
+          "id": "D",
+          "text": "Backside bus"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "The communications between the CPU and memory occur over what is known as the frontside bus (FSB), which is just a set of signal pathways connecting the CPU and main memory."
+    },
+    {
+      "id": 86,
+      "question": "One of your users needs to print several copies of a 20-page document. She wants to ensure that all the pages print in order so she does not have to reorganize the documents later. Which option does she need to set properly in her printer configuration settings?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Duplex"
+        },
+        {
+          "id": "B",
+          "text": "Collate"
+        },
+        {
+          "id": "C",
+          "text": "Page order"
+        },
+        {
+          "id": "D",
+          "text": "Orientation"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "The user wants to make sure that the collate option is set properly. It will let her select whether she wants it to print pages in order (1, 2, 3... 1, 2, 3... and so on) or multiple copies of the same page at once (1, 1, 1... 2, 2, 2... and so forth). Other options you can often set up in the printer configuration settings are duplexing (printing on the front and back), orientation (portrait or landscape), and print quality (such as draft or high resolution)."
+    },
+    {
+      "id": 87,
+      "question": "Which of the following video resolutions is compatible with the 4:3 aspect ratio?",
+      "options": [
+        {
+          "id": "A",
+          "text": "UXGA 1600x1200"
+        },
+        {
+          "id": "B",
+          "text": "ATSC 1920x1080"
+        },
+        {
+          "id": "C",
+          "text": "WUXGA 1920x1200"
+        },
+        {
+          "id": "D",
+          "text": "WQXGA 2560x1600"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "The term aspect ratio refers to the relationship between the horizontal and vertical pixel counts that a monitor can display. For example, for a display that supports 4:3 ratios, such as 1600x1200, if you divide the first number by 4 and multiply the result by 3, the product is equal to the second number. Additionally, if you divide the first number by the second number, the result is approximately 1.3, the same as 4 divided by 3."
+    },
+    {
+      "id": 88,
+      "question": "You upgraded the RAM on your system and are now having boot issues. The manufacturer's website recommends updating the BIOS. What is the easiest way to do this?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the BIOS chip."
+        },
+        {
+          "id": "B",
+          "text": "Replace the CMOS battery."
+        },
+        {
+          "id": "C",
+          "text": "Install a new motherboard."
+        },
+        {
+          "id": "D",
+          "text": "Flash the BIOS."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Flashing the BIOS is the recommended way to upgrade a BIOS. It involves downloading the new BIOS and flashing software from the manufacturer and installing it on the computer. The worst-case scenario is replacing the motherboard (or in this case, the RAM, since that is what you upgraded)."
+    },
+    {
+      "id": 89,
+      "question": "A technician needs to install an optical storage device as cheaply as possible. His client needs to store approximately 500MB of data at a time. Which technology is the best solution for this situation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CD-RW"
+        },
+        {
+          "id": "B",
+          "text": "DVD-RW"
+        },
+        {
+          "id": "C",
+          "text": "DVD-RW DL"
+        },
+        {
+          "id": "D",
+          "text": "BD-RE"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "CD-RW (re-writable compact disc) will be the least expensive of the optical solutions. In addition, CD-ROMs can store about 700MB to 900MB of data, depending on the standard used. This should be sufficient for the client."
+    },
+    {
+      "id": 90,
+      "question": "A technician needs to install an optical disc system with capacity to burn discs storing about 12GB of data at one time. What is the minimum technology required to get him over this threshold?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DVD-R SS, DL"
+        },
+        {
+          "id": "B",
+          "text": "DVD-R DS, SL"
+        },
+        {
+          "id": "C",
+          "text": "DVD-R DS, DL"
+        },
+        {
+          "id": "D",
+          "text": "BD-R SS, DL"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "A DVD-R double-sided dual-layer (DS, DL) will provide 17.1GB of storage. BD-R single-sided dual-layer (SS, DL) will also work in this case, providing 50GB of storage. (BD-R is a one-time recordable Blu-ray disc, and BD-RE is a re-recordable disc. Both have the same capacity.) A DVD-R SS, DL provides about 8.5GB of storage, and DVD-R DS, SL provides about 9.4GB of storage."
+    },
+    {
+      "id": 91,
+      "question": "Identify the connector type on the cable shown here.",
+      "options": [
+        {
+          "id": "A",
+          "text": "BNC"
+        },
+        {
+          "id": "B",
+          "text": "RCA"
+        },
+        {
+          "id": "C",
+          "text": "MiniDIN"
+        },
+        {
+          "id": "D",
+          "text": "HD15"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "The connector shown is an RCA connector, which is often used for audio or video signals."
+    },
+    {
+      "id": 92,
+      "question": "You are buying a new video projector for the executive conference room. The room often has bright sunlight and needs a bright projector. What is the key specification you should pay attention to when selecting this projector?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Frame rate"
+        },
+        {
+          "id": "B",
+          "text": "Native resolution"
+        },
+        {
+          "id": "C",
+          "text": "Aspect ratio"
+        },
+        {
+          "id": "D",
+          "text": "Lumens"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Lumens is the measure of brightness for a projector. For a well-lit business setting, you probably want a projector rated at 5,000-6,000 lumens."
+    },
+    {
+      "id": 93,
+      "question": "Which home and office printing technology typically employs a reservoir of ink, contained in a cartridge, as its medium to form images on paper?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Laser"
+        },
+        {
+          "id": "B",
+          "text": "Thermal"
+        },
+        {
+          "id": "C",
+          "text": "Inkjet"
+        },
+        {
+          "id": "D",
+          "text": "Impact"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Inkjet printers typically use a reservoir of ink (also known as an ink cartridge), a pump, and a nozzle to print images."
+    },
+    {
+      "id": 94,
+      "question": "You have been asked to purchase new RAM for workstations that call for DDR3-1600. What throughput will these modules support?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1600MBps"
+        },
+        {
+          "id": "B",
+          "text": "3200Mbps"
+        },
+        {
+          "id": "C",
+          "text": "6400Mbps"
+        },
+        {
+          "id": "D",
+          "text": "12800Mbps"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "The number designation of 1600 in DDR3-1600 indicates an FSB speed of 1600MHz. To find the throughput, multiply the FSB speed by 8."
+    },
+    {
+      "id": 95,
+      "question": "Historically, which display type has been preferred to watch fast-motion programs such as sporting events?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plasma"
+        },
+        {
+          "id": "B",
+          "text": "Fluorescent"
+        },
+        {
+          "id": "C",
+          "text": "LED"
+        },
+        {
+          "id": "D",
+          "text": "LCD"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "The refresh rate for plasma displays has always been in the 600Hz range, which is 10 times the standard refresh rate of 60Hz, thus ensuring fluid video motion. The result is a display that produces the state of the art in video motion fluidity."
+    },
+    {
+      "id": 96,
+      "question": "A motherboard specifies 400MHz DDR2 RAM. Which RAM modules should be used?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PC-3200"
+        },
+        {
+          "id": "B",
+          "text": "PC2-6400"
+        },
+        {
+          "id": "C",
+          "text": "PC2-3200"
+        },
+        {
+          "id": "D",
+          "text": "PC2-6400 (alternate marking)"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "DDR2, using a 100MHz actual clock, transfers data in four operations per cycle (effective 400MHz FSB) and 8 bytes per operation, for a total of 3200MBps. DDR2 calls these modules PC2-3200."
+    },
+    {
+      "id": 97,
+      "question": "Identify the connector type shown here in the center.",
+      "options": [
+        {
+          "id": "A",
+          "text": "eSATA"
+        },
+        {
+          "id": "B",
+          "text": "Thunderbolt"
+        },
+        {
+          "id": "C",
+          "text": "PCIe"
+        },
+        {
+          "id": "D",
+          "text": "FireWire"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "The connector pictured is a four-pin FireWire (IEEE1394) port on a laptop."
+    },
+    {
+      "id": 98,
+      "question": "On your network, users want to print easily from their iPads and iPhones. Which service supports this?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bonjour"
+        },
+        {
+          "id": "B",
+          "text": "AirPrint"
+        },
+        {
+          "id": "C",
+          "text": "TCP printing"
+        },
+        {
+          "id": "D",
+          "text": "Virtual printing"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "iPads and iPhones can automatically detect AirPrint-enabled printers on their local network and print to them without requiring the installation of a driver."
+    },
+    {
+      "id": 99,
+      "question": "A new computer needs to communicate with other computers on a wireless network. What type of expansion card should be installed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "WAP"
+        },
+        {
+          "id": "B",
+          "text": "NIC"
+        },
+        {
+          "id": "C",
+          "text": "KVM"
+        },
+        {
+          "id": "D",
+          "text": "WPA"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "To communicate with other computers on a network, you need a network interface card (NIC). A wireless access point (WAP) is a wireless hub that many wireless devices communicate with, and WPA is a wireless security standard. A KVM switch allows you to have multiple systems attached to the same keyboard, video, and mouse. Other types of expansion cards (that could use the same slot as a NIC) include video cards, sound cards, storage cards, TV tuner cards, and riser cards."
+    },
+    {
+      "id": 100,
+      "question": "The WUXGA video standard, running at a resolution of 1920x1200, operates at what aspect ratio?",
+      "options": [
+        {
+          "id": "A",
+          "text": "4:3"
+        },
+        {
+          "id": "B",
+          "text": "5:4"
+        },
+        {
+          "id": "C",
+          "text": "16:9"
+        },
+        {
+          "id": "D",
+          "text": "16:10"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "A 1920x1200 resolution is a 16:10 aspect ratio. If you take the second number (1200) and multiply it by 1.6, you get 1920."
+    },
+    {
+      "id": 101,
+      "question": "When printing, which component is responsible for converting the data being printed into the format that the printer can understand?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PDL"
+        },
+        {
+          "id": "B",
+          "text": "Print driver"
+        },
+        {
+          "id": "C",
+          "text": "Print feeder"
+        },
+        {
+          "id": "D",
+          "text": "Print spooler"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "The printer driver uses a page-description language (PDL) to convert the data being printed into the format that the printer can understand. The driver also ensures that the printer is ready to print."
+    },
+    {
+      "id": 102,
+      "question": "Which statement best describes the function of a typical power supply fan?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cools the PSU by blowing in air from outside the case."
+        },
+        {
+          "id": "B",
+          "text": "Cools the PSU by blowing hot air out the back of the PSU."
+        },
+        {
+          "id": "C",
+          "text": "Cools the computer by blowing in air from outside, through the PSU, into the case."
+        },
+        {
+          "id": "D",
+          "text": "Cools the computer by pulling hot air from inside, through the PSU, and out the back."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "The power supply fan is used to cool the power supply. In addition, this fan draws air from inside the case into vents in the power supply. This pulls hot air through the power supply so that it can be blown out of the case."
+    },
+    {
+      "id": 103,
+      "question": "A client values access speed far more than disk space for a new hard drive. What type of drive is best suited?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SSD"
+        },
+        {
+          "id": "B",
+          "text": "HDD"
+        },
+        {
+          "id": "C",
+          "text": "SD"
+        },
+        {
+          "id": "D",
+          "text": "BD-R"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "A solid-state drive (SSD) is the best choice for a hard drive, when access speed is the most important characteristic. A conventional magnetic hard disk drive (HDD) is slower. Secure Digital (SD) is a memory card format, not a hard drive type. BD-R is a Blu-ray Disc format."
+    },
+    {
+      "id": 104,
+      "question": "Serial and Parallel ATA port communication to other components on a motherboard is managed by what?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Northbridge"
+        },
+        {
+          "id": "B",
+          "text": "Southbridge"
+        },
+        {
+          "id": "C",
+          "text": "Frontside bus"
+        },
+        {
+          "id": "D",
+          "text": "Backside bus"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "The Northbridge is responsible for managing high-speed peripheral communications. The Southbridge manages slower onboard peripherals such as PS/2, parallel, serial, and Serial ATA and Parallel ATA."
+    },
+    {
+      "id": 105,
+      "question": "What is the maximum data rate for a USB 2.0 connection?",
+      "options": [
+        {
+          "id": "A",
+          "text": "12Mbps"
+        },
+        {
+          "id": "B",
+          "text": "480Mbps"
+        },
+        {
+          "id": "C",
+          "text": "1Gbps"
+        },
+        {
+          "id": "D",
+          "text": "5Gbps"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "USB 1.0 supports 12Mbps, USB 2.0 supports 480Mbps, and USB 3.0 supports 5Gbps."
+    },
+    {
+      "id": 106,
+      "question": "A technician must install and configure a RAID 5 array in a working computer that currently has one hard drive. How many additional hard drives, at a minimum, are required?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "4"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "RAID 5 arrays require a minimum of three hard drives. Since the computer already has one, he therefore needs two more."
+    },
+    {
+      "id": 107,
+      "question": "To increase network security, a consultant suggests scanning user fingerprints to log in. What type of device should be installed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Scanner"
+        },
+        {
+          "id": "B",
+          "text": "Digitizer"
+        },
+        {
+          "id": "C",
+          "text": "Biometric device"
+        },
+        {
+          "id": "D",
+          "text": "Touch pad"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Any device that measures one or more physical or behavioral features of an organism is considered a biometric device. Biometric devices include fingerprint scanners, retinal and iris scanners, voice recognition devices, facial recognition devices, and others."
+    },
+    {
+      "id": 108,
+      "question": "Which CPU architecture term describes a CPU with multiple physical processor dies in the same package?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Multicore"
+        },
+        {
+          "id": "B",
+          "text": "64-bit"
+        },
+        {
+          "id": "C",
+          "text": "Integrated GPU"
+        },
+        {
+          "id": "D",
+          "text": "Hyperthreading"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "A processor that exhibits a multicore architecture has multiple completely separate processor dies in the same package. The operating system and applications see multiple processors in the same way that they see multiple processors in separate sockets."
+    },
+    {
+      "id": 109,
+      "question": "Which of the following optical disc standards provides the highest capacity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DVD-R SS, SL"
+        },
+        {
+          "id": "B",
+          "text": "DVD-R DS, SL"
+        },
+        {
+          "id": "C",
+          "text": "DVD-R SS, DL"
+        },
+        {
+          "id": "D",
+          "text": "DVD-R SS, DL (variant listing)"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "All are digital video disc (DVD) technologies. A single-sided, single-layer (SS, SL) DVD provides about 4.7GB of storage. A dual-sided (DS) disc will double that capacity to 9.4GB. Adding a second layer, or dual-layer (DL), adds more capacity, but the technology does not double the capacity of a single layer. A single-sided, dual-layer (SS, DL) disc has capacity of about 8.5GB."
+    },
+    {
+      "id": 110,
+      "question": "Five desktop computers shipped from Germany to the United States will not power on after changing to American-style power cords. What is the most likely cause?",
+      "options": [
+        {
+          "id": "A",
+          "text": "All computers were damaged during shipping."
+        },
+        {
+          "id": "B",
+          "text": "German PSUs work only with German power cords."
+        },
+        {
+          "id": "C",
+          "text": "PSUs expect 50Hz and the US standard is 60Hz."
+        },
+        {
+          "id": "D",
+          "text": "The power supply voltage switch needs to be moved."
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Many power supplies have a two-position slider switch called a dual voltage switch. It can be set for 110-120V or 220-240V, depending on what local power specifications are."
+    },
+    {
+      "id": 111,
+      "question": "What are the dimensions of a mobile-ITX motherboard?",
+      "options": [
+        {
+          "id": "A",
+          "text": "9.6 x 9.6"
+        },
+        {
+          "id": "B",
+          "text": "6.7 x 6.7"
+        },
+        {
+          "id": "C",
+          "text": "3.9 x 2.8"
+        },
+        {
+          "id": "D",
+          "text": "2.4 x 2.4"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "MicroATX motherboards are a 9.6 square, and mini-ITX motherboards are a 6.7 square. Pico-ITX motherboards are 3.9 x 2.8, and mobile-ITX motherboards are 2.4 square."
+    },
+    {
+      "id": 112,
+      "question": "Which of the following printer types are considered impact printers? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Laser"
+        },
+        {
+          "id": "B",
+          "text": "Daisy-wheel"
+        },
+        {
+          "id": "C",
+          "text": "Dot-matrix"
+        },
+        {
+          "id": "D",
+          "text": "Thermal"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "B",
+        "C"
+      ],
+      "explanation": "Daisy-wheel and dot-matrix printers use print heads that strike an ink ribbon, which presses up against the paper to make an image. Therefore, they are impact printers. Laser printers use a drum to create the image, and thermal printers use heat."
+    },
+    {
+      "id": 113,
+      "question": "Which type of video display technology does not require a separate display unit and light source?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plasma"
+        },
+        {
+          "id": "B",
+          "text": "OLED"
+        },
+        {
+          "id": "C",
+          "text": "LED"
+        },
+        {
+          "id": "D",
+          "text": "LCD"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "OLEDs create the image in an OLED display and supply the light source, so there is no need for a backlight with its additional power and space requirements, unlike in the case of LCD or plasma panels."
+    },
+    {
+      "id": 114,
+      "question": "Which type of bus architecture provides faster speeds?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Serial (1 bit at a time)"
+        },
+        {
+          "id": "B",
+          "text": "Parallel (8 bits at a time)"
+        },
+        {
+          "id": "C",
+          "text": "They are the same speed"
+        },
+        {
+          "id": "D",
+          "text": "More information is needed"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Although serial might sound slower than parallel, modern technology has made the serial bus much faster than parallel bus systems."
+    },
+    {
+      "id": 115,
+      "question": "Which hardware component is responsible for prefetching data or code that the CPU will need and storing most recently used data or code?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RAM"
+        },
+        {
+          "id": "B",
+          "text": "SSD"
+        },
+        {
+          "id": "C",
+          "text": "Buffer"
+        },
+        {
+          "id": "D",
+          "text": "Cache"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Only the most recently used data and code or that which is expected to be used next is stored in cache. Cache is much smaller and faster than RAM."
+    },
+    {
+      "id": 116,
+      "question": "Which two CPU sockets are capable of supporting Intel Core i7 processors? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "LGA1156 (Socket H)"
+        },
+        {
+          "id": "B",
+          "text": "LGA2011 (Socket R)"
+        },
+        {
+          "id": "C",
+          "text": "Socket AM3"
+        },
+        {
+          "id": "D",
+          "text": "Socket FM2"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "A",
+        "B"
+      ],
+      "explanation": "Sockets that support Intel processors are currently named starting with the letters LGA, such as LGA1156 and LGA2011. Socket names that start with AM or FM will support AMD processors and not Intel processors."
+    },
+    {
+      "id": 117,
+      "question": "A videographer and media producer stores dozens of large files and needs immediate access for editing. What is the most appropriate storage technology?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SSD"
+        },
+        {
+          "id": "B",
+          "text": "HDD"
+        },
+        {
+          "id": "C",
+          "text": "SD"
+        },
+        {
+          "id": "D",
+          "text": "BD-R"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "A standard hard disk drive (HDD) will provide her with the highest capacity of the four options and also give her immediate access. A solid-state drive (SSD) is fast but does not have as much capacity. Secure Digital (SD) is a memory card format and does not offer the capacity or immediacy she needs. BD-R is a Blu-ray Disc format. It has good storage capabilities, but not the immediacy for editing."
+    },
+    {
+      "id": 118,
+      "question": "A client wants to build a high-end custom home theater PC. Which two components should be included? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sound card with surround sound"
+        },
+        {
+          "id": "B",
+          "text": "High-end cooling"
+        },
+        {
+          "id": "C",
+          "text": "Video card with HDMI outputs"
+        },
+        {
+          "id": "D",
+          "text": "Multicore processor"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "A",
+        "C"
+      ],
+      "explanation": "A home theater PC (HTPC) needs to maximize the audio and video experience. It won't do a lot of processing or data management, so an upgraded processor or RAM is unneeded. Install a great sound card, a video card with multiple HDMI outputs, and a TV tuner card. (HDMI is capable of supporting 7.1 surround sound, so you may choose to buy one expansion card capable of handling both functions.) Some HTPCs come in a compact form factor, which is just a small case."
+    },
+    {
+      "id": 119,
+      "question": "You find a used digital LCD monitor for sale. What are the two most likely types of connector you will find on this monitor? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Composite"
+        },
+        {
+          "id": "B",
+          "text": "DVI-D"
+        },
+        {
+          "id": "C",
+          "text": "HDMI"
+        },
+        {
+          "id": "D",
+          "text": "VGA"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "B",
+        "C"
+      ],
+      "explanation": "Digital monitors will have a digital interface, such as DVI-D, HDMI, or miniHDMI. Composite connectors are rarely used on monitors, and VGA is analog, not digital."
+    },
+    {
+      "id": 120,
+      "question": "A manager wants a new laptop with as few components as possible to reduce risk of failure. Which light source technology does not require an inverter and is therefore a better choice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "OLED"
+        },
+        {
+          "id": "B",
+          "text": "Plasma"
+        },
+        {
+          "id": "C",
+          "text": "Fluorescent"
+        },
+        {
+          "id": "D",
+          "text": "LED"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "There is no need for laptops with LED displays to convert the DC power coming into the laptop to the AC needed to power traditional fluorescent backlights because LEDs operate on DC power just like the rest of the laptop. Therefore, systems with LED backlights have no inverter board."
+    },
+    {
+      "id": 121,
+      "question": "A user reports frequent paper jams on a laser printer after switching to thicker paper stock. Which component is most likely being affected?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pickup rollers"
+        },
+        {
+          "id": "B",
+          "text": "Fuser assembly"
+        },
+        {
+          "id": "C",
+          "text": "Transfer belt"
+        },
+        {
+          "id": "D",
+          "text": "Imaging drum"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "The four virtual printing options are print to file, print to PDF, print to XPS, and print to image."
+    },
+    {
+      "id": 122,
+      "question": "Which technology provides hardware-based disk encryption integrated with the system board?",
+      "options": [
+        {
+          "id": "A",
+          "text": "BitLocker To Go"
+        },
+        {
+          "id": "B",
+          "text": "TPM"
+        },
+        {
+          "id": "C",
+          "text": "LoJack"
+        },
+        {
+          "id": "D",
+          "text": "Secure Boot"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "There are four major versions of PCIe currently specified: 1.x, 2.x, 3.0, and 4.0. For the four versions, a single omnidirectional lane operates at a data rate of 250MBps, 500MBps, approximately 1GBps, and roughly 2GBps, respectively. A bidirectional slot doubles the data rate."
+    },
+    {
+      "id": 123,
+      "question": "During the laser printing process, which step melts toner into the paper fibers to make the image permanent?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Charging"
+        },
+        {
+          "id": "B",
+          "text": "Developing"
+        },
+        {
+          "id": "C",
+          "text": "Transferring"
+        },
+        {
+          "id": "D",
+          "text": "Fusing"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Laser printers incorporate a fuser assembly, which uses two rollers that apply pressure and heat to fuse the plastic toner particles to the paper."
+    },
+    {
+      "id": 124,
+      "question": "A workstation requires fault tolerance with only two available drives. Which RAID level should be used?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RAID 0"
+        },
+        {
+          "id": "B",
+          "text": "RAID 1"
+        },
+        {
+          "id": "C",
+          "text": "RAID 5"
+        },
+        {
+          "id": "D",
+          "text": "RAID 10"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "During the charging step, the charging corona uses a high voltage to apply a strong, uniform negative charge (around –600VDC) to the surface of the imaging drum."
+    },
+    {
+      "id": 125,
+      "question": "Which connector is most commonly used to provide power to SATA hard drives?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Molex 4-pin"
+        },
+        {
+          "id": "B",
+          "text": "SATA power 15-pin"
+        },
+        {
+          "id": "C",
+          "text": "PCIe 8-pin"
+        },
+        {
+          "id": "D",
+          "text": "ATX 24-pin"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "When installing dual-channel RAM, be sure that the RAM modules both have the same parameters. In some cases, you might even need to make sure they come from the same manufacturer."
+    },
+    {
+      "id": 126,
+      "question": "Which CPU feature allows a single physical core to appear as two logical processors to the operating system?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Multicore"
+        },
+        {
+          "id": "B",
+          "text": "Hyperthreading"
+        },
+        {
+          "id": "C",
+          "text": "Virtualization extensions"
+        },
+        {
+          "id": "D",
+          "text": "Turbo boost"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Carriage motors are components in inkjet printers. Laser printer components include a fuser assembly, imaging drum, transfer belt, transfer roller, pickup roller, separator pads, and a duplexing assembly."
+    },
+    {
+      "id": 127,
+      "question": "A user wants to mirror a laptop display to an external HDTV with a single cable carrying audio and video. Which interface should be used?",
+      "options": [
+        {
+          "id": "A",
+          "text": "VGA"
+        },
+        {
+          "id": "B",
+          "text": "DVI-D"
+        },
+        {
+          "id": "C",
+          "text": "HDMI"
+        },
+        {
+          "id": "D",
+          "text": "DisplayPort (no audio)"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Laser printer uses various high-voltage biases inside the case, and high voltages can create ozone."
+    },
+    {
+      "id": 128,
+      "question": "Which RAM type adds extra bits to detect and correct single-bit errors automatically?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Non-parity"
+        },
+        {
+          "id": "B",
+          "text": "Parity"
+        },
+        {
+          "id": "C",
+          "text": "ECC"
+        },
+        {
+          "id": "D",
+          "text": "Unbuffered non-ECC"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "The purpose of a KVM switch is to allow you to have multiple systems attached to the same keyboard, monitor, and mouse. You can use these three devices with only one system at a time, and the device will have a dial or buttons to allow you to switch between systems."
+    },
+    {
+      "id": 129,
+      "question": "In a laser printer, which component initially applies a uniform negative charge to the photosensitive drum?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfer corona"
+        },
+        {
+          "id": "B",
+          "text": "Charging corona"
+        },
+        {
+          "id": "C",
+          "text": "Primary roller"
+        },
+        {
+          "id": "D",
+          "text": "Separation pad"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "It sounds like this printer needs to manage its own print jobs; therefore, it probably needs to be its own print server. Installing an integrated print server with a network connection will probably do the trick."
+    },
+    {
+      "id": 130,
+      "question": "Which storage form factor is most common for 2.5 inch SSDs in laptops?",
+      "options": [
+        {
+          "id": "A",
+          "text": "M.2 2280"
+        },
+        {
+          "id": "B",
+          "text": "2.5 inch SATA"
+        },
+        {
+          "id": "C",
+          "text": "U.2"
+        },
+        {
+          "id": "D",
+          "text": "PCIe add-in card (AIC)"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "Clean pickup rollers (and other rubber rollers) with mild soap and water and not alcohol. Alcohol can dry out the rollers, making them brittle and ineffective. A dry cloth will not remove the dirt or debris, and compressed air would just blow the debris into other internal printer components."
+    },
+    {
+      "id": 131,
+      "question": "A user needs to connect a high-speed external SSD at 10Gbps. Which interface is the most appropriate on modern PCs?",
+      "options": [
+        {
+          "id": "A",
+          "text": "USB 3.0 (5Gbps)"
+        },
+        {
+          "id": "B",
+          "text": "USB 3.1 Gen 2 (10Gbps)"
+        },
+        {
+          "id": "C",
+          "text": "FireWire 800"
+        },
+        {
+          "id": "D",
+          "text": "eSATA 3Gbps"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "During the developing step, toner is attracted to areas of the drum where an image has been written by the laser. Those areas have a slight negative charge (–100VDC) as opposed to unexposed areas of the drum and the developing roller (which the toner is stuck to), which each have a charge of –600VDC."
+    },
+    {
+      "id": 132,
+      "question": "Which memory module type is most commonly found in laptops?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DIMM"
+        },
+        {
+          "id": "B",
+          "text": "SODIMM"
+        },
+        {
+          "id": "C",
+          "text": "RIMM"
+        },
+        {
+          "id": "D",
+          "text": "SRIMM"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "The primary factor in determining data throughput for a magnetic hard drive is the spin rate. Higher spin rates will result in faster data reads and writes and increase data throughput."
+    },
+    {
+      "id": 133,
+      "question": "A projector needs to be used in a brightly lit classroom. Which specification matters most for image visibility?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Contrast ratio"
+        },
+        {
+          "id": "B",
+          "text": "Response time"
+        },
+        {
+          "id": "C",
+          "text": "Lumens"
+        },
+        {
+          "id": "D",
+          "text": "Refresh rate (Hz)"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "LoJack, made by Absolute Software, allows you to remotely lock a computer if it has been stolen or compromised. It will also allow security teams to locate stolen laptops."
+    },
+    {
+      "id": 134,
+      "question": "Which optical media type supports approximately 25GB per layer on a single-sided disc?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DVD-R DL"
+        },
+        {
+          "id": "B",
+          "text": "BD-R"
+        },
+        {
+          "id": "C",
+          "text": "CD-R"
+        },
+        {
+          "id": "D",
+          "text": "DVD+R SL"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "The white connector is a 20-pin ATX power connector. You will also see 24-pin versions, which have two rows of 12 pins each."
+    },
+    {
+      "id": 135,
+      "question": "A user wants to plug in a PS/2 keyboard but only USB ports are available. Which is the best solution?",
+      "options": [
+        {
+          "id": "A",
+          "text": "BNC-to-USB adapter"
+        },
+        {
+          "id": "B",
+          "text": "DIN-to-USB converter"
+        },
+        {
+          "id": "C",
+          "text": "PS/2-to-USB adapter"
+        },
+        {
+          "id": "D",
+          "text": "RJ-11-to-USB adapter"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "Motherboards support memory based on the speed of the frontside bus (or the CPU's QPI) and the memory's form factor. For example, if the motherboard's FSB is rated at a maximum speed of 1333MHz, you should install memory that is rated at 1333MHz."
+    },
+    {
+      "id": 136,
+      "question": "Which CPU cooling solution typically provides the best heat dissipation for overclocked systems?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Passive heatsink"
+        },
+        {
+          "id": "B",
+          "text": "Stock heatsink and fan"
+        },
+        {
+          "id": "C",
+          "text": "Closed-loop liquid cooling"
+        },
+        {
+          "id": "D",
+          "text": "Case fan only"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "To make information available to the rest of the computer more quickly, hard drive manufacturers increase the speed at which the hard drive platters spin."
+    },
+    {
+      "id": 137,
+      "question": "A thin client should be configured to meet which primary requirement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "High-end GPU and 64GB RAM"
+        },
+        {
+          "id": "B",
+          "text": "Recommended OS requirements for basic apps"
+        },
+        {
+          "id": "C",
+          "text": "Maximum local storage for large media"
+        },
+        {
+          "id": "D",
+          "text": "Multiple high-TDP PCIe cards"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "The ATX, MicroATX, and mini-ITX motherboard form factors can all be mounted inside a standard ATX case. The mini-ITX will have only three of the four mounting holes line up with the case, but the rear interfaces are placed in the same location as those on ATX motherboards."
+    },
+    {
+      "id": 138,
+      "question": "Which laptop panel technology is known for wider viewing angles and better color accuracy compared to TN?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IPS"
+        },
+        {
+          "id": "B",
+          "text": "TN"
+        },
+        {
+          "id": "C",
+          "text": "VA"
+        },
+        {
+          "id": "D",
+          "text": "Plasma"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "If memory supports ECC, check bits are generated and stored with the data. If one of the eight memory bits is in error, ECC can correct the error."
+    },
+    {
+      "id": 139,
+      "question": "Which feature allows a UEFI-based system to verify signed bootloaders during startup?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Secure Boot"
+        },
+        {
+          "id": "B",
+          "text": "PXE Boot"
+        },
+        {
+          "id": "C",
+          "text": "Wake-on-LAN"
+        },
+        {
+          "id": "D",
+          "text": "VT-x/AMD-V"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A",
+        "D"
+      ],
+      "explanation": "USB flash drives and SD cards are hot swappable. (In the case of USB, be sure that the flash drive does not contain key file system files needed for the computer to run!) Hybrid SSDs might or might not be hot swappable and are larger than USB and SD drives. PATA devices are generally not hot swappable."
+    },
+    {
+      "id": 140,
+      "question": "A user wants to install two identical RAM modules in alternating colored slots on a desktop motherboard. What feature is being used?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ECC"
+        },
+        {
+          "id": "B",
+          "text": "Dual-channel memory"
+        },
+        {
+          "id": "C",
+          "text": "Buffered memory"
+        },
+        {
+          "id": "D",
+          "text": "Parity memory"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "This SLI-ready motherboard has three PCIe x16 slots (every other slot, starting with the top one), one PCIe x1 slot (second slot from the top), and two PCI slots (first and third slots from the bottom). Notice the latch and tab that secures the x16 adapters in place by their hooks."
+    },
+    {
+      "id": 141,
+      "question": "Which expansion slot is most commonly used by modern high-performance video cards?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PCI"
+        },
+        {
+          "id": "B",
+          "text": "AGP"
+        },
+        {
+          "id": "C",
+          "text": "PCIe x16"
+        },
+        {
+          "id": "D",
+          "text": "miniPCIe"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B",
+        "D"
+      ],
+      "explanation": "Dual-channel motherboards have two banks of two RAM slots. They are color coded such that the two slots of the same color belong to the same channel. Sometimes the like-colored slots are adjacent to each other, but other times they alternate. For optimal performance, fill one channel completely."
+    },
+    {
+      "id": 142,
+      "question": "Which connector is typically used for coaxial cable in older Ethernet or video applications?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RJ-45"
+        },
+        {
+          "id": "B",
+          "text": "BNC"
+        },
+        {
+          "id": "C",
+          "text": "LC"
+        },
+        {
+          "id": "D",
+          "text": "SC"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Install an application that provides support for printing to .pdf. Then, when the user opens the print window, they can choose the .pdf option."
+    },
+    {
+      "id": 143,
+      "question": "A user requires mirrored storage and improved read performance using four disks. Which RAID should be selected?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RAID 0"
+        },
+        {
+          "id": "B",
+          "text": "RAID 1"
+        },
+        {
+          "id": "C",
+          "text": "RAID 5"
+        },
+        {
+          "id": "D",
+          "text": "RAID 10"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "The boot sequence of a computer is changed in the BIOS settings."
+    },
+    {
+      "id": 144,
+      "question": "Which printer technology uses a ribbon and print head that strikes the paper to form characters?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Laser"
+        },
+        {
+          "id": "B",
+          "text": "Inkjet"
+        },
+        {
+          "id": "C",
+          "text": "Dot-matrix"
+        },
+        {
+          "id": "D",
+          "text": "Thermal transfer"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C",
+        "D"
+      ],
+      "explanation": "Typical front- or top-panel connectors include USB, audio, power button, power light, drive activity lights, and the reset button. Hard drives and optical disk players generally connect to the motherboard."
+    },
+    {
+      "id": 145,
+      "question": "Which CPU feature protects against malware by marking memory regions as non-executable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Virtualization"
+        },
+        {
+          "id": "B",
+          "text": "NX/Execute Disable Bit"
+        },
+        {
+          "id": "C",
+          "text": "Hyperthreading"
+        },
+        {
+          "id": "D",
+          "text": "AES-NI"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "USB 3.0 has a cable length limitation of 3 meters. USB 2.0 cables can be up to 5 meters in length."
+    },
+    {
+      "id": 146,
+      "question": "What is the most likely cause when an LCD monitor displays a blurry image at certain resolutions but looks sharp at a specific resolution?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Faulty cable"
+        },
+        {
+          "id": "B",
+          "text": "Incorrect refresh rate"
+        },
+        {
+          "id": "C",
+          "text": "Not using native resolution"
+        },
+        {
+          "id": "D",
+          "text": "Overheating GPU"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Printer firmware upgrades can offer newer features that are not available on previous versions."
+    },
+    {
+      "id": 147,
+      "question": "Which feature of DDR RAM generations increases data transfer rates by sending data on both the rising and falling edges of the clock signal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dual rank"
+        },
+        {
+          "id": "B",
+          "text": "Dual channel"
+        },
+        {
+          "id": "C",
+          "text": "Double data rate"
+        },
+        {
+          "id": "D",
+          "text": "Error detection parity"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "PCI is a shared-bus topology, so mixing 33MHz and 66MHz adapters in a 66MHz system will slow all adapters to 33MHz."
+    },
+    {
+      "id": 148,
+      "question": "A networked printer should be discoverable by macOS clients without manual configuration. Which service should be enabled on the print server?",
+      "options": [
+        {
+          "id": "A",
+          "text": "AirPrint"
+        },
+        {
+          "id": "B",
+          "text": "Bonjour"
+        },
+        {
+          "id": "C",
+          "text": "LPD"
+        },
+        {
+          "id": "D",
+          "text": "IPP only (no discovery)"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "In the exposing step, the image is written to the photosensitive imaging drum. Wherever the laser beam touches, the photosensitive drum's charge is severely reduced from –600VDC to a slight negative charge (around –100VDC). As the drum rotates, a pattern of exposed areas is formed, representing the image to be printed."
+    },
+    {
+      "id": 149,
+      "question": "A technician needs to provide the highest sustained throughput for sequential writes using three disks. Which RAID is appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RAID 0"
+        },
+        {
+          "id": "B",
+          "text": "RAID 1"
+        },
+        {
+          "id": "C",
+          "text": "RAID 5"
+        },
+        {
+          "id": "D",
+          "text": "RAID 10 (with 3 disks)"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Passive cooling systems come in a variety of models, and some are very effective. The defining characteristic is that they do not use a fan or require a power source."
+    },
+    {
+      "id": 150,
+      "question": "Which video cable supports digital audio and video and is commonly used with TVs and monitors?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DVI-D"
+        },
+        {
+          "id": "B",
+          "text": "HDMI"
+        },
+        {
+          "id": "C",
+          "text": "VGA"
+        },
+        {
+          "id": "D",
+          "text": "Component video (YPbPr)"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "Compact discs have a capacity of approximately 700MB. Other CD standards support capacities of 650MB, 800MB, and 900MB."
+    },
+    {
+      "id": 151,
+      "question": "Which common laptop storage interface provides the highest performance over PCIe lanes in a compact form factor?",
+      "options": [
+        {
+          "id": "A",
+          "text": "mSATA"
+        },
+        {
+          "id": "B",
+          "text": "M.2 NVMe"
+        },
+        {
+          "id": "C",
+          "text": "2.5 inch SATA"
+        },
+        {
+          "id": "D",
+          "text": "U.2 SAS"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A",
+        "C"
+      ],
+      "explanation": "The BIOS configures many hardware components and settings, such as system date and time, boot sequence, enabling and disabling devices, clock speeds, virtualization support, and BIOS security."
+    },
+    {
+      "id": 152,
+      "question": "A user relies on color accuracy and wide viewing angles when editing photos. Which panel type should be recommended?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TN"
+        },
+        {
+          "id": "B",
+          "text": "IPS"
+        },
+        {
+          "id": "C",
+          "text": "VA"
+        },
+        {
+          "id": "D",
+          "text": "CRT"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B",
+        "C"
+      ],
+      "explanation": "64-bit SODIMMs come in 144-pin SDR, 200-pin DDR and DDR2, and 204-pin DDR3 varieties. DDR DIMMs have 184 pins, and DDR2 and DDR3 DIMMS have 240 pins."
+    },
+    {
+      "id": 153,
+      "question": "Which component in a laser printer removes residual toner from the imaging drum after printing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Primary charge roller"
+        },
+        {
+          "id": "B",
+          "text": "Cleaning blade"
+        },
+        {
+          "id": "C",
+          "text": "Transfer roller"
+        },
+        {
+          "id": "D",
+          "text": "Registration roller"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "The typical increasing order of capacity and distance from the processor die is L1 cache, L2 cache, L3 cache, RAM, and HDD/SSD. Currently, there is no L4 cache."
+    },
+    {
+      "id": 154,
+      "question": "Which memory characteristic reduces the electrical load on the memory controller by placing a register between the controller and the DRAM chips?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Unbuffered"
+        },
+        {
+          "id": "B",
+          "text": "Buffered/Registered"
+        },
+        {
+          "id": "C",
+          "text": "Non-ECC"
+        },
+        {
+          "id": "D",
+          "text": "Dual rank"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "The picture shows a 20-pin ATX connector, which provides the motherboard with power."
+    },
+    {
+      "id": 155,
+      "question": "A user needs to connect a headset with separate mic and headphone 3.5mm jacks to a laptop that has a single 4-conductor combo jack. What is required?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TRS-to-TRRS adapter"
+        },
+        {
+          "id": "B",
+          "text": "RCA-to-3.5mm adapter"
+        },
+        {
+          "id": "C",
+          "text": "XLR-to-USB interface"
+        },
+        {
+          "id": "D",
+          "text": "MIDI-to-USB cable"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A",
+        "D"
+      ],
+      "explanation": "A pin grid array (PGA) socket has holes to receive the pins that are on the CPU. The land grid array (LGA) is a newer technology that places the delicate pins on the motherboard instead of on the CPU."
+    },
+    {
+      "id": 156,
+      "question": "Which desktop form factor provides the smallest footprint while still accepting standard ATX power supplies in many cases?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ATX"
+        },
+        {
+          "id": "B",
+          "text": "MicroATX"
+        },
+        {
+          "id": "C",
+          "text": "Mini-ITX"
+        },
+        {
+          "id": "D",
+          "text": "E-ATX"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "To calculate the FSB speed from the RAM module name, divide by 8. In this case, that makes the FSB 1333MHz (accounting for a bit of rounding)."
+    },
+    {
+      "id": 157,
+      "question": "Which video standard corresponds to 1600 x 1200 resolution at a 4:3 aspect ratio?",
+      "options": [
+        {
+          "id": "A",
+          "text": "UXGA"
+        },
+        {
+          "id": "B",
+          "text": "WUXGA"
+        },
+        {
+          "id": "C",
+          "text": "WXGA"
+        },
+        {
+          "id": "D",
+          "text": "WQXGA"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Organic light-emitting diode (OLED) displays can be made to be flexible, whereas other displays cannot."
+    },
+    {
+      "id": 158,
+      "question": "A user needs to print wirelessly to a networked printer from outside the local office without a VPN. Which solution is most appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TCP printing"
+        },
+        {
+          "id": "B",
+          "text": "Virtual printing"
+        },
+        {
+          "id": "C",
+          "text": "Cloud printing"
+        },
+        {
+          "id": "D",
+          "text": "Bonjour discovery over WAN"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "A duplexing assembly is used for two-sided printing. After the first page is printed, it's fed into the duplexing assembly, turned over, and fed back into the paper feed assembly."
+    },
+    {
+      "id": 159,
+      "question": "Which port type provides up to 40Gbps bandwidth and can daisy-chain multiple devices including displays and storage?",
+      "options": [
+        {
+          "id": "A",
+          "text": "USB 3.0"
+        },
+        {
+          "id": "B",
+          "text": "Thunderbolt (latest generations)"
+        },
+        {
+          "id": "C",
+          "text": "eSATA"
+        },
+        {
+          "id": "D",
+          "text": "FireWire 400"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "The printer's logic circuitry and motors require low voltages, between +5VDC and +24VDC. The DC power supply (DCPS) converts house current into three voltages: +5VDC and –5VDC for the logic circuitry and +24VDC for the paper-transport motors. This component also runs the fan that cools the internal components of the printer."
+    },
+    {
+      "id": 160,
+      "question": "A CAD/CAM workstation should prioritize which two components? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "High-end GPU"
+        },
+        {
+          "id": "B",
+          "text": "Surround-sound audio"
+        },
+        {
+          "id": "C",
+          "text": "Multicore CPU"
+        },
+        {
+          "id": "D",
+          "text": "TV tuner card"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "The top module is DDR3, and the bottom one is DDR2. Both have 240 pins and a single keying notch. The DDR3 notch is off-center."
+    },
+    {
+      "id": 161,
+      "question": "Which step occurs first in the laser imaging process immediately after the previous page is completed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cleaning"
+        },
+        {
+          "id": "B",
+          "text": "Charging"
+        },
+        {
+          "id": "C",
+          "text": "Exposing"
+        },
+        {
+          "id": "D",
+          "text": "Developing"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Never ship a printer anywhere with a toner cartridge installed! The jostling that happens during shipping could cause toner to spill out of the cartridge and all over the inside of the printer. Remove the toner cartridge first. You can put it in a sealed, airtight bag to ship if needed."
+    },
+    {
+      "id": 162,
+      "question": "Which connector is most likely used to attach an analog monitor to a desktop PC?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DVI-D"
+        },
+        {
+          "id": "B",
+          "text": "VGA (DE-15)"
+        },
+        {
+          "id": "C",
+          "text": "HDMI"
+        },
+        {
+          "id": "D",
+          "text": "DisplayPort"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Linear Tape-Open is the newest and highest-capacity tape storage technology. LTO 7, released in 2015, has an uncompressed capacity of 6TB per tape. LTO 6 had an uncompressed capacity of 2.5TB. QIC tapes can often store around 1GB. DLT can store up to 800GB, and DAT can store up to 300GB."
+    },
+    {
+      "id": 163,
+      "question": "A desktop will not power on. The rear switch on the PSU is set to 230V in a 115V region. Which action should be taken?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace the PSU"
+        },
+        {
+          "id": "B",
+          "text": "Move the voltage selector to 115V"
+        },
+        {
+          "id": "C",
+          "text": "Replace the CMOS battery"
+        },
+        {
+          "id": "D",
+          "text": "Flash the BIOS to reset power settings"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "Most internal video adapters today are PCIe cards. You might still find older PCI or AGP cards on the market as well. ISA is a legacy expansion slot type not used today. VGA and DVI are types of monitor connectors but not expansion slot types."
+    },
+    {
+      "id": 164,
+      "question": "Which removable flash memory format is commonly used in smartphones for storage expansion?",
+      "options": [
+        {
+          "id": "A",
+          "text": "xD"
+        },
+        {
+          "id": "B",
+          "text": "SD"
+        },
+        {
+          "id": "C",
+          "text": "microSD"
+        },
+        {
+          "id": "D",
+          "text": "CF (CompactFlash)"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "The order of steps is processing, charging, exposing, developing, transferring, fusing, and cleaning."
+    },
+    {
+      "id": 165,
+      "question": "A workstation requires hardware virtualization. Which two settings must typically be enabled? (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Intel VT-x or AMD-V in firmware"
+        },
+        {
+          "id": "B",
+          "text": "Hyperthreading in OS"
+        },
+        {
+          "id": "C",
+          "text": "UEFI Secure Boot"
+        },
+        {
+          "id": "D",
+          "text": "Virtualization support in BIOS/UEFI"
+        }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": [
+        "A",
+        "B"
+      ],
+      "explanation": "Apple created Bonjour and AirPrint."
+    },
+    {
+      "id": 166,
+      "question": "Which printer maintenance task is appropriate for a thermal printer showing faded output and debris on the media path?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Replace toner and drum"
+        },
+        {
+          "id": "B",
+          "text": "Clean heating element and remove debris"
+        },
+        {
+          "id": "C",
+          "text": "Replace ribbon and print head"
+        },
+        {
+          "id": "D",
+          "text": "Run a nozzle cleaning cycle"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Before you print to an inkjet printer, you must ensure that the device is calibrated. Calibration is the process by which a device is brought within functional specifications. For example, inkjet printers need their print heads aligned so that they print evenly and don't print funny-looking letters and unevenly spaced lines."
+    },
+    {
+      "id": 167,
+      "question": "Which feature of PCIe defines a group of two differential signal pairs used to transmit and receive data?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lane"
+        },
+        {
+          "id": "B",
+          "text": "Channel"
+        },
+        {
+          "id": "C",
+          "text": "Link"
+        },
+        {
+          "id": "D",
+          "text": "Port multiplier"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "D"
+      ],
+      "explanation": "Desktop computers use dual inline memory modules (DIMMs), and laptops most commonly use small outline DIMMs (SODIMMs). Another potential laptop memory form factor is the MicroDIMM."
+    },
+    {
+      "id": 168,
+      "question": "A user wants to reduce side-view readability on a monitor in a shared workspace. Which accessory should be installed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antiglare filter"
+        },
+        {
+          "id": "B",
+          "text": "Privacy filter"
+        },
+        {
+          "id": "C",
+          "text": "Blue light filter"
+        },
+        {
+          "id": "D",
+          "text": "Matte screen protector"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "Thermal printers use a heating element. It heats up spots on special waxy, heat-sensitive paper to form the image."
+    },
+    {
+      "id": 169,
+      "question": "Which power connector supplies additional power to high-end PCIe graphics cards?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SATA 15-pin"
+        },
+        {
+          "id": "B",
+          "text": "PCIe 6/8-pin"
+        },
+        {
+          "id": "C",
+          "text": "Molex 4-pin"
+        },
+        {
+          "id": "D",
+          "text": "ATX 24-pin"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "A"
+      ],
+      "explanation": "When a laser printer requests maintenance, it's because it has reached a certain page count. Apply a proper maintenance kit (one recommended by the manufacturer) and then clear the service message."
+    },
+    {
+      "id": 170,
+      "question": "A field office user needs to print once to a local Bluetooth printer while visiting. What type of connection is this considered?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Permanent"
+        },
+        {
+          "id": "B",
+          "text": "Ad hoc"
+        },
+        {
+          "id": "C",
+          "text": "On demand"
+        },
+        {
+          "id": "D",
+          "text": "Infrastructure Wi-Fi"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "B"
+      ],
+      "explanation": "PCI-X slots are physically compatible with PCI adapters. Because all PCI-X slots support the 66MHz minimum clock rate, PCI-X slots are compatible with 66MHz PCI adapters."
+    },
+    {
+      "id": 171,
+      "question": "Which optical drive technology supports rewritable media with the greatest capacity among common consumer formats?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CD-RW"
+        },
+        {
+          "id": "B",
+          "text": "DVD-RW DL"
+        },
+        {
+          "id": "C",
+          "text": "BD-RE"
+        },
+        {
+          "id": "D",
+          "text": "DVD+RW SL"
+        }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": [
+        "C"
+      ],
+      "explanation": "There are dozens of peripherals on the computer market. Joysticks are used primarily to play video games. Barcode readers will scan item barcodes, such as items you purchase at a store. Motion sensors are usually associated with security systems. Smart TVs play television. Camcorders are another type of peripheral, used to record video."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen CompTIA A+</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Botón para volver a la página principal -->
+    <div class="boton-volver-container">
+        <a href="index.html" class="boton-volver">
+            ← Volver a Selección de Exámenes
+        </a>
+    </div>
+
+    <div id="contenedor-principal">
+        <!-- Contenedor del Examen -->
+        <div id="contenedor-examen-wrapper">
+            <h2 id="titulo-examen">Cargando examen...</h2>
+            
+            <!-- Barra de Estado -->
+            <div id="barra-estado">
+                <span id="contador-pregunta">Pregunta 1 de X</span>
+                <span id="tiempo">00:00</span>
+            </div>
+            
+            <!-- Contenedor de la Pregunta Actual -->
+            <div id="contenedor-examen">
+                <!-- Aquí se renderizará dinámicamente la pregunta y las opciones -->
+            </div>
+            
+            <!-- Botones de Navegación -->
+            <div class="navegacion">
+                <button id="btn-anterior">← Anterior</button>
+                <button id="btn-siguiente">Siguiente →</button>
+                <button id="btn-finalizar">Finalizar Examen</button>
+            </div>
+        </div>
+        
+        <!-- Contenedor de Resultados (oculto inicialmente) -->
+        <div id="contenedor-resultados" class="oculto">
+            <h2>Resultados del Examen</h2>
+            
+            <div id="resultado-final-caja" class="resultado-final-caja">
+                <p id="resultado-estado">APROBADO / NO APROBADO</p>
+                <p id="puntaje-escalado">Tu puntaje: XXX</p>
+                <p id="puntaje-final">(Respuestas correctas: XX de XX - XX%)</p>
+                <p id="mensaje-final">Mensaje final aquí</p>
+            </div>
+            
+            <!-- Botón para volver a la selección de exámenes desde resultados -->
+            <div class="boton-volver-resultados">
+                <a href="index.html" class="boton-volver boton-volver-grande">
+                    ← Volver a Selección de Exámenes
+                </a>
+            </div>
+            
+            <!-- Análisis Detallado de Respuestas -->
+            <div id="resultados-detallados">
+                <h3>Análisis Detallado de Respuestas</h3>
+                <!-- Aquí se renderizarán dinámicamente los resultados detallados -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

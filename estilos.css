@@ -1,0 +1,630 @@
+/* ========================================================== */
+/* VARIABLES Y COLORES COMPTIA                                 */
+/* ========================================================== */
+
+:root {
+    --comptia-red: #E5282A;
+    --comptia-dark-red: #C41E3A;
+    --comptia-black: #1E1E1E;
+    --comptia-gray-dark: #333333;
+    --comptia-gray: #666666;
+    --comptia-gray-light: #CCCCCC;
+    --comptia-bg-light: #F5F5F5;
+    --comptia-white: #FFFFFF;
+    --success-green: #28A745;
+    --warning-red: #DC3545;
+}
+
+/* ========================================================== */
+/* ESTILOS GLOBALES Y DE LA PÁGINA PRINCIPAL (index.html)     */
+/* ========================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: var(--comptia-gray-dark);
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+#contenedor-principal {
+    background: var(--comptia-white);
+    padding: 0;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* ========================================================== */
+/* HEADER PRINCIPAL                                            */
+/* ========================================================== */
+
+.header-principal {
+    background: linear-gradient(135deg, var(--comptia-red) 0%, var(--comptia-dark-red) 100%);
+    color: var(--comptia-white);
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container h1 {
+    font-size: 2.8em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.subtitulo {
+    font-size: 1.2em;
+    font-weight: 300;
+    opacity: 0.95;
+    margin: 0;
+}
+
+/* ========================================================== */
+/* SECCIONES DE CONTENIDO                                      */
+/* ========================================================== */
+
+.descripcion-plataforma,
+.tabla-examenes,
+.seccion-examenes {
+    padding: 40px;
+}
+
+.descripcion-plataforma h2,
+.tabla-examenes h2,
+.seccion-examenes h2 {
+    color: var(--comptia-red);
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.descripcion-plataforma p {
+    color: var(--comptia-gray);
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 1.05em;
+    text-align: justify;
+}
+
+.instrucciones {
+    text-align: center;
+    color: var(--comptia-gray);
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+/* ========================================================== */
+/* TABLA DE ESTADÍSTICAS                                       */
+/* ========================================================== */
+
+.tabla-responsive {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.tabla-stats {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--comptia-white);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.tabla-stats thead {
+    background: var(--comptia-black);
+    color: var(--comptia-white);
+}
+
+.tabla-stats th {
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.95em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.tabla-stats td {
+    padding: 15px;
+    border-bottom: 1px solid var(--comptia-gray-light);
+    color: var(--comptia-gray-dark);
+}
+
+.tabla-stats tbody tr:hover {
+    background: var(--comptia-bg-light);
+    transition: background 0.3s ease;
+}
+
+.tabla-stats tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* ========================================================== */
+/* SELECCIÓN DE EXÁMENES                                       */
+/* ========================================================== */
+
+.seleccion-examen {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.boton-examen {
+    display: block;
+    text-decoration: none;
+    padding: 25px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background: var(--comptia-white);
+    border: 2px solid var(--comptia-gray-light);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.boton-examen:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(229, 40, 42, 0.2);
+    border-color: var(--comptia-red);
+}
+
+.examen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.examen-header h3 {
+    color: var(--comptia-black);
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 0;
+}
+
+.badge {
+    background: var(--comptia-red);
+    color: var(--comptia-white);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+.boton-examen .descripcion {
+    color: var(--comptia-gray);
+    font-size: 1em;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.examen-stats {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: var(--comptia-gray);
+    border-top: 1px solid var(--comptia-gray-light);
+    padding-top: 15px;
+}
+
+.examen-stats span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* ========================================================== */
+/* FOOTER                                                      */
+/* ========================================================== */
+
+.footer-principal {
+    background: var(--comptia-black);
+    color: var(--comptia-white);
+    text-align: center;
+    padding: 30px;
+    font-size: 0.9em;
+}
+
+.footer-principal p {
+    margin: 5px 0;
+    opacity: 0.9;
+}
+
+/* ========================================================== */
+/* ESTILOS PARA LA PÁGINA DEL EXAMEN (examen.html)            */
+/* ========================================================== */
+
+/* Botón para volver a la página principal */
+.boton-volver-container {
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+    padding: 0 20px;
+}
+
+.boton-volver {
+    display: inline-block;
+    background: var(--comptia-red);
+    color: var(--comptia-white);
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.boton-volver:hover {
+    background: var(--comptia-dark-red);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.boton-volver-resultados {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.boton-volver-grande {
+    font-size: 1.1em;
+    padding: 15px 40px;
+}
+
+/* Contenedor del examen */
+#contenedor-examen-wrapper {
+    padding: 40px;
+}
+
+#contenedor-examen, #contenedor-resultados {
+    background: var(--comptia-white);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+#titulo-examen {
+    color: var(--comptia-red);
+    font-size: 2.2em;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Barra de estado */
+#barra-estado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    background: var(--comptia-bg-light);
+    border-radius: 8px;
+    font-weight: 600;
+    color: var(--comptia-gray-dark);
+}
+
+#tiempo {
+    color: var(--comptia-red);
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+/* Pregunta */
+.pregunta-texto {
+    font-size: 1.4em;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    font-weight: 500;
+    color: var(--comptia-gray-dark);
+}
+
+/* Opciones de respuesta */
+.lista-opciones {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.lista-opciones li {
+    margin-bottom: 15px;
+}
+
+.lista-opciones label {
+    display: flex;
+    align-items: center;
+    font-size: 1.15em;
+    cursor: pointer;
+    padding: 15px 20px;
+    border: 2px solid var(--comptia-gray-light);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    color: var(--comptia-gray-dark);
+    background: var(--comptia-white);
+}
+
+.lista-opciones label:hover {
+    background: var(--comptia-bg-light);
+    border-color: var(--comptia-red);
+}
+
+.lista-opciones input[type="radio"],
+.lista-opciones input[type="checkbox"] {
+    margin-right: 15px;
+    transform: scale(1.4);
+    accent-color: var(--comptia-red);
+    cursor: pointer;
+}
+
+/* Navegación */
+.navegacion {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.navegacion button {
+    padding: 14px 30px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    font-weight: 600;
+}
+
+.navegacion button:enabled {
+    background: var(--comptia-black);
+    color: var(--comptia-white);
+}
+
+.navegacion button:enabled:hover {
+    background: var(--comptia-gray-dark);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.navegacion button:disabled {
+    background: var(--comptia-gray-light);
+    color: var(--comptia-gray);
+    cursor: not-allowed;
+}
+
+#btn-finalizar {
+    background: var(--comptia-red);
+}
+
+#btn-finalizar:enabled:hover {
+    background: var(--comptia-dark-red);
+}
+
+/* ========================================================== */
+/* RESULTADOS DEL EXAMEN                                       */
+/* ========================================================== */
+
+#contenedor-resultados {
+    padding: 40px;
+}
+
+#contenedor-resultados h2 {
+    color: var(--comptia-red);
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.resultado-final-caja {
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.resultado-final-caja.aprobado {
+    background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+    border: 3px solid var(--success-green);
+    color: #155724;
+}
+
+.resultado-final-caja.no-aprobado {
+    background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
+    border: 3px solid var(--warning-red);
+    color: #721c24;
+}
+
+#resultado-estado {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#puntaje-escalado {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#puntaje-final, #mensaje-final {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Análisis detallado */
+#resultados-detallados {
+    margin-top: 40px;
+}
+
+#resultados-detallados h3 {
+    color: var(--comptia-red);
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.resultado-item {
+    background: var(--comptia-white);
+    border: 2px solid var(--comptia-gray-light);
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.resultado-item.correcto {
+    border-left: 6px solid var(--success-green);
+    background: linear-gradient(90deg, #f0fff4 0%, #ffffff 100%);
+}
+
+.resultado-item.incorrecto {
+    border-left: 6px solid var(--warning-red);
+    background: linear-gradient(90deg, #fff5f5 0%, #ffffff 100%);
+}
+
+.resultado-item p {
+    margin: 10px 0;
+    color: var(--comptia-gray-dark);
+    font-size: 1.05em;
+    line-height: 1.6;
+}
+
+.resultado-item p strong {
+    color: var(--comptia-red);
+    font-weight: 600;
+}
+
+.resultado-item .explicacion {
+    font-style: italic;
+    color: var(--comptia-gray);
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 2px dashed var(--comptia-gray-light);
+    background: var(--comptia-bg-light);
+    padding: 15px;
+    border-radius: 6px;
+}
+
+/* ========================================================== */
+/* UTILIDADES                                                  */
+/* ========================================================== */
+
+.oculto {
+    display: none !important;
+}
+
+/* ========================================================== */
+/* RESPONSIVE DESIGN                                           */
+/* ========================================================== */
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .header-principal {
+        padding: 25px 20px;
+    }
+
+    .logo-container h1 {
+        font-size: 1.8em;
+    }
+
+    .subtitulo {
+        font-size: 1em;
+    }
+
+    .descripcion-plataforma,
+    .tabla-examenes,
+    .seccion-examenes {
+        padding: 25px 20px;
+    }
+
+    .seleccion-examen {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .tabla-stats {
+        font-size: 0.85em;
+    }
+
+    .tabla-stats th,
+    .tabla-stats td {
+        padding: 10px 8px;
+    }
+
+    #contenedor-examen-wrapper {
+        padding: 20px;
+    }
+
+    #contenedor-examen,
+    #contenedor-resultados {
+        padding: 20px;
+    }
+
+    #titulo-examen {
+        font-size: 1.6em;
+    }
+
+    .pregunta-texto {
+        font-size: 1.15em;
+    }
+
+    .lista-opciones label {
+        font-size: 1em;
+        padding: 12px 15px;
+    }
+
+    .navegacion {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navegacion button {
+        width: 100%;
+        padding: 12px 20px;
+    }
+
+    #barra-estado {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .boton-volver {
+        padding: 10px 18px;
+        font-size: 0.95em;
+    }
+
+    .resultado-item {
+        padding: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-container h1 {
+        font-size: 1.5em;
+    }
+
+    .examen-header h3 {
+        font-size: 1.1em;
+    }
+
+    .badge {
+        font-size: 0.75em;
+        padding: 4px 10px;
+    }
+}

@@ -1,0 +1,1139 @@
+{
+  "examInfo": {
+    "title": "Chapter 3: Mobile Devices",
+    "totalQuestions": 86,
+    "timeLimit": 90,
+    "description": "Practice questions for Mobile Devices."
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which type of laptop backlight is typically used in smaller mobile devices and consumes the least amount of power?",
+      "options": [
+        { "id": "A", "text": "IPS" },
+        { "id": "B", "text": "TN" },
+        { "id": "C", "text": "LED" },
+        { "id": "D", "text": "CCFL" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Smaller devices, such as tablets and phones, almost exclusively use **LED** backlighting, which is smaller and consumes less power than CCFLs."
+    },
+    {
+      "id": 2,
+      "question": "In which scenario would you use the Fn key and the F10 key shown here?",
+      "options": [
+        { "id": "A", "text": "To turn the screen brightness down" },
+        { "id": "B", "text": "To turn the screen brightness up" },
+        { "id": "C", "text": "To turn the speaker volume down" },
+        { "id": "D", "text": "To turn the speaker volume up" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Because of the much smaller space available for keys, some laptop keys are consolidated into special multifunction keys. These keys are accessed through the standard keys by using a special function (Fn) key. In this case, the large **sun icon** on the F10 key is used for brightening the screen."
+    },
+    {
+      "id": 3,
+      "question": "You are purchasing a mobile device that allows you to use your finger to input information. What type of touch screen technology does this device use?",
+      "options": [
+        { "id": "A", "text": "Capacitive" },
+        { "id": "B", "text": "Human-based" },
+        { "id": "C", "text": "Warmth" },
+        { "id": "D", "text": "Resistive" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "**Capacitive** touch screens are more responsive than resistive touch screens and respond to changes in electrical current, making the human fingertip an excellent facilitator of input."
+    },
+    {
+      "id": 4,
+      "question": "You are using a public Wi-Fi hotspot and believe that someone is trying to hack into your laptop. Which laptop feature should you use to immediately turn off all wireless connections?",
+      "options": [
+        { "id": "A", "text": "Silent mode" },
+        { "id": "B", "text": "Quiet mode" },
+        { "id": "C", "text": "Airplane mode" },
+        { "id": "D", "text": "Connectionless mode" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "**Airplane mode** turns off all wireless connections on the mobile device, including Wi-Fi and Bluetooth. It’s common on phones and tablets, and some laptops have the feature as well."
+    },
+    {
+      "id": 5,
+      "question": "You have been asked to purchase a new camera for the company photographer. Some of the cameras are marketed as 'smart' cameras. What key feature does this likely mean the camera includes?",
+      "options": [
+        { "id": "A", "text": "Wi-Fi" },
+        { "id": "B", "text": "RJ-45" },
+        { "id": "C", "text": "Separate video processor" },
+        { "id": "D", "text": "Internal hard drive" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "**Smart cameras** have built-in wireless network connectivity (**Wi-Fi**) for easy picture and video transfers. Many will include Wi-Fi, Bluetooth, and NFC."
+    },
+    {
+      "id": 6,
+      "question": "A user approaches you and asks for a CPU upgrade so his Lenovo laptop will run faster. What is most likely the easiest way to meet this user's needs?",
+      "options": [
+        { "id": "A", "text": "Remove the CPU and replace it with a faster one that fits the same socket." },
+        { "id": "B", "text": "Replace the laptop with one with a faster CPU." },
+        { "id": "C", "text": "Replace the motherboard with a standard laptop motherboard with a faster processor." },
+        { "id": "D", "text": "Replace the motherboard with a Lenovo laptop motherboard with a faster processor." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Laptop processors are generally **permanently attached** (soldered) to the motherboard and are not designed to be replaced or upgraded easily. The easiest solution is to replace the laptop entirely with a model that has a faster CPU."
+    },
+    {
+      "id": 7,
+      "question": "In which scenario would you use the Fn key and the F4 key shown here?",
+      "options": [
+        { "id": "A", "text": "To turn the touch pad on or off" },
+        { "id": "B", "text": "To change the video output to an external monitor" },
+        { "id": "C", "text": "To change the screen orientation from landscape to portrait" },
+        { "id": "D", "text": "To turn the keyboard backlight on or off" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The icon of two screens on the **F4** key typically indicates the **video toggle switch** (or display switch). This function key combination changes the video output from the internal LCD to an external monitor or both."
+    },
+    {
+      "id": 8,
+      "question": "You are using a laptop computer and the wireless network card fails. There are no wired ports nearby. You need to send a file to your boss, who is in another country, in the next ten minutes. What should you do to fix the situation?",
+      "options": [
+        { "id": "A", "text": "Remove the defective network card and install a new one." },
+        { "id": "B", "text": "Install a USB to RJ-45 dongle." },
+        { "id": "C", "text": "Install a USB to Wi-Fi dongle." },
+        { "id": "D", "text": "Install a USB to Bluetooth dongle." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The internal wireless card has failed, so the best immediate option to get back on a wireless network (like the one needed to send a file overseas) is to use a portable, external solution like a **USB Wi-Fi dongle**."
+    },
+    {
+      "id": 9,
+      "question": "Which type of mobile device is known for using electrophoretic ink?",
+      "options": [
+        { "id": "A", "text": "E-reader" },
+        { "id": "B", "text": "Smart watch" },
+        { "id": "C", "text": "Smart glasses" },
+        { "id": "D", "text": "Tablet" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "E-readers (like the Amazon Kindle) use **E-Ink** (electrophoretic ink) displays. These screens reflect ambient light, making them look like paper, and consume very little power, primarily when the screen changes."
+    },
+    {
+      "id": 10,
+      "question": "What type of connection are you using if you use a USB cable to connect your laptop to your cellular phone in order to use the cellular wireless connection from the laptop?",
+      "options": [
+        { "id": "A", "text": "Hotspot" },
+        { "id": "B", "text": "Tethering" },
+        { "id": "C", "text": "USB networking" },
+        { "id": "D", "text": "Phoning" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "**Tethering** is the process of connecting a phone to another device (like a laptop) via a **USB cable** or Bluetooth to share the phone’s cellular Internet connection. When sharing the connection over Wi-Fi, it's called a mobile hotspot."
+    },
+    {
+      "id": 11,
+      "question": "What characteristic was the BlackBerry smartphone most famous for?",
+      "options": [
+        { "id": "A", "text": "Wi-Fi" },
+        { "id": "B", "text": "Hardware keyboard" },
+        { "id": "C", "text": "Anti-glare" },
+        { "id": "D", "text": "Trackball" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "BlackBerry smartphones were most famous for their full **hardware QWERTY keyboards**, making them popular for business professionals who needed to type a lot of emails."
+    },
+    {
+      "id": 12,
+      "question": "Which laptop accessory should you purchase if you want to protect the device against theft?",
+      "options": [
+        { "id": "A", "text": "Docking station" },
+        { "id": "B", "text": "Protective cover" },
+        { "id": "C", "text": "Cable lock" },
+        { "id": "D", "text": "LoJack" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A **cable lock** (like a Kensington lock) is a physical security device that is attached to a lock slot (often on the side of the laptop) and anchored to a stationary object to prevent opportunistic theft."
+    },
+    {
+      "id": 13,
+      "question": "The hard drive in your manager's laptop has failed, and you need to replace it. Your manager asks about the benefits of replacing it with an SSD instead of an HDD. What should you tell her? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "They are cheaper." },
+        { "id": "B", "text": "They take up less space." },
+        { "id": "C", "text": "They consume less power and generate less heat." },
+        { "id": "D", "text": "They operate silently." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["C", "D"],
+      "explanation": "Because Solid State Drives (**SSDs**) have no moving parts, they **consume less power**, **generate less heat**, and **operate silently** compared to traditional Hard Disk Drives (HDDs). While they are usually smaller (B), that's an advantage for smaller devices like phones/tablets, but not a primary selling point for replacing a 2.5\" laptop drive (which will use the same form factor). SSDs are also typically more expensive than HDDs (A)."
+    },
+    {
+      "id": 14,
+      "question": "Which laptop expansion port was designed as an industry standard to replace VGA and DVI ports and is backward compatible with both standards?",
+      "options": [
+        { "id": "A", "text": "DisplayPort" },
+        { "id": "B", "text": "VideoPort" },
+        { "id": "C", "text": "Thunderbolt" },
+        { "id": "D", "text": "HDMI" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "**DisplayPort** was developed by VESA to replace DVI and VGA. It is designed to be backward compatible with both standards by using an inexpensive adapter."
+    },
+    {
+      "id": 15,
+      "question": "What is the maximum data speed of an ExpressCard 2.0 card running in USB 3.0 mode?",
+      "options": [
+        { "id": "A", "text": "480Mbps" },
+        { "id": "B", "text": "2.5Gbps" },
+        { "id": "C", "text": "5.0Gbps" },
+        { "id": "D", "text": "6.0Gbps" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "ExpressCard 2.0 has two interface options: **USB 3.0**, which runs at a maximum of **5.0Gbps** (SuperSpeed), and **PCI Express 2.0 x1**, which runs at 5.0Gbps (in each direction)."
+    },
+    {
+      "id": 16,
+      "question": "You have recently purchased a laptop computer with a touch screen. It allows you to draw images on the screen and save them on the computer. Which device is responsible for converting the input into the image that you are able to save?",
+      "options": [
+        { "id": "A", "text": "Inverter" },
+        { "id": "B", "text": "Touchpad" },
+        { "id": "C", "text": "Digitizer" },
+        { "id": "D", "text": "Touch screen" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The **digitizer** is a grid of fine wires or a special film located in front of the display that is responsible for converting analog stylus or touch input into a digital image on the screen."
+    },
+    {
+      "id": 17,
+      "question": "A technician has a failed Lenovo laptop, and he suspects the motherboard is bad. He has several other laptops available from which he can harvest parts. Which of the following statements is most likely true regarding the replacement motherboard he selects?",
+      "options": [
+        { "id": "A", "text": "The motherboard is not replaceable." },
+        { "id": "B", "text": "He can choose a motherboard from any other laptop." },
+        { "id": "C", "text": "He can choose a motherboard from any other Lenovo laptop." },
+        { "id": "D", "text": "He must choose a motherboard from that same model of Lenovo laptop." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Laptop motherboards are highly proprietary. They must be replaced with the exact board designed for that particular **make and model** of laptop. The internal components, ports, and power connectors must all line up perfectly with the chassis."
+    },
+    {
+      "id": 18,
+      "question": "A technician needs to replace a failed laptop hard drive. The user stores a large amount of video on her computer and needs the largest capacity drive possible. What type of hard drive should you install?",
+      "options": [
+        { "id": "A", "text": "SSD" },
+        { "id": "B", "text": "Magnetic" },
+        { "id": "C", "text": "Hybrid" },
+        { "id": "D", "text": "Flash" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "While SSDs and Hybrid drives are faster, traditional **magnetic** (HDD) hard drives still offer the **largest storage capacity** at the lowest cost, making them the best choice when maximum capacity (for large video files) is the primary concern."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following wireless communication types has a maximum distance of about 4 inches?",
+      "options": [
+        { "id": "A", "text": "NFC" },
+        { "id": "B", "text": "Wi-Fi" },
+        { "id": "C", "text": "IR" },
+        { "id": "D", "text": "Bluetooth" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "**Near Field Communication (NFC)** is a very short-range wireless communication method that operates at distances of approximately **4 inches (10 cm)** or less. It's often used for quick pairing or mobile payments."
+    },
+    {
+      "id": 20,
+      "question": "Which two components of a laptop are the most useful when making a video conference call? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Digitizer" },
+        { "id": "B", "text": "Webcam" },
+        { "id": "C", "text": "Microphone" },
+        { "id": "D", "text": "Inverter" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["B", "C"],
+      "explanation": "For a video conference, a user needs to transmit both **video** (captured by the **webcam**) and **audio** (captured by the **microphone**) to the other participants."
+    },
+    {
+      "id": 21,
+      "question": "Which mobile accessory is shown here?",
+      "options": [
+        { "id": "A", "text": "Credit card reader" },
+        { "id": "B", "text": "Memory card reader" },
+        { "id": "C", "text": "External battery pack" },
+        { "id": "D", "text": "Wi-Fi range extender" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The image (which should show a small, square device that plugs into the audio jack or charging port) is a **credit card reader** (like those from Square or PayPal), allowing mobile devices to process payments."
+    },
+    {
+      "id": 22,
+      "question": "Which mobile connection type allows you to share your cellular Internet connection with a Wi-Fi enabled device?",
+      "options": [
+        { "id": "A", "text": "Hotspot" },
+        { "id": "B", "text": "NFC" },
+        { "id": "C", "text": "Bluetooth" },
+        { "id": "D", "text": "IR" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "A mobile **hotspot** (or personal hotspot) is a feature that allows a cellular phone to act as a wireless access point, sharing its cellular Internet connection with other Wi-Fi enabled devices."
+    },
+    {
+      "id": 23,
+      "question": "You are responsible for replacement parts within your company's IT department. Because of the critical nature of your business, you need to have replacement parts on hand in the event of a hardware failure. Your company uses four different types of laptops, two HP and two Dell. How many different types of motherboards do you most likely need to stock?",
+      "options": [
+        { "id": "A", "text": "One" },
+        { "id": "B", "text": "Two" },
+        { "id": "C", "text": "Three" },
+        { "id": "D", "text": "Four" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Since laptop motherboards are proprietary and specific to the exact make and model, you would need to stock **four** different types of motherboards, one for each model of laptop in use."
+    },
+    {
+      "id": 24,
+      "question": "In a laptop computer, which component is responsible for providing light to the display?",
+      "options": [
+        { "id": "A", "text": "Backlight" },
+        { "id": "B", "text": "Inverter" },
+        { "id": "C", "text": "LCD" },
+        { "id": "D", "text": "Screen" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The **backlight** is the physical component that emits the light used to illuminate the LCD panel, making the image visible."
+    },
+    {
+      "id": 25,
+      "question": "You need to purchase a memory card reader and removable memory for your mobile device. You need to transfer approximately 1TB of data at a time. Which technology should you invest in?",
+      "options": [
+        { "id": "A", "text": "SDHC" },
+        { "id": "B", "text": "miniSD" },
+        { "id": "C", "text": "microSDHC" },
+        { "id": "D", "text": "SDXC" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "SDXC (**Secure Digital eXtended Capacity**) cards support capacities from **64GB up to 2TB**. The other options have a maximum capacity of 32GB (SDHC) or are obsolete (miniSD)."
+    },
+    {
+      "id": 26,
+      "question": "What type of mobile device would use the connector shown here?",
+      "options": [
+        { "id": "A", "text": "Apple iPhone 4" },
+        { "id": "B", "text": "Apple iPhone 6" },
+        { "id": "C", "text": "Samsung Galaxy S5" },
+        { "id": "D", "text": "Fitbit Surge" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The image (which should show a USB micro connector) would be used by the **Samsung Galaxy S5**. Apple devices use proprietary 30-pin or Lightning connectors. The Fitbit Surge uses its own proprietary charging cable."
+    },
+    {
+      "id": 27,
+      "question": "You are replacing a motherboard in a laptop computer. When you open the case, you notice that there is a small circuit board attached to the motherboard that appears to have video and network circuitry built in to it. What is the name of this small circuit board?",
+      "options": [
+        { "id": "A", "text": "Daughterboard" },
+        { "id": "B", "text": "Secondary motherboard" },
+        { "id": "C", "text": "Junior board" },
+        { "id": "D", "text": "Expansion board" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "A **daughterboard** (or riser card) is a circuit board that plugs into a motherboard to provide additional functionality, ports, or to hold components in a space-saving orientation."
+    },
+    {
+      "id": 28,
+      "question": "You are visiting a remote office and need to print some documents. Your host tells you that the printer you need is configured on a piconet. What type of expansion option should you use to connect to this printer?",
+      "options": [
+        { "id": "A", "text": "USB to RJ-45 dongle" },
+        { "id": "B", "text": "USB to Wi-Fi dongle" },
+        { "id": "C", "text": "USB to Bluetooth" },
+        { "id": "D", "text": "USB to Thunderbolt" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A **piconet** is the term used to describe an ad hoc network of up to eight devices that are connected via **Bluetooth**. To join this network, your laptop needs a Bluetooth adapter, which can be provided by a **USB to Bluetooth dongle**."
+    },
+    {
+      "id": 29,
+      "question": "You will be traveling to another country for work and will have a 10-hour airplane flight. You need to work on your laptop while on the flight, but your battery won't last that long. What should you buy to allow you to use the auxiliary power outlets on the airplane?",
+      "options": [
+        { "id": "A", "text": "AC adapter" },
+        { "id": "B", "text": "DC adapter" },
+        { "id": "C", "text": "Power inverter" },
+        { "id": "D", "text": "Docking station" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Airplane power outlets typically provide DC power (12V or 28V). To power or charge a laptop from a DC source, you need a **DC adapter** that converts the DC power from the plane's outlet into the DC power required by the laptop."
+    },
+    {
+      "id": 30,
+      "question": "Your laptop has an internal Mini PCIe expansion slot. The documentation for an expansion card says that it supports Mini PCIe 2.0 x1 functionality. What speed does the expansion card run at?",
+      "options": [
+        { "id": "A", "text": "480Mbps" },
+        { "id": "B", "text": "2.5Gbps" },
+        { "id": "C", "text": "5.0Gbps" },
+        { "id": "D", "text": "6.0Gbps" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The maximum throughput for a single lane (x1) of **PCIe 2.0** is **5.0Gbps** in each direction (10Gbps total bidirectional bandwidth)."
+    },
+    {
+      "id": 31,
+      "question": "Of the laptop components listed, which one is least likely to be built into the display?",
+      "options": [
+        { "id": "A", "text": "Wi-Fi antenna" },
+        { "id": "B", "text": "Speakers" },
+        { "id": "C", "text": "Webcam" },
+        { "id": "D", "text": "Digitizer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The Webcam (C), Wi-Fi antenna (A), and Digitizer (D) are commonly integrated into the display bezel. However, the internal laptop **speakers** (B) are most often located in the main body (chassis) of the laptop, often near the front edge or above the keyboard."
+    },
+    {
+      "id": 32,
+      "question": "A defining characteristic of a phablet is a screen of approximately what size?",
+      "options": [
+        { "id": "A", "text": "Between 3\" and 5\"" },
+        { "id": "B", "text": "Between 5\" and 7\"" },
+        { "id": "C", "text": "Between 7\" and 12\"" },
+        { "id": "D", "text": "Between 12\" and 24\"" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A **phablet** is a device whose screen size is larger than a standard smartphone but smaller than a tablet. They generally have a screen size **between 5\" and 7\"** (inches)."
+    },
+    {
+      "id": 33,
+      "question": "You are interested in buying a smart watch that has an OS compatible with your Android-based smart phone. Which brand of smart watch uses the Android Wear OS?",
+      "options": [
+        { "id": "A", "text": "Apple Watch" },
+        { "id": "B", "text": "Samsung Gear S" },
+        { "id": "C", "text": "Sony SmartWatch 3" },
+        { "id": "D", "text": "Pebble Time" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The **Sony SmartWatch 3** runs on **Android Wear** (now Wear OS) and is fully compatible with Android smartphones. The Apple Watch uses watchOS, the Samsung Gear S uses Tizen, and Pebble Time uses its own proprietary OS."
+    },
+    {
+      "id": 34,
+      "question": "You want to enable hands-free cellular conversations for when you are driving, so you purchase a wireless headset. Which wireless technology does the headset most likely use?",
+      "options": [
+        { "id": "A", "text": "Wi-Fi" },
+        { "id": "B", "text": "IR" },
+        { "id": "C", "text": "Bluetooth" },
+        { "id": "D", "text": "NFC" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "**Bluetooth** is the short-range wireless technology specifically used for connecting personal area network (PAN) devices like headsets, smartwatches, and fitness trackers to a host device (like a phone)."
+    },
+    {
+      "id": 35,
+      "question": "The AC adapter for your Dell laptop is not working properly, and you are searching for a replacement. Which two factors should be most important when selecting a new AC adapter? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Polarity" },
+        { "id": "B", "text": "Same or higher wattage than the original" },
+        { "id": "C", "text": "Brand of the adapter" },
+        { "id": "D", "text": "Size of the adapter" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["A", "B"],
+      "explanation": "The replacement adapter must have the correct **polarity** (A) to prevent damage to the laptop. It must also have the **same or a higher wattage** (B) rating than the original to ensure adequate power delivery and prevent overheating."
+    },
+    {
+      "id": 36,
+      "question": "A laptop user wants to have a full-sized monitor and keyboard, as well as an external hard drive, available to him when he is at his desk. Which accessory can he purchase so that he doesn’t need to plug in each of these devices separately to his laptop every time he returns to his desk?",
+      "options": [
+        { "id": "A", "text": "KVM switch" },
+        { "id": "B", "text": "Port bay station" },
+        { "id": "C", "text": "Desktop station" },
+        { "id": "D", "text": "Docking station" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "A **docking station** provides a single connection point (often via a proprietary port, but sometimes USB-C/Thunderbolt) to which a user can connect all their peripherals, allowing them to instantly connect and disconnect their laptop from a desktop environment."
+    },
+    {
+      "id": 37,
+      "question": "Identify the laptop connector, typically located on the bottom of the laptop, shown here.",
+      "options": [
+        { "id": "A", "text": "Mini PCIe" },
+        { "id": "B", "text": "Smart card reader" },
+        { "id": "C", "text": "Docking port" },
+        { "id": "D", "text": "Battery port" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The large, multi-pin connector on the bottom of a laptop (as shown in the image) is the **docking port**. This port allows the laptop to connect to a full docking station with a single motion."
+    },
+    {
+      "id": 38,
+      "question": "You need to replace a failed hard drive in a user’s laptop, and it’s a model you are unfamiliar with. You look at the bottom of the laptop and see no obvious entrance points. Which component will you most likely need to remove to access the hard drive bay?",
+      "options": [
+        { "id": "A", "text": "Plastics/frames" },
+        { "id": "B", "text": "Battery" },
+        { "id": "C", "text": "System board" },
+        { "id": "D", "text": "Keyboard" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "In many older or compact laptop designs where the drive bay is not easily accessible from the bottom, the **keyboard** must often be removed first. The hard drive (or its access panel) is frequently located underneath the keyboard."
+    },
+    {
+      "id": 39,
+      "question": "A new laptop user asks you to explain airplane mode to them. Which of the following statements best describes what airplane mode does?",
+      "options": [
+        { "id": "A", "text": "It turns off all your wireless connections." },
+        { "id": "B", "text": "It turns off your Wi-Fi connection." },
+        { "id": "C", "text": "It turns off your Wi-Fi and cellular connections." },
+        { "id": "D", "text": "It turns off your Wi-Fi and Bluetooth connections." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "**Airplane mode** is designed to comply with airline regulations by shutting down **all transmitting wireless connections**, including cellular, Wi-Fi, Bluetooth, and sometimes GPS/NFC."
+    },
+    {
+      "id": 40,
+      "question": "Which memory cards have a capacity of up to 32GB? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "miniSDHC" },
+        { "id": "B", "text": "microSDHC" },
+        { "id": "C", "text": "SD" },
+        { "id": "D", "text": "microSDXC" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["A", "B"],
+      "explanation": "**Secure Digital High Capacity (SDHC)** cards (including the miniSDHC and **microSDHC** variants) have a capacity range of **4GB to 32GB**. SDXC starts at 64GB."
+    },
+    {
+      "id": 41,
+      "question": "The iPhone 5 and iPhone 6 use what type of connector for charging?",
+      "options": [
+        { "id": "A", "text": "Thunderbolt" },
+        { "id": "B", "text": "Lightning" },
+        { "id": "C", "text": "ApplePower" },
+        { "id": "D", "text": "USB compound micro" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Apple introduced the proprietary **Lightning** connector with the iPhone 5 to replace the older, larger 30-pin dock connector. Both the iPhone 5 and iPhone 6 use the Lightning connector."
+    },
+    {
+      "id": 42,
+      "question": "You have a laptop with an ExpressCard/34 slot. Which type of device or devices are you unlikely to be able to use as an expansion option in that slot?",
+      "options": [
+        { "id": "A", "text": "Hard drive" },
+        { "id": "B", "text": "Hard drive or sound card" },
+        { "id": "C", "text": "Hard drive, sound card, or network card" },
+        { "id": "D", "text": "Hard drive, sound card, network card, or eSATA adapter" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "All the listed devices *except* a **hard drive** can be found in the small form factor of an ExpressCard. ExpressCard devices are limited in power and size, making them unsuitable for full hard drives (though some flash drives use the slot)."
+    },
+    {
+      "id": 43,
+      "question": "You have enabled the GPS service in your tablet. What is the minimum number of GPS satellites your tablet needs to be in contact with to determine its location?",
+      "options": [
+        { "id": "A", "text": "One" },
+        { "id": "B", "text": "Two" },
+        { "id": "C", "text": "Three" },
+        { "id": "D", "text": "Four" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "To achieve a precise three-dimensional (3D) location (latitude, longitude, and altitude) and to synchronize the time, a GPS receiver (like the one in your tablet) needs to communicate with a minimum of **four** satellites."
+    },
+    {
+      "id": 44,
+      "question": "You are investigating new laptops for your company. You want the laptop displays to have a wide viewing angle. Which technology is best suited for your needs?",
+      "options": [
+        { "id": "A", "text": "LED" },
+        { "id": "B", "text": "CCFL" },
+        { "id": "C", "text": "IPS" },
+        { "id": "D", "text": "TN" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "**In-Plane Switching (IPS)** panels are known for having the best color representation and the **widest viewing angles** compared to the other main LCD technology, Twisted Nematic (TN)."
+    },
+    {
+      "id": 45,
+      "question": "You are using a USB flash drive to transfer files from a laptop. You plug the USB drive in and then copy the files to it. What is the recommended way to remove the drive?",
+      "options": [
+        { "id": "A", "text": "Unplug the drive." },
+        { "id": "B", "text": "Use the Safely Remove Hardware icon in the system tray, stop the drive, and then unplug it." },
+        { "id": "C", "text": "Close the drive’s window in Windows Explorer and unplug it." },
+        { "id": "D", "text": "Use the Shut Down Hardware icon in the system tray, stop the drive, and then unplug it." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The proper procedure is to use the **Safely Remove Hardware** function in the operating system's notification area. This ensures that the OS finishes any pending write operations to the drive and unmounts it safely, preventing data corruption."
+    },
+    {
+      "id": 46,
+      "question": "What is the name of the OS used by the Apple Watch, which was designed specifically for the watch?",
+      "options": [
+        { "id": "A", "text": "iOS" },
+        { "id": "B", "text": "OS X mobile" },
+        { "id": "C", "text": "WatchOS" },
+        { "id": "D", "text": "Tizen" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The Apple Watch uses **watchOS**, an operating system developed specifically by Apple for its line of smartwatches. Tizen is used by Samsung Gear smartwatches."
+    },
+    {
+      "id": 47,
+      "question": "The new model of laptop just purchased by your company has a Universal ExpressCard slot. Which of the following types of cards can you install into that slot?",
+      "options": [
+        { "id": "A", "text": "ExpressCard/54 only" },
+        { "id": "B", "text": "ExpressCard/34 and ExpressCard/54" },
+        { "id": "C", "text": "ExpressCard/24" },
+        { "id": "D", "text": "ExpressCard/34, ExpressCard/54, and CardBus" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A **Universal** ExpressCard slot, which is 54mm wide, is designed to accept both the 34mm wide (**ExpressCard/34**) and the 54mm wide (**ExpressCard/54**) cards."
+    },
+    {
+      "id": 48,
+      "question": "You have a MacBook Pro computer with a Thunderbolt 2 port. What is the maximum throughput of a device plugged into this port?",
+      "options": [
+        { "id": "A", "text": "5Gbps" },
+        { "id": "B", "text": "6Gbps" },
+        { "id": "C", "text": "10Gbps" },
+        { "id": "D", "text": "20Gbps" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "**Thunderbolt 2** combines two 10Gbps channels into a single bidirectional 20Gbps channel, providing a maximum throughput of **20Gbps**."
+    },
+    {
+      "id": 49,
+      "question": "A technician needs to replace a failed laptop hard drive. What are the possible form factors of this hard drive? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "1.3″" },
+        { "id": "B", "text": "1.8″" },
+        { "id": "C", "text": "2.5″" },
+        { "id": "D", "text": "3.5″" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["B", "C"],
+      "explanation": "The most common form factors for laptop hard drives are **2.5 inches** (standard) and the smaller **1.8 inches** (used in some ultra-portable laptops). The 3.5-inch form factor is for desktop PCs."
+    },
+    {
+      "id": 50,
+      "question": "Your laptop has an internal Mini PCIe expansion slot. The documentation for an expansion card says that it supports Mini PCIe USB 2.0 functionality. What speed does the expansion card run at?",
+      "options": [
+        { "id": "A", "text": "480Mbps" },
+        { "id": "B", "text": "2.5Gbps" },
+        { "id": "C", "text": "5.0Gbps" },
+        { "id": "D", "text": "6.0Gbps" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "If a Mini PCIe card is running in **USB 2.0** mode, its maximum data speed is limited to the USB 2.0 standard, which is **480Mbps** (Megabits per second)."
+    },
+    {
+      "id": 51,
+      "question": "Which laptop component can take input from a stylus and convert it into an image on the computer?",
+      "options": [
+        { "id": "A", "text": "Digitizer" },
+        { "id": "B", "text": "Touchpad" },
+        { "id": "C", "text": "Point stick" },
+        { "id": "D", "text": "Inverter" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The **digitizer** is the component that translates the movement of a stylus (or finger) across the display into digital coordinates that the computer can use to create an image or interact with the operating system."
+    },
+    {
+      "id": 52,
+      "question": "What type of wearable technology device is specifically designed to track a user’s movement and heart rate and may include features such as GPS?",
+      "options": [
+        { "id": "A", "text": "Smart watch" },
+        { "id": "B", "text": "Fitness monitor" },
+        { "id": "C", "text": "Smart glasses" },
+        { "id": "D", "text": "Smart headset" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A **fitness monitor** (or activity tracker) is worn on the wrist or clipped to clothing and is specifically designed to monitor movement, heart rate, calories burned, and other health-related metrics. Examples include Fitbit and Garmin."
+    },
+    {
+      "id": 53,
+      "question": "Your company is producing posters for an upcoming public relations campaign. The project leader wants to embed information into an NFC tag in the poster. How much information can this tag hold?",
+      "options": [
+        { "id": "A", "text": "8KB" },
+        { "id": "B", "text": "144KB" },
+        { "id": "C", "text": "1.4MB" },
+        { "id": "D", "text": "4.4MB" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "While NFC tags vary in capacity, the most common tag types (like Type 2 tags) have a capacity of **144KB**. NFC is designed for short, simple data transfers, such as a URL, a contact card, or a small text block."
+    },
+    {
+      "id": 54,
+      "question": "You want to play video games on your tablet computer. Which accessory would you purchase if you wanted to play the game much like you would on a gaming console?",
+      "options": [
+        { "id": "A", "text": "Docking station" },
+        { "id": "B", "text": "Touchpad" },
+        { "id": "C", "text": "Point stick" },
+        { "id": "D", "text": "Game pad" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "A **game pad** (or controller) is a handheld input device that allows users to control video games with physical buttons and joysticks, providing an experience similar to a gaming console."
+    },
+    {
+      "id": 55,
+      "question": "Which laptop expansion port technology was developed by Apple and supports a wide variety of peripheral devices?",
+      "options": [
+        { "id": "A", "text": "USB" },
+        { "id": "B", "text": "DisplayPort" },
+        { "id": "C", "text": "eSATA" },
+        { "id": "D", "text": "Thunderbolt" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "**Thunderbolt** was developed by **Apple** (in partnership with Intel) as a high-speed interface that can carry both PCIe data and DisplayPort video signals over a single cable, supporting a wide variety of peripherals."
+    },
+    {
+      "id": 56,
+      "question": "You have a laptop with an ExpressCard/34 slot. Which of the following statements are true regarding installing expansion cards?",
+      "options": [
+        { "id": "A", "text": "You can only plug in an ExpressCard/34 card." },
+        { "id": "B", "text": "You can plug in an ExpressCard/34 card or an ExpressCard/22 card." },
+        { "id": "C", "text": "You can plug in an ExpressCard/34 card or an ExpressCard/54 card." },
+        { "id": "D", "text": "You can plug in an ExpressCard/34 card or an ExpressCard Universal card." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "An **ExpressCard/34** slot is only **34mm** wide and can therefore only accommodate a narrower **ExpressCard/34** card. A 54mm slot (Universal) is required to accept both card types."
+    },
+    {
+      "id": 57,
+      "question": "You are wearing your smart watch, which allows you to make payments like a credit card. What type of connection technology does this service use?",
+      "options": [
+        { "id": "A", "text": "Bluetooth" },
+        { "id": "B", "text": "NFC" },
+        { "id": "C", "text": "Wi-Fi" },
+        { "id": "D", "text": "IR" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Mobile payment systems (like Apple Pay and Google Wallet) use **Near Field Communication (NFC)**. When you tap your watch or phone to a payment terminal, the short-range NFC chip transmits the payment data."
+    },
+    {
+      "id": 58,
+      "question": "Which laptop display component is capable of discharging energy and causing severe injuries to technicians?",
+      "options": [
+        { "id": "A", "text": "Screen" },
+        { "id": "B", "text": "Backlight" },
+        { "id": "C", "text": "Inverter" },
+        { "id": "D", "text": "LCD" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The **inverter** is responsible for converting the laptop's DC power into the high-voltage AC power needed to run a CCFL (Cold Cathode Fluorescent Lamp) backlight. This high voltage can be lethal and can remain stored in the component even when the power is off."
+    },
+    {
+      "id": 59,
+      "question": "Your new laptop has 4GB system RAM and an integrated video card. The default setting specifies 512MB of video memory. How much RAM is available for the processor to use?",
+      "options": [
+        { "id": "A", "text": "4GB" },
+        { "id": "B", "text": "3.5GB" },
+        { "id": "C", "text": "3GB" },
+        { "id": "D", "text": "It’s variable." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "An integrated video card uses a portion of the system's main RAM, known as shared memory. If the laptop has **4GB** of RAM and **512MB (0.5GB)** is reserved for video, the remaining RAM available for the processor is **3.5GB**."
+    },
+    {
+      "id": 60,
+      "question": "Polar and Jawbone are manufacturers of what type of wearable technology devices?",
+      "options": [
+        { "id": "A", "text": "Smart glasses" },
+        { "id": "B", "text": "Smart headsets" },
+        { "id": "C", "text": "Smart watches" },
+        { "id": "D", "text": "Fitness monitors" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Polar and Jawbone are well-known manufacturers of **fitness monitors** or activity trackers, which monitor heart rate, steps, and other physical activities."
+    },
+    {
+      "id": 61,
+      "question": "You need to install a memory upgrade in a laptop computer. The computer’s documentation says that the laptop uses DDR3 SODIMMs. How many pins will be on the SODIMM?",
+      "options": [
+        { "id": "A", "text": "144" },
+        { "id": "B", "text": "200" },
+        { "id": "C", "text": "204" },
+        { "id": "D", "text": "240" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "DDR3 memory uses **204-pin** Small Outline Dual Inline Memory Modules (**SODIMMs**) for laptop use. DDR2 uses 200 pins, and desktop DDR3 (DIMM) uses 240 pins."
+    },
+    {
+      "id": 62,
+      "question": "What type of mobile device would use the connector shown here?",
+      "options": [
+        { "id": "A", "text": "Apple iPhone 4" },
+        { "id": "B", "text": "Apple iPhone 6" },
+        { "id": "C", "text": "Samsung Galaxy S5" },
+        { "id": "D", "text": "Fitbit Surge" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The image (which should show a 30-pin dock connector) is the old proprietary connector used by Apple before the Lightning connector. This was used on the **Apple iPhone 4**."
+    },
+    {
+      "id": 63,
+      "question": "You need to replace a failed laptop hard drive. The user has asked that the new hard drive be as fast as possible, regardless of disk space or cost. What type of drive should you install?",
+      "options": [
+        { "id": "A", "text": "SSD" },
+        { "id": "B", "text": "Magnetic" },
+        { "id": "C", "text": "Hybrid" },
+        { "id": "D", "text": "External" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "A **Solid State Drive (SSD)** is by far the fastest type of drive available for a laptop, offering superior read and write speeds because it uses flash memory chips instead of spinning platters."
+    },
+    {
+      "id": 64,
+      "question": "Which type of mobile connection uses a process called pairing to logically connect two devices?",
+      "options": [
+        { "id": "A", "text": "Bluetooth" },
+        { "id": "B", "text": "Wi-Fi" },
+        { "id": "C", "text": "NFC" },
+        { "id": "D", "text": "IR" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "**Bluetooth** uses a process called **pairing** (often requiring a PIN or mutual confirmation) to establish a trusted, secure connection between two devices (e.g., a phone and a headset)."
+    },
+    {
+      "id": 65,
+      "question": "Tablet computers feature touch screens that are approximately what size?",
+      "options": [
+        { "id": "A", "text": "Between 5\" and 7\"" },
+        { "id": "B", "text": "Between 3\" and 5\"" },
+        { "id": "C", "text": "Between 7\" and 12\"" },
+        { "id": "D", "text": "Between 12\" and 24\"" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Tablet computers (like the iPad or Galaxy Tab) generally have screen sizes ranging **between 7\" and 12\"** (inches)."
+    },
+    {
+      "id": 66,
+      "question": "What type of connectors are the two shown here in the center?",
+      "options": [
+        { "id": "A", "text": "Lightning" },
+        { "id": "B", "text": "Thunderbolt" },
+        { "id": "C", "text": "IEEE 1394" },
+        { "id": "D", "text": "Power" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The image (which should show two connectors that look like Mini DisplayPort) are **Thunderbolt** connectors. Thunderbolt ports can function as both Mini DisplayPort (video) and Thunderbolt (data) ports."
+    },
+    {
+      "id": 67,
+      "question": "Which mobile technology device makes use of an augmented reality display?",
+      "options": [
+        { "id": "A", "text": "Smart phone" },
+        { "id": "B", "text": "Smart watch" },
+        { "id": "C", "text": "Smart camera" },
+        { "id": "D", "text": "Smart glasses" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "**Smart glasses** (like Google Glass or Microsoft HoloLens) use a display that overlays computer-generated information onto the user's view of the real world, which is the definition of **augmented reality (AR)**."
+    },
+    {
+      "id": 68,
+      "question": "Which type of laptop backlight generally does not require the use of an inverter?",
+      "options": [
+        { "id": "A", "text": "TN" },
+        { "id": "B", "text": "IPS" },
+        { "id": "C", "text": "CCFL" },
+        { "id": "D", "text": "LED" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "**LED** (Light Emitting Diode) backlights run on low-voltage DC power. Since they don't require the high-voltage AC power that CCFL backlights use, they **do not need an inverter**."
+    },
+    {
+      "id": 69,
+      "question": "You have traveled to the office of one of your suppliers. They do not have wireless networking, and your laptop does not have a wired network connection. If you need to get on their network, what is the best solution?",
+      "options": [
+        { "id": "A", "text": "Install a Mini PCIe network card with an RJ-45 port." },
+        { "id": "B", "text": "Install a USB to RJ-45 dongle." },
+        { "id": "C", "text": "Install a USB to Bluetooth dongle." },
+        { "id": "D", "text": "Install a USB to Wi-Fi dongle." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Since the supplier has a wired network (implied by the lack of wireless) and your laptop lacks an RJ-45 port, the fastest and easiest solution is to install a **USB to RJ-45 dongle** (a wired network adapter)."
+    },
+    {
+      "id": 70,
+      "question": "You are on the phone talking to a technician who is trying to upgrade a laptop. He is having trouble identifying the Mini PCIe card. How wide should you tell the technician that the card is?",
+      "options": [
+        { "id": "A", "text": "27mm" },
+        { "id": "B", "text": "30mm" },
+        { "id": "C", "text": "51mm" },
+        { "id": "D", "text": "60mm" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The standard Mini PCIe card is typically **30mm** wide. The other standard size is the Full Mini PCIe, which is 51mm long."
+    },
+    {
+      "id": 71,
+      "question": "You have been asked to burn a DVD with several videos on it, but your laptop does not have an internal optical drive. You are certain that this request will be made several times. Which option is the best for you to install or replace a DVD burner?",
+      "options": [
+        { "id": "A", "text": "Remove the secondary hard drive bay and install an internal DVD burner." },
+        { "id": "B", "text": "Remove the battery pack and install a DVD burner in its place." },
+        { "id": "C", "text": "Install an external DVD burner and connect it via a USB port." },
+        { "id": "D", "text": "Install an external DVD burner and connect it via a DB-15 port." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The most flexible and simplest solution is to purchase an **external DVD burner and connect it via a USB port**. This accessory is easy to install, doesn't require opening the laptop, and can be used with any computer."
+    },
+    {
+      "id": 72,
+      "question": "You are purchasing tablet computers for your sales team. Which of the following networking options are standard on nearly all tablets? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Wi-Fi" },
+        { "id": "B", "text": "Bluetooth" },
+        { "id": "C", "text": "RJ-45" },
+        { "id": "D", "text": "Cellular" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["A", "B"],
+      "explanation": "Almost all tablets come standard with **Wi-Fi** (A) for Internet access and **Bluetooth** (B) for connecting peripherals (headsets, keyboards). Cellular data (D) is usually an optional, more expensive feature, and RJ-45 (C) is almost never included."
+    },
+    {
+      "id": 73,
+      "question": "A Lightning connector would be used with what type of device?",
+      "options": [
+        { "id": "A", "text": "Samsung Galaxy S5" },
+        { "id": "B", "text": "Fitbit Surge" },
+        { "id": "C", "text": "Apple iPhone 4" },
+        { "id": "D", "text": "Apple iPhone 6" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The **Lightning** connector is Apple's proprietary reversible 8-pin connector used on mobile devices starting with the iPhone 5. The **Apple iPhone 6** uses this connector."
+    },
+    {
+      "id": 74,
+      "question": "You have decided to start playing video-intensive games on your laptop computer. The video appears jumpy and slow to respond. What should you do first to try to increase the performance during game play?",
+      "options": [
+        { "id": "A", "text": "Upgrade the video card." },
+        { "id": "B", "text": "Install additional video memory." },
+        { "id": "C", "text": "Use Windows Control Panel to increase the amount of video memory available." },
+        { "id": "D", "text": "Use the system BIOS to increase the amount of video memory available." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Since the video card is integrated (sharing system RAM), the amount of RAM reserved for video is often configurable in the **System BIOS/UEFI**. Increasing this reserved memory is the first and cheapest step to improve video performance before considering hardware upgrades."
+    },
+    {
+      "id": 75,
+      "question": "A guest presenter plugs an external projector into her laptop, using the VGA port on the back of the laptop. He then uses the Fn key and his video toggle switch; the projector displays his presentation, but his laptop screen goes dark. What should he do if he wants to see the presentation on both the projector and his laptop?",
+      "options": [
+        { "id": "A", "text": "Install a second video driver and then use the video toggle key to switch the video output to both." },
+        { "id": "B", "text": "Reboot the laptop so that it recognizes both screens." },
+        { "id": "C", "text": "Install a video splitter." },
+        { "id": "D", "text": "Press the video toggle key again until the presentation is shown on both screens." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The **video toggle key** (Fn + a function key) cycles through different display modes: Laptop only, External Monitor only, and **Dual Display** (both screens). The presenter needs to press the key combination again to select the Dual Display mode."
+    },
+    {
+      "id": 76,
+      "question": "You need to replace a failed motherboard in a laptop computer. Which of the following components are most likely integrated into the motherboard? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Video card" },
+        { "id": "B", "text": "Network card" },
+        { "id": "C", "text": "Hard drive" },
+        { "id": "D", "text": "RAM" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["A", "B"],
+      "explanation": "Many laptop motherboards have the **video card** (A) and the **network card** (B), particularly the wired (RJ-45) port, integrated as chips soldered directly onto the board to save space and reduce costs. The hard drive and RAM are almost always modular."
+    },
+    {
+      "id": 77,
+      "question": "A user has a laptop that is intermittently locking up. Initial diagnostics indicate that the processor is overheating. What can you do to try to remediate the issue? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Leave the case open while the system is running to allow for better airflow and cooling." },
+        { "id": "B", "text": "Lower the CPU voltage in the system BIOS." },
+        { "id": "C", "text": "Lower the CPU clock speed in the system BIOS." },
+        { "id": "D", "text": "Run the laptop on AC power instead of battery power." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["B", "C"],
+      "explanation": "If the CPU is overheating, you can reduce the amount of heat it generates. This can be done by adjusting the settings in the BIOS to either **lower the CPU voltage** (B) or **lower the clock speed** (C), a technique often called undervolting or underclocking."
+    },
+    {
+      "id": 78,
+      "question": "A client has an older Windows 7 laptop with an integrated video card. The system seems to boot but produces no video, even with an external monitor hooked up. What can you do to fix this?",
+      "options": [
+        { "id": "A", "text": "Add an external USB video card and connect the monitor to it." },
+        { "id": "B", "text": "Remove the old video card, and replace it with a new one." },
+        { "id": "C", "text": "Replace the motherboard." },
+        { "id": "D", "text": "Add a Mini PCIe video card." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Since the video card is **integrated** (soldered onto the motherboard) and has failed completely (no video on any port), the only solution is to **replace the entire motherboard**."
+    },
+    {
+      "id": 79,
+      "question": "A Mini PCIe card used in a laptop has how many pins?",
+      "options": [
+        { "id": "A", "text": "52-pin" },
+        { "id": "B", "text": "78-pin" },
+        { "id": "C", "text": "144-pin" },
+        { "id": "D", "text": "200-pin" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Mini PCIe cards use a **52-pin** edge connector."
+    },
+    {
+      "id": 80,
+      "question": "Which of the following are ways to input information or commands into Google Glass? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Touch screen" },
+        { "id": "B", "text": "Touchpad" },
+        { "id": "C", "text": "Voice command" },
+        { "id": "D", "text": "Virtual keyboard" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["B", "C"],
+      "explanation": "Google Glass allows input via a small, side-mounted **touchpad** (B) for scrolling and selections, and through **voice command** (C) using the built-in microphone."
+    },
+    {
+      "id": 81,
+      "question": "Which of the following wireless communication methods are the least susceptible to hacking? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Wi-Fi" },
+        { "id": "B", "text": "IR" },
+        { "id": "C", "text": "Bluetooth" },
+        { "id": "D", "text": "NFC" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["B", "D"],
+      "explanation": "**IR (Infrared)** (B) and **NFC (Near Field Communication)** (D) are the least susceptible because they are **short-range** (line-of-sight for IR, 4 inches for NFC) and **point-to-point**. Hacking requires an attacker to be physically close and in the path of transmission (for IR)."
+    },
+    {
+      "id": 82,
+      "question": "Of the laptop LCD technologies, which consumes the least amount of power?",
+      "options": [
+        { "id": "A", "text": "LED" },
+        { "id": "B", "text": "IPS" },
+        { "id": "C", "text": "TN" },
+        { "id": "D", "text": "CCFL" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "**LED** backlights consume the least amount of power compared to CCFL. While TN and IPS are types of LCD panels, the backlight (LED or CCFL) is the main factor in power consumption."
+    },
+    {
+      "id": 83,
+      "question": "What types of networking will smart cameras often have built into them? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Bluetooth" },
+        { "id": "B", "text": "IR" },
+        { "id": "C", "text": "RJ-45" },
+        { "id": "D", "text": "802.11b/g/n" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["A", "D"],
+      "explanation": "Smart cameras use wireless networking for easy picture transfer. This functionality is provided by **Wi-Fi (802.11b/g/n)** (D) for fast transfers and **Bluetooth** (A) for quick, low-power pairing and setup."
+    },
+    {
+      "id": 84,
+      "question": "What type of connector is shown here on the right?",
+      "options": [
+        { "id": "A", "text": "USB micro" },
+        { "id": "B", "text": "USB mini" },
+        { "id": "C", "text": "USB type A" },
+        { "id": "D", "text": "Lightning" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The connector shown on the right is a **USB mini** connector. It is identifiable as the older, slightly larger trapezoidal connector, preceding the smaller USB micro."
+    },
+    {
+      "id": 85,
+      "question": "A user has brought his laptop to you because the screen is intermittently flickering. Which display component is most likely causing this?",
+      "options": [
+        { "id": "A", "text": "Backlight" },
+        { "id": "B", "text": "LCD" },
+        { "id": "C", "text": "Screen" },
+        { "id": "D", "text": "Inverter" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "If the screen is **flickering** or intermittently dim, the **inverter** is the most likely culprit. The inverter converts DC to high-voltage AC for the backlight, and a failing inverter will cause inconsistent power, leading to a flickering effect."
+    },
+    {
+      "id": 86,
+      "question": "Which of the following wireless communication types has a maximum distance of 1 meter and requires line of sight?",
+      "options": [
+        { "id": "A", "text": "NFC" },
+        { "id": "B", "text": "Bluetooth" },
+        { "id": "C", "text": "Wi-Fi" },
+        { "id": "D", "text": "IR" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "**Infrared (IR)** is a short-distance, point-to-point communication method with a maximum functional distance of about **1 meter** and strictly requires a **line of sight** between the two devices."
+    }
+  ]
+}

@@ -1,0 +1,1384 @@
+{
+  "examInfo": {
+    "title": "Chapter 2: Networking",
+    "totalQuestions": 105,
+    "timeLimit": 100,
+    "description": "Practice questions for Networking."
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following network devices receives network traffic and makes a decision on whether to send it on based on the destination hardware address?",
+      "options": [
+        { "id": "A", "text": "Hub" },
+        { "id": "B", "text": "Bridge" },
+        { "id": "C", "text": "Access point" },
+        { "id": "D", "text": "Repeater" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Because bridges work at the Data Link layer, they are aware of hardware (MAC) addresses. They use these addresses to make forwarding decisions. Hubs and repeaters work at the Physical layer and don't make decisions."
+    },
+    {
+      "id": 2,
+      "question": "A technician installed a UTP splitter on one of your network segments that has CAT6e cable. What is the maximum speed supported by this connection?",
+      "options": [
+        { "id": "A", "text": "10Mbps" },
+        { "id": "B", "text": "100Mbps" },
+        { "id": "C", "text": "1Gbps" },
+        { "id": "D", "text": "10Gbps" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Ethernet splitters take the incoming signal on two pairs and split it, producing two sets of signals using two pairs each. Because of this, Ethernet splitters are limited to 100Mbps connections, regardless of the cable's rating."
+    },
+    {
+      "id": 3,
+      "question": "You are installing a fiber-optic cable between two buildings. To install the cable, you must run it through a conduit between the buildings, and access to the conduit is not easy. Before you run the cable, you want to ensure it's working properly. Which tool should you use?",
+      "options": [
+        { "id": "A", "text": "Cable tester" },
+        { "id": "B", "text": "Multimeter" },
+        { "id": "C", "text": "Loopback plug" },
+        { "id": "D", "text": "Tone generator and probe" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "A cable tester is an indispensable tool for any network technician. You would use a cable tester before you install a cable to make sure it works, especially in difficult installations."
+    },
+    {
+      "id": 4,
+      "question": "Which TCP/IP protocol, designed to download email, allows for multiple clients to be simultaneously connected to the same mailbox?",
+      "options": [
+        { "id": "A", "text": "SMTP" },
+        { "id": "B", "text": "POP3" },
+        { "id": "C", "text": "IMAP" },
+        { "id": "D", "text": "SMB" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Internet Message Access Protocol (IMAP) is a secure protocol designed to download email. It has several advantages over POP3, including allowing multiple clients to be simultaneously connected to the same mailbox."
+    },
+    {
+      "id": 5,
+      "question": "You are using your laptop on the company network. In your web browser, you type in www.google.com and press Enter. The computer will not find Google. You open the browser on your phone, and using your cellular connection, you can open Google without a problem. Your laptop finds internal servers and can print without any issues. What is the most likely reason you can't open Google?",
+      "options": [
+        { "id": "A", "text": "DNS server problem" },
+        { "id": "B", "text": "DHCP server problem" },
+        { "id": "C", "text": "Missing subnet mask" },
+        { "id": "D", "text": "Duplicate IP address" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The client is unable to get to the DNS server, which resolves host names (or URLs) to IP addresses. Since internal resources work (likely by name or IP), but external websites do not, it points to a DNS issue for external name resolution."
+    },
+    {
+      "id": 6,
+      "question": "A technician needs to run a network cable to a remote building, which is approximately 15 kilometers from his base station. He's not sure if any cable will span that distance. What is the maximum distance of SMF cable?",
+      "options": [
+        { "id": "A", "text": "550 meters" },
+        { "id": "B", "text": "5 kilometers" },
+        { "id": "C", "text": "40 kilometers" },
+        { "id": "D", "text": "100 kilometers" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Single-mode fiber (SMF) can span distances up to 100 kilometers, making it suitable for long-distance connections like this one."
+    },
+    {
+      "id": 7,
+      "question": "You have been asked to install a run of RG-59 cable from one end of a building to the other. What is the maximum distance for this type of cable run?",
+      "options": [
+        { "id": "A", "text": "100 meters (328 feet)" },
+        { "id": "B", "text": "228 meters (750 feet)" },
+        { "id": "C", "text": "304 meters (1,000 feet)" },
+        { "id": "D", "text": "500 meters (1,645 feet)" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "RG-59 coaxial cable has a maximum effective distance of about 228 meters (750 feet)."
+    },
+    {
+      "id": 8,
+      "question": "Which one of the following TCP/IP protocols was designed as a replacement for Telnet?",
+      "options": [
+        { "id": "A", "text": "SMB" },
+        { "id": "B", "text": "SSH" },
+        { "id": "C", "text": "SFTP" },
+        { "id": "D", "text": "FTPS" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Secure Shell (SSH) was designed to be a secure replacement for the unsecure Telnet command, used for remote logins and executing programs."
+    },
+    {
+      "id": 9,
+      "question": "Which of the following network connectivity devices operate at Layer 2 of the OSI model? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Hub" },
+        { "id": "B", "text": "Switch" },
+        { "id": "C", "text": "Bridge" },
+        { "id": "D", "text": "Router" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["B", "C"],
+      "explanation": "Switches and bridges both operate at Layer 2 (Data Link Layer) of the OSI model. Switches are essentially multiport bridges."
+    },
+    {
+      "id": 10,
+      "question": "In IPv4, what is the function of the subnet mask?",
+      "options": [
+        { "id": "A", "text": "It tells hosts where to route packets." },
+        { "id": "B", "text": "It differentiates between the network ID and host ID." },
+        { "id": "C", "text": "It determines which subnet the host is on." },
+        { "id": "D", "text": "It masks external networks from the host." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Computers are able to differentiate where the network ID ends and the host address begins through the use of a subnet mask."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following TCP/IP protocols is connection-oriented and attempts to guarantee packet delivery?",
+      "options": [
+        { "id": "A", "text": "IP" },
+        { "id": "B", "text": "TCP" },
+        { "id": "C", "text": "UDP" },
+        { "id": "D", "text": "ICMP" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Transmission Control Protocol (TCP) guarantees packet delivery through the use of a virtual circuit and data acknowledgments, which is why it's referred to as connection-oriented."
+    },
+    {
+      "id": 12,
+      "question": "Which TCP/IP protocol allows a user to log into a remote computer and manage files as if they were logged in locally?",
+      "options": [
+        { "id": "A", "text": "FTP" },
+        { "id": "B", "text": "SFTP" },
+        { "id": "C", "text": "SMB" },
+        { "id": "D", "text": "Telnet" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Telnet lets users log into another machine and manage files on that remote machine through a text-only interface as if they were logged in locally."
+    },
+    {
+      "id": 13,
+      "question": "You are given a network configuration of 155.100.63.0/26 from your ISP. When you configure your network hosts, what subnet mask should you assign them?",
+      "options": [
+        { "id": "A", "text": "255.255.0.0" },
+        { "id": "B", "text": "255.255.255.0" },
+        { "id": "C", "text": "255.255.255.192" },
+        { "id": "D", "text": "255.255.255.240" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A CIDR shorthand notation of /26 means that the first 26 bits of the subnet mask are 1s. This corresponds to a subnet mask of 255.255.255.192."
+    },
+    {
+      "id": 14,
+      "question": "Which Wi-Fi standard specifies a maximum of 54Mbps transmissions in the 2.4GHz frequency range?",
+      "options": [
+        { "id": "A", "text": "802.11a" },
+        { "id": "B", "text": "802.11b" },
+        { "id": "C", "text": "802.11g" },
+        { "id": "D", "text": "802.11n" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The 802.11g standard has a maximum throughput of 54Mbps and operates in the 2.4GHz frequency range."
+    },
+    {
+      "id": 15,
+      "question": "Which TCP/IP protocol is used to provide shared access to files and printers on the network?",
+      "options": [
+        { "id": "A", "text": "FTP" },
+        { "id": "B", "text": "SSH" },
+        { "id": "C", "text": "SMB" },
+        { "id": "D", "text": "SNMP" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Server Message Block (SMB) is a protocol used for providing shared access to files, printers, and serial ports between nodes on a network."
+    },
+    {
+      "id": 16,
+      "question": "What port number does the Telnet protocol use?",
+      "options": [
+        { "id": "A", "text": "21" },
+        { "id": "B", "text": "22" },
+        { "id": "C", "text": "23" },
+        { "id": "D", "text": "25" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Telnet uses TCP port 23."
+    },
+    {
+      "id": 17,
+      "question": "You have just installed a wireless 802.11ac network for a client. The IT manager is concerned about competitors intercepting the wireless signal from outside the building. Which tool is designed to test how far your wireless signal travels?",
+      "options": [
+        { "id": "A", "text": "Tone generator and probe" },
+        { "id": "B", "text": "Protocol analyzer" },
+        { "id": "C", "text": "Packet sniffer" },
+        { "id": "D", "text": "Wi-Fi analyzer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "A Wi-Fi analyzer is specialized software installed on a laptop whose purpose is to detect and analyze Wi-Fi signals. It can detect where signals are strong or weak to determine whether there are potential security issues."
+    },
+    {
+      "id": 18,
+      "question": "Some of your network users are concerned about submitting confidential information to an online website. What should you tell them?",
+      "options": [
+        { "id": "A", "text": "It's fine, because all Internet traffic is encrypted." },
+        { "id": "B", "text": "If the website address starts with TLS://, it should be OK to submit confidential information to a trusted site." },
+        { "id": "C", "text": "If the website address starts with HTTPS://, it should be OK to submit confidential information to a trusted site." },
+        { "id": "D", "text": "Don't ever submit confidential information to any online website." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Internet traffic is not encrypted by default. Websites that are secure and encrypt their transmissions will start with HTTPS:// rather than HTTP://. These sites can be trusted to encrypt the data, and their identity is verified."
+    },
+    {
+      "id": 19,
+      "question": "Which TCP/IP Internet layer protocol is responsible for delivering error messages if communication between two computers fails?",
+      "options": [
+        { "id": "A", "text": "ICMP" },
+        { "id": "B", "text": "IP" },
+        { "id": "C", "text": "TCP" },
+        { "id": "D", "text": "UDP" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Another key protocol at the Internet layer is Internet Control Message Protocol (ICMP), which is responsible for delivering error messages."
+    },
+    {
+      "id": 20,
+      "question": "Which type of IPv6 address identifies a single node on the network?",
+      "options": [
+        { "id": "A", "text": "Multicast" },
+        { "id": "B", "text": "Anycast" },
+        { "id": "C", "text": "Unicast" },
+        { "id": "D", "text": "Localcast" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A unicast address identifies a single node on the network."
+    },
+    {
+      "id": 21,
+      "question": "You are configuring a wireless 802.11n router for a small network. When setting it up, which security option should you choose?",
+      "options": [
+        { "id": "A", "text": "WPA2" },
+        { "id": "B", "text": "WPA" },
+        { "id": "C", "text": "WEP" },
+        { "id": "D", "text": "SSID" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "From least to most secure, the wireless encryption methods are WEP, WPA, and WPA2. Always go with WPA2 unless strange circumstances prevent you from doing so."
+    },
+    {
+      "id": 22,
+      "question": "What type of network covers large geographical areas and often supports thousands of users?",
+      "options": [
+        { "id": "A", "text": "LAN" },
+        { "id": "B", "text": "WAN" },
+        { "id": "C", "text": "PAN" },
+        { "id": "D", "text": "MAN" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Wide area networks (WANs) are networks that cross local, regional, and/or international boundaries."
+    },
+    {
+      "id": 23,
+      "question": "Which TCP/IP protocol, developed by Microsoft, allows users to connect to remote computers and run programs on them?",
+      "options": [
+        { "id": "A", "text": "RDP" },
+        { "id": "B", "text": "SMB" },
+        { "id": "C", "text": "CIFS" },
+        { "id": "D", "text": "Telnet" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Remote Desktop Protocol (RDP) was developed by Microsoft for users to be able to log into a computer remotely and run programs."
+    },
+    {
+      "id": 24,
+      "question": "What port number does the SSH protocol use?",
+      "options": [
+        { "id": "A", "text": "21" },
+        { "id": "B", "text": "22" },
+        { "id": "C", "text": "23" },
+        { "id": "D", "text": "25" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "SSH uses TCP port 22."
+    },
+    {
+      "id": 25,
+      "question": "Which of the following IP addresses is not routable on the Internet?",
+      "options": [
+        { "id": "A", "text": "10.1.1.1" },
+        { "id": "B", "text": "11.1.1.1" },
+        { "id": "C", "text": "12.1.1.1" },
+        { "id": "D", "text": "13.1.1.1" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The address 10.1.1.1 is part of the Class A private address range (10.0.0.0/8) and is not routable on the public Internet."
+    },
+    {
+      "id": 26,
+      "question": "Which network connectivity device does not forward broadcast messages, thereby creating multiple broadcast domains?",
+      "options": [
+        { "id": "A", "text": "Hub" },
+        { "id": "B", "text": "Switch" },
+        { "id": "C", "text": "Bridge" },
+        { "id": "D", "text": "Router" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Routers operate at the Network layer (Layer 3) and do not forward broadcast messages, creating separate broadcast domains. Switches and bridges operate at Layer 2 and forward broadcasts within a single broadcast domain."
+    },
+    {
+      "id": 27,
+      "question": "You have a desktop computer that is behaving erratically on the network. The wired connection will often disconnect without warning. Which tool should you use to troubleshoot the network adapter?",
+      "options": [
+        { "id": "A", "text": "Multimeter" },
+        { "id": "B", "text": "Tone generator and probe" },
+        { "id": "C", "text": "Loopback plug" },
+        { "id": "D", "text": "Cable tester" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A loopback plug is for testing the ability of a network adapter to send and receive. The plug gets plugged into the NIC, and then a loopback test is performed using troubleshooting software."
+    },
+    {
+      "id": 28,
+      "question": "Your company just expanded and is leasing additional space in an adjacent office building. You need to extend the network to the new building. Fortunately, there is a conduit between the two. You estimate that the cable you need to run will be about 300 meters long. What type of cable should you use?",
+      "options": [
+        { "id": "A", "text": "CAT5" },
+        { "id": "B", "text": "CAT5e" },
+        { "id": "C", "text": "CAT7" },
+        { "id": "D", "text": "MMF" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "UTP cables (like CAT5, CAT5e, CAT7) are limited to 100 meters. For a 300-meter run, you need fiber. Multimode fiber (MMF) can span distances up to 300 meters or more, depending on the type."
+    },
+    {
+      "id": 29,
+      "question": "You want to ensure that client computers can download email from external email servers, regardless of the protocol their email client uses. Which ports do you open on the firewall to enable this? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "23" },
+        { "id": "B", "text": "25" },
+        { "id": "C", "text": "110" },
+        { "id": "D", "text": "143" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["C", "D"],
+      "explanation": "The two main protocols for downloading email are Post Office Protocol 3 (POP3), which uses port 110, and Internet Message Access Protocol (IMAP), which uses port 143."
+    },
+    {
+      "id": 30,
+      "question": "You are installing network cabling in a highly secure facility. The cables need to be immune to electronic eavesdropping. What type of cable should you use?",
+      "options": [
+        { "id": "A", "text": "Fiber-optic" },
+        { "id": "B", "text": "UTP" },
+        { "id": "C", "text": "STP" },
+        { "id": "D", "text": "Coaxial" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Fiber-optic cabling uses pulses of light instead of electric voltages to transmit data, so it is immune to electrical interference and to wiretapping."
+    },
+    {
+      "id": 31,
+      "question": "Which networking device is capable of reading IP addresses and forwarding packets based on the destination IP address?",
+      "options": [
+        { "id": "A", "text": "Hub" },
+        { "id": "B", "text": "Switch" },
+        { "id": "C", "text": "Bridge" },
+        { "id": "D", "text": "Router" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Routers operate at the Network layer (Layer 3) of the OSI model. Because of this, they make their decisions on what to do with traffic based on logical (IP) addresses."
+    },
+    {
+      "id": 32,
+      "question": "Which network device is designed to be a security guard, blocking malicious data from entering your network?",
+      "options": [
+        { "id": "A", "text": "PoE injector" },
+        { "id": "B", "text": "Bridge" },
+        { "id": "C", "text": "Firewall" },
+        { "id": "D", "text": "Router" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The basic purpose of a firewall is to isolate one network from another, acting as a security guard to block unauthorized or malicious traffic."
+    },
+    {
+      "id": 33,
+      "question": "You are manually configuring TCP/IP hosts on the network. What configuration parameter specifies the address of the router that enables Internet access?",
+      "options": [
+        { "id": "A", "text": "Subnet mask" },
+        { "id": "B", "text": "DHCP server" },
+        { "id": "C", "text": "DNS server" },
+        { "id": "D", "text": "Default gateway" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The default gateway is the IP address of the router on the local network that provides a path for traffic to exit the local network (e.g., to the Internet)."
+    },
+    {
+      "id": 34,
+      "question": "A senior administrator calls you and tells you that she is working from home and trying to use RDP, but it won't let her. What port do you need to ensure is open on the firewall to grant her access?",
+      "options": [
+        { "id": "A", "text": "143" },
+        { "id": "B", "text": "443" },
+        { "id": "C", "text": "548" },
+        { "id": "D", "text": "3389" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Remote Desktop Protocol (RDP) uses TCP port 3389 by default."
+    },
+    {
+      "id": 35,
+      "question": "Identify the cable connector in the picture.",
+      "options": [
+        { "id": "A", "text": "F-connector" },
+        { "id": "B", "text": "BNC" },
+        { "id": "C", "text": "SC" },
+        { "id": "D", "text": "ST" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The connector shown is an F-connector, which is easily identifiable because it is threaded and screws into place. It's commonly used for cable television."
+    },
+    {
+      "id": 36,
+      "question": "What type of network is most commonly associated with Bluetooth devices and covers a small area?",
+      "options": [
+        { "id": "A", "text": "LAN" },
+        { "id": "B", "text": "WAN" },
+        { "id": "C", "text": "PAN" },
+        { "id": "D", "text": "MAN" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A personal area network (PAN) is a small-scale network designed around one person within a limited boundary area. The term generally refers to networks that use Bluetooth technology."
+    },
+    {
+      "id": 37,
+      "question": "Identify the type of cable connectors shown here.",
+      "options": [
+        { "id": "A", "text": "F-connector" },
+        { "id": "B", "text": "BNC" },
+        { "id": "C", "text": "SC" },
+        { "id": "D", "text": "ST" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The connectors pictured are BNC connectors. They are identifiable by their groove-and-notch fastening mechanism that locks by twisting one-quarter turn."
+    },
+    {
+      "id": 38,
+      "question": "Which TCP/IP Internet layer protocol is responsible for resolving physical MAC addresses to logical IP addresses?",
+      "options": [
+        { "id": "A", "text": "IP" },
+        { "id": "B", "text": "ICMP" },
+        { "id": "C", "text": "ARP" },
+        { "id": "D", "text": "RARP" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Reverse ARP (RARP) resolves MAC addresses to IP addresses. ARP resolves IP addresses to MAC addresses."
+    },
+    {
+      "id": 39,
+      "question": "Which of the following IPv6 addresses is equivalent to an address in the 169.254.0.0/16 range in IPv4?",
+      "options": [
+        { "id": "A", "text": "2000::/3" },
+        { "id": "B", "text": "FC00::/7" },
+        { "id": "C", "text": "FE80::/10" },
+        { "id": "D", "text": "FF00::/8" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The 169.254.0.0/16 range in IPv4 is the APIPA range. The same task in IPv6 is accomplished with a link-local address in the FE80::/10 range."
+    },
+    {
+      "id": 40,
+      "question": "Identify the connectors shown here, from left to right.",
+      "options": [
+        { "id": "A", "text": "ST and SC" },
+        { "id": "B", "text": "SC and ST" },
+        { "id": "C", "text": "RJ-45 and RJ-11" },
+        { "id": "D", "text": "RJ-11 and RJ-45" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The connector on the left is a four-pin RJ-11, typically used for telephone installations. The one on the right is an eight-pin RJ-45 connector, used for network cables."
+    },
+    {
+      "id": 41,
+      "question": "You need to configure a wireless router for an office network. The office manager wants new devices to be able to automatically join the network and announce their presence to other networked devices. Which service should you enable to allow this?",
+      "options": [
+        { "id": "A", "text": "DHCP" },
+        { "id": "B", "text": "NAT" },
+        { "id": "C", "text": "QoS" },
+        { "id": "D", "text": "UPnP" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Universal Plug and Play (UPnP) is a set of networking protocols that permits networked devices to seamlessly discover each other's presence on the network."
+    },
+    {
+      "id": 42,
+      "question": "You are troubleshooting a computer with an IPv6 address that is in the FE80::/10 range. Which of the following statements are true? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "The computer will not be able to get on the Internet." },
+        { "id": "B", "text": "The computer will be able to get on the Internet." },
+        { "id": "C", "text": "The computer is configured with a link local unicast address." },
+        { "id": "D", "text": "The computer is configured with a global unicast address." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["A", "C"],
+      "explanation": "An address in the FE80::/10 range is a link-local unicast address. These addresses are not routable and can be used only for communication on the local network segment."
+    },
+    {
+      "id": 43,
+      "question": "Identify the connector shown here.",
+      "options": [
+        { "id": "A", "text": "ST" },
+        { "id": "B", "text": "SC" },
+        { "id": "C", "text": "LC" },
+        { "id": "D", "text": "MFF" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The connector shown is a Lucent Connector (LC), a smaller version of the SC connector, used for fiber-optic cable."
+    },
+    {
+      "id": 44,
+      "question": "You have set up your web server to function as an FTP server as well. Users on the Internet complain that they are not able to access the server using FTP clients. What port number are they trying to access the server on?",
+      "options": [
+        { "id": "A", "text": "21" },
+        { "id": "B", "text": "22" },
+        { "id": "C", "text": "23" },
+        { "id": "D", "text": "25" },
+        { "id": "E", "text": "80" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "File Transfer Protocol (FTP) uses TCP port 21 for control signals."
+    },
+    {
+      "id": 45,
+      "question": "Which TCP/IP protocol allows you to access data such as employee phone numbers and email addresses that are stored within an information directory?",
+      "options": [
+        { "id": "A", "text": "SNMP" },
+        { "id": "B", "text": "SMTP" },
+        { "id": "C", "text": "CIFS" },
+        { "id": "D", "text": "LDAP" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Lightweight Directory Access Protocol (LDAP) is designed to access information stored in an information directory, which often includes employee phone numbers and email addresses."
+    },
+    {
+      "id": 46,
+      "question": "You are configuring network hosts with static IP addresses. You have chosen to use a class B network address. What is the default subnet mask that you should configure on the hosts?",
+      "options": [
+        { "id": "A", "text": "255.0.0.0" },
+        { "id": "B", "text": "255.255.0.0" },
+        { "id": "C", "text": "255.255.255.0" },
+        { "id": "D", "text": "255.255.255.255" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The default subnet mask for class B networks is 255.255.0.0, or /16 in CIDR notation."
+    },
+    {
+      "id": 47,
+      "question": "You are installing a new network and working in a wiring closet. You need to attach several network cables to a 110 block. Which tool should you use to perform this task?",
+      "options": [
+        { "id": "A", "text": "Crimper" },
+        { "id": "B", "text": "Cable stripper" },
+        { "id": "C", "text": "Cable tester" },
+        { "id": "D", "text": "Punchdown tool" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "A punchdown tool is used to connect the exposed ends of a wire into wiring harnesses, such as a 110 block, by pushing the wire into the slot."
+    },
+    {
+      "id": 48,
+      "question": "Which of the following Internet connection types offers the fastest download speeds?",
+      "options": [
+        { "id": "A", "text": "Cable" },
+        { "id": "B", "text": "DSL" },
+        { "id": "C", "text": "Fiber-optic" },
+        { "id": "D", "text": "ISDN" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Fiber-optic broadband Internet offers fast speeds (often in the 1Gbps range or higher) but is also the most expensive."
+    },
+    {
+      "id": 49,
+      "question": "You need to create several UTP cables from a roll of bulk cable. Your company uses the T568B standard. What is the correct order for wires in the connectors?",
+      "options": [
+        { "id": "A", "text": "White/orange, orange, white/green, blue, white/blue, green, white/brown, brown" },
+        { "id": "B", "text": "White/orange, orange, white/green, green, white/blue, blue, white/brown, brown" },
+        { "id": "C", "text": "White/orange, green, white/green, blue, white/blue, orange, white/brown, brown" },
+        { "id": "D", "text": "Orange, white/orange, white/green, blue, white/blue, green, white/brown, brown" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The correct order for a T568B cable is: White/orange, orange, white/green, blue, white/blue, green, white/brown, brown."
+    },
+    {
+      "id": 50,
+      "question": "You are installing network cable that will support digital cable television signals. What type of cable should you install?",
+      "options": [
+        { "id": "A", "text": "RG-6" },
+        { "id": "B", "text": "RG-8" },
+        { "id": "C", "text": "RG-58 A/U" },
+        { "id": "D", "text": "RG-59" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Cable television installations typically use either RG-6 or RG-59 cable. RG-6 is slightly thicker, can run longer distances, and supports digital signals, making it the better choice."
+    },
+    {
+      "id": 51,
+      "question": "Which TCP/IP protocol uses TCP ports 137-139 and 445 by default?",
+      "options": [
+        { "id": "A", "text": "FTP" },
+        { "id": "B", "text": "SSH" },
+        { "id": "C", "text": "SMB" },
+        { "id": "D", "text": "SNMP" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Server Message Block (SMB), used for file and printer sharing, uses TCP port 445. Older versions using NetBIOS over TCP/IP used ports 137-139."
+    },
+    {
+      "id": 52,
+      "question": "For IPv6, which of the following statements are not true? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Each IPv6 interface can have only one address." },
+        { "id": "B", "text": "Each IPv6 interface is required to have a link local address." },
+        { "id": "C", "text": "IPv6 addresses are incompatible with IPv4 networks." },
+        { "id": "D", "text": "IPv6 no longer uses broadcasts." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["A", "C"],
+      "explanation": "An IPv6 interface can and often does have multiple addresses of different types (e.g., link-local, global). Also, various transition mechanisms (like tunneling and dual-stack) allow IPv6 to be compatible with IPv4 networks."
+    },
+    {
+      "id": 53,
+      "question": "Which of the following network architecture devices operate at Layer 1 of the OSI model? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Switch" },
+        { "id": "B", "text": "Hub" },
+        { "id": "C", "text": "Extender" },
+        { "id": "D", "text": "Router" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["B", "C"],
+      "explanation": "Hubs and repeaters/extenders operate at Layer 1 (Physical Layer) of the OSI model, as they simply regenerate and retransmit electrical signals without reading address information."
+    },
+    {
+      "id": 54,
+      "question": "You need to replace a faulty 250-foot section of RG-6 cable, but all you have available is RG-59. Which of the following statements is true?",
+      "options": [
+        { "id": "A", "text": "The replacement cable will not work because the distance exceeds RG-59 specifications." },
+        { "id": "B", "text": "The replacement cable will not work because RG-6 and RG-59 use different connectors." },
+        { "id": "C", "text": "The replacement cable will not work because RG-6 and RG-59 have different impedance." },
+        { "id": "D", "text": "The replacement cable should work." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "RG-59 has a maximum distance of about 750 feet (228 meters). Both RG-6 and RG-59 have an impedance of 75 ohms and use the same connectors (BNC or F-connectors). Therefore, the replacement cable should work for this distance."
+    },
+    {
+      "id": 55,
+      "question": "You have been asked to design a new network that requires 10Gbps transmission speeds. Which cable types will meet the minimum specifications? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "MMF" },
+        { "id": "B", "text": "CAT5" },
+        { "id": "C", "text": "CAT5e" },
+        { "id": "D", "text": "CAT7" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["A", "D"],
+      "explanation": "Multimode fiber (MMF) and UTP CAT6a or CAT7 support 10Gbps transmission speeds. CAT5 and CAT5e do not."
+    },
+    {
+      "id": 56,
+      "question": "Which TCP/IP protocol was developed by Apple and used to transfer files between computers?",
+      "options": [
+        { "id": "A", "text": "FTP" },
+        { "id": "B", "text": "AFP" },
+        { "id": "C", "text": "ATP" },
+        { "id": "D", "text": "SMB" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The Apple Filing Protocol (AFP) was developed by Apple as a file transfer protocol. It was the default file transfer protocol on Mac OS until Apple changed to SMB2 in 2013."
+    },
+    {
+      "id": 57,
+      "question": "Which of the following IPv6 addresses is equivalent to 127.0.0.1 in IPv4?",
+      "options": [
+        { "id": "A", "text": "::0" },
+        { "id": "B", "text": "::1" },
+        { "id": "C", "text": "::127" },
+        { "id": "D", "text": "2000::/3" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The IPv4 loopback address 127.0.0.1 is represented in IPv6 as ::1."
+    },
+    {
+      "id": 58,
+      "question": "A technician is configuring a wireless 802.11ac router for a home network. For security purposes, he enables the firewall. He wants to configure it so that if a computer makes an outbound request on a specific port, subsequent inbound traffic on that port would be allowed through the firewall. Which option does he need to configure to manage these settings?",
+      "options": [
+        { "id": "A", "text": "Port forwarding" },
+        { "id": "B", "text": "Port triggering" },
+        { "id": "C", "text": "NAT" },
+        { "id": "D", "text": "QoS" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Port triggering allows traffic to enter the network on a specific port after a computer makes an outbound request on that specific port, opening the port dynamically."
+    },
+    {
+      "id": 59,
+      "question": "You are asked to perform consulting work for a medium-sized company that is having network connectivity issues. When you examine the patch panel, you notice that none of the dozens of UTP cables are labeled. Which tool can you use to identify which cable goes to which workstation?",
+      "options": [
+        { "id": "A", "text": "Cable tester" },
+        { "id": "B", "text": "Loopback plug" },
+        { "id": "C", "text": "Punchdown tool" },
+        { "id": "D", "text": "Tone generator and probe" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "If you need to trace a wire in a wall from one location to another, a tone generator and probe is the right tool to use. It consists of two pieces: a tone generator and a probe."
+    },
+    {
+      "id": 60,
+      "question": "Which TCP/IP protocol is responsible for dynamically assigning IP addresses to client computers?",
+      "options": [
+        { "id": "A", "text": "DNS" },
+        { "id": "B", "text": "DHCP" },
+        { "id": "C", "text": "RDP" },
+        { "id": "D", "text": "LDAP" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Dynamic Host Configuration Protocol (DHCP) is used to dynamically assign IP addresses and other TCP/IP configuration information to network clients."
+    },
+    {
+      "id": 61,
+      "question": "What characteristic differentiates STP from UTP?",
+      "options": [
+        { "id": "A", "text": "It uses RJ-45s connectors instead of RJ-45." },
+        { "id": "B", "text": "It follows the T568A wiring standard." },
+        { "id": "C", "text": "It does not produce poisonous gas when burned." },
+        { "id": "D", "text": "It has a layer of foil shielding." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Shielded Twisted Pair (STP) cable has a layer of foil shielding to reduce electromagnetic interference, which Unshielded Twisted Pair (UTP) lacks."
+    },
+    {
+      "id": 62,
+      "question": "You are investigating remnants of an old network setup in an unused building. At the end of a conduit, all you see are the connectors shown here. What type of cable do you expect these connectors to be attached to?",
+      "options": [
+        { "id": "A", "text": "Coaxial" },
+        { "id": "B", "text": "STP" },
+        { "id": "C", "text": "UTP" },
+        { "id": "D", "text": "Fiber-optic" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The connectors shown are ST connectors, which are used with fiber-optic cable. They attach with a BNC-like locking mechanism."
+    },
+    {
+      "id": 63,
+      "question": "Which networking device works at Layer 2 of the OSI model, has multiple ports in which each is its own collision domain, and examines the header of the incoming packet to determine which port it gets sent to?",
+      "options": [
+        { "id": "A", "text": "Hub" },
+        { "id": "B", "text": "Switch" },
+        { "id": "C", "text": "Bridge" },
+        { "id": "D", "text": "Router" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Switches work at Layer 2, provide centralized connectivity like hubs, and examine the Layer 2 header of the incoming packet to forward it properly to the right port and only that port. Switches are essentially multiport bridges."
+    },
+    {
+      "id": 64,
+      "question": "Which TCP/IP port number will an email client use to push email to its email server?",
+      "options": [
+        { "id": "A", "text": "23" },
+        { "id": "B", "text": "25" },
+        { "id": "C", "text": "110" },
+        { "id": "D", "text": "143" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Email is pushed from clients to servers using the Simple Mail Transfer Protocol (SMTP), which uses port 25."
+    },
+    {
+      "id": 65,
+      "question": "A technician is going to set up a Wi-Fi network using standard omnidirectional antennae. Because of the building configuration, transmitting signals for the greatest distance is his primary criterion. Which standard should he choose?",
+      "options": [
+        { "id": "A", "text": "802.11a" },
+        { "id": "B", "text": "802.11g" },
+        { "id": "C", "text": "802.11n" },
+        { "id": "D", "text": "802.11ac" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Of the Wi-Fi standards, 802.11n has the longest range by default, at roughly 70 meters indoors and 250 meters outdoors. 802.11ac is faster but transmits exclusively in the 5GHz range, which restricts its functional distance."
+    },
+    {
+      "id": 66,
+      "question": "You are troubleshooting an intermittently failing CAT7 network connection. You suspect that there is a short in the connection. Which tool can you use to determine this?",
+      "options": [
+        { "id": "A", "text": "Tone generator and probe" },
+        { "id": "B", "text": "Loopback plug" },
+        { "id": "C", "text": "Multimeter" },
+        { "id": "D", "text": "Crimper" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A multimeter is a versatile electronic measuring tool that can measure voltage, current, and resistance on a wire, which can help diagnose shorts or breaks."
+    },
+    {
+      "id": 67,
+      "question": "Which TCP/IP protocol gathers and manages network performance information using devices called agents?",
+      "options": [
+        { "id": "A", "text": "SNMP" },
+        { "id": "B", "text": "SMTP" },
+        { "id": "C", "text": "LDAP" },
+        { "id": "D", "text": "SMB" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Simple Network Management Protocol (SNMP) gathers and manages network performance information from devices running SNMP agent software."
+    },
+    {
+      "id": 68,
+      "question": "Which Internet connection type, popular for home use, offers asymmetrical download and upload speeds and is implemented over common phone lines?",
+      "options": [
+        { "id": "A", "text": "POTS" },
+        { "id": "B", "text": "Cable" },
+        { "id": "C", "text": "DSL" },
+        { "id": "D", "text": "ISDN" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Digital Subscriber Line (DSL) uses existing telephone lines to provide asymmetrical service, meaning download speeds are faster than upload speeds."
+    },
+    {
+      "id": 69,
+      "question": "Which Wi-Fi encryption standard was the first to include the use of a 128-bit dynamic per-packet encryption key?",
+      "options": [
+        { "id": "A", "text": "WEP" },
+        { "id": "B", "text": "WPA" },
+        { "id": "C", "text": "WPA2" },
+        { "id": "D", "text": "AES" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Wi-Fi Protected Access (WPA) introduced the Temporal Key Integrity Protocol (TKIP), which dynamically generates a new 128-bit key for each packet, a significant improvement over WEP's static key."
+    },
+    {
+      "id": 70,
+      "question": "You are installing an 802.11n Wi-Fi network with five wireless access points. The access points are set up so their ranges overlap each other. To avoid communications issues, what principle should you follow when configuring them?",
+      "options": [
+        { "id": "A", "text": "Configure all access points to use the same channel." },
+        { "id": "B", "text": "Configure all access points to use adjacent channels." },
+        { "id": "C", "text": "Configure all access points to use non-overlapping channels." },
+        { "id": "D", "text": "Channel configuration will not cause communications issues." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "To prevent interference between overlapping access points, they should be configured to use non-overlapping channels. For the 2.4GHz band, these are typically channels 1, 6, and 11."
+    },
+    {
+      "id": 71,
+      "question": "Which TCP/IP protocol is designed to send email from clients to mail servers?",
+      "options": [
+        { "id": "A", "text": "SMTP" },
+        { "id": "B", "text": "POP3" },
+        { "id": "C", "text": "IMAP" },
+        { "id": "D", "text": "SMB" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Simple Mail Transfer Protocol (SMTP) is for sending email. POP3 and IMAP are for downloading email."
+    },
+    {
+      "id": 72,
+      "question": "You are setting up a small network in your neighbor's house. She is concerned about wireless security, so she doesn't want to use wireless networking at all. She needs to connect two computers to each other, but it will be impossible to run a network cable between them. Which technology can help her network these computers?",
+      "options": [
+        { "id": "A", "text": "Ethernet over Power" },
+        { "id": "B", "text": "Power over Ethernet" },
+        { "id": "C", "text": "Firewall" },
+        { "id": "D", "text": "Access point" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Ethernet over Power can make Ethernet connections by using electrical outlets. For it to work, both devices must be on the same electrical circuit."
+    },
+    {
+      "id": 73,
+      "question": "You have been asked to install a wireless network in an office building that is approximately 100 meters long. All users have 802.11g network cards. At a minimum, how many wireless access points will you need to install to provide coverage for the entire building?",
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "4" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The 802.11g standard has an indoor range of approximately 40 meters. To cover 100 meters, you will need at least three access points (100 / 40 = 2.5, rounded up to 3)."
+    },
+    {
+      "id": 74,
+      "question": "You are installing network cabling in a drop ceiling of an office space. The ceiling area is used to circulate breathable air. What type of cable do you need to install?",
+      "options": [
+        { "id": "A", "text": "Coaxial" },
+        { "id": "B", "text": "UTP" },
+        { "id": "C", "text": "Fiber-optic" },
+        { "id": "D", "text": "Plenum" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The cable can be any of the three major types, but it needs to be plenum rated. Normal cables have a PVC coating, which produces a poisonous gas when burned. Plenum-rated cables have a Teflon coating, which is not toxic when burned."
+    },
+    {
+      "id": 75,
+      "question": "You need to install a wireless hub in a drop ceiling where there is no access to a power source. Which technology will allow you to get power to that device?",
+      "options": [
+        { "id": "A", "text": "Ethernet over Power" },
+        { "id": "B", "text": "Power over Ethernet" },
+        { "id": "C", "text": "Wireless access point" },
+        { "id": "D", "text": "Repeater/extender" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Power over Ethernet (PoE) allows you to power an Ethernet device (such as a switch or access point) through the Ethernet cable itself."
+    },
+    {
+      "id": 76,
+      "question": "Which of the following IP addresses is not a private address and therefore is routable on the Internet?",
+      "options": [
+        { "id": "A", "text": "10.1.2.3" },
+        { "id": "B", "text": "172.18.31.54" },
+        { "id": "C", "text": "172.168.38.155" },
+        { "id": "D", "text": "192.168.38.155" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The Class B private range is 172.16.0.0 to 172.31.255.255. The address 172.168.38.155 is outside this range and is therefore a public, routable IP address."
+    },
+    {
+      "id": 77,
+      "question": "You are configuring a wireless 802.11n router. The office manager insists that you configure the router such that traffic from her computer receives higher priority on the network than other users' traffic. Which setting do you need to configure to enable this?",
+      "options": [
+        { "id": "A", "text": "QoS" },
+        { "id": "B", "text": "UPnP" },
+        { "id": "C", "text": "DMZ" },
+        { "id": "D", "text": "Port forwarding" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Quality of Service (QoS) settings on a router allow you to prioritize certain types of traffic or traffic from specific devices over others."
+    },
+    {
+      "id": 78,
+      "question": "If you are connecting to a website that encrypts its connection using TLS, what port number does that traffic travel on?",
+      "options": [
+        { "id": "A", "text": "21" },
+        { "id": "B", "text": "80" },
+        { "id": "C", "text": "143" },
+        { "id": "D", "text": "443" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "HTTPS (HTTP Secure), which uses SSL/TLS for encryption, operates on TCP port 443."
+    },
+    {
+      "id": 79,
+      "question": "Your network is currently running a mix of 802.11b and 802.11g devices. At the end of the year, you have extra budget to upgrade some, but not all, of the wireless infrastructure. You want to upgrade to the newest technology but still maintain backward compatibility. Which standard should you choose?",
+      "options": [
+        { "id": "A", "text": "802.11g" },
+        { "id": "B", "text": "802.11ac" },
+        { "id": "C", "text": "802.11r" },
+        { "id": "D", "text": "802.11n" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "802.11n operates in the 2.4GHz band and is backward compatible with 802.11b/g devices. 802.11ac is a 5GHz standard and is not backward compatible with 802.11b/g."
+    },
+    {
+      "id": 80,
+      "question": "You are consulting with a small field office that needs a dedicated, digital point-to-point network connection to its parent office. Which Internet connection type will meet this requirement?",
+      "options": [
+        { "id": "A", "text": "Dial-up" },
+        { "id": "B", "text": "Cable" },
+        { "id": "C", "text": "DSL" },
+        { "id": "D", "text": "ISDN" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Integrated Services Digital Network (ISDN) is a digital, point-to-point network capable of providing a dedicated connection."
+    },
+    {
+      "id": 81,
+      "question": "What type of network spans multiple buildings or offices but is confined to a relatively small geographical area?",
+      "options": [
+        { "id": "A", "text": "LAN" },
+        { "id": "B", "text": "WAN" },
+        { "id": "C", "text": "PAN" },
+        { "id": "D", "text": "MAN" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "A metropolitan area network (MAN) is generally defined as a network that spans a city or a large campus, fitting the description."
+    },
+    {
+      "id": 82,
+      "question": "Identify the connector shown here.",
+      "options": [
+        { "id": "A", "text": "ST" },
+        { "id": "B", "text": "SC" },
+        { "id": "C", "text": "LC" },
+        { "id": "D", "text": "MFF" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The connector shown is a subscriber connector (SC), also known as a square connector because of its shape. It's a fiber-optic cable connector."
+    },
+    {
+      "id": 83,
+      "question": "While cleaning out a storage room, a technician finds several rolls of CAT5e network cable. He thinks that he might be able to use it to create replacement cables for his network. What is the maximum speed that this cable will support?",
+      "options": [
+        { "id": "A", "text": "100Mbps" },
+        { "id": "B", "text": "1Gbps" },
+        { "id": "C", "text": "10Gbps" },
+        { "id": "D", "text": "20Gbps" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "CAT5e cable can support speeds up to 1Gbps (Gigabit Ethernet)."
+    },
+    {
+      "id": 84,
+      "question": "Which of the following shorthand notations corresponds to the CIDR subnet mask 255.255.224.0?",
+      "options": [
+        { "id": "A", "text": "/19" },
+        { "id": "B", "text": "/20" },
+        { "id": "C", "text": "/21" },
+        { "id": "D", "text": "/22" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "A subnet mask of 255.255.224.0 has 19 bits set to 1 (8+8+3), which corresponds to a CIDR notation of /19."
+    },
+    {
+      "id": 85,
+      "question": "You are configuring hosts on a network running IPv4. Which elements are required for the computer to connect to the network?",
+      "options": [
+        { "id": "A", "text": "IP address" },
+        { "id": "B", "text": "IP address and subnet mask" },
+        { "id": "C", "text": "IP address, subnet mask, and default gateway" },
+        { "id": "D", "text": "IP address, subnet mask, default gateway, and DNS server address" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "To communicate on a local network, a host requires at a minimum an IP address and a subnet mask."
+    },
+    {
+      "id": 86,
+      "question": "Which TCP/IP protocol was developed by Microsoft and has been the default file and print sharing protocol on Windows-based computers since Windows 2000?",
+      "options": [
+        { "id": "A", "text": "CIFS" },
+        { "id": "B", "text": "SMB" },
+        { "id": "C", "text": "FTP" },
+        { "id": "D", "text": "LDAP" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Common Internet File System (CIFS) is the standard file and print sharing protocol used by Microsoft Windows."
+    },
+    {
+      "id": 87,
+      "question": "Which of the following statements regarding IPv4 configuration is true?",
+      "options": [
+        { "id": "A", "text": "All hosts on a network must have a unique subnet mask." },
+        { "id": "B", "text": "All hosts on a network must have their network ID set to all 1s." },
+        { "id": "C", "text": "All hosts on a network must have a default gateway." },
+        { "id": "D", "text": "All hosts on a network must have a unique host address." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "For proper communication, every host on a given network must have a unique host address. The network ID and subnet mask must be the same for all hosts on the same local network."
+    },
+    {
+      "id": 88,
+      "question": "Which Wi-Fi encryption standard uses a static key, which is commonly 10, 26, or 58 characters long?",
+      "options": [
+        { "id": "A", "text": "WPA" },
+        { "id": "B", "text": "WPA2" },
+        { "id": "C", "text": "TKIP" },
+        { "id": "D", "text": "WEP" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Wired Equivalent Privacy (WEP) was one of the first security standards for wireless devices. It uses a static key that is shared among all devices on the network."
+    },
+    {
+      "id": 89,
+      "question": "Which TCP/IP port number does SNMP use?",
+      "options": [
+        { "id": "A", "text": "TCP 143" },
+        { "id": "B", "text": "UDP 143" },
+        { "id": "C", "text": "TCP 161" },
+        { "id": "D", "text": "UDP 161" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Simple Network Management Protocol (SNMP) is a noncritical service, so it uses UDP. It's assigned port 161."
+    },
+    {
+      "id": 90,
+      "question": "Because of a recent security breach, your IT team shut down several ports on the external firewall. Now, users can't get to websites by using their URLs, but they can get there by using IP addresses. What port does the IT team need to open back up to enable Internet access via URLs?",
+      "options": [
+        { "id": "A", "text": "21" },
+        { "id": "B", "text": "53" },
+        { "id": "C", "text": "67" },
+        { "id": "D", "text": "80" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Clients are unable to get to the DNS server, which resolves host names (or URLs) to IP addresses. DNS uses port 53."
+    },
+    {
+      "id": 91,
+      "question": "All of your network hosts are configured to use DHCP. Which IP address would indicate that a host has been unable to locate a DHCP server?",
+      "options": [
+        { "id": "A", "text": "192.168.1.1" },
+        { "id": "B", "text": "10.1.1.1" },
+        { "id": "C", "text": "172.16.1.1" },
+        { "id": "D", "text": "169.254.1.1" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Automatic Private IP Addressing (APIPA) is a TCP/IP standard used to automatically configure IP-based hosts that are unable to reach a DHCP server. APIPA addresses are in the 169.254.0.0/16 range."
+    },
+    {
+      "id": 92,
+      "question": "Which type of coaxial cable connector locks by twisting the connector one-quarter turn?",
+      "options": [
+        { "id": "A", "text": "F-connector" },
+        { "id": "B", "text": "BNC" },
+        { "id": "C", "text": "SC" },
+        { "id": "D", "text": "ST" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The BNC connector locks by twisting on one-quarter turn."
+    },
+    {
+      "id": 93,
+      "question": "Your network uses UTP cabling. Which of the following types of network connections require the use of a crossover cable? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Computer to hub" },
+        { "id": "B", "text": "Computer to switch" },
+        { "id": "C", "text": "Computer to router" },
+        { "id": "D", "text": "Switch to switch" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["C", "D"],
+      "explanation": "A crossover cable is needed to connect like devices, such as switch to switch or router to router. It's also used to connect a computer directly to a router's console port."
+    },
+    {
+      "id": 94,
+      "question": "A technician is trying to establish a dial-up network connection using a legacy modem. What is the fastest data throughput for a modem?",
+      "options": [
+        { "id": "A", "text": "28.8Kbps" },
+        { "id": "B", "text": "56Kbps" },
+        { "id": "C", "text": "1Mbps" },
+        { "id": "D", "text": "4Mbps" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The maximum theoretical speed of a standard dial-up modem is 56Kbps."
+    },
+    {
+      "id": 95,
+      "question": "You are replacing a connector at the end of coaxial cable. What type of connector is threaded and screws into place?",
+      "options": [
+        { "id": "A", "text": "F-connector" },
+        { "id": "B", "text": "BNC" },
+        { "id": "C", "text": "SC" },
+        { "id": "D", "text": "ST" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The F-connector is threaded and screws into place, commonly used for cable TV and cable modems."
+    },
+    {
+      "id": 96,
+      "question": "You are installing UTP network cabling. The network has a mixture of network cards, but the minimum required speed is 100Mbps. What is the minimum grade of cable you can install to meet this requirement?",
+      "options": [
+        { "id": "A", "text": "CAT3" },
+        { "id": "B", "text": "CAT5" },
+        { "id": "C", "text": "CAT5e" },
+        { "id": "D", "text": "CAT6a" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "CAT5 is the minimum grade of UTP cable required to support speeds of 100Mbps (Fast Ethernet)."
+    },
+    {
+      "id": 97,
+      "question": "You have reason to believe that several network users are actively browsing prohibited content on unsecured sites on the Internet. Which port can you disable on the firewall to immediately stop access to these web sites?",
+      "options": [
+        { "id": "A", "text": "53" },
+        { "id": "B", "text": "67" },
+        { "id": "C", "text": "80" },
+        { "id": "D", "text": "443" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "You need to shut down port 80, which is the port that Hypertext Transfer Protocol (HTTP) uses. Shutting it down will block access to standard, unsecure websites."
+    },
+    {
+      "id": 98,
+      "question": "You are installing UTP network cable for a client. The client's policies require that network cables do not produce poisonous gas when burned. What type of cable do you need to install?",
+      "options": [
+        { "id": "A", "text": "Plenum" },
+        { "id": "B", "text": "PVC" },
+        { "id": "C", "text": "STP" },
+        { "id": "D", "text": "CAT5e or higher" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Plenum-rated cables are coated with a Teflon-like material that is not poisonous when burned, making them suitable for use in air-handling spaces (plenums)."
+    },
+    {
+      "id": 99,
+      "question": "You have been asked to create a UTP crossover cable. Which pins need to be crossed over to make the cable work properly?",
+      "options": [
+        { "id": "A", "text": "1 and 2, 3 and 6" },
+        { "id": "B", "text": "1 and 3, 2 and 6" },
+        { "id": "C", "text": "1 and 6, 2 and 3" },
+        { "id": "D", "text": "None of the above" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "In a crossover cable, pin 1 is crossed with pin 3, and pin 2 is crossed with pin 6. This matches the 'send' pins on one side with the 'receive' pins on the other."
+    },
+    {
+      "id": 100,
+      "question": "Which TCP/IP protocol is designed to help resolve host names to IP addresses?",
+      "options": [
+        { "id": "A", "text": "ARP" },
+        { "id": "B", "text": "RARP" },
+        { "id": "C", "text": "DHCP" },
+        { "id": "D", "text": "DNS" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The Domain Name System (DNS) is responsible for resolving host names to IP addresses, allowing users to access websites using names like www.google.com instead of IP addresses."
+    },
+    {
+      "id": 101,
+      "question": "You need to install an Internet connection for a forest ranger outlook tower, located far away from electrical lines. Which option would be best for broadband Internet access?",
+      "options": [
+        { "id": "A", "text": "Cable" },
+        { "id": "B", "text": "DSL" },
+        { "id": "C", "text": "ISDN" },
+        { "id": "D", "text": "Satellite" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Satellite Internet is the best option for remote locations without access to traditional cable or phone lines, as it only requires a satellite dish with a clear view of the sky."
+    },
+    {
+      "id": 102,
+      "question": "Which TCP/IP host-to-host protocol makes its best effort to deliver data but does not guarantee it?",
+      "options": [
+        { "id": "A", "text": "IP" },
+        { "id": "B", "text": "TCP" },
+        { "id": "C", "text": "UDP" },
+        { "id": "D", "text": "ICMP" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "User Datagram Protocol (UDP) is a connectionless protocol that does not guarantee packet delivery, making it faster but less reliable than TCP."
+    },
+    {
+      "id": 103,
+      "question": "What type of network is typically defined as being contained within a single office or building?",
+      "options": [
+        { "id": "A", "text": "LAN" },
+        { "id": "B", "text": "WAN" },
+        { "id": "C", "text": "PAN" },
+        { "id": "D", "text": "MAN" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "A local area network (LAN) is a network confined to a single building or a small geographical area."
+    },
+    {
+      "id": 104,
+      "question": "Which port number is AFP capable of using?",
+      "options": [
+        { "id": "A", "text": "427" },
+        { "id": "B", "text": "443" },
+        { "id": "C", "text": "445" },
+        { "id": "D", "text": "548" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Apple Filing Protocol (AFP) uses TCP port 548."
+    },
+    {
+      "id": 105,
+      "question": "You are installing a wireless network for a small company. They want to have 100Mbps or better wireless transmission rates. Which of the following standards will allow you to provide this? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "802.11g" },
+        { "id": "B", "text": "802.11i" },
+        { "id": "C", "text": "802.11n" },
+        { "id": "D", "text": "802.11ac" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswersCount": 2,
+      "correctAnswer": ["C", "D"],
+      "explanation": "802.11n (up to 600Mbps) and 802.11ac (up to 1.3Gbps or higher) both offer transmission rates well above 100Mbps. 802.11g has a maximum of 54Mbps."
+    }
+  ]
+}

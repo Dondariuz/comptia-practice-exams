@@ -1,0 +1,1494 @@
+{
+  "examInfo": {
+    "title": "CompTIA A+ Chapter 7 Practice Exam",
+    "code": "220-902",
+    "chapter": "Chapter 7: Security",
+    "totalQuestions": 114,
+    "timeLimit": 110,
+    "description": "Security Fundamentals and Best Practices"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "You are implementing security measures for your company's workstations. You want to be able to restrict user actions on the workstations. Which of the following security areas will you be implementing?",
+      "options": [
+        { "id": "A", "text": "Authentication" },
+        { "id": "B", "text": "Authorization" },
+        { "id": "C", "text": "Access control" },
+        { "id": "D", "text": "Encryption" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Access control refers to the methods used to control who has access to resources. It includes permissions, user rights, and other security measures to restrict what users can do on a system."
+    },
+    {
+      "id": 2,
+      "question": "Which security measure is most effective at preventing tailgating?",
+      "options": [
+        { "id": "A", "text": "Mantrap" },
+        { "id": "B", "text": "Cable lock" },
+        { "id": "C", "text": "Privacy filter" },
+        { "id": "D", "text": "Bollard" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "A mantrap is a physical security measure designed to prevent tailgating by creating a secure area between two doors where only one person can pass through at a time."
+    },
+    {
+      "id": 3,
+      "question": "Which type of malware is self-replicating and does not need a host file to spread?",
+      "options": [
+        { "id": "A", "text": "Virus" },
+        { "id": "B", "text": "Worm" },
+        { "id": "C", "text": "Trojan" },
+        { "id": "D", "text": "Rootkit" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A worm is different from a virus in that it can reproduce itself, it's self-contained, and it doesn't need a host application to be transported. Many of the so-called viruses that have made the news were actually worms."
+    },
+    {
+      "id": 4,
+      "question": "What is the primary purpose of encrypting a hard drive?",
+      "options": [
+        { "id": "A", "text": "To improve performance" },
+        { "id": "B", "text": "To protect data confidentiality" },
+        { "id": "C", "text": "To compress files" },
+        { "id": "D", "text": "To detect viruses" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Hard drive encryption protects data confidentiality by making data unreadable without the proper decryption key, ensuring that even if the drive is stolen, the data remains secure."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is an example of multifactor authentication?",
+      "options": [
+        { "id": "A", "text": "Username and password" },
+        { "id": "B", "text": "Password and PIN" },
+        { "id": "C", "text": "Password and fingerprint scan" },
+        { "id": "D", "text": "Two different passwords" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Multifactor authentication requires at least two different types of authentication factors: something you know (password), something you have (token), or something you are (biometric). Password and fingerprint scan use two different factor types."
+    },
+    {
+      "id": 6,
+      "question": "What should you do first when removing malware from an infected system?",
+      "options": [
+        { "id": "A", "text": "Update anti-malware software" },
+        { "id": "B", "text": "Quarantine the infected system" },
+        { "id": "C", "text": "Identify malware symptoms" },
+        { "id": "D", "text": "Boot into Safe Mode" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The first step in malware removal is to identify malware symptoms. This helps determine what type of malware you're dealing with and the best approach for removal."
+    },
+    {
+      "id": 7,
+      "question": "Which Windows feature helps prevent unauthorized changes to system files?",
+      "options": [
+        { "id": "A", "text": "BitLocker" },
+        { "id": "B", "text": "User Account Control (UAC)" },
+        { "id": "C", "text": "Windows Defender" },
+        { "id": "D", "text": "File History" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "User Account Control (UAC) prompts users for permission before allowing programs to make changes to the system, helping prevent unauthorized or malicious modifications."
+    },
+    {
+      "id": 8,
+      "question": "What is the most secure wireless encryption protocol?",
+      "options": [
+        { "id": "A", "text": "WEP" },
+        { "id": "B", "text": "WPA" },
+        { "id": "C", "text": "WPA2" },
+        { "id": "D", "text": "WPS" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "WPA2 is currently the most secure wireless encryption standard available for consumer devices, providing strong encryption and authentication mechanisms."
+    },
+    {
+      "id": 9,
+      "question": "Which type of attack involves tricking users into revealing sensitive information through fake emails?",
+      "options": [
+        { "id": "A", "text": "Spoofing" },
+        { "id": "B", "text": "Phishing" },
+        { "id": "C", "text": "Shoulder surfing" },
+        { "id": "D", "text": "Tailgating" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Phishing is a social engineering attack that uses fake emails or messages to trick users into revealing sensitive information such as passwords or credit card numbers."
+    },
+    {
+      "id": 10,
+      "question": "What is the purpose of implementing Group Policy Objects (GPO) in a Windows domain?",
+      "options": [
+        { "id": "A", "text": "To encrypt hard drives" },
+        { "id": "B", "text": "To centrally manage security settings" },
+        { "id": "C", "text": "To scan for viruses" },
+        { "id": "D", "text": "To backup data" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Group Policy Objects allow administrators to centrally manage and configure security settings, user permissions, and system configurations across multiple computers in a Windows domain."
+    },
+    {
+      "id": 11,
+      "question": "Which security device uses unique physical characteristics for authentication?",
+      "options": [
+        { "id": "A", "text": "Smart card" },
+        { "id": "B", "text": "Security token" },
+        { "id": "C", "text": "Biometric scanner" },
+        { "id": "D", "text": "Key fob" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Biometric scanners use unique physical characteristics such as fingerprints, iris patterns, or facial features for authentication, providing a high level of security."
+    },
+    {
+      "id": 12,
+      "question": "What is the minimum recommended length for a strong password?",
+      "options": [
+        { "id": "A", "text": "4 characters" },
+        { "id": "B", "text": "6 characters" },
+        { "id": "C", "text": "8 characters" },
+        { "id": "D", "text": "12 characters" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A minimum of 8 characters is generally recommended for strong passwords, though longer passwords (10+ characters) with complexity are even better."
+    },
+    {
+      "id": 13,
+      "question": "Which type of backup should be performed first in a backup rotation schedule?",
+      "options": [
+        { "id": "A", "text": "Incremental" },
+        { "id": "B", "text": "Differential" },
+        { "id": "C", "text": "Full" },
+        { "id": "D", "text": "Copy" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A full backup should be performed first as it backs up all selected data and serves as the baseline for subsequent incremental or differential backups."
+    },
+    {
+      "id": 14,
+      "question": "What is the purpose of port forwarding on a router?",
+      "options": [
+        { "id": "A", "text": "To block all incoming traffic" },
+        { "id": "B", "text": "To allow specific external traffic to reach internal devices" },
+        { "id": "C", "text": "To encrypt network traffic" },
+        { "id": "D", "text": "To filter spam emails" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Port forwarding allows specific external traffic on designated ports to reach internal devices behind a router or firewall, enabling services like web servers or remote access."
+    },
+    {
+      "id": 15,
+      "question": "Which attack involves an unauthorized person following an authorized person through a secure door?",
+      "options": [
+        { "id": "A", "text": "Phishing" },
+        { "id": "B", "text": "Shoulder surfing" },
+        { "id": "C", "text": "Tailgating" },
+        { "id": "D", "text": "Spoofing" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Tailgating is a physical security breach where an unauthorized person gains access to a restricted area by following closely behind an authorized person."
+    },
+    {
+      "id": 16,
+      "question": "What is the primary function of a firewall?",
+      "options": [
+        { "id": "A", "text": "To encrypt data" },
+        { "id": "B", "text": "To filter network traffic" },
+        { "id": "C", "text": "To backup files" },
+        { "id": "D", "text": "To scan for viruses" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A firewall's primary function is to filter network traffic based on predefined security rules, blocking unauthorized access while allowing legitimate communications."
+    },
+    {
+      "id": 17,
+      "question": "Which Windows tool allows you to manage user accounts and passwords?",
+      "options": [
+        { "id": "A", "text": "Device Manager" },
+        { "id": "B", "text": "User Accounts" },
+        { "id": "C", "text": "System Configuration" },
+        { "id": "D", "text": "Task Manager" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The User Accounts tool in Control Panel allows administrators to create, modify, and manage user accounts and their passwords on Windows systems."
+    },
+    {
+      "id": 18,
+      "question": "What does NTFS permission inheritance mean?",
+      "options": [
+        { "id": "A", "text": "Permissions are automatically encrypted" },
+        { "id": "B", "text": "Permissions flow from parent folders to subfolders" },
+        { "id": "C", "text": "Permissions are backed up automatically" },
+        { "id": "D", "text": "Permissions are shared across networks" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "NTFS permission inheritance means that permissions set on a parent folder automatically flow down to subfolders and files unless explicitly overridden."
+    },
+    {
+      "id": 19,
+      "question": "Which tool can be used to securely erase data from a hard drive?",
+      "options": [
+        { "id": "A", "text": "Format command" },
+        { "id": "B", "text": "Disk Cleanup" },
+        { "id": "C", "text": "Drive wipe utility" },
+        { "id": "D", "text": "Defragmentation tool" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A drive wipe utility securely erases data by overwriting it multiple times, making it unrecoverable. Simple formatting does not securely erase data."
+    },
+    {
+      "id": 20,
+      "question": "What is the purpose of disabling SSID broadcast on a wireless router?",
+      "options": [
+        { "id": "A", "text": "To improve wireless speed" },
+        { "id": "B", "text": "To hide the network from casual viewers" },
+        { "id": "C", "text": "To enable WPA2 encryption" },
+        { "id": "D", "text": "To increase signal range" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Disabling SSID broadcast hides the network name from casual viewers, though it should be considered a weak security measure as the network can still be discovered with proper tools."
+    },
+    {
+      "id": 21,
+      "question": "Which type of malware encrypts your files and demands payment for decryption?",
+      "options": [
+        { "id": "A", "text": "Virus" },
+        { "id": "B", "text": "Worm" },
+        { "id": "C", "text": "Ransomware" },
+        { "id": "D", "text": "Spyware" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Ransomware encrypts files or locks systems and demands payment (ransom) for the decryption key or to unlock the system."
+    },
+    {
+      "id": 22,
+      "question": "What is the purpose of MAC address filtering on a wireless network?",
+      "options": [
+        { "id": "A", "text": "To encrypt wireless traffic" },
+        { "id": "B", "text": "To allow only specific devices to connect" },
+        { "id": "C", "text": "To increase wireless speed" },
+        { "id": "D", "text": "To extend wireless range" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "MAC address filtering creates a whitelist of allowed devices based on their MAC addresses, though it can be bypassed by MAC address spoofing."
+    },
+    {
+      "id": 23,
+      "question": "Which security measure protects data on mobile devices if they are lost or stolen?",
+      "options": [
+        { "id": "A", "text": "Screen lock" },
+        { "id": "B", "text": "Remote wipe" },
+        { "id": "C", "text": "Encryption" },
+        { "id": "D", "text": "All of the above" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Screen locks prevent unauthorized access, remote wipe removes data if the device is stolen, and encryption protects data even if the device is compromised. All three work together for comprehensive mobile security."
+    },
+    {
+      "id": 24,
+      "question": "What is a zero-day attack?",
+      "options": [
+        { "id": "A", "text": "An attack that happens at midnight" },
+        { "id": "B", "text": "An attack that exploits an unknown vulnerability" },
+        { "id": "C", "text": "An attack that takes zero days to execute" },
+        { "id": "D", "text": "An attack that affects no systems" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A zero-day attack exploits a previously unknown vulnerability before a patch or fix is available, giving defenders 'zero days' to prepare."
+    },
+    {
+      "id": 25,
+      "question": "Which protocol provides secure remote access to a network?",
+      "options": [
+        { "id": "A", "text": "Telnet" },
+        { "id": "B", "text": "FTP" },
+        { "id": "C", "text": "VPN" },
+        { "id": "D", "text": "HTTP" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A VPN (Virtual Private Network) provides secure, encrypted remote access to a network over the Internet."
+    },
+    {
+      "id": 26,
+      "question": "What is the principle of least privilege?",
+      "options": [
+        { "id": "A", "text": "Giving users the maximum permissions possible" },
+        { "id": "B", "text": "Giving users only the permissions they need" },
+        { "id": "C", "text": "Giving all users administrator rights" },
+        { "id": "D", "text": "Removing all permissions from users" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The principle of least privilege means giving users only the minimum permissions necessary to perform their job functions, reducing security risks."
+    },
+    {
+      "id": 27,
+      "question": "Which type of attack involves monitoring network traffic to capture sensitive data?",
+      "options": [
+        { "id": "A", "text": "Packet sniffing" },
+        { "id": "B", "text": "Phishing" },
+        { "id": "C", "text": "Tailgating" },
+        { "id": "D", "text": "Shoulder surfing" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Packet sniffing involves capturing and analyzing network packets to intercept sensitive information being transmitted over a network."
+    },
+    {
+      "id": 28,
+      "question": "What should you do immediately after a security incident?",
+      "options": [
+        { "id": "A", "text": "Delete all evidence" },
+        { "id": "B", "text": "Document the incident" },
+        { "id": "C", "text": "Ignore it if no damage was done" },
+        { "id": "D", "text": "Restart all computers" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Documenting the security incident is crucial for investigation, learning, and preventing future incidents. It should include what happened, when, and what was affected."
+    },
+    {
+      "id": 29,
+      "question": "Which Windows feature encrypts the entire hard drive?",
+      "options": [
+        { "id": "A", "text": "EFS" },
+        { "id": "B", "text": "BitLocker" },
+        { "id": "C", "text": "NTFS" },
+        { "id": "D", "text": "FAT32" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "BitLocker is a full-disk encryption feature in Windows that encrypts the entire hard drive to protect data from unauthorized access."
+    },
+    {
+      "id": 30,
+      "question": "What is social engineering?",
+      "options": [
+        { "id": "A", "text": "Hacking into social media accounts" },
+        { "id": "B", "text": "Manipulating people to divulge confidential information" },
+        { "id": "C", "text": "Engineering social networks" },
+        { "id": "D", "text": "Creating social groups" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Social engineering is the art of manipulating people to divulge confidential information or perform actions that compromise security."
+    },
+    {
+      "id": 31,
+      "question": "Which security measure prevents users from seeing information on someone else's screen?",
+      "options": [
+        { "id": "A", "text": "Cable lock" },
+        { "id": "B", "text": "Privacy filter" },
+        { "id": "C", "text": "Mantrap" },
+        { "id": "D", "text": "Bollard" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A privacy filter (or privacy screen) limits the viewing angle of a display, preventing people from seeing information on the screen from the side."
+    },
+    {
+      "id": 32,
+      "question": "What is the purpose of a BIOS/UEFI password?",
+      "options": [
+        { "id": "A", "text": "To protect Windows login" },
+        { "id": "B", "text": "To prevent unauthorized changes to firmware settings" },
+        { "id": "C", "text": "To encrypt the hard drive" },
+        { "id": "D", "text": "To speed up boot time" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A BIOS/UEFI password prevents unauthorized access to firmware settings and can also prevent the computer from booting without the password."
+    },
+    {
+      "id": 33,
+      "question": "Which type of malware disguises itself as legitimate software?",
+      "options": [
+        { "id": "A", "text": "Virus" },
+        { "id": "B", "text": "Worm" },
+        { "id": "C", "text": "Trojan" },
+        { "id": "D", "text": "Ransomware" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A Trojan horse is malware that disguises itself as legitimate software to trick users into installing it."
+    },
+    {
+      "id": 34,
+      "question": "What is the purpose of a security token?",
+      "options": [
+        { "id": "A", "text": "To physically lock devices" },
+        { "id": "B", "text": "To generate one-time passwords" },
+        { "id": "C", "text": "To filter network traffic" },
+        { "id": "D", "text": "To encrypt emails" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A security token generates one-time passwords or codes for multifactor authentication, providing an additional layer of security beyond just a username and password."
+    },
+    {
+      "id": 35,
+      "question": "Which Windows account should be disabled for security reasons?",
+      "options": [
+        { "id": "A", "text": "Administrator" },
+        { "id": "B", "text": "Guest" },
+        { "id": "C", "text": "Power User" },
+        { "id": "D", "text": "Standard User" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The Guest account should be disabled as it provides a potential entry point for attackers with minimal permissions that could be exploited."
+    },
+    {
+      "id": 36,
+      "question": "What is the difference between NTFS and Share permissions?",
+      "options": [
+        { "id": "A", "text": "NTFS applies locally and over network, Share only over network" },
+        { "id": "B", "text": "Share applies locally and over network, NTFS only locally" },
+        { "id": "C", "text": "They are the same thing" },
+        { "id": "D", "text": "NTFS is for files, Share is for folders" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "NTFS permissions apply both locally and when accessing resources over the network, while Share permissions only apply when accessing resources over the network."
+    },
+    {
+      "id": 37,
+      "question": "Which security policy should require users to change passwords regularly?",
+      "options": [
+        { "id": "A", "text": "Password history" },
+        { "id": "B", "text": "Password expiration" },
+        { "id": "C", "text": "Password complexity" },
+        { "id": "D", "text": "Account lockout" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Password expiration policy requires users to change their passwords at regular intervals, reducing the risk of compromised credentials."
+    },
+    {
+      "id": 38,
+      "question": "What is the purpose of disabling AutoRun in Windows?",
+      "options": [
+        { "id": "A", "text": "To save battery power" },
+        { "id": "B", "text": "To prevent malware from automatically executing from removable media" },
+        { "id": "C", "text": "To speed up the computer" },
+        { "id": "D", "text": "To free up disk space" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Disabling AutoRun prevents programs from automatically executing when removable media is inserted, reducing the risk of malware infection."
+    },
+    {
+      "id": 39,
+      "question": "Which type of backup backs up only files that have changed since the last full backup?",
+      "options": [
+        { "id": "A", "text": "Full backup" },
+        { "id": "B", "text": "Incremental backup" },
+        { "id": "C", "text": "Differential backup" },
+        { "id": "D", "text": "Copy backup" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A differential backup backs up all files that have changed since the last full backup, making restoration faster than incremental but slower than full backup."
+    },
+    {
+      "id": 40,
+      "question": "What should be the first step when implementing a new security policy?",
+      "options": [
+        { "id": "A", "text": "Deploy the policy immediately" },
+        { "id": "B", "text": "Train users on the new policy" },
+        { "id": "C", "text": "Document the policy" },
+        { "id": "D", "text": "Punish violators" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Documenting the security policy is the first step, ensuring that all requirements are clearly defined before implementation and user training."
+    },
+    {
+      "id": 41,
+      "question": "Which Windows feature helps detect and remove spyware?",
+      "options": [
+        { "id": "A", "text": "Windows Defender" },
+        { "id": "B", "text": "Windows Firewall" },
+        { "id": "C", "text": "BitLocker" },
+        { "id": "D", "text": "UAC" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Windows Defender is Microsoft's built-in anti-malware tool that helps detect and remove spyware, viruses, and other malicious software."
+    },
+    {
+      "id": 42,
+      "question": "What is the purpose of a certificate of destruction?",
+      "options": [
+        { "id": "A", "text": "To verify software installation" },
+        { "id": "B", "text": "To verify proper data destruction" },
+        { "id": "C", "text": "To verify user authentication" },
+        { "id": "D", "text": "To verify network connectivity" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A certificate of destruction verifies that data or assets were properly destroyed according to security and compliance requirements."
+    },
+    {
+      "id": 43,
+      "question": "Which attack uses multiple compromised computers to flood a target with traffic?",
+      "options": [
+        { "id": "A", "text": "Phishing" },
+        { "id": "B", "text": "DDoS" },
+        { "id": "C", "text": "Spoofing" },
+        { "id": "D", "text": "Man-in-the-middle" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A DDoS (Distributed Denial of Service) attack uses multiple compromised computers (botnet) to flood a target system with traffic, making it unavailable to legitimate users."
+    },
+    {
+      "id": 44,
+      "question": "What is the recommended action when you receive a suspicious email?",
+      "options": [
+        { "id": "A", "text": "Click links to verify they're safe" },
+        { "id": "B", "text": "Reply asking if it's legitimate" },
+        { "id": "C", "text": "Delete it and report it to IT" },
+        { "id": "D", "text": "Forward it to coworkers as a warning" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The safest action is to delete suspicious emails and report them to your IT department without clicking any links or opening attachments."
+    },
+    {
+      "id": 45,
+      "question": "Which security measure prevents electromagnetic eavesdropping?",
+      "options": [
+        { "id": "A", "text": "Firewall" },
+        { "id": "B", "text": "Faraday cage" },
+        { "id": "C", "text": "Antivirus" },
+        { "id": "D", "text": "VPN" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A Faraday cage blocks electromagnetic signals, preventing electromagnetic eavesdropping and protecting against certain types of electronic surveillance."
+    },
+    {
+      "id": 46,
+      "question": "What is the purpose of implementing screensaver passwords?",
+      "options": [
+        { "id": "A", "text": "To save electricity" },
+        { "id": "B", "text": "To prevent unauthorized access when user is away" },
+        { "id": "C", "text": "To improve display quality" },
+        { "id": "D", "text": "To increase processing speed" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Screensaver passwords lock the computer after a period of inactivity, preventing unauthorized access when the user is away from their desk."
+    },
+    {
+      "id": 47,
+      "question": "Which type of malware monitors user activity without their knowledge?",
+      "options": [
+        { "id": "A", "text": "Virus" },
+        { "id": "B", "text": "Worm" },
+        { "id": "C", "text": "Spyware" },
+        { "id": "D", "text": "Ransomware" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Spyware monitors user activity, collects information, and sends it to third parties without the user's knowledge or consent."
+    },
+    {
+      "id": 48,
+      "question": "What is the primary benefit of using a VPN?",
+      "options": [
+        { "id": "A", "text": "Faster Internet speed" },
+        { "id": "B", "text": "Encrypted network traffic" },
+        { "id": "C", "text": "Free Internet access" },
+        { "id": "D", "text": "Unlimited bandwidth" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The primary benefit of a VPN is encrypted network traffic, which protects data from interception and provides secure communication over untrusted networks."
+    },
+    {
+      "id": 49,
+      "question": "Which Windows command can be used to check and repair system files?",
+      "options": [
+        { "id": "A", "text": "chkdsk" },
+        { "id": "B", "text": "sfc /scannow" },
+        { "id": "C", "text": "defrag" },
+        { "id": "D", "text": "diskpart" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The sfc /scannow command (System File Checker) scans for and repairs corrupted or missing system files in Windows."
+    },
+    {
+      "id": 50,
+      "question": "What is the purpose of a security audit?",
+      "options": [
+        { "id": "A", "text": "To install new software" },
+        { "id": "B", "text": "To evaluate security measures and compliance" },
+        { "id": "C", "text": "To delete old files" },
+        { "id": "D", "text": "To upgrade hardware" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A security audit evaluates the effectiveness of security measures, identifies vulnerabilities, and ensures compliance with security policies and regulations."
+    },
+    {
+      "id": 51,
+      "question": "Which protocol should NOT be used for secure communications?",
+      "options": [
+        { "id": "A", "text": "HTTPS" },
+        { "id": "B", "text": "SSH" },
+        { "id": "C", "text": "Telnet" },
+        { "id": "D", "text": "SFTP" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Telnet sends data in plain text without encryption and should not be used for secure communications. SSH should be used instead."
+    },
+    {
+      "id": 52,
+      "question": "What is the purpose of account lockout policies?",
+      "options": [
+        { "id": "A", "text": "To permanently delete user accounts" },
+        { "id": "B", "text": "To prevent brute force password attacks" },
+        { "id": "C", "text": "To encrypt user data" },
+        { "id": "D", "text": "To backup user files" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Account lockout policies temporarily disable accounts after a specified number of failed login attempts, helping prevent brute force password attacks."
+    },
+    {
+      "id": 53,
+      "question": "Which Windows feature creates restore points for system recovery?",
+      "options": [
+        { "id": "A", "text": "File History" },
+        { "id": "B", "text": "System Restore" },
+        { "id": "C", "text": "Backup and Restore" },
+        { "id": "D", "text": "Windows Update" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "System Restore creates restore points that allow you to revert system files and settings to a previous state if problems occur."
+    },
+    {
+      "id": 54,
+      "question": "What is the primary difference between a virus and a worm?",
+      "options": [
+        { "id": "A", "text": "Viruses are faster" },
+        { "id": "B", "text": "Worms can self-replicate without a host file" },
+        { "id": "C", "text": "Viruses cause more damage" },
+        { "id": "D", "text": "Worms are easier to detect" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Worms can self-replicate and spread without requiring a host file, while viruses need to attach to and infect host files to propagate."
+    },
+    {
+      "id": 55,
+      "question": "Which security measure helps prevent data theft from discarded documents?",
+      "options": [
+        { "id": "A", "text": "Encryption" },
+        { "id": "B", "text": "Shredding" },
+        { "id": "C", "text": "Firewall" },
+        { "id": "D", "text": "Antivirus" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Shredding documents before disposal prevents dumpster diving and ensures that confidential information cannot be recovered from discarded papers."
+    },
+    {
+      "id": 56,
+      "question": "What is the purpose of implementing strong password requirements?",
+      "options": [
+        { "id": "A", "text": "To make passwords easier to remember" },
+        { "id": "B", "text": "To make passwords harder to crack" },
+        { "id": "C", "text": "To reduce typing time" },
+        { "id": "D", "text": "To simplify IT management" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Strong password requirements (length, complexity) make passwords significantly harder to crack through brute force or dictionary attacks."
+    },
+    {
+      "id": 57,
+      "question": "Which type of attack intercepts communications between two parties?",
+      "options": [
+        { "id": "A", "text": "Phishing" },
+        { "id": "B", "text": "Man-in-the-middle" },
+        { "id": "C", "text": "DDoS" },
+        { "id": "D", "text": "Spoofing" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A man-in-the-middle attack intercepts communications between two parties, allowing the attacker to eavesdrop or alter the communication."
+    },
+    {
+      "id": 58,
+      "question": "What is the recommended frequency for updating antivirus definitions?",
+      "options": [
+        { "id": "A", "text": "Monthly" },
+        { "id": "B", "text": "Weekly" },
+        { "id": "C", "text": "Daily or automatically" },
+        { "id": "D", "text": "Only when problems occur" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Antivirus definitions should be updated daily or set to update automatically to ensure protection against the latest malware threats."
+    },
+    {
+      "id": 59,
+      "question": "Which security concept involves verifying a user's identity?",
+      "options": [
+        { "id": "A", "text": "Authentication" },
+        { "id": "B", "text": "Authorization" },
+        { "id": "C", "text": "Accounting" },
+        { "id": "D", "text": "Auditing" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Authentication is the process of verifying a user's identity, typically through credentials like usernames and passwords."
+    },
+    {
+      "id": 60,
+      "question": "What is the purpose of data loss prevention (DLP) systems?",
+      "options": [
+        { "id": "A", "text": "To increase storage capacity" },
+        { "id": "B", "text": "To prevent unauthorized data transmission" },
+        { "id": "C", "text": "To speed up data transfer" },
+        { "id": "D", "text": "To compress files" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "DLP systems monitor and prevent unauthorized transmission or use of sensitive data, helping prevent data breaches and information leaks."
+    },
+    {
+      "id": 61,
+      "question": "Which Windows utility allows you to view and modify local security policies?",
+      "options": [
+        { "id": "A", "text": "Group Policy Editor" },
+        { "id": "B", "text": "Registry Editor" },
+        { "id": "C", "text": "Task Manager" },
+        { "id": "D", "text": "Device Manager" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The Group Policy Editor (gpedit.msc) allows administrators to view and modify local security policies and other system settings."
+    },
+    {
+      "id": 62,
+      "question": "What is the primary purpose of access control lists (ACLs)?",
+      "options": [
+        { "id": "A", "text": "To list all users in the system" },
+        { "id": "B", "text": "To define who can access specific resources" },
+        { "id": "C", "text": "To track login times" },
+        { "id": "D", "text": "To manage IP addresses" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "ACLs define permissions and specify which users or groups can access specific resources and what actions they can perform."
+    },
+    {
+      "id": 63,
+      "question": "Which security measure is most effective against shoulder surfing?",
+      "options": [
+        { "id": "A", "text": "Firewall" },
+        { "id": "B", "text": "Privacy filter" },
+        { "id": "C", "text": "Antivirus" },
+        { "id": "D", "text": "Encryption" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Privacy filters limit the viewing angle of screens, making it difficult for others to see sensitive information by looking over your shoulder."
+    },
+    {
+      "id": 64,
+      "question": "What is the purpose of port security on network switches?",
+      "options": [
+        { "id": "A", "text": "To increase network speed" },
+        { "id": "B", "text": "To limit which devices can connect to specific ports" },
+        { "id": "C", "text": "To add more ports" },
+        { "id": "D", "text": "To reduce electricity usage" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Port security on switches limits which devices (based on MAC address) can connect to specific switch ports, preventing unauthorized network access."
+    },
+    {
+      "id": 65,
+      "question": "Which type of malware is specifically designed to gain administrative access while hiding its presence?",
+      "options": [
+        { "id": "A", "text": "Virus" },
+        { "id": "B", "text": "Worm" },
+        { "id": "C", "text": "Rootkit" },
+        { "id": "D", "text": "Spyware" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A rootkit is malware designed to gain administrative access to a system while hiding its presence from security software and users."
+    },
+    {
+      "id": 66,
+      "question": "What is the recommended action if you suspect your password has been compromised?",
+      "options": [
+        { "id": "A", "text": "Wait to see if anything happens" },
+        { "id": "B", "text": "Change it immediately and notify IT" },
+        { "id": "C", "text": "Share it with colleagues for verification" },
+        { "id": "D", "text": "Delete your account" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "If you suspect password compromise, change it immediately and notify your IT department to prevent unauthorized access."
+    },
+    {
+      "id": 67,
+      "question": "Which Windows feature encrypts individual files and folders?",
+      "options": [
+        { "id": "A", "text": "BitLocker" },
+        { "id": "B", "text": "EFS (Encrypting File System)" },
+        { "id": "C", "text": "Windows Defender" },
+        { "id": "D", "text": "UAC" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "EFS (Encrypting File System) allows encryption of individual files and folders on NTFS volumes, while BitLocker encrypts entire volumes."
+    },
+    {
+      "id": 68,
+      "question": "What is the purpose of security awareness training?",
+      "options": [
+        { "id": "A", "text": "To teach programming" },
+        { "id": "B", "text": "To educate users about security threats and best practices" },
+        { "id": "C", "text": "To install security software" },
+        { "id": "D", "text": "To create backups" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Security awareness training educates users about security threats, social engineering tactics, and best practices to help prevent security incidents."
+    },
+    {
+      "id": 69,
+      "question": "Which protocol encrypts web traffic?",
+      "options": [
+        { "id": "A", "text": "HTTP" },
+        { "id": "B", "text": "FTP" },
+        { "id": "C", "text": "HTTPS" },
+        { "id": "D", "text": "Telnet" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "HTTPS (HTTP Secure) encrypts web traffic using SSL/TLS protocols, protecting data transmitted between browsers and web servers."
+    },
+    {
+      "id": 70,
+      "question": "What is the purpose of implementing email filtering?",
+      "options": [
+        { "id": "A", "text": "To increase email speed" },
+        { "id": "B", "text": "To block spam and malicious emails" },
+        { "id": "C", "text": "To compress email attachments" },
+        { "id": "D", "text": "To translate emails" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Email filtering blocks spam, phishing attempts, and emails containing malware before they reach users' inboxes."
+    },
+    {
+      "id": 71,
+      "question": "Which security measure prevents physical theft of laptop computers?",
+      "options": [
+        { "id": "A", "text": "Firewall" },
+        { "id": "B", "text": "Cable lock" },
+        { "id": "C", "text": "Antivirus" },
+        { "id": "D", "text": "VPN" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Cable locks physically secure laptops to desks or other stationary objects, deterring theft in public or office environments."
+    },
+    {
+      "id": 72,
+      "question": "What is the purpose of penetration testing?",
+      "options": [
+        { "id": "A", "text": "To damage systems" },
+        { "id": "B", "text": "To identify security vulnerabilities" },
+        { "id": "C", "text": "To install software" },
+        { "id": "D", "text": "To train users" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Penetration testing simulates attacks to identify security vulnerabilities before malicious actors can exploit them."
+    },
+    {
+      "id": 73,
+      "question": "Which Windows feature requires administrator credentials for system changes?",
+      "options": [
+        { "id": "A", "text": "BitLocker" },
+        { "id": "B", "text": "User Account Control (UAC)" },
+        { "id": "C", "text": "Windows Defender" },
+        { "id": "D", "text": "System Restore" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "UAC prompts for administrator credentials before allowing programs or users to make significant system changes, preventing unauthorized modifications."
+    },
+    {
+      "id": 74,
+      "question": "What is the primary goal of implementing defense in depth?",
+      "options": [
+        { "id": "A", "text": "To use only one security measure" },
+        { "id": "B", "text": "To implement multiple layers of security" },
+        { "id": "C", "text": "To reduce security costs" },
+        { "id": "D", "text": "To simplify security management" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Defense in depth implements multiple layers of security controls so that if one layer fails, others still provide protection."
+    },
+    {
+      "id": 75,
+      "question": "Which type of attack attempts to guess passwords by trying many combinations?",
+      "options": [
+        { "id": "A", "text": "Phishing" },
+        { "id": "B", "text": "Brute force" },
+        { "id": "C", "text": "Man-in-the-middle" },
+        { "id": "D", "text": "DDoS" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A brute force attack attempts to guess passwords by systematically trying many different combinations until the correct one is found."
+    },
+    {
+      "id": 76,
+      "question": "What is the purpose of implementing change management procedures?",
+      "options": [
+        { "id": "A", "text": "To prevent all system changes" },
+        { "id": "B", "text": "To document and control system changes" },
+        { "id": "C", "text": "To speed up changes" },
+        { "id": "D", "text": "To eliminate testing" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Change management procedures document, review, and control system changes to minimize risks and ensure proper implementation."
+    },
+    {
+      "id": 77,
+      "question": "Which security principle states that actions should be logged for review?",
+      "options": [
+        { "id": "A", "text": "Authentication" },
+        { "id": "B", "text": "Authorization" },
+        { "id": "C", "text": "Accounting" },
+        { "id": "D", "text": "Access control" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Accounting (or auditing) involves logging user actions and system events for review, compliance, and security investigation purposes."
+    },
+    {
+      "id": 78,
+      "question": "What is the recommended action when disposing of old hard drives?",
+      "options": [
+        { "id": "A", "text": "Just delete the files" },
+        { "id": "B", "text": "Format the drive" },
+        { "id": "C", "text": "Use secure erase or physical destruction" },
+        { "id": "D", "text": "Sell them immediately" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Old hard drives should be securely erased using specialized software or physically destroyed to prevent data recovery."
+    },
+    {
+      "id": 79,
+      "question": "Which type of malware spreads through infected email attachments?",
+      "options": [
+        { "id": "A", "text": "All types can" },
+        { "id": "B", "text": "Only viruses" },
+        { "id": "C", "text": "Only worms" },
+        { "id": "D", "text": "Only Trojans" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Various types of malware including viruses, worms, and Trojans can spread through infected email attachments."
+    },
+    {
+      "id": 80,
+      "question": "What is the purpose of implementing network segmentation?",
+      "options": [
+        { "id": "A", "text": "To increase network speed" },
+        { "id": "B", "text": "To isolate and control traffic between network areas" },
+        { "id": "C", "text": "To reduce equipment costs" },
+        { "id": "D", "text": "To simplify network management" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Network segmentation divides networks into separate zones to isolate sensitive data, control traffic flow, and contain potential security breaches."
+    },
+    {
+      "id": 81,
+      "question": "Someone has configured an external server with an IP address that should belong to one of your sister company's servers. With this new computer, they are attempting to establish a connection to your internal network. What type of attack is this?",
+      "options": [
+        { "id": "A", "text": "Spoofing" },
+        { "id": "B", "text": "Man-in-the-middle" },
+        { "id": "C", "text": "Zombie/botnet" },
+        { "id": "D", "text": "Noncompliant system" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "A spoofing attack is an attempt by someone or something to masquerade as someone else. This type of attack is usually considered an access attack."
+    },
+    {
+      "id": 82,
+      "question": "Which type of security device often incorporates RFID technology to grant access to secure areas or resources?",
+      "options": [
+        { "id": "A", "text": "Smart card" },
+        { "id": "B", "text": "Security token" },
+        { "id": "C", "text": "Mantrap" },
+        { "id": "D", "text": "Key fob" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "A smart card is a type of badge or card that gives you access to resources, including buildings, parking lots, and computers. It contains information about your identity and access privileges. Each area or computer has a card scanner or a reader in which you insert your card. Radio Frequency Identification (RFID) is the wireless, no-contact technology used with these cards and their accompanying reader."
+    },
+    {
+      "id": 83,
+      "question": "You are configuring a wireless network for a small office. What should you enable for the best encryption possible for network transmissions?",
+      "options": [
+        { "id": "A", "text": "WPA2" },
+        { "id": "B", "text": "WEP" },
+        { "id": "C", "text": "WPA" },
+        { "id": "D", "text": "WPS" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "WPA2 is the best encryption standard for wireless networks. It provides the strongest security compared to WEP, WPA, or WPS."
+    },
+    {
+      "id": 84,
+      "question": "Which of the following prevention methods will best deter the usefulness of Dumpster diving for confidential materials?",
+      "options": [
+        { "id": "A", "text": "Document shredding" },
+        { "id": "B", "text": "Privacy filters" },
+        { "id": "C", "text": "Cable locks" },
+        { "id": "D", "text": "Firewalls" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Document shredding is the best method to prevent Dumpster diving. By shredding documents before disposal, confidential information cannot be retrieved from the trash."
+    },
+    {
+      "id": 85,
+      "question": "On a Windows 7 workstation, you want to enable File and Printer Sharing but disable Public Folder Sharing. Where should you go to do this?",
+      "options": [
+        { "id": "A", "text": "Control Panel ➢ Network and Sharing Center ➢ Advanced sharing settings" },
+        { "id": "B", "text": "Control Panel ➢ Network and Sharing Center ➢ Change adapter settings" },
+        { "id": "C", "text": "Control Panel ➢ Network and Sharing Center ➢ Manage wireless networks" },
+        { "id": "D", "text": "Control Panel ➢ System and Security ➢ Windows Firewall" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Advanced sharing settings in the Network and Sharing Center is where you configure file and printer sharing options, public folder sharing, and other network discovery settings."
+    },
+    {
+      "id": 86,
+      "question": "Recently, you received an email from someone claiming to be from a bank. The bank is not a company you do business with, but the email claimed there was a problem with your account and you needed to click a link to verify some information. Which type of threat is this?",
+      "options": [
+        { "id": "A", "text": "Rootkit" },
+        { "id": "B", "text": "Phishing" },
+        { "id": "C", "text": "Shoulder surfing" },
+        { "id": "D", "text": "Zombie/botnet" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Social engineering is a process in which an attacker attempts to acquire information about your network and system by social means, such as talking to people in the organization. When the attempt is made through email or instant messaging, this is known as phishing, and it's often made to look as if a message is coming from sites where users are likely to have accounts (banks, eBay, and PayPal are popular)."
+    },
+    {
+      "id": 87,
+      "question": "Which type of attack involves creating a botnet to overwhelm a service or network with traffic, causing it to be unreachable by legitimate users?",
+      "options": [
+        { "id": "A", "text": "Man-in-the-middle" },
+        { "id": "B", "text": "Phishing" },
+        { "id": "C", "text": "DDoS" },
+        { "id": "D", "text": "Zero-day attack" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A Distributed Denial of Service (DDoS) attack uses multiple systems (often a botnet) to flood a target with traffic, making it unavailable to legitimate users."
+    },
+    {
+      "id": 88,
+      "question": "You receive an email that looks like it came from your friend Lucy. She asks you to click on a link to a video she wants you to watch. Knowing that Lucy loves videos, you think nothing of it and click the link. As soon as you do, a program starts running, and a message says that your files have been encrypted and you need to pay to get them back. What type of attack did you just fall prey to?",
+      "options": [
+        { "id": "A", "text": "Spear phishing" },
+        { "id": "B", "text": "Ransomware" },
+        { "id": "C", "text": "Zombie/botnet" },
+        { "id": "D", "text": "Trojan" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "This is an example of spear phishing, which is a specific form of social engineering. With spear phishing, the attacker uses information that the target would be less likely to question because it appears to be coming from a trusted source. (When, in reality, the attacker in this case has hacked a friend's email account.) Because it appears far more likely to be a legitimate message, it cuts through your standard defenses like a spear, and the likelihood that you would click this link is higher."
+    },
+    {
+      "id": 89,
+      "question": "You receive an email from an overseas bank, notifying you that a relative has left you a large sum of money. You need to respond with your bank routing information so they can electronically transfer the funds directly to your account. What is this most likely an example of?",
+      "options": [
+        { "id": "A", "text": "Phishing" },
+        { "id": "B", "text": "Ransomware" },
+        { "id": "C", "text": "Spoofing" },
+        { "id": "D", "text": "Spear phishing" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Social engineering is a process in which an attacker attempts to acquire information about your network and system by social means, such as talking to people in the organization. A social engineering attack may occur over the phone, by email, or in person. When the attempt is made through email or instant messaging, this is known as phishing, and it's often made to look as if a message is coming from sites where users are likely to have accounts (banks, eBay, and PayPal are popular)."
+    },
+    {
+      "id": 90,
+      "question": "What type of physical security explicitly relies upon a security guard or other personnel to determine who can access the facility?",
+      "options": [
+        { "id": "A", "text": "Entry control roster" },
+        { "id": "B", "text": "Mantrap" },
+        { "id": "C", "text": "ID badges" },
+        { "id": "D", "text": "Biometrics" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "If you have an open-access building but then need people to access a secured area, one way to provide security is through a guard. An access list or entry control roster should then exist to identify specifically who can enter and can be verified by the guard or someone with authority."
+    },
+    {
+      "id": 91,
+      "question": "Which user account on a Microsoft Windows workstation has the least restrictive permissions by default?",
+      "options": [
+        { "id": "A", "text": "Administrator" },
+        { "id": "B", "text": "Root" },
+        { "id": "C", "text": "Guest" },
+        { "id": "D", "text": "Standard User" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The Administrator account is the most powerful of all: it has the power to do everything from the smallest task all the way up to removing the operating system. Because of the power it wields, you should rename the account and assign it a strong password."
+    },
+    {
+      "id": 92,
+      "question": "Which type of malware will often cause critical files to disappear, often while displaying a taunting message, and requires user intervention (usually inadvertent) to spread from computer to computer?",
+      "options": [
+        { "id": "A", "text": "Worm" },
+        { "id": "B", "text": "Virus" },
+        { "id": "C", "text": "Trojan" },
+        { "id": "D", "text": "Rootkit" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Many viruses will announce that you're infected as soon as they gain access to your system. They may take control of your system and flash annoying messages on your screen or destroy your hard disk. When this occurs, you'll know that you're a victim. Other viruses will cause your system to slow down, cause files to disappear from your computer, or take over your disk space. Many viruses today are spread using email. The infected system attaches a file to any email that you send to another user. The recipient opens this file, thinking it's something that you legitimately sent them. When they open the file, the virus infects the target system."
+    },
+    {
+      "id": 93,
+      "question": "It appears as though someone is trying to log in to a user account by guessing the password. Which account management policy will help prevent this type of attack?",
+      "options": [
+        { "id": "A", "text": "Setting failed attempts lockout" },
+        { "id": "B", "text": "Disabling autologin" },
+        { "id": "C", "text": "Requiring strong passwords" },
+        { "id": "D", "text": "Setting password expiration" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Configure user account settings so that there are a limited number of login attempts (three is a good number) before the account is locked for a period of time. Legitimate users who need to get in before the block expires can contact the administrator and explain why they weren't able to give the right password three times in a row, and illegitimate users will go away in search of another system to try to enter."
+    },
+    {
+      "id": 94,
+      "question": "Dianne is typing her password in to her workstation and notices her co-worker Todd hovering nearby. When she glances up at him, it appears as though he was watching her type, and he quickly looks away. What is this an example of?",
+      "options": [
+        { "id": "A", "text": "Phishing" },
+        { "id": "B", "text": "Spoofing" },
+        { "id": "C", "text": "Tailgating" },
+        { "id": "D", "text": "Shoulder surfing" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "One form of social engineering is shoulder surfing, and it involves nothing more than watching someone when they enter their sensitive data. They can see you entering a password, typing in a credit card number, or entering any other pertinent information. The best defense against this type of attack is simply to survey your environment before entering personal data."
+    },
+    {
+      "id": 95,
+      "question": "You are installing a small office wired network. The manager is concerned that employees will visit websites with objectionable material. Which feature should you look for in a router to help prevent such access?",
+      "options": [
+        { "id": "A", "text": "Content filtering" },
+        { "id": "B", "text": "Disabling ports" },
+        { "id": "C", "text": "VPN access" },
+        { "id": "D", "text": "Port forwarding/mapping" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Content filtering is the process of blocking objectionable content, from either websites or email. Many routers and firewalls will provide content filtering services. In many cases, a reference service is used to block websites, and filters can be implemented to scan emails for prohibited content."
+    },
+    {
+      "id": 96,
+      "question": "Your office is in a building with several other companies. You want to configure the wireless network so that casual users in the building are not able to easily see your network name. What should you do to configure this?",
+      "options": [
+        { "id": "A", "text": "Enable WPA2." },
+        { "id": "B", "text": "Enable MAC filtering." },
+        { "id": "C", "text": "Disable SSID broadcast" },
+        { "id": "D", "text": "Change the WPS setting" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "One method of 'protecting' the network that is often recommended is to turn off the SSID broadcast. The access point is still there and can still be accessed by those who know of it, but it prevents those who are looking at a list of available networks from finding it. This should be considered a weak form of security because there are still ways, albeit a bit more complicated, to discover the presence of the access point besides the SSID broadcast."
+    },
+    {
+      "id": 97,
+      "question": "You are configuring a new Windows domain for your company, and you need to set a strong password policy. Which of the following would be configured through a Group Policy object to enforce password requirements?",
+      "options": [
+        { "id": "A", "text": "Password complexity and length" },
+        { "id": "B", "text": "Password expiration time" },
+        { "id": "C", "text": "Time between password changes" },
+        { "id": "D", "text": "All of the above" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "In a Windows domain, password policies can be configured at the domain level using Group Policy objects. Variables that you can configure include password complexity and length and the time between allowed changes to passwords."
+    },
+    {
+      "id": 98,
+      "question": "You suspect that an attacker has obtained a user's login credentials, including their password. Which tool can you use to prevent that user account from being compromised?",
+      "options": [
+        { "id": "A", "text": "Group Policy" },
+        { "id": "B", "text": "Encryption" },
+        { "id": "C", "text": "Key fob" },
+        { "id": "D", "text": "Biometric scanner" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Sometimes the obvious solutions are the best ones! A key fob is a security token that generates a random code. If you have a user's credentials but not their key fob, you can't access their account. This is an example of multifactor authentication."
+    },
+    {
+      "id": 99,
+      "question": "You have configured a wireless router for a small business. In addition to changing the default username and password and the default SSID, what else is highly recommended?",
+      "options": [
+        { "id": "A", "text": "Reduce the radio power level." },
+        { "id": "B", "text": "Update the firmware." },
+        { "id": "C", "text": "Enable MAC filtering." },
+        { "id": "D", "text": "Enable WPS." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Updating the firmware is critical for security. Firmware updates often include security patches and bug fixes that protect against vulnerabilities."
+    },
+    {
+      "id": 100,
+      "question": "What is the primary purpose of NTFS permissions?",
+      "options": [
+        { "id": "A", "text": "To control access to files and folders" },
+        { "id": "B", "text": "To encrypt data" },
+        { "id": "C", "text": "To compress files" },
+        { "id": "D", "text": "To manage disk space" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "With NTFS, files, directories, and volumes can each have their own security. NTFS tracks security in access control lists (ACLs), which can hold permissions for local users and groups, and each entry in the ACL can specify what type of access is given—such as Read & Execute, List Folder Contents, or Full Control. This allows a great deal of flexibility in setting up a network."
+    },
+    {
+      "id": 101,
+      "question": "You are configuring a router for a small office network. The network users should be able to access regular and secure websites and send and receive email. Those are the only connections allowed to the Internet. Which security precaution should you take to prevent additional traffic from coming through the router?",
+      "options": [
+        { "id": "A", "text": "Enable MAC filtering." },
+        { "id": "B", "text": "Enable content filtering." },
+        { "id": "C", "text": "Enable port forwarding/mapping." },
+        { "id": "D", "text": "Disable ports." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Disabling unused ports is a security best practice. If you only need HTTP/HTTPS (ports 80/443) and email ports (25, 110, 143, etc.), you should disable all other ports to prevent unauthorized traffic."
+    },
+    {
+      "id": 102,
+      "question": "Your iPhone requires a passcode to unlock it. Because of recent phone thefts around your office, you want to set your phone so that all data is destroyed if incorrect passcodes are entered 10 times in a row. Which feature allows you to do this?",
+      "options": [
+        { "id": "A", "text": "Failed login attempts restrictions" },
+        { "id": "B", "text": "Screen locks" },
+        { "id": "C", "text": "Remote wipes" },
+        { "id": "D", "text": "Locator applications" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Failed login attempts restrictions allow you to configure what happens after multiple failed login attempts, including erasing all data from the device after a specified number of failed attempts."
+    },
+    {
+      "id": 103,
+      "question": "On a Windows 8 workstation, there are two NTFS volumes. The Managers group has Modify access to the D:\\mgmt directory. You move the folder to the D:\\keyfiles folder, to which the Managers group has Read access. What level of permissions will the Managers group have to the new D:\\keyfiles\\mgmt directory?",
+      "options": [
+        { "id": "A", "text": "Full Control" },
+        { "id": "B", "text": "Modify" },
+        { "id": "C", "text": "Read & Execute" },
+        { "id": "D", "text": "Read" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "When moving files or folders within the same volume, the original NTFS permissions are retained. Since the folder is being moved within the same D: volume, it will keep its Modify permissions."
+    },
+    {
+      "id": 104,
+      "question": "For users to log on to your network from a remote location, they are required to supply a username and password, as well as a code from an RSA token. What type of security is this an example of?",
+      "options": [
+        { "id": "A", "text": "Using a firewall" },
+        { "id": "B", "text": "Using multifactor authentication" },
+        { "id": "C", "text": "Using an access control list" },
+        { "id": "D", "text": "Using the principle of least privilege" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "In traditional authentication, the user is generally required to provide credentials such as a username or password. In multifactor authentication, the user is required to provide two or more items. These items are generally from two of three categories: something they know (such as a password), something they have (such as a code from a security token), or something they are (biometric screening)."
+    },
+    {
+      "id": 105,
+      "question": "You want to recycle some hard drives that your company no longer uses but do not want other people to have access to the data. Which methods of removing the data are acceptable for your purposes? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Formatting the drive" },
+        { "id": "B", "text": "Using an overwrite utility" },
+        { "id": "C", "text": "Using a drive wipe utility" },
+        { "id": "D", "text": "Using electromagnetic fields" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["B", "C"],
+      "explanation": "The best methods are either overwrite or drive wipe. Overwriting the drive entails copying over the data with new data. A common practice is to replace the data with 0s. Drive wipes do a similar thing. Formatting the drive does not guarantee that others can't read the data. Using electromagnetic fields (or degaussing) isn't reliable and can damage the hard drive. (Not to mention it won't work at all on SSDs!)"
+    },
+    {
+      "id": 106,
+      "question": "Which of the following file attributes are turned on by default for system files on a Windows 8.1 workstation? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Hidden" },
+        { "id": "B", "text": "Archive" },
+        { "id": "C", "text": "System" },
+        { "id": "D", "text": "Read-only" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "C"],
+      "explanation": "System files are critical to the operating system working properly and should not be changed or deleted. By default, the Hidden and System attributes are set. Some are also set to Read-only, but not all. For example, the virtual memory file (pagefile.sys) is a system file but is not Read-only."
+    },
+    {
+      "id": 107,
+      "question": "You have just installed a Windows 8.1 workstation. For better security, which user account should you disable?",
+      "options": [
+        { "id": "A", "text": "Default User" },
+        { "id": "B", "text": "Administrator" },
+        { "id": "C", "text": "Power User" },
+        { "id": "D", "text": "Guest" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "When Windows is installed, one of the default accounts it creates is Guest, and this represents a weakness that can be exploited by an attacker. While the account cannot do much, it can provide initial access to a system, and the attacker can use that to find another account or acquire sensitive information about the system. To secure the system, disable all accounts that are not needed, especially the Guest account."
+    },
+    {
+      "id": 108,
+      "question": "Which type of network attack involves an intermediary hardware device intercepting data and altering it or transmitting it to an unauthorized user?",
+      "options": [
+        { "id": "A", "text": "Man-in-the-middle" },
+        { "id": "B", "text": "Noncompliant system" },
+        { "id": "C", "text": "Zero-day attack" },
+        { "id": "D", "text": "Brute forcing" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Man-in-the-middle attacks clandestinely place something (such as a piece of software or a rogue router) between a server and the user, and neither the server's administrator nor the user is aware of it. The man-in-the-middle intercepts data and then sends the information to the server as if nothing is wrong. The man-in-the-middle software may be recording information for someone to view later, altering it, or in some other way compromising the security of your system and session."
+    },
+    {
+      "id": 109,
+      "question": "You are setting a password policy for your Windows domain. Which of the following would constitute a strong password policy? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Passwords must be at least 6 characters." },
+        { "id": "B", "text": "Passwords must be at least 10 characters." },
+        { "id": "C", "text": "Passwords must contain uppercase, lowercase, numbers, and special characters." },
+        { "id": "D", "text": "Passwords expire every 180 days." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["B", "C"],
+      "explanation": "Setting strong passwords is critical to network security. They should be as long as possible. Eight or ten characters is a good minimum. Users should also need to use a combination of uppercase and lowercase letters, a number, and a special character such as #, @, &, or others. Passwords should also expire, but 180 days is too long. Having a 42-day or 90-day requirement would be better."
+    },
+    {
+      "id": 110,
+      "question": "Which file system allows for the most granular security control on a Windows workstation?",
+      "options": [
+        { "id": "A", "text": "NTFS" },
+        { "id": "B", "text": "FAT32" },
+        { "id": "C", "text": "exFAT" },
+        { "id": "D", "text": "EFS" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "With NTFS, files, directories, and volumes can each have their own security. NTFS tracks security in access control lists (ACLs), which can hold permissions for local users and groups, and each entry in the ACL can specify what type of access is given—such as Read & Execute, List Folder Contents, or Full Control. This allows a great deal of flexibility in setting up a network."
+    },
+    {
+      "id": 111,
+      "question": "You are configuring NTFS permissions on a Windows 8 computer. Which of the following are true about NTFS permissions? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Permissions are inherited from parent folders by default." },
+        { "id": "B", "text": "Permissions set at a subfolder level can override inherited permissions." },
+        { "id": "C", "text": "Explicit permissions always take priority over inherited permissions." },
+        { "id": "D", "text": "NTFS permissions can only be set at the folder level." }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["B", "C"],
+      "explanation": "Inheritance is the default behavior throughout the permission structure, unless a specific setting is created to override it. For example, a user who has Read and Write permissions in one folder will have that in all the subfolders unless a change has been made specifically to one of the subfolders. Explicit permissions at a more granular level will apply instead of those set at a higher level of the directory tree."
+    },
+    {
+      "id": 112,
+      "question": "Which type of digital security method would you use if you wanted to monitor who is using data and transmitting it on the network?",
+      "options": [
+        { "id": "A", "text": "VPN" },
+        { "id": "B", "text": "Firewall" },
+        { "id": "C", "text": "Access control system" },
+        { "id": "D", "text": "DLP" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Data loss prevention (DLP) systems monitor the contents of systems (workstations, servers, and networks) to make sure that key content is not deleted or removed. They also monitor who is using the data (looking for unauthorized access) and transmitting the data. DLP systems share commonalities with network intrusion prevention systems."
+    },
+    {
+      "id": 113,
+      "question": "You have created a user account for a contract employee, who will be with the company for one month. Which user group should this user's account be placed in?",
+      "options": [
+        { "id": "A", "text": "Power Users" },
+        { "id": "B", "text": "Administrators" },
+        { "id": "C", "text": "Standard Users" },
+        { "id": "D", "text": "Guest" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The Guest account is created by default (and should be disabled) and is a member of the Guests group. For the most part, members of Guests have the same rights as Users except they can't get to log files. The best reason to make users members of the Guests group is to access the system only for a limited time. There is no group named Standard Users by default. There is a Users group, Administrators, Power Users, Guests, and a few others."
+    },
+    {
+      "id": 114,
+      "question": "On your network, there are multiple systems that users need to access, such as a Windows domain, a Box (cloud) site for storage, and SAP. You want to configure the network such that users do not need to remember separate usernames or passwords for each site; their login credentials will be good for different systems. Which technology should you use?",
+      "options": [
+        { "id": "A", "text": "EFS" },
+        { "id": "B", "text": "BTG" },
+        { "id": "C", "text": "SSO" },
+        { "id": "D", "text": "DLP" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "One of the big problems larger systems must deal with is the need for users to access multiple systems or applications. This may require a user to remember multiple accounts and passwords. The purpose of a single sign-on (SSO) is to give users access to all the applications and systems that they need when they log on. Some of the systems may require the user to enter their credentials again, but the username and password will be consistent between systems."
+    }
+  ]
+}

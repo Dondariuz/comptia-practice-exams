@@ -1,0 +1,1637 @@
+{
+  "examInfo": {
+    "title": "CompTIA A+ Practice Exam - Chapter 8",
+    "code": "220-902",
+    "chapter": "Chapter 8",
+    "totalQuestions": 125,
+    "timeLimit": 120,
+    "description": "Software Troubleshooting"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "You want to configure your Windows workstation to perform a daily malware scan at 2:00 a.m. Which Windows management utility should you use to enable this?",
+      "options": [
+        { "id": "A", "text": "Task Scheduler" },
+        { "id": "B", "text": "Event Viewer" },
+        { "id": "C", "text": "Component Services" },
+        { "id": "D", "text": "Data Sources" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Task Scheduler is the Windows utility used to schedule automated tasks like daily malware scans at specific times."
+    },
+    {
+      "id": 2,
+      "question": "A user calls saying that their mobile device has no wireless connectivity. Which should you check first?",
+      "options": [
+        { "id": "A", "text": "Whether Windows is updated" },
+        { "id": "B", "text": "Device Manager to see whether the wireless NIC has a problem" },
+        { "id": "C", "text": "Whether the device is in airplane mode" },
+        { "id": "D", "text": "Whether the battery is charged" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A common cause for lack of wireless connectivity is for a device to be in airplane mode. Make sure the device is not in that mode, and do a hard reboot if necessary."
+    },
+    {
+      "id": 3,
+      "question": "You are trying to boot a Windows 7 workstation and it will not boot. It produces an error that says \"Operating system not found.\" Which utility should you use to fix this?",
+      "options": [
+        { "id": "A", "text": "BOOTREC" },
+        { "id": "B", "text": "CHKDSK" },
+        { "id": "C", "text": "Startup Repair" },
+        { "id": "D", "text": "System Restore" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "If the operating system is missing, it could be due to a bad or corrupt boot sector on the hard drive, or the operating system may indeed be missing. If the hard drive is actually OK, then use the installation DVD (you may have to set the BIOS to use the DVD drive as your primary boot device) or the Windows Repair CD. In Windows 8/8.1, Windows 7, and Windows Vista, go to System Recovery Options and choose Startup Repair."
+    },
+    {
+      "id": 4,
+      "question": "An iPhone is unresponsive and will not power off. What should you do to restart the device?",
+      "options": [
+        { "id": "A", "text": "Hold down Sleep/Wake and Home buttons for 10 seconds" },
+        { "id": "B", "text": "Remove the battery and reinsert it" },
+        { "id": "C", "text": "Open the Settings app and choose Restart" },
+        { "id": "D", "text": "Call technical support for advice" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "If the system is unresponsive, then a soft reset will not work. A hard reset is the next choice. With Apple's iPhone, iPad, and iPod Touch, forcing a restart on the device is done by pressing and holding the Sleep/Wake and Home buttons for at least 10 seconds until you see the Apple logo."
+    },
+    {
+      "id": 5,
+      "question": "You are using an application on your workstation, and it stops working and displays an error that there has been an application crash. What should you do first to resolve this issue?",
+      "options": [
+        { "id": "A", "text": "Reboot the computer" },
+        { "id": "B", "text": "Check online for an update or patch to the application" },
+        { "id": "C", "text": "Call the software manufacturer" },
+        { "id": "D", "text": "Uninstall and reinstall the software" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "When an application crashes, you want to isolate the cause of the crash—it could be a compatibility issue, hardware, or a host of other problems—and solve it. One step to take early on is to look for updates/patches/fixes to the application released by the vendor."
+    },
+    {
+      "id": 6,
+      "question": "You are using Safari to browse the Web on your MacBook. Regardless of what website you go to, when you use Google to search for something, you keep getting redirected to another search engine. What is this an example of?",
+      "options": [
+        { "id": "A", "text": "Malicious software" },
+        { "id": "B", "text": "Browser redirection" },
+        { "id": "C", "text": "Malware infection" },
+        { "id": "D", "text": "Virus" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "This is a classic symptom of browser redirection. The perpetrator has one goal, which is to direct you to websites that he wants you to visit, regardless of what you actually want to see. Removing the redirector might be as simple as uninstalling an application (by dragging it to the Trash and emptying the Trash)."
+    },
+    {
+      "id": 7,
+      "question": "You are looking for general information about a Windows workstation's hardware resources. Which command do you need to type into the Run box to display the utility shown here?",
+      "options": [
+        { "id": "A", "text": "DXDIAG" },
+        { "id": "B", "text": "COMPMGMT" },
+        { "id": "C", "text": "MSINFO32" },
+        { "id": "D", "text": "MMC" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "MSINFO32 displays System Information, which provides detailed information about the computer's hardware, system components, and software environment."
+    },
+    {
+      "id": 8,
+      "question": "You are at a Windows Vista command prompt. What command can you type to close the command prompt window?",
+      "options": [
+        { "id": "A", "text": "quit" },
+        { "id": "B", "text": "exit" },
+        { "id": "C", "text": "close" },
+        { "id": "D", "text": "/x" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The EXIT command closes the command prompt window in Windows."
+    },
+    {
+      "id": 9,
+      "question": "A user is attempting to use the RDP application on his iPhone to remotely access his desktop, but he is unable to connect. The user says that the application worked fine yesterday. What is most likely the issue?",
+      "options": [
+        { "id": "A", "text": "The headset is not paired with the iPhone" },
+        { "id": "B", "text": "Bluetooth is turned off" },
+        { "id": "C", "text": "Wi-Fi is turned off" },
+        { "id": "D", "text": "Airplane mode is turned on" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Remote Desktop Protocol (RDP) requires network connectivity. If Wi-Fi is turned off, the application will not be able to connect to the remote desktop."
+    },
+    {
+      "id": 10,
+      "question": "Your manager has asked you to investigate the possibility of installing a database on a Windows 8.1 computer. Which edition must be used?",
+      "options": [
+        { "id": "A", "text": "Home" },
+        { "id": "B", "text": "Pro" },
+        { "id": "C", "text": "Enterprise" },
+        { "id": "D", "text": "None of the above, databases can only be installed on Windows Server editions" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Databases requiring server features typically need Windows Server editions, not client editions like Windows 8.1."
+    },
+    {
+      "id": 11,
+      "question": "You are troubleshooting a Windows Vista workstation that could have malware on it. To follow the best practices for malware removal, what is the first step you should take?",
+      "options": [
+        { "id": "A", "text": "Quarantine the infected system" },
+        { "id": "B", "text": "Update the anti-malware software" },
+        { "id": "C", "text": "Enable system restore and create a restore point" },
+        { "id": "D", "text": "Identify malware symptoms" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The first step in malware removal best practices is to identify malware symptoms. This helps determine what type of malware you're dealing with and guides the remediation process."
+    },
+    {
+      "id": 12,
+      "question": "Recently, users on your company network have been flooded with unrequested emails trying to sell them goods and services. Which solution will most likely resolve this issue?",
+      "options": [
+        { "id": "A", "text": "Install anti-malware on all client computers" },
+        { "id": "B", "text": "Install antivirus on all client computers" },
+        { "id": "C", "text": "Install a spam filter on the email server" },
+        { "id": "D", "text": "Renew the invalid certificate on the email server" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Spam emails are best filtered at the server level. Installing a spam filter on the email server will prevent unwanted commercial emails from reaching user inboxes."
+    },
+    {
+      "id": 13,
+      "question": "Your network has several dozen mobile device users. Several of them have reported that there are areas within your office where network access is very slow. What can you use to test wireless access?",
+      "options": [
+        { "id": "A", "text": "PING" },
+        { "id": "B", "text": "TRACERT" },
+        { "id": "C", "text": "Wi-Fi analyzer" },
+        { "id": "D", "text": "NSLOOKUP" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A Wi-Fi analyzer is a specialized tool used to measure and analyze wireless signal strength, identify dead zones, and troubleshoot wireless connectivity issues in different areas."
+    },
+    {
+      "id": 14,
+      "question": "A user has installed a new touchscreen digitizer on a phone. The phone's screen displays images, but the touchscreen does not respond. What two things should you check first? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Whether the touchscreen is calibrated" },
+        { "id": "B", "text": "Whether the LCD is installed backward" },
+        { "id": "C", "text": "Whether the digitizer is connected properly" },
+        { "id": "D", "text": "Whether the phone has enough power" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "C"],
+      "explanation": "After installing a new touchscreen digitizer, the two most common issues are improper connection and lack of calibration. Both should be verified first."
+    },
+    {
+      "id": 15,
+      "question": "You receive a call from a remote user stating that her laptop is reporting that no wireless networks are available but there is a wireless router in the office. Other users in the office can connect to the network. What should you have the remote user check first?",
+      "options": [
+        { "id": "A", "text": "Whether the wireless router is powered on" },
+        { "id": "B", "text": "Whether the laptop's wireless card is enabled" },
+        { "id": "C", "text": "Whether the wireless router has the latest firmware" },
+        { "id": "D", "text": "Whether Device Manager recognizes the wireless card" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Since other users can connect, the router is working. The most common issue is that the laptop's wireless card has been disabled, either by a physical switch or through software settings."
+    },
+    {
+      "id": 16,
+      "question": "A user complains that recently, his Windows desktop has been running slowly. What should you check first?",
+      "options": [
+        { "id": "A", "text": "Whether there are too many applications loading at startup" },
+        { "id": "B", "text": "The amount of free hard drive space" },
+        { "id": "C", "text": "Whether the computer has a virus" },
+        { "id": "D", "text": "Task Manager to see what applications are using resources" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Task Manager is the quickest way to identify what is currently consuming system resources. This helps diagnose whether the slowdown is caused by a specific application, process, or resource constraint."
+    },
+    {
+      "id": 17,
+      "question": "A user reports that his Internet browser has been hijacked and redirects him to websites he does not want to visit. What should you do first to resolve this issue?",
+      "options": [
+        { "id": "A", "text": "Uninstall and reinstall the browser" },
+        { "id": "B", "text": "Run Windows Update" },
+        { "id": "C", "text": "Run anti-malware software" },
+        { "id": "D", "text": "Disable add-ons in the browser" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Browser hijacking is typically caused by malware. Running anti-malware software should be the first step to identify and remove the malicious software causing the redirection."
+    },
+    {
+      "id": 18,
+      "question": "A user reports that Windows Update is failing on her Windows 7 workstation. What should she try first?",
+      "options": [
+        { "id": "A", "text": "Wait for Windows Update to revert the changes, reboot, and try again" },
+        { "id": "B", "text": "Run the Windows Update Troubleshooter" },
+        { "id": "C", "text": "Reinstall Windows" },
+        { "id": "D", "text": "Download updates manually from Microsoft's website" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "If an OS update fails, it could be a configuration issue or simply a one-time glitch in the process. Wait until Windows Update reverts the changes and then reboot and try the update again. If that does not work, you can unplug removable media from your computer and try again, or you can try the Windows Update Troubleshooter."
+    },
+    {
+      "id": 19,
+      "question": "You are troubleshooting a Windows 7 laptop that is suffering from intermittent shutdowns. When it shuts down, the laptop has no power at all, but after waiting several minutes, it will power back on. What is most likely the problem?",
+      "options": [
+        { "id": "A", "text": "The laptop battery is failing" },
+        { "id": "B", "text": "The laptop is overheating" },
+        { "id": "C", "text": "The power supply is failing" },
+        { "id": "D", "text": "Windows Update is installing updates" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Intermittent shutdowns that resolve after waiting (cooling down period) are classic symptoms of overheating. The system shuts down to protect components from heat damage and can restart once it cools down."
+    },
+    {
+      "id": 20,
+      "question": "You have recently updated a driver on your Windows workstation, but now the system will not boot properly. To resolve the issue, you need to boot into Safe Mode. What key should you press during the boot sequence?",
+      "options": [
+        { "id": "A", "text": "F2" },
+        { "id": "B", "text": "F5" },
+        { "id": "C", "text": "F8" },
+        { "id": "D", "text": "F12" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "In Windows 7 and earlier versions, pressing F8 during the boot sequence brings up the Advanced Boot Options menu, which allows you to select Safe Mode."
+    },
+    {
+      "id": 21,
+      "question": "Which Windows tool should be used to identify hardware and system software errors?",
+      "options": [
+        { "id": "A", "text": "System Configuration" },
+        { "id": "B", "text": "Task Scheduler" },
+        { "id": "C", "text": "Windows Update" },
+        { "id": "D", "text": "Event Viewer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Event Viewer logs system events, including hardware and software errors. It provides detailed information about warnings, errors, and critical events that can help identify system issues."
+    },
+    {
+      "id": 22,
+      "question": "A user has been unable to install a new software program on her Windows 7 workstation. She is a member of the Users group. What is most likely the problem?",
+      "options": [
+        { "id": "A", "text": "She needs to be a member of the Power Users group" },
+        { "id": "B", "text": "She needs to be a member of the Administrators group" },
+        { "id": "C", "text": "The software is incompatible with Windows 7" },
+        { "id": "D", "text": "The hard drive does not have enough free space" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Installing software typically requires administrative privileges. Members of the Users group do not have the necessary permissions to install applications. She needs to be an Administrator or have an administrator install the software."
+    },
+    {
+      "id": 23,
+      "question": "You are using your Windows 7 workstation and receive a message saying that your computer is infected. The message is not from your antivirus software. What is this an example of?",
+      "options": [
+        { "id": "A", "text": "Worm" },
+        { "id": "B", "text": "Trojan" },
+        { "id": "C", "text": "Rogue antivirus" },
+        { "id": "D", "text": "Rootkit" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Rogue antivirus software displays fake warnings about system infections to trick users into purchasing fake security software or downloading malware. These messages appear to be from antivirus software but are actually malicious."
+    },
+    {
+      "id": 24,
+      "question": "When trying to access a secure website, a user receives a message that the site's certificate is invalid. What is most likely causing this error?",
+      "options": [
+        { "id": "A", "text": "The computer's date and time are set incorrectly" },
+        { "id": "B", "text": "The website is down" },
+        { "id": "C", "text": "The website's certificate has expired" },
+        { "id": "D", "text": "The browser needs to be updated" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "If your computer is set to an incorrect time and date (we're talking years off, not just a few minutes), then it can cause invalid certificate errors for the websites you want to visit. It's never recommended to lower your security settings for the browser."
+    },
+    {
+      "id": 25,
+      "question": "A workstation will not load Windows 7 properly after a driver was recently installed. The troubleshooting guide says to boot into Safe Mode. How do you do this in Windows 7?",
+      "options": [
+        { "id": "A", "text": "During the boot process, press F1" },
+        { "id": "B", "text": "During the boot process, press Ctrl+Alt+Del" },
+        { "id": "C", "text": "During the boot process, press F8" },
+        { "id": "D", "text": "During the boot process, press F10" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Pressing F8 during the boot process in Windows 7 brings up the Advanced Boot Options menu, which includes Safe Mode options."
+    },
+    {
+      "id": 26,
+      "question": "You are concerned about workstations on your network getting viruses. You configure each machine with antivirus software. How often should the antivirus software update its database?",
+      "options": [
+        { "id": "A", "text": "Once per year" },
+        { "id": "B", "text": "Once per month" },
+        { "id": "C", "text": "Once per week" },
+        { "id": "D", "text": "Only as new threats are discovered" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Antivirus databases should be updated as new threats are discovered, which typically means daily or even more frequently. Most antivirus software is configured to check for updates automatically multiple times per day."
+    },
+    {
+      "id": 27,
+      "question": "A user reports that his iPhone will not decrypt email. What is the most likely cause of this problem?",
+      "options": [
+        { "id": "A", "text": "iPhones can't read encrypted email" },
+        { "id": "B", "text": "There's a problem with the S/MIME certificate" },
+        { "id": "C", "text": "The user has a corrupt Mail app" },
+        { "id": "D", "text": "Low memory. Restart the phone" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Email encryption typically uses S/MIME certificates. If there's a problem with the certificate (expired, missing, or invalid), the iPhone will not be able to decrypt encrypted emails."
+    },
+    {
+      "id": 28,
+      "question": "A user reports that his mobile phone has been experiencing high resource utilization for about a week. What two things should you immediately suspect could be causing the problem? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Unauthorized root access" },
+        { "id": "B", "text": "Failing battery" },
+        { "id": "C", "text": "Excessive open apps" },
+        { "id": "D", "text": "Low storage space" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "C"],
+      "explanation": "High resource utilization on mobile devices is commonly caused by excessive open applications running in the background, or by malware that may have gained unauthorized root access to the device."
+    },
+    {
+      "id": 29,
+      "question": "A user's MacBook appears to be running slowly. Which tool can you use to check resource utilization?",
+      "options": [
+        { "id": "A", "text": "Task Manager" },
+        { "id": "B", "text": "Activity Monitor" },
+        { "id": "C", "text": "System Monitor" },
+        { "id": "D", "text": "Resource Monitor" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Activity Monitor is the macOS equivalent of Windows Task Manager. It shows CPU, memory, energy, disk, and network usage to help identify what's consuming system resources."
+    },
+    {
+      "id": 30,
+      "question": "A technician is working on a Windows 8.1 workstation and a spinning pinwheel appears. The system will not respond. What is the technician's best next step?",
+      "options": [
+        { "id": "A", "text": "Wait for the pinwheel to stop spinning" },
+        { "id": "B", "text": "Hold down the power button to force a shutdown" },
+        { "id": "C", "text": "Press Ctrl+Alt+Del to open Task Manager" },
+        { "id": "D", "text": "Unplug the computer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "When a Windows system becomes unresponsive, pressing Ctrl+Alt+Del can often bring up Task Manager, which may allow you to end the problematic process without a complete system restart."
+    },
+    {
+      "id": 31,
+      "question": "A user calls to report that his Windows desktop is cluttered with icons, and he is not sure where some of them came from. He is concerned that his computer may have been infected with malware. What should you tell him to do first?",
+      "options": [
+        { "id": "A", "text": "Run anti-malware software" },
+        { "id": "B", "text": "Delete all desktop icons" },
+        { "id": "C", "text": "Reinstall Windows" },
+        { "id": "D", "text": "Check browser add-ons and extensions" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Unexpected desktop icons can be a symptom of malware installation. Running anti-malware software should be the first step to scan for and identify any malicious programs."
+    },
+    {
+      "id": 32,
+      "question": "A user cannot access a company website from an external location. He receives a certificate error. What could be causing this?",
+      "options": [
+        { "id": "A", "text": "The website certificate has expired" },
+        { "id": "B", "text": "His computer's date/time is incorrect" },
+        { "id": "C", "text": "The user needs to clear his browser cache" },
+        { "id": "D", "text": "Either A or B" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Certificate errors can be caused by either an expired or invalid website certificate, or by incorrect date/time settings on the user's computer. Both should be checked."
+    },
+    {
+      "id": 33,
+      "question": "A technician has been called in to look at a user's Windows 7 PC that appears to be showing adware pop-ups and advertisements. The system seems to be running slowly as well. What should the technician do first?",
+      "options": [
+        { "id": "A", "text": "Reboot into Safe Mode" },
+        { "id": "B", "text": "Run anti-malware software" },
+        { "id": "C", "text": "Check installed programs for suspicious applications" },
+        { "id": "D", "text": "Disable System Restore" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Adware pop-ups and system slowdown are symptoms of malware infection. The first step should be to run anti-malware software to identify and remove the malicious programs."
+    },
+    {
+      "id": 34,
+      "question": "You are troubleshooting a Windows 8.1 workstation. The computer will not boot. A message says that the boot configuration data file is missing or contains errors. What should you do?",
+      "options": [
+        { "id": "A", "text": "Run BOOTREC /FIXBOOT" },
+        { "id": "B", "text": "Run BOOTREC /FIXMBR" },
+        { "id": "C", "text": "Run BOOTREC /REBUILDBCD" },
+        { "id": "D", "text": "Reinstall Windows" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "When the Boot Configuration Data (BCD) file is missing or corrupt, the BOOTREC /REBUILDBCD command is used to rebuild the BCD store and repair boot configuration issues."
+    },
+    {
+      "id": 35,
+      "question": "A user reports that she keeps receiving a Windows message saying that virtual memory is too low. What can you do to resolve this?",
+      "options": [
+        { "id": "A", "text": "Add physical RAM to the computer" },
+        { "id": "B", "text": "Increase the size of the paging file" },
+        { "id": "C", "text": "Close some running applications" },
+        { "id": "D", "text": "All of the above" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Low virtual memory warnings can be addressed by adding physical RAM, increasing the paging file size, or closing applications to free up memory. All three options are valid solutions."
+    },
+{
+      "id": 36,
+      "question": "You are troubleshooting a computer that is exhibiting slow performance. Which of the following are common causes of slow performance? (Choose three.)",
+      "options": [
+        { "id": "A", "text": "Too many applications running at startup" },
+        { "id": "B", "text": "Hard drive is nearly full" },
+        { "id": "C", "text": "Malware infection" },
+        { "id": "D", "text": "Screen resolution is too high" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "B", "C"],
+      "explanation": "Common causes of slow system performance include too many startup applications consuming resources, insufficient free hard drive space (which affects virtual memory and system operations), and malware infections that consume CPU and memory resources. Screen resolution does not typically cause performance issues."
+    },
+    {
+      "id": 37,
+      "question": "You have been asked to install several software packages on a new Windows 7 workstation. When you attempt to install them, you receive error messages saying that the software is not compatible with this version of Windows. What should you try?",
+      "options": [
+        { "id": "A", "text": "Install the software in Safe Mode" },
+        { "id": "B", "text": "Right-click the installation file and choose Troubleshoot Compatibility" },
+        { "id": "C", "text": "Run the installation as Administrator" },
+        { "id": "D", "text": "Upgrade to Windows 10" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Windows includes a Program Compatibility Troubleshooter that can help run older programs by emulating previous Windows versions. Right-clicking and choosing Troubleshoot Compatibility is the appropriate first step."
+    },
+    {
+      "id": 38,
+      "question": "You are troubleshooting a Windows workstation and need to see what programs are set to load at startup. Which utility should you use?",
+      "options": [
+        { "id": "A", "text": "Task Manager" },
+        { "id": "B", "text": "MSCONFIG" },
+        { "id": "C", "text": "Services" },
+        { "id": "D", "text": "Event Viewer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "MSCONFIG (System Configuration utility) allows you to view and manage startup programs, services, and boot options. It's specifically designed for troubleshooting startup issues."
+    },
+    {
+      "id": 39,
+      "question": "A user's Windows 8.1 computer keeps shutting down unexpectedly. After some research, you determine that it's overheating. Which of the following could be causing this? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Blocked air vents" },
+        { "id": "B", "text": "Failing power supply" },
+        { "id": "C", "text": "Failing CPU fan" },
+        { "id": "D", "text": "Too many USB devices connected" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "C"],
+      "explanation": "Overheating is typically caused by poor airflow (blocked air vents) or cooling system failures (failing CPU fan). These prevent proper heat dissipation from system components."
+    },
+    {
+      "id": 40,
+      "question": "Which Windows feature creates restore points that can be used to roll back the system to an earlier state?",
+      "options": [
+        { "id": "A", "text": "Backup and Restore" },
+        { "id": "B", "text": "System Restore" },
+        { "id": "C", "text": "Windows Update" },
+        { "id": "D", "text": "Recovery Console" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "System Restore creates restore points (snapshots) of system configuration at specific times. These can be used to roll back the system to a previous working state without affecting personal files."
+    },
+    {
+      "id": 41,
+      "question": "A user is attempting to use Windows Vista Backup to back up files on his workstation to a network location. Backup does not show the network location as an option. What is the problem?",
+      "options": [
+        { "id": "A", "text": "The network location is not mapped as a drive letter" },
+        { "id": "B", "text": "Windows Vista Backup cannot back up to network locations" },
+        { "id": "C", "text": "The user needs administrative privileges" },
+        { "id": "D", "text": "The network location needs to be shared" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Windows Vista Home editions cannot back up to network locations. Only Windows Vista Business, Enterprise, and Ultimate editions support backing up to network locations."
+    },
+    {
+      "id": 42,
+      "question": "You are working on a Windows workstation and do not know what edition of Windows it is running. Which command can you type in the search box to determine the edition and display the information shown here?",
+      "options": [
+        { "id": "A", "text": "wined" },
+        { "id": "B", "text": "winspec" },
+        { "id": "C", "text": "wininfo" },
+        { "id": "D", "text": "winver" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The WINVER command displays the About Windows dialog box, which shows the Windows version, edition, and build information."
+    },
+    {
+      "id": 43,
+      "question": "You are installing Windows 7 on a workstation. You want to format the hard drive with a file system that is also supported by Linux. Which file system should you choose?",
+      "options": [
+        { "id": "A", "text": "NTFS" },
+        { "id": "B", "text": "NFS" },
+        { "id": "C", "text": "FAT32" },
+        { "id": "D", "text": "exFAT" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "FAT32 is supported by both Windows and Linux, making it a good choice for dual-boot systems or shared storage. While Linux can read NTFS, native support for FAT32 is better for compatibility."
+    },
+    {
+      "id": 44,
+      "question": "A technician is troubleshooting a Windows 7 workstation that has been infected with malware. He has disabled system restore. Following the best practices for removing malware, what should he do next?",
+      "options": [
+        { "id": "A", "text": "Quarantine the infected system" },
+        { "id": "B", "text": "Remediate the infected system" },
+        { "id": "C", "text": "Schedule a malware scan and run updates" },
+        { "id": "D", "text": "Educate the end user" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The malware removal process follows this order: identify symptoms, quarantine, disable system restore, remediate (update anti-malware and scan), schedule scans, enable system restore, and educate the user. After disabling system restore, the next step is remediation."
+    },
+    {
+      "id": 45,
+      "question": "Mobile device users on your network are required to use a VPN app to connect to the corporate network when they are out of the office. A user reports that the app will not open for her. She turned her tablet off and back on again, and the app still will not open. What should she try next?",
+      "options": [
+        { "id": "A", "text": "Perform a soft reset" },
+        { "id": "B", "text": "Perform a hard reset" },
+        { "id": "C", "text": "Uninstall and reinstall the app" },
+        { "id": "D", "text": "Perform a force stop" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "When an app won't open even after a restart, performing a force stop on the app can clear its process and cache, often resolving the issue without having to uninstall and reinstall."
+    },
+    {
+      "id": 46,
+      "question": "A user on your network is concerned about spyware. What should be installed to help stop this threat?",
+      "options": [
+        { "id": "A", "text": "Antivirus software" },
+        { "id": "B", "text": "Anti-malware software" },
+        { "id": "C", "text": "Firewall" },
+        { "id": "D", "text": "Proxy server" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Anti-malware software is designed to detect and remove various types of malware including spyware, adware, and other threats beyond just viruses. It provides broader protection than traditional antivirus software."
+    },
+    {
+      "id": 47,
+      "question": "A user with a Linux workstation reported that she received an error that says \"kernel panic.\" What should she do to resolve the issue?",
+      "options": [
+        { "id": "A", "text": "Close the program that caused the error and continue working" },
+        { "id": "B", "text": "Reboot the workstation and see whether the issue persists" },
+        { "id": "C", "text": "Reboot into Safe Mode and run Linux Diagnostics to determine the cause of the problem" },
+        { "id": "D", "text": "Call technical support immediately" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A kernel panic is the Linux equivalent of a Windows Blue Screen of Death. The system cannot continue operating. Rebooting and seeing if the issue persists is the appropriate first step before taking more drastic measures."
+    },
+    {
+      "id": 48,
+      "question": "You are troubleshooting a laptop and suspect that the hard drive is failing. Which Windows tool can you use to check the hard drive for errors?",
+      "options": [
+        { "id": "A", "text": "DEFRAG" },
+        { "id": "B", "text": "CHKDSK" },
+        { "id": "C", "text": "DISKPART" },
+        { "id": "D", "text": "FORMAT" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "CHKDSK (Check Disk) is the Windows utility designed to scan hard drives for file system errors and bad sectors. It can detect and often repair various disk problems."
+    },
+    {
+      "id": 49,
+      "question": "You are trying to delete a file from your Windows 7 workstation. You receive an error message that says the file is in use by another program. What should you do?",
+      "options": [
+        { "id": "A", "text": "Use Task Manager to close the program using the file" },
+        { "id": "B", "text": "Reboot the computer and try again" },
+        { "id": "C", "text": "Delete the file from Safe Mode" },
+        { "id": "D", "text": "All of the above" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "All three options are valid approaches to delete a file that's in use. You can close the application using it, reboot to release all file locks, or boot into Safe Mode where fewer programs run automatically."
+    },
+    {
+      "id": 50,
+      "question": "A user reports that an application on her Windows 8.1 workstation is not responding. Which key combination can she press to open Task Manager?",
+      "options": [
+        { "id": "A", "text": "Ctrl+Shift+Del" },
+        { "id": "B", "text": "Ctrl+Alt+Del" },
+        { "id": "C", "text": "Ctrl+Shift+Esc" },
+        { "id": "D", "text": "Alt+F4" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Ctrl+Shift+Esc directly opens Task Manager in Windows. While Ctrl+Alt+Del opens a security screen with an option to launch Task Manager, Ctrl+Shift+Esc is the quickest direct method."
+    },
+    {
+      "id": 51,
+      "question": "You are working with a user who is attempting to browse a website but receives a message that says the security certificate has a problem. What should you check first?",
+      "options": [
+        { "id": "A", "text": "The date and time on the user's computer" },
+        { "id": "B", "text": "Whether the website is legitimate" },
+        { "id": "C", "text": "The browser security settings" },
+        { "id": "D", "text": "Whether Windows is up to date" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Incorrect date and time settings are the most common cause of certificate errors. If the system clock is off by years, valid certificates will appear expired or not yet valid."
+    },
+    {
+      "id": 52,
+      "question": "A user reports that his Windows 7 computer is running slowly after being on for several hours. Which tool should you use first to check what might be causing the problem?",
+      "options": [
+        { "id": "A", "text": "Performance Monitor" },
+        { "id": "B", "text": "Resource Monitor" },
+        { "id": "C", "text": "Task Manager" },
+        { "id": "D", "text": "Event Viewer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Task Manager is the quickest and most straightforward tool to check current resource usage, identify processes consuming CPU or memory, and diagnose performance issues."
+    },
+    {
+      "id": 53,
+      "question": "You are troubleshooting a Windows computer that appears to have a corrupted Registry. Which tool can you use to edit the Registry?",
+      "options": [
+        { "id": "A", "text": "MSCONFIG" },
+        { "id": "B", "text": "REGEDIT" },
+        { "id": "C", "text": "REGSVR32" },
+        { "id": "D", "text": "MMC" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "REGEDIT (Registry Editor) is the tool used to view and edit the Windows Registry. However, be extremely careful when editing the Registry as incorrect changes can cause Windows to malfunction."
+    },
+    {
+      "id": 54,
+      "question": "A Windows 8.1 workstation is displaying a blue screen error. Which of the following could cause this? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Bad RAM" },
+        { "id": "B", "text": "Corrupted system files" },
+        { "id": "C", "text": "Low hard drive space" },
+        { "id": "D", "text": "Slow Internet connection" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "B"],
+      "explanation": "Blue Screen of Death (BSOD) errors are typically caused by hardware failures (like bad RAM) or critical system file corruption. These are serious system-level problems that prevent Windows from continuing operation."
+    },
+    {
+      "id": 55,
+      "question": "You need to clean up disk space on a Windows 7 computer. Which utility can you use to remove temporary files and other unnecessary data?",
+      "options": [
+        { "id": "A", "text": "Disk Defragmenter" },
+        { "id": "B", "text": "Disk Cleanup" },
+        { "id": "C", "text": "CHKDSK" },
+        { "id": "D", "text": "DISKPART" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Disk Cleanup is the Windows utility designed to free up disk space by removing temporary files, system cache, downloaded program files, and other unnecessary data."
+    },
+    {
+      "id": 56,
+      "question": "A user is experiencing sluggish performance on her Windows 7 laptop. She mentions that her hard drive light is constantly on. What is most likely causing this?",
+      "options": [
+        { "id": "A", "text": "The hard drive is failing" },
+        { "id": "B", "text": "Windows is using excessive virtual memory (disk thrashing)" },
+        { "id": "C", "text": "The laptop has a virus" },
+        { "id": "D", "text": "Too many programs are running" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "When the hard drive light is constantly on and performance is slow, this indicates disk thrashing - the system is excessively using virtual memory (page file) due to insufficient RAM, causing constant hard drive access."
+    },
+    {
+      "id": 57,
+      "question": "A Windows Vista computer cannot connect to a network printer. Other computers on the network can connect to it. What should you check first?",
+      "options": [
+        { "id": "A", "text": "Whether the printer is powered on" },
+        { "id": "B", "text": "Whether the printer driver is installed on the Vista computer" },
+        { "id": "C", "text": "Whether the computer can ping the printer" },
+        { "id": "D", "text": "Whether Windows Firewall is blocking the connection" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Since other computers can connect, the printer is working. Testing network connectivity with ping is the logical first step to determine if it's a network issue or a driver/configuration problem."
+    },
+    {
+      "id": 58,
+      "question": "You are troubleshooting a workstation that keeps displaying error messages about a specific service failing to start. Where should you go to investigate this?",
+      "options": [
+        { "id": "A", "text": "Task Manager" },
+        { "id": "B", "text": "Services console" },
+        { "id": "C", "text": "Event Viewer" },
+        { "id": "D", "text": "MSCONFIG" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Event Viewer logs detailed information about service failures, including error codes and descriptions. This is the best place to investigate why a service is failing to start."
+    },
+    {
+      "id": 59,
+      "question": "Looking at the graphic shown here, what operating system are you dealing with?",
+      "options": [
+        { "id": "A", "text": "Windows 8.1" },
+        { "id": "B", "text": "macOS" },
+        { "id": "C", "text": "Windows Vista" },
+        { "id": "D", "text": "Linux" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The graphic shows the characteristic spinning pinwheel cursor of macOS, which appears when the system is busy or an application is not responding."
+    },
+    {
+      "id": 60,
+      "question": "You are working on your Windows 7 computer and a security alert pops up, as shown here. What should your next action be?",
+      "options": [
+        { "id": "A", "text": "Click the Protect Now button" },
+        { "id": "B", "text": "Click the X in the upper-right corner to close the alert" },
+        { "id": "C", "text": "Shut down your computer. Reboot, and initiate a virus scan using your antivirus software" },
+        { "id": "D", "text": "Use System Restore to create a snapshot and then click the Protect Now button" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "This appears to be a rogue antivirus alert (fake security warning). The safest response is to close it without clicking anything in the window, shut down, and perform a legitimate virus scan with your actual antivirus software."
+    },
+    {
+      "id": 61,
+      "question": "When booting a Windows 8.1 workstation, a user receives an error message about a missing DLL file. However, Windows still loads. Which utility should you use to attempt to fix the issue?",
+      "options": [
+        { "id": "A", "text": "SFC" },
+        { "id": "B", "text": "Recovery Console" },
+        { "id": "C", "text": "REGSVR32" },
+        { "id": "D", "text": "REGEDIT" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "SFC (System File Checker) scans for and repairs corrupted or missing system files, including DLL files. Running 'sfc /scannow' can restore missing or corrupted system files."
+    },
+    {
+      "id": 62,
+      "question": "The touchscreen on a user's iPhone is not responding, and the phone is powered on. What should you recommend she do first?",
+      "options": [
+        { "id": "A", "text": "Perform a soft reset" },
+        { "id": "B", "text": "Perform a hard reset" },
+        { "id": "C", "text": "Restore the iPhone from backup" },
+        { "id": "D", "text": "Take the iPhone to an Apple Store" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "When an iPhone's touchscreen is unresponsive, a hard reset (forcing a restart by holding Sleep/Wake and Home buttons) is the recommended first step to resolve the issue."
+    },
+    {
+      "id": 63,
+      "question": "A user complains that his computer takes a very long time to boot up. What can you do to potentially speed up the boot process? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Disable unnecessary startup programs" },
+        { "id": "B", "text": "Increase virtual memory" },
+        { "id": "C", "text": "Run Disk Defragmenter" },
+        { "id": "D", "text": "Update BIOS" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "C"],
+      "explanation": "Slow boot times are commonly caused by too many startup programs loading during boot, and by fragmented hard drives that slow down file access. Disabling unnecessary startup programs and defragmenting the disk can improve boot speed."
+    },
+    {
+      "id": 64,
+      "question": "What does UAC stand for in Windows?",
+      "options": [
+        { "id": "A", "text": "User Account Control" },
+        { "id": "B", "text": "Universal Access Control" },
+        { "id": "C", "text": "Unified Authentication Center" },
+        { "id": "D", "text": "User Authorization Console" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "UAC stands for User Account Control. It's a Windows security feature that prompts for permission when programs try to make changes to the computer, helping prevent unauthorized modifications."
+    },
+    {
+      "id": 65,
+      "question": "You are troubleshooting a Windows workstation and need to view a log of system events, warnings, and errors. Which utility should you use?",
+      "options": [
+        { "id": "A", "text": "Performance Monitor" },
+        { "id": "B", "text": "Task Manager" },
+        { "id": "C", "text": "MSCONFIG" },
+        { "id": "D", "text": "Event Viewer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Event Viewer is the Windows utility that displays logs of system events, application errors, security events, and warnings. It's essential for troubleshooting system issues."
+    },
+    {
+      "id": 66,
+      "question": "You have a Windows 8.1 workstation that will not boot properly. After the POST, the screen displays a message saying \"Operating System Not Found.\" What is most likely causing the problem?",
+      "options": [
+        { "id": "A", "text": "NTLDR" },
+        { "id": "B", "text": "BOOTMGR" },
+        { "id": "C", "text": "BOOT.INI" },
+        { "id": "D", "text": "BCD" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "In Windows 8.1, the Boot Configuration Data (BCD) store contains boot configuration information. If BCD is corrupted or missing, the system displays \"Operating System Not Found.\" NTLDR and BOOT.INI were used in older Windows versions."
+    },
+    {
+      "id": 67,
+      "question": "You are troubleshooting a Windows 7 workstation and believe it has malware. To follow the best practices for malware removal, after you identify the malware symptoms, which step should you take?",
+      "options": [
+        { "id": "A", "text": "Update the anti-malware software" },
+        { "id": "B", "text": "Disable system restore" },
+        { "id": "C", "text": "Quarantine the infected system" },
+        { "id": "D", "text": "Scan for and remove the malware" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The malware removal best practice sequence is: 1) Identify symptoms, 2) Quarantine the system, 3) Disable system restore, 4) Remediate. After identifying symptoms, quarantine is the next step to prevent malware spread."
+    },
+    {
+      "id": 68,
+      "question": "While driving through the remote countryside, you notice that your mobile phone battery has been quickly drained of power. What is the most likely cause of this?",
+      "options": [
+        { "id": "A", "text": "The battery needs to be replaced" },
+        { "id": "B", "text": "The phone has been searching for a signal" },
+        { "id": "C", "text": "You need to perform a soft reset" },
+        { "id": "D", "text": "The phone needs to be replaced" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "When in areas with weak or no cellular signal, mobile phones continuously search for a signal, which significantly drains the battery. This is a common cause of rapid battery drain in remote areas."
+    },
+    {
+      "id": 69,
+      "question": "You have a workstation that dual-boots between Windows XP and Windows 8.1. When choosing to boot Windows XP, you receive an error message saying that NTLDR is missing. Which utilities will let you repair or replace this file? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Recovery Console" },
+        { "id": "B", "text": "REGSVR32" },
+        { "id": "C", "text": "Startup Repair" },
+        { "id": "D", "text": "BOOTREC" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "C"],
+      "explanation": "NTLDR is the boot loader for Windows XP and earlier. The Recovery Console (in Windows XP) and Startup Repair (in newer Windows versions) can both be used to repair or replace this file."
+    },
+    {
+      "id": 70,
+      "question": "A junior technician is trying to troubleshoot a Windows 8.1 workstation, and he is having some problems. You go to help, and when you get there, he has opened the utility you see here. Which utility is he running?",
+      "options": [
+        { "id": "A", "text": "TASKMGR.EXE" },
+        { "id": "B", "text": "CONTROL.EXE" },
+        { "id": "C", "text": "MSCONFIG.EXE" },
+        { "id": "D", "text": "MSINFO32.EXE" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The image shows the System Configuration utility (MSCONFIG), which displays startup options including Normal startup, Diagnostic startup, and Selective startup with various boot configuration options."
+    },
+    {
+      "id": 71,
+      "question": "You are trying to troubleshoot a remote Windows 7 workstation and want to use Remote Assistance. However, the workstation will not allow you to connect. Where do you tell the user to go to enable Remote Assistance connections to her computer?",
+      "options": [
+        { "id": "A", "text": "Computer Management ➢ Remote" },
+        { "id": "B", "text": "Advanced Security ➢ Remote" },
+        { "id": "C", "text": "System Properties ➢ Remote" },
+        { "id": "D", "text": "Network and Sharing Center ➢ Remote" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Remote Assistance settings are configured in System Properties under the Remote tab. This is where you enable or disable Remote Assistance and Remote Desktop connections."
+    },
+    {
+      "id": 72,
+      "question": "A user reports that when he tries to access a particular website, he is redirected to a different website. Other users on the network can access the intended website. What is most likely causing this problem?",
+      "options": [
+        { "id": "A", "text": "The website is down" },
+        { "id": "B", "text": "DNS cache poisoning on the user's computer" },
+        { "id": "C", "text": "The user's computer has malware" },
+        { "id": "D", "text": "Either B or C" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "When a single user is redirected but others aren't, it's either DNS cache poisoning (incorrect DNS entries on that computer) or malware causing browser redirection. Both are possible causes that should be investigated."
+    },
+    {
+      "id": 73,
+      "question": "You are troubleshooting a computer infected with malware. After identifying the malware and quarantining the system, what is your next step according to best practices?",
+      "options": [
+        { "id": "A", "text": "Update anti-malware software" },
+        { "id": "B", "text": "Disable System Restore" },
+        { "id": "C", "text": "Remove the malware" },
+        { "id": "D", "text": "Schedule scans and updates" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "After quarantining, the next step in malware removal best practices is to disable System Restore. This prevents the malware from being restored along with system files when using a restore point."
+    },
+{
+      "id": 74,
+      "question": "A user reports that her Windows 8.1 computer displays a black screen immediately after entering her login credentials. What should you try first?",
+      "options": [
+        { "id": "A", "text": "Boot into Safe Mode" },
+        { "id": "B", "text": "Reinstall Windows" },
+        { "id": "C", "text": "Press Ctrl+Alt+Del to start Task Manager and run explorer.exe" },
+        { "id": "D", "text": "Use System Restore" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A black screen after login is often caused by the Windows Explorer shell (explorer.exe) not loading. Opening Task Manager and manually running explorer.exe can restore the desktop without requiring more drastic measures."
+    },
+    {
+      "id": 75,
+      "question": "You are troubleshooting a Windows 7 computer that seems to be infected with malware. Which Windows Defender feature should you use?",
+      "options": [
+        { "id": "A", "text": "Quick Scan" },
+        { "id": "B", "text": "Full Scan" },
+        { "id": "C", "text": "Custom Scan" },
+        { "id": "D", "text": "Windows Defender cannot scan for malware in Windows 7" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "When malware infection is suspected, a Full Scan is recommended as it thoroughly examines all files, folders, and running programs on the computer, providing the most comprehensive malware detection."
+    },
+    {
+      "id": 76,
+      "question": "A user has called to report that his Windows workstation displays frequent error messages. What tool should you use to view detailed information about these errors?",
+      "options": [
+        { "id": "A", "text": "Task Manager" },
+        { "id": "B", "text": "Event Viewer" },
+        { "id": "C", "text": "Performance Monitor" },
+        { "id": "D", "text": "MSCONFIG" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Event Viewer logs all system errors with detailed information including error codes, timestamps, and descriptions. It's the primary tool for investigating error messages and system problems."
+    },
+    {
+      "id": 77,
+      "question": "What does the acronym BSOD stand for?",
+      "options": [
+        { "id": "A", "text": "Blue System of Death" },
+        { "id": "B", "text": "Blue Screen of Death" },
+        { "id": "C", "text": "Boot Sequence on Demand" },
+        { "id": "D", "text": "Basic System Operating Diagnostics" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "BSOD stands for Blue Screen of Death. It's a stop error screen displayed by Windows when it encounters a critical system error that prevents it from continuing operation."
+    },
+    {
+      "id": 78,
+      "question": "You are troubleshooting a computer that has been running slowly. You open Task Manager and notice that one process is using 98% of the CPU. What should you do?",
+      "options": [
+        { "id": "A", "text": "End the process immediately" },
+        { "id": "B", "text": "Research what the process is before taking action" },
+        { "id": "C", "text": "Reboot the computer" },
+        { "id": "D", "text": "Uninstall the associated program" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Before ending a process using high CPU, it's important to identify what it is. Some system processes are critical, and ending them could cause system instability. Research first, then take appropriate action."
+    },
+    {
+      "id": 79,
+      "question": "A user reports that his iPad is not syncing with his computer. What should you check first?",
+      "options": [
+        { "id": "A", "text": "Whether iTunes is installed" },
+        { "id": "B", "text": "Whether the USB cable is connected properly" },
+        { "id": "C", "text": "Whether the iPad is unlocked" },
+        { "id": "D", "text": "Whether iCloud sync is enabled" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The most common cause of sync issues is a loose or faulty connection. Checking the physical USB cable connection should be the first troubleshooting step before investigating software issues."
+    },
+    {
+      "id": 80,
+      "question": "You have been asked to configure a Windows 7 computer to automatically download and install updates. Where do you configure this setting?",
+      "options": [
+        { "id": "A", "text": "Control Panel ➢ System" },
+        { "id": "B", "text": "Control Panel ➢ Windows Update" },
+        { "id": "C", "text": "Control Panel ➢ Security Center" },
+        { "id": "D", "text": "MSCONFIG" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Windows Update settings, including automatic download and installation options, are configured through Control Panel ➢ Windows Update (or via Settings in newer Windows versions)."
+    },
+    {
+      "id": 81,
+      "question": "A user's Android tablet is experiencing very slow data speeds when not connected to Wi-Fi. What should you have the user check?",
+      "options": [
+        { "id": "A", "text": "Whether mobile data is enabled" },
+        { "id": "B", "text": "Whether the tablet has a strong cellular signal" },
+        { "id": "C", "text": "Whether the tablet is in airplane mode" },
+        { "id": "D", "text": "Whether background data usage is restricted" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Slow data speeds on cellular networks are most commonly caused by weak signal strength. The tablet may be in an area with poor coverage or too far from a cell tower."
+    },
+    {
+      "id": 82,
+      "question": "You need to configure a Windows 7 computer to use a static IP address. Where do you configure this?",
+      "options": [
+        { "id": "A", "text": "Control Panel ➢ Network and Sharing Center ➢ Change adapter settings" },
+        { "id": "B", "text": "Control Panel ➢ System ➢ Network" },
+        { "id": "C", "text": "Computer Management ➢ Network Configuration" },
+        { "id": "D", "text": "IPCONFIG /setip" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Static IP addresses are configured through Network and Sharing Center by accessing Change adapter settings, then viewing the properties of the network adapter and configuring TCP/IPv4 settings."
+    },
+    {
+      "id": 83,
+      "question": "A technician needs to repair the master boot record on a Windows 7 computer. Which command should be used?",
+      "options": [
+        { "id": "A", "text": "BOOTREC /FIXMBR" },
+        { "id": "B", "text": "BOOTREC /FIXBOOT" },
+        { "id": "C", "text": "BOOTREC /REBUILDBCD" },
+        { "id": "D", "text": "FIXMBR" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "BOOTREC /FIXMBR writes a new master boot record to the system partition, repairing MBR corruption issues. This command is run from the Windows Recovery Environment."
+    },
+    {
+      "id": 84,
+      "question": "A user complains that her smartphone is running out of storage space. What should you recommend? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Delete unused apps" },
+        { "id": "B", "text": "Clear the browser cache" },
+        { "id": "C", "text": "Move photos and videos to cloud storage" },
+        { "id": "D", "text": "Disable background app refresh" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "C"],
+      "explanation": "The most effective ways to free up storage space are removing unused applications and moving large files (photos/videos) to cloud storage. These directly address the storage capacity issue."
+    },
+    {
+      "id": 85,
+      "question": "A user's mobile device keeps connecting to unknown Wi-Fi networks automatically. What setting should be disabled?",
+      "options": [
+        { "id": "A", "text": "Wi-Fi" },
+        { "id": "B", "text": "Autoconnect" },
+        { "id": "C", "text": "Mobile data" },
+        { "id": "D", "text": "Location services" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "When autoconnect is enabled on mobile devices, it is possible for them to seek out open Wi-Fi networks and try to connect to them automatically. This setting should be disabled for all devices because an untrusted connection is a possible place for a DNS or man-in-the-middle attack to occur."
+    },
+    {
+      "id": 86,
+      "question": "A network administrator is concerned about Bluetooth security on mobile devices. What is the biggest security risk associated with Bluetooth?",
+      "options": [
+        { "id": "A", "text": "Battery drain" },
+        { "id": "B", "text": "Unintended Bluetooth pairing" },
+        { "id": "C", "text": "Slow data transfer speeds" },
+        { "id": "D", "text": "Interference with Wi-Fi" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "It's true that enabling Bluetooth will cause more of a drain on the battery, but that's not the biggest risk here. When anonymous devices are allowed to connect to Bluetooth-enabled devices, this is known as unintended Bluetooth pairing, and it represents a security threat. Mobile security policies should be created and enforced to prevent this from occurring."
+    },
+    {
+      "id": 87,
+      "question": "A Mac user reports that the cursor has turned into a spinning pinwheel and the system is not responding. What should the user do?",
+      "options": [
+        { "id": "A", "text": "Force a reboot" },
+        { "id": "B", "text": "Wait for the pinwheel to stop" },
+        { "id": "C", "text": "Run Apple Diagnostics" },
+        { "id": "D", "text": "Boot into Safe Mode" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "When a Mac cursor turns into a pinwheel and stays there, the system will not respond. Opening Apple Diagnostics won't work. You need to force a reboot of the system. There is no need to boot into Safe Mode yet; see whether the problem goes away first."
+    },
+    {
+      "id": 88,
+      "question": "What are two methods for backing up an iOS device? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "iTunes" },
+        { "id": "B", "text": "Google Drive" },
+        { "id": "C", "text": "OneDrive" },
+        { "id": "D", "text": "iCloud" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "D"],
+      "explanation": "Because problems tend to happen no matter how careful you may be, it is important to back up devices and be able to restore from those backups after an incident. In the Apple world, there is iTunes and iCloud. iTunes is installed on a desktop or laptop PC, and iCloud is cloud-based storage, as its name implies."
+    },
+    {
+      "id": 89,
+      "question": "A user has been shutting down his Windows computer by simply pressing the power button instead of using the Start menu. What problems can this cause? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Data loss from open applications" },
+        { "id": "B", "text": "Hardware damage" },
+        { "id": "C", "text": "Increased power consumption" },
+        { "id": "D", "text": "Corrupted operating system files" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "D"],
+      "explanation": "Not shutting down properly can result in lost data from open applications or corrupted operating system files. Neither option is good. Train all users on how to shut down properly."
+    },
+    {
+      "id": 90,
+      "question": "A user receives an invalid certificate error when browsing to a secure website. You check and the website is legitimate. What is most likely causing this error?",
+      "options": [
+        { "id": "A", "text": "The computer's date and time are set incorrectly" },
+        { "id": "B", "text": "The website's certificate has expired" },
+        { "id": "C", "text": "The browser needs to be updated" },
+        { "id": "D", "text": "The firewall is blocking the connection" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "If your computer is set to an incorrect time and date (we're talking years off, not just a few minutes), then it can cause invalid certificate errors for the websites you want to visit. It's never recommended to lower your security settings for the browser."
+    },
+    {
+      "id": 91,
+      "question": "You are troubleshooting a Windows Vista workstation. The user reports receiving a message that says Windows has recovered from an unexpected shutdown. Where should you look to find more details about this error?",
+      "options": [
+        { "id": "A", "text": "Task Manager" },
+        { "id": "B", "text": "Event Viewer" },
+        { "id": "C", "text": "MSCONFIG" },
+        { "id": "D", "text": "Device Manager" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Event Viewer maintains detailed logs of system events including unexpected shutdowns, crashes, and errors. It will show error codes and descriptions that can help diagnose the cause."
+    },
+    {
+      "id": 92,
+      "question": "A technician needs to permanently delete files from a hard drive so they cannot be recovered. Which tool should be used?",
+      "options": [
+        { "id": "A", "text": "FORMAT" },
+        { "id": "B", "text": "DEFRAG" },
+        { "id": "C", "text": "DISKPART CLEAN" },
+        { "id": "D", "text": "Secure erase utility" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "A secure erase utility overwrites data multiple times to prevent recovery. Simple deletion or formatting doesn't prevent data recovery with specialized tools."
+    },
+    {
+      "id": 93,
+      "question": "A user reports that a specific application crashes every time she tries to use a particular feature. What should you try first?",
+      "options": [
+        { "id": "A", "text": "Reinstall the application" },
+        { "id": "B", "text": "Check for application updates" },
+        { "id": "C", "text": "Run SFC /SCANNOW" },
+        { "id": "D", "text": "Reinstall Windows" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Before taking more drastic measures, checking for updates or patches from the vendor is the best first step. Updates often contain bug fixes that resolve specific issues."
+    },
+    {
+      "id": 94,
+      "question": "A Windows 7 computer will not complete Windows Update installations. The updates download but fail to install. What should you try?",
+      "options": [
+        { "id": "A", "text": "Disable User Account Control" },
+        { "id": "B", "text": "Run the Windows Update Troubleshooter" },
+        { "id": "C", "text": "Reinstall Windows" },
+        { "id": "D", "text": "Disable automatic updates" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Windows includes a built-in Update Troubleshooter that can diagnose and fix common Windows Update problems automatically. This should be tried before more invasive solutions."
+    },
+    {
+      "id": 95,
+      "question": "You are setting up a new Android phone for a user. What Google account feature allows automatic backup of the device?",
+      "options": [
+        { "id": "A", "text": "Google Sync" },
+        { "id": "B", "text": "Google Backup" },
+        { "id": "C", "text": "Google Drive" },
+        { "id": "D", "text": "Google Cloud" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Google Drive provides automatic cloud backup for Android devices, storing app data, device settings, photos, and other content associated with the Google account."
+    },
+    {
+      "id": 96,
+      "question": "A user cannot print to a network printer from her Windows 7 laptop. Other users can print to the printer. What should you check first?",
+      "options": [
+        { "id": "A", "text": "Whether the printer is online" },
+        { "id": "B", "text": "Whether the correct printer driver is installed" },
+        { "id": "C", "text": "Whether the laptop can ping the printer" },
+        { "id": "D", "text": "Whether the print spooler service is running" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Since others can print, the printer is functioning. Testing basic network connectivity with ping determines if the issue is network-related or driver/configuration-related."
+    },
+    {
+      "id": 97,
+      "question": "You need to prevent a specific program from running at startup in Windows 7. Which tool should you use?",
+      "options": [
+        { "id": "A", "text": "Task Manager" },
+        { "id": "B", "text": "MSCONFIG" },
+        { "id": "C", "text": "Services console" },
+        { "id": "D", "text": "Registry Editor" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "MSCONFIG (System Configuration utility) provides an easy interface to disable startup programs. In Windows 8 and later, Task Manager also provides this functionality."
+    },
+    {
+      "id": 98,
+      "question": "A technician suspects that a Windows computer has a rootkit infection. What makes rootkits particularly difficult to detect and remove?",
+      "options": [
+        { "id": "A", "text": "They encrypt all data" },
+        { "id": "B", "text": "They operate at the kernel level" },
+        { "id": "C", "text": "They delete antivirus software" },
+        { "id": "D", "text": "They disable Windows Defender" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Rootkits operate at the kernel level (deep in the operating system), which allows them to hide their presence from standard security tools and makes them extremely difficult to detect and remove."
+    },
+    {
+      "id": 99,
+      "question": "A user's iPhone screen is frozen and unresponsive. The power button does not turn off the device. What should you recommend?",
+      "options": [
+        { "id": "A", "text": "Wait for the battery to drain" },
+        { "id": "B", "text": "Hold Sleep/Wake and Home buttons for 10 seconds" },
+        { "id": "C", "text": "Connect to iTunes and restore" },
+        { "id": "D", "text": "Remove the SIM card" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "A hard reset (pressing and holding Sleep/Wake and Home buttons for at least 10 seconds) forces an iPhone to restart when it becomes completely unresponsive."
+    },
+    {
+      "id": 100,
+      "question": "You are troubleshooting a Windows 8.1 workstation that has a virus. Following malware removal best practices, what should you do after removing the malware?",
+      "options": [
+        { "id": "A", "text": "Educate the end user" },
+        { "id": "B", "text": "Enable System Restore and create a restore point" },
+        { "id": "C", "text": "Schedule scans and run updates" },
+        { "id": "D", "text": "Reboot the computer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "After remediating (removing malware), the next step in best practices is to schedule regular scans and run updates to ensure the anti-malware software stays current and prevents reinfection."
+    },
+    {
+      "id": 101,
+      "question": "A user wants to sync his iPhone with his Windows computer but does not want to use iCloud. What software must be installed?",
+      "options": [
+        { "id": "A", "text": "Apple Sync" },
+        { "id": "B", "text": "iTunes" },
+        { "id": "C", "text": "iDevice Manager" },
+        { "id": "D", "text": "Windows Mobile Device Center" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "iTunes is Apple's desktop software that allows iPhone, iPad, and iPod devices to sync with Windows or Mac computers without using iCloud."
+    },
+    {
+      "id": 102,
+      "question": "You need to check whether a specific Windows service is running. Which tool provides the quickest way to view and manage services?",
+      "options": [
+        { "id": "A", "text": "Task Manager" },
+        { "id": "B", "text": "Event Viewer" },
+        { "id": "C", "text": "Services console (services.msc)" },
+        { "id": "D", "text": "MSCONFIG" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The Services console (services.msc) provides a comprehensive interface to view, start, stop, and configure all Windows services. It's the dedicated tool for service management."
+    },
+    {
+      "id": 103,
+      "question": "A Windows 7 computer is infected with a virus that has disabled Windows Update. Following malware removal procedures, after you remove the virus, what should you do?",
+      "options": [
+        { "id": "A", "text": "Immediately enable Windows Update and install updates" },
+        { "id": "B", "text": "Schedule regular malware scans" },
+        { "id": "C", "text": "Enable System Restore" },
+        { "id": "D", "text": "Both B and C" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "After malware removal, you should schedule regular scans to prevent reinfection and enable System Restore to create recovery points for future use."
+    },
+    {
+      "id": 104,
+      "question": "A user reports that Windows Explorer keeps crashing on his Windows 8.1 computer. What should you do first?",
+      "options": [
+        { "id": "A", "text": "Run SFC /SCANNOW" },
+        { "id": "B", "text": "Check Event Viewer for error details" },
+        { "id": "C", "text": "Reinstall Windows" },
+        { "id": "D", "text": "Boot into Safe Mode" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Event Viewer will provide detailed information about why Explorer is crashing, including error codes and potentially problematic files or extensions. This information guides the troubleshooting process."
+    },
+    {
+      "id": 105,
+      "question": "A MacBook user reports that applications frequently become unresponsive. Which utility can help identify resource-intensive applications?",
+      "options": [
+        { "id": "A", "text": "Task Manager" },
+        { "id": "B", "text": "Activity Monitor" },
+        { "id": "C", "text": "System Profiler" },
+        { "id": "D", "text": "Console" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Activity Monitor is the macOS utility that displays real-time information about CPU, memory, energy, disk, and network usage, helping identify applications consuming excessive resources."
+    },
+    {
+      "id": 106,
+      "question": "You are troubleshooting a computer with intermittent blue screen errors. What information from the blue screen is most helpful for diagnosis?",
+      "options": [
+        { "id": "A", "text": "The background color" },
+        { "id": "B", "text": "The stop code or error message" },
+        { "id": "C", "text": "The time the error occurred" },
+        { "id": "D", "text": "The percentage complete" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The stop code (error code) displayed on blue screens provides specific information about what caused the system crash, which is essential for diagnosing and fixing the underlying problem."
+    },
+    {
+      "id": 107,
+      "question": "A user's Android phone shows a message that it is rooted, but the user did not root the device. What does this indicate?",
+      "options": [
+        { "id": "A", "text": "A software glitch" },
+        { "id": "B", "text": "Potential malware or unauthorized access" },
+        { "id": "C", "text": "A recent Android update" },
+        { "id": "D", "text": "Normal behavior" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Unauthorized root access is a serious security concern indicating potential malware infection or that the device has been compromised. This requires immediate investigation and remediation."
+    },
+    {
+      "id": 108,
+      "question": "You need to repair a corrupted boot sector on a Windows 7 computer. Which command should you use?",
+      "options": [
+        { "id": "A", "text": "BOOTREC /FIXBOOT" },
+        { "id": "B", "text": "BOOTREC /FIXMBR" },
+        { "id": "C", "text": "BOOTREC /REBUILDBCD" },
+        { "id": "D", "text": "CHKDSK /F" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "BOOTREC /FIXBOOT writes a new boot sector to the system partition, repairing boot sector corruption. This is different from /FIXMBR which repairs the Master Boot Record."
+    },
+    {
+      "id": 109,
+      "question": "A Windows computer keeps displaying pop-up advertisements even when the browser is closed. What is this most likely?",
+      "options": [
+        { "id": "A", "text": "Normal browser behavior" },
+        { "id": "B", "text": "Adware infection" },
+        { "id": "C", "text": "Windows Update notifications" },
+        { "id": "D", "text": "Legitimate software notifications" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Pop-ups appearing when the browser is closed indicate adware infection. Legitimate ads only appear within browsers, while adware runs independently as malware."
+    },
+    {
+      "id": 110,
+      "question": "You are configuring email on an iPhone. The user reports that emails are not being sent. What should you check?",
+      "options": [
+        { "id": "A", "text": "POP3 settings" },
+        { "id": "B", "text": "IMAP settings" },
+        { "id": "C", "text": "SMTP settings" },
+        { "id": "D", "text": "Exchange settings" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "SMTP (Simple Mail Transfer Protocol) is used for sending email. POP3 and IMAP are for receiving email. If emails aren't being sent, the SMTP configuration needs to be checked."
+    },
+    {
+      "id": 111,
+      "question": "You just installed new software on a Windows 7 workstation. When you try to open it, you receive an error message that the application is not compatible with Windows. What should you try first to resolve the issue?",
+      "options": [
+        { "id": "A", "text": "Right-click the application and choose Troubleshoot Compatibility" },
+        { "id": "B", "text": "Run SFC /scannow to check for compatibility issues" },
+        { "id": "C", "text": "Run MSCONFIG to see whether there are system configuration settings causing the issue" },
+        { "id": "D", "text": "Delete and reinstall the application" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Windows includes a Program Compatibility Troubleshooter that can automatically detect compatibility issues and apply appropriate compatibility settings without reinstalling."
+    },
+    {
+      "id": 112,
+      "question": "You are educating mobile users on best security practices. Which of the following are the biggest threats to network and data security? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Power drains" },
+        { "id": "B", "text": "Data transmission over-limit" },
+        { "id": "C", "text": "Unintended Wi-Fi connections" },
+        { "id": "D", "text": "Unintended Bluetooth connections" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["C", "D"],
+      "explanation": "Unintended Wi-Fi and Bluetooth connections represent significant security threats as they can allow unauthorized access to devices and data. Power drains and data limits are inconveniences, not security threats."
+    },
+    {
+      "id": 113,
+      "question": "While working on a Windows 8.1 workstation, a user receives a pop-up message saying that his computer has been infected with a virus, and he needs to download a virus scanner now to fix it. The window does not look like it comes from the antivirus software that your company uses. What is this an example of?",
+      "options": [
+        { "id": "A", "text": "Ransomware" },
+        { "id": "B", "text": "Spam" },
+        { "id": "C", "text": "Rogue antivirus" },
+        { "id": "D", "text": "Hijacked antivirus" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Rogue antivirus software displays fake security warnings to trick users into downloading and paying for fake security software or actual malware. These should never be clicked."
+    },
+    {
+      "id": 114,
+      "question": "You have been experiencing power drains on your mobile phone recently. Which of the following is NOT a common cause of power drains?",
+      "options": [
+        { "id": "A", "text": "Placement into airplane mode" },
+        { "id": "B", "text": "Long periods of usage" },
+        { "id": "C", "text": "Searching for cellular signal" },
+        { "id": "D", "text": "Too many open apps" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Airplane mode actually conserves battery by disabling all wireless communications. Long usage, searching for signal, and multiple open apps all drain battery power."
+    },
+    {
+      "id": 115,
+      "question": "You just installed a new driver on a Windows Vista workstation, and now the operating system will not load. The manufacturer's troubleshooting suggestion is to reboot and use the Last Known Good configuration. Where do you choose this from?",
+      "options": [
+        { "id": "A", "text": "System Recovery Options" },
+        { "id": "B", "text": "Recovery Console" },
+        { "id": "C", "text": "Emergency Repair Disk" },
+        { "id": "D", "text": "Safe Mode" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Last Known Good Configuration is accessed from the Advanced Boot Options menu (press F8 during boot), which also provides access to Safe Mode options. It boots using the last successful configuration."
+    },
+    {
+      "id": 116,
+      "question": "You have a Windows 7 workstation that will not boot properly. You suspect that the boot sector on the hard drive is corrupt. Which command in the Windows RE will allow you to create a new boot sector?",
+      "options": [
+        { "id": "A", "text": "BOOTREC /FIXMBR" },
+        { "id": "B", "text": "BOOTREC /FIXBOOT" },
+        { "id": "C", "text": "BOOTREC /REBUILDBCD" },
+        { "id": "D", "text": "BOOTREC /REBUILDMBR" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "BOOTREC /FIXBOOT writes a new boot sector to the system partition. This is used when the boot sector is corrupted but the MBR and BCD are intact."
+    },
+    {
+      "id": 117,
+      "question": "You have an Android mobile phone, and the resource usage has been unusually high lately. What can you do to see whether your phone has acquired malware?",
+      "options": [
+        { "id": "A", "text": "There is no malware for Android-based phones" },
+        { "id": "B", "text": "Download security software and use an app scanner" },
+        { "id": "C", "text": "Download security software and use a Wi-Fi analyzer" },
+        { "id": "D", "text": "Install the latest Android patches and perform a soft reset. If there was a virus, this will remove it" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Android devices can be infected with malware. Downloading reputable security software and running an app scanner can identify malicious applications causing high resource usage."
+    },
+    {
+      "id": 118,
+      "question": "You use Internet Explorer to browse the Web. Starting yesterday, whenever you try to search for anything on your favorite search engine, you are always sent to the same specific website trying to sell you stuff. This happens regardless of what you are searching for. Which two things are most likely to cause this to happen? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "Your computer has an invalid certificate" },
+        { "id": "B", "text": "Your computer has malware that is causing browser redirection" },
+        { "id": "C", "text": "The DNS server has been poisoned" },
+        { "id": "D", "text": "The search engines you use have been compromised" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["B", "C"],
+      "explanation": "Browser redirection can be caused by malware on the local computer or by DNS poisoning that redirects requests to malicious sites. Both are security threats that need immediate attention."
+    },
+    {
+      "id": 119,
+      "question": "A Windows 7 workstation on your network is exhibiting slow performance. Which of the following tools should be used to check for a potential problem causing the slowdown?",
+      "options": [
+        { "id": "A", "text": "Anti-malware software" },
+        { "id": "B", "text": "Event Viewer" },
+        { "id": "C", "text": "MSCONFIG" },
+        { "id": "D", "text": "REGSRV32" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Slow performance is often caused by malware consuming system resources. Running anti-malware software should be one of the first troubleshooting steps to rule out infection."
+    },
+    {
+      "id": 120,
+      "question": "You are consulting for a high school that is deploying iPads to its students for in-school use. The iPads all need to have identical configurations. Which service should you use to configure these devices?",
+      "options": [
+        { "id": "A", "text": "iConfigure" },
+        { "id": "B", "text": "iPadPlus" },
+        { "id": "C", "text": "Apple Configurator" },
+        { "id": "D", "text": "Apple Installer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Apple Configurator simplifies mass configuration and deployment on iPhone, iPad, and iPod Touch devices. It is intended for use by schools, businesses, and institutions that need to deploy specific configurations to multiple devices."
+    },
+    {
+      "id": 121,
+      "question": "You have installed a new network card driver, and it's not working properly. According to the manufacturer's website, you need to modify a Registry setting. Which utility do you use to modify the Registry?",
+      "options": [
+        { "id": "A", "text": "MSCONFIG" },
+        { "id": "B", "text": "REGEDIT" },
+        { "id": "C", "text": "REGSVR32" },
+        { "id": "D", "text": "MMC" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The Registry Editor (REGEDIT) is used to change values and variables stored in a configuration database known as the Registry. This centralized database contains environmental settings for various Windows programs along with registration information, which details the types of filename extensions associated with applications. Be careful when editing the Registry. There is no undo feature, and one incorrect change could cause Windows to malfunction."
+    },
+    {
+      "id": 122,
+      "question": "A Windows 10 computer is attempting to install an OS update, but the update fails. What should you try first?",
+      "options": [
+        { "id": "A", "text": "Wait for Windows Update to revert the changes, reboot, and try again" },
+        { "id": "B", "text": "Run the Windows Update Troubleshooter" },
+        { "id": "C", "text": "Reinstall Windows" },
+        { "id": "D", "text": "Disable Windows Update" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "If an OS update fails, it could be a configuration issue or simply a one-time glitch in the process. Wait until Windows Update reverts the changes and then reboot and try the update again. If that does not work, you can unplug removable media from your computer and try again, or you can try the Windows Update Troubleshooter."
+    },
+    {
+      "id": 123,
+      "question": "You need to restore a Windows 7 computer to an earlier state. Which feature allows you to use a saved configuration without affecting user data?",
+      "options": [
+        { "id": "A", "text": "System Restore" },
+        { "id": "B", "text": "Backup and Restore" },
+        { "id": "C", "text": "Windows Update" },
+        { "id": "D", "text": "Recovery Console" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "A restore point is a copy, or snapshot, of your system configuration at a given point in time. It's like a backup of your configuration but not your data. Snapshots are created within Windows from the System Restore program. If Windows will not load, Safe Mode can be used to run rstrui.exe, which will open a version of System Restore so you can use a snapshot."
+    },
+    {
+      "id": 124,
+      "question": "A user wants to back up her Windows Phone and access the data from her laptop. Which Microsoft service should she use?",
+      "options": [
+        { "id": "A", "text": "Office 365" },
+        { "id": "B", "text": "OneDrive" },
+        { "id": "C", "text": "SharePoint" },
+        { "id": "D", "text": "Azure" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "OneDrive is Microsoft's cloud implementation for end users. It will allow the user to sync her phone and back it up to the cloud. She can also access the data from other devices."
+    },
+    {
+      "id": 125,
+      "question": "You have successfully removed malware from a Windows workstation. Following best practices, what is the final step you should take?",
+      "options": [
+        { "id": "A", "text": "Educate the end user" },
+        { "id": "B", "text": "Schedule regular scans" },
+        { "id": "C", "text": "Enable System Restore" },
+        { "id": "D", "text": "Reboot the computer" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The best practice for malware removal is a seven-step process. Identify malware symptoms, quarantine infected system, disable system restore (in Windows), remediate infected systems (including update anti-malware software and scan and remove the malware), schedule scans and run updates, enable system restore and create a restore point (in Windows), and educate the end user."
+    }
+  ]
+}

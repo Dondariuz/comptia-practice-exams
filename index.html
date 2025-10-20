@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompTIA A+ Practice Exams - Plataforma de Práctica</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="contenedor-principal">
+        <!-- Header Principal -->
+        <header class="header-principal">
+            <div class="logo-container">
+                <h1>CompTIA A+ Practice Exams</h1>
+                <p class="subtitulo">Plataforma de Preparación Profesional</p>
+            </div>
+        </header>
+
+        <!-- Descripción de la Plataforma -->
+        <section class="descripcion-plataforma">
+            <h2>Bienvenido a tu Centro de Preparación</h2>
+            <p>
+                Esta plataforma ha sido diseñada específicamente para ayudarte a prepararte para los exámenes 
+                de certificación <strong>CompTIA A+ (220-901 y 220-902)</strong>. Aquí encontrarás exámenes 
+                de práctica completos que simulan las condiciones reales del examen, incluyendo:
+            </p>
+            <ul>
+                <li>✅ Preguntas de opción múltiple y respuestas múltiples</li>
+                <li>✅ Temporizador de examen para simular condiciones reales</li>
+                <li>✅ Sistema de puntuación escalada (100-900 puntos)</li>
+                <li>✅ Explicaciones detalladas para cada pregunta</li>
+                <li>✅ Cobertura completa de todos los objetivos del examen</li>
+            </ul>
+        </section>
+
+        <!-- Tabla de Estadísticas de Exámenes -->
+        <section class="tabla-examenes">
+            <h2>Estadísticas de los Exámenes Disponibles</h2>
+            <div class="tabla-responsive">
+                <table class="tabla-stats">
+                    <thead>
+                        <tr>
+                            <th>Examen</th>
+                            <th>Código</th>
+                            <th>Tema</th>
+                            <th>Preguntas</th>
+                            <th>Tiempo</th>
+                            <th>Puntaje Mínimo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Práctica 1</td>
+                            <td>220-901</td>
+                            <td>Hardware y Redes</td>
+                            <td>90</td>
+                            <td>90 min</td>
+                            <td>675/900</td>
+                        </tr>
+                        <tr>
+                            <td>Práctica 2</td>
+                            <td>220-902</td>
+                            <td>Sistemas Operativos y Seguridad</td>
+                            <td>90</td>
+                            <td>90 min</td>
+                            <td>700/900</td>
+                        </tr>
+                        <tr>
+                            <td>Capítulo 3</td>
+                            <td>Mobile</td>
+                            <td>Dispositivos Móviles</td>
+                            <td>86</td>
+                            <td>90 min</td>
+                            <td>700/900</td>
+                        </tr>
+                        <tr>
+                            <td>Capítulo 2</td>
+                            <td>Network</td>
+                            <td>Networking</td>
+                            <td>105</td>
+                            <td>100 min</td>
+                            <td>720/900</td>
+                        </tr>
+                        <tr>
+                            <td>Capítulo 4</td>
+                            <td>Troubleshoot</td>
+                            <td>Hardware and Network Troubleshooting</td>
+                            <td>140</td>
+                            <td>135 min</td>
+                            <td>700/900</td>
+                        </tr>
+                        <tr>
+                            <td>Capítulo 1</td>
+                            <td>Hardware</td>
+                            <td>Hardware</td>
+                            <td>171</td>
+                            <td>150 min</td>
+                            <td>675/900</td>
+                        </tr>
+                        <tr>
+                            <td>Capítulo 5</td>
+                            <td>Windows</td>
+                            <td>Windows Operating Systems</td>
+                            <td>152</td>
+                            <td>140 min</td>
+                            <td>700/900</td>
+                        </tr>
+                        <tr>
+                            <td>Capítulo 9</td>
+                            <td>Operations</td>
+                            <td>Operational Procedures</td>
+                            <td>68</td>
+                            <td>70 min</td>
+                            <td>700/900</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Selección de exámenes -->
+        <section class="seccion-examenes">
+            <h2>Selecciona tu Examen de Práctica</h2>
+            <p class="instrucciones">Elige el examen que deseas realizar. 
+            Cada examen simula las condiciones del examen real 
+            con tiempo limitado y puntuación escalada.</p>
+            
+            <div class="seleccion-examen">
+                <a href="examen.html?exam=1" class="boton-examen">
+                    <div class="examen-header">
+                        <h3>Práctica Examen 1</h3>
+                        <span class="badge">220-901</span>
+                    </div>
+                    <p class="descripcion">Hardware y Redes</p>
+                    <div class="examen-stats">
+                        <span>📝 90 Preguntas</span>
+                        <span>⏱️ 90 minutos</span>
+                    </div>
+                </a>
+
+                <a href="examen.html?exam=2" class="boton-examen">
+                    <div class="examen-header">
+                        <h3>Práctica Examen 2</h3>
+                        <span class="badge">220-902</span>
+                    </div>
+                    <p class="descripcion">Sistemas Operativos y Seguridad</p>
+                    <div class="examen-stats">
+                        <span>📝 90 Preguntas</span>
+                        <span>⏱️ 90 minutos</span>
+                    </div>
+                </a>
+
+                <a href="examen.html?exam=3" class="boton-examen">
+                    <div class="examen-header">
+                        <h3>Dispositivos Móviles</h3>
+                        <span class="badge">Cap. 3</span>
+                    </div>
+                    <p class="descripcion">Mobile Devices</p>
+                    <div class="examen-stats">
+                        <span>📝 86 Preguntas</span>
+                        <span>⏱️ 90 minutos</span>
+                    </div>
+                </a>
+
+                <a href="examen.html?exam=4" class="boton-examen">
+                    <div class="examen-header">
+                        <h3>Networking</h3>
+                        <span class="badge">Cap. 2</span>
+                    </div>
+                    <p class="descripcion">Redes y Conectividad</p>
+                    <div class="examen-stats">
+                        <span>📝 105 Preguntas</span>
+                        <span>⏱️ 100 minutos</span>
+                    </div>
+                </a>
+
+                <a href="examen.html?exam=5" class="boton-examen">
+                    <div class="examen-header">
+                        <h3>Hardware & Network Troubleshooting</h3>
+                        <span class="badge">Cap.4</span>
+                    </div>
+                    <p class="descripcion">Resolución de Problemas</p>
+                    <div class="examen-stats">
+                        <span>📝 140 Preguntas</span>
+                        <span>⏱️ 135 minutos</span>
+                    </div>
+                </a>
+
+                <a href="examen.html?exam=6" class="boton-examen">
+                    <div class="examen-header">
+                        <h3>Hardware</h3>
+                        <span class="badge">Cap. 1</span>
+                    </div>
+                    <p class="descripcion">Fundamentos de Hardware</p>
+                    <div class="examen-stats">
+                        <span>📝 171 Preguntas</span>
+                        <span>⏱️ 150 minutos</span>
+                    </div>
+                </a>
+
+                <a href="examen.html?exam=7" class="boton-examen">
+                    <div class="examen-header">
+                        <h3>Windows Operating Systems</h3>
+                        <span class="badge">Cap. 5</span>
+                    </div>
+                    <p class="descripcion">Sistemas Operativos Windows</p>
+                    <div class="examen-stats">
+                        <span>📝 152 Preguntas</span>
+                        <span>⏱️ 140 minutos</span>
+                    </div>
+                </a>
+
+                <a href="examen.html?exam=8" class="boton-examen">
+                    <div class="examen-header">
+                        <h3>Operational Procedures</h3>
+                        <span class="badge">Cap. 9</span>
+                    </div>
+                    <p class="descripcion">Procedimientos Operacionales</p>
+                    <div class="examen-stats">
+                        <span>📝 68 Preguntas</span>
+                        <span>⏱️ 70 minutos</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-principal">
+            <p>© 2025 CompTIA A+ Practice Exams | Simulador Educativo</p>
+            <p>Esta plataforma es un recurso educativo independiente y no está afiliada oficialmente con CompTIA.</p>
+        </footer>
+    </div>
+</body>
+</html>

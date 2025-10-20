@@ -1,0 +1,858 @@
+{
+  "exam": {
+    "title": "CompTIA A+ Chapter 6 Practice Exam",
+    "chapter": "Chapter 6: Other Operating Systems and Technologies",
+    "totalQuestions": 65,
+    "timerMinutes": 60,
+    "passingScore": 700
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "You have a user who just purchased a Windows Phone. He wants to know what the name of the virtual assistant is on his phone. What do you tell him?",
+      "options": [
+        { "id": "A", "text": "Windows Phone does not have a virtual assistant." },
+        { "id": "B", "text": "Windy." },
+        { "id": "C", "text": "Siri." },
+        { "id": "D", "text": "Cortana." },
+        { "id": "E", "text": "Alexa." }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Nearly all mobile operating systems now come with a virtual assistant. Cortana is the name of the Windows Phone (and Windows 10) virtual assistant. Windy is not currently the name of one. iOS uses Siri, and Amazon devices use Alexa."
+    },
+    {
+      "id": 2,
+      "question": "Which type of server on your network will utilize UDP ports 67 and 68 to communicate with other computers?",
+      "options": [
+        { "id": "A", "text": "Authentication server" },
+        { "id": "B", "text": "Print server" },
+        { "id": "C", "text": "DHCP server" },
+        { "id": "D", "text": "DNS server" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "DHCP servers provide TCP/IP configuration information to client computers. Clients will broadcast, searching for the DHCP server. The server will respond and provide the client with its IP address, subnet mask, default gateway, and other information. DHCP uses UDP ports 67 and 68."
+    },
+    {
+      "id": 3,
+      "question": "Which Linux command is used to copy and convert files from one format to another?",
+      "options": [
+        { "id": "A", "text": "dd" },
+        { "id": "B", "text": "cp" },
+        { "id": "C", "text": "mv" },
+        { "id": "D", "text": "rm" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The dd (data definition) command is used to copy files and can also be used to convert files from one format to another. It can also be used to copy blocks of data from a file and to back up the boot sector of the hard drive. The cp command will copy files but is not used for file conversion."
+    },
+    {
+      "id": 4,
+      "question": "What is the unique 15-digit identifier that describes a specific mobile user and their network?",
+      "options": [
+        { "id": "A", "text": "IMEI" },
+        { "id": "B", "text": "IMSI" },
+        { "id": "C", "text": "PRI" },
+        { "id": "D", "text": "PRL" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The International Mobile Subscriber Identity (IMSI) is a unique 15-digit identifier that describes a specific mobile user and their network. It's composed of three elements: a mobile country code, a mobile network code, and a mobile station identifier. The International Mobile Equipment Identity (IMEI) is also a 15-digit serial number, but it identifies the specific phone."
+    },
+    {
+      "id": 5,
+      "question": "Let's say that your company needs extra network capacity, including processing power, storage, and networking services (such as firewalls), but doesn't have the money to buy more network hardware. What type of cloud service should you purchase?",
+      "options": [
+        { "id": "A", "text": "SaaS" },
+        { "id": "B", "text": "IaaS" },
+        { "id": "C", "text": "PaaS" },
+        { "id": "D", "text": "NaaS" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Instead, you can purchase Infrastructure as a Service (IaaS), which is a lot like paying for utilities—you pay for what you use. Of the three, IaaS requires the most network management expertise from the client side. In an IaaS setup, the client provides and manages the software."
+    },
+    {
+      "id": 6,
+      "question": "What is the primary function of DNS on the network?",
+      "options": [
+        { "id": "A", "text": "Provide IP addresses to client computers" },
+        { "id": "B", "text": "Resolve hostnames to IP addresses" },
+        { "id": "C", "text": "Authenticate users" },
+        { "id": "D", "text": "Filter web content" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "DNS has one function on the network, and that is to resolve hostnames to IP addresses. For a computer or phone to open a website, it needs to know the IP address of that website."
+    },
+    {
+      "id": 7,
+      "question": "Which Linux command is used to list files in a directory?",
+      "options": [
+        { "id": "A", "text": "dir" },
+        { "id": "B", "text": "grep" },
+        { "id": "C", "text": "cp" },
+        { "id": "D", "text": "ls" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The ls command is used to list files and directories in Linux. While dir exists in some Linux systems for compatibility, ls is the standard Linux command."
+    },
+    {
+      "id": 8,
+      "question": "Your company produces software and employs about 20 developers. They need to program apps for different operating systems. You decide to purchase cloud-based services to support the development team. What type of service should you purchase so they can develop their programs and then test them in environments other than where they were developed?",
+      "options": [
+        { "id": "A", "text": "IaaS" },
+        { "id": "B", "text": "SaaS" },
+        { "id": "C", "text": "PaaS" },
+        { "id": "D", "text": "NaaS" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Platform as a Service (PaaS) provides developers with a complete development environment where they can build, test, and deploy applications without managing the underlying infrastructure."
+    },
+    {
+      "id": 9,
+      "question": "On your MacBook Pro, what is the name of the utility used to browse through files and folders?",
+      "options": [
+        { "id": "A", "text": "Spotlight" },
+        { "id": "B", "text": "Remote Disc" },
+        { "id": "C", "text": "iCloud" },
+        { "id": "D", "text": "Finder" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Finder is the file management utility in macOS used to browse through files and folders."
+    },
+    {
+      "id": 10,
+      "question": "While using your mobile phone, you want to set up a secure connection over a Wi-Fi network. What type of connection do you need to enable?",
+      "options": [
+        { "id": "A", "text": "VPN" },
+        { "id": "B", "text": "IMEI" },
+        { "id": "C", "text": "IMSI" },
+        { "id": "D", "text": "PRI/PRL" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "A VPN (Virtual Private Network) creates a secure, encrypted connection over a Wi-Fi network."
+    },
+    {
+      "id": 11,
+      "question": "Which feature of cloud service allows you to instantly obtain additional storage space or processing power as your company needs it?",
+      "options": [
+        { "id": "A", "text": "Ubiquitous access" },
+        { "id": "B", "text": "Rapid elasticity" },
+        { "id": "C", "text": "Resource pooling" },
+        { "id": "D", "text": "Measured service" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Rapid elasticity allows you to quickly scale resources up or down based on demand."
+    },
+    {
+      "id": 12,
+      "question": "You need to start a new shell on a Linux workstation, with root permissions. Which command should you use to do this?",
+      "options": [
+        { "id": "A", "text": "su" },
+        { "id": "B", "text": "sudo" },
+        { "id": "C", "text": "vi" },
+        { "id": "D", "text": "dd" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The su (substitute user) command starts a new shell with root permissions when used without arguments or with 'root' as the argument."
+    },
+    {
+      "id": 13,
+      "question": "Which type of cloud service provides your company with complete software applications needed to run your business?",
+      "options": [
+        { "id": "A", "text": "PaaS" },
+        { "id": "B", "text": "NaaS" },
+        { "id": "C", "text": "IaaS" },
+        { "id": "D", "text": "SaaS" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Software as a Service (SaaS) provides complete software applications that run your business, delivered over the internet."
+    },
+    {
+      "id": 14,
+      "question": "In Linux, what is the name of the interpreter between the user and the operating system?",
+      "options": [
+        { "id": "A", "text": "Terminal" },
+        { "id": "B", "text": "Command prompt" },
+        { "id": "C", "text": "GUI" },
+        { "id": "D", "text": "Shell" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The shell is the command-line interpreter that acts as an interface between the user and the Linux operating system."
+    },
+    {
+      "id": 15,
+      "question": "A user types in her username and password into a workstation that is configured in a domain. Which type of server examines her information and determines whether she gets access to network resources?",
+      "options": [
+        { "id": "A", "text": "Authentication server" },
+        { "id": "B", "text": "Proxy server" },
+        { "id": "C", "text": "File server" },
+        { "id": "D", "text": "DHCP server" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "An authentication server verifies user credentials and determines access rights to network resources."
+    },
+    {
+      "id": 16,
+      "question": "On your network, a few users have been accessing material on inappropriate websites. What type of server can you install to block content from a list of prohibited websites?",
+      "options": [
+        { "id": "A", "text": "DNS server" },
+        { "id": "B", "text": "Authentication server" },
+        { "id": "C", "text": "Proxy server" },
+        { "id": "D", "text": "Web server" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "A proxy server can filter and block access to specific websites based on a blacklist or content filtering rules."
+    },
+    {
+      "id": 17,
+      "question": "Which type of server on a network is responsible for listening for inbound traffic on ports 80 and 443?",
+      "options": [
+        { "id": "A", "text": "DHCP server" },
+        { "id": "B", "text": "DNS server" },
+        { "id": "C", "text": "Mail server" },
+        { "id": "D", "text": "Web server" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Web servers listen on port 80 for HTTP traffic and port 443 for HTTPS traffic."
+    },
+    {
+      "id": 18,
+      "question": "You are working on a Linux file server. Which command would you use to see the amount of free disk space on a volume?",
+      "options": [
+        { "id": "A", "text": "fsck" },
+        { "id": "B", "text": "df" },
+        { "id": "C", "text": "du" },
+        { "id": "D", "text": "vi" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The df (disk free) command displays the amount of free disk space on file systems."
+    },
+    {
+      "id": 19,
+      "question": "In your web browser, you type www.google.com and press Enter. Which type of server identifies the owner of that name and tells your computer the IP address of the server you want to communicate with?",
+      "options": [
+        { "id": "A", "text": "Proxy server" },
+        { "id": "B", "text": "DHCP server" },
+        { "id": "C", "text": "DNS server" },
+        { "id": "D", "text": "Authentication server" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "DNS (Domain Name System) servers resolve domain names to IP addresses."
+    },
+    {
+      "id": 20,
+      "question": "You are installing virtualization on a workstation that needs to support multiple operating systems. Which type of hypervisor is best suited for this environment?",
+      "options": [
+        { "id": "A", "text": "Type 1" },
+        { "id": "B", "text": "Type 2" },
+        { "id": "C", "text": "Either Type 1 or Type 2 will function in the same way" },
+        { "id": "D", "text": "Virtual machine manager" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Type 2 hypervisors run on top of an existing operating system and are best suited for workstations. Type 1 hypervisors run directly on hardware and are better for servers."
+    },
+    {
+      "id": 21,
+      "question": "Which piece of software on a mobile phone manages all wireless communication for the phone?",
+      "options": [
+        { "id": "A", "text": "PRI" },
+        { "id": "B", "text": "PRL" },
+        { "id": "C", "text": "Baseband OS" },
+        { "id": "D", "text": "SIM OS" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The baseband OS (operating system) manages all wireless communications on a mobile phone."
+    },
+    {
+      "id": 22,
+      "question": "You have a MacBook running macOS Yosemite on your network. You want to create a backup of critical operating system files in case the system crashes and is unable to locate the hard drive. What should you create?",
+      "options": [
+        { "id": "A", "text": "Recovery disk" },
+        { "id": "B", "text": "Image" },
+        { "id": "C", "text": "Snapshot" },
+        { "id": "D", "text": "Time Machine" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "A recovery disk contains essential files needed to boot and recover the system when the hard drive fails."
+    },
+    {
+      "id": 23,
+      "question": "A user recently left the company, and you need to change ownership of his files on the Linux server to a new user. Which command should you use to do this?",
+      "options": [
+        { "id": "A", "text": "chown" },
+        { "id": "B", "text": "chmod" },
+        { "id": "C", "text": "chperm" },
+        { "id": "D", "text": "cp" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The chown (change owner) command is used to change the ownership of files and directories in Linux."
+    },
+    {
+      "id": 24,
+      "question": "One of your network users has a MacBook Pro running OS X Yosemite. Where should this user go to see whether there are any OS updates available?",
+      "options": [
+        { "id": "A", "text": "Open the App Store and click Updates in the toolbar" },
+        { "id": "B", "text": "Open Safari and click Updates in the toolbar" },
+        { "id": "C", "text": "Open System Preferences and click Updates in the toolbar" },
+        { "id": "D", "text": "Open iTunes and click Updates in the toolbar" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "In macOS, operating system updates are available through the App Store's Updates tab."
+    },
+    {
+      "id": 25,
+      "question": "Which type of server can replace file server functionality and provides dedicated storage on the network?",
+      "options": [
+        { "id": "A", "text": "File server" },
+        { "id": "B", "text": "NAS" },
+        { "id": "C", "text": "Authentication server" },
+        { "id": "D", "text": "Web server" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Network Attached Storage (NAS) or a Storage Area Network (SAN) can replace traditional file server functionality."
+    },
+    {
+      "id": 26,
+      "question": "What feature is available in macOS that automatically backs up your system to an external drive?",
+      "options": [
+        { "id": "A", "text": "iCloud" },
+        { "id": "B", "text": "Backup" },
+        { "id": "C", "text": "iBackup" },
+        { "id": "D", "text": "Time Machine" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Time Machine is macOS's built-in backup feature that automatically backs up your entire system to an external drive."
+    },
+    {
+      "id": 27,
+      "question": "Which feature on a Mac will allow you to find an application file when you don't remember where you put it?",
+      "options": [
+        { "id": "A", "text": "Spotlight" },
+        { "id": "B", "text": "Finder" },
+        { "id": "C", "text": "Remote Disc" },
+        { "id": "D", "text": "iCloud" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Spotlight is macOS's search feature that can quickly find files, applications, and documents anywhere on your system."
+    },
+    {
+      "id": 28,
+      "question": "Which mobile data types can be synchronized to the cloud?",
+      "options": [
+        { "id": "A", "text": "Passwords" },
+        { "id": "B", "text": "Bookmarks" },
+        { "id": "C", "text": "Email" },
+        { "id": "D", "text": "All of the above" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Modern mobile devices can synchronize passwords, bookmarks, email, contacts, photos, and many other types of data to the cloud."
+    },
+    {
+      "id": 29,
+      "question": "Which Linux command is used to change file permissions?",
+      "options": [
+        { "id": "A", "text": "chperm" },
+        { "id": "B", "text": "cp" },
+        { "id": "C", "text": "chown" },
+        { "id": "D", "text": "chmod" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The chmod (change mode) command is used to change file and directory permissions in Linux."
+    },
+    {
+      "id": 30,
+      "question": "What type of update does your mobile phone need if you need to refresh the reference list the phone uses to connect to the proper cell phone tower when roaming?",
+      "options": [
+        { "id": "A", "text": "PRL" },
+        { "id": "B", "text": "PRI" },
+        { "id": "C", "text": "Baseband" },
+        { "id": "D", "text": "IMEI" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "PRL (Preferred Roaming List) updates provide the phone with information about which cell towers to connect to when roaming."
+    },
+    {
+      "id": 31,
+      "question": "Your network uses a Linux file server. It has four volumes, each formatted with ext4. You want to check the /ops/files volume for any filesystem errors and fix them. Which command should you use?",
+      "options": [
+        { "id": "A", "text": "fsck /ops/files" },
+        { "id": "B", "text": "du /ops/files" },
+        { "id": "C", "text": "df /ops/files" },
+        { "id": "D", "text": "chkdsk /ops/files" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The fsck (file system check) command is used in Linux to check and repair file system errors."
+    },
+    {
+      "id": 32,
+      "question": "A network consultant recommended to your boss that you install an IPS. Which of the following statements best describes what an IPS does?",
+      "options": [
+        { "id": "A", "text": "It detects anomalies in network traffic, logs the activity, and takes actions to stop the activity" },
+        { "id": "B", "text": "It detects viruses transmitted across the network, logs the activity, and deletes the network packets infected with the virus" },
+        { "id": "C", "text": "It detects anomalies in network traffic, logs the activity, and sends an alert to the administrator" },
+        { "id": "D", "text": "It allows or denies incoming network traffic based on a set of rules" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "An IPS (Intrusion Prevention System) actively detects and prevents network threats by blocking malicious traffic."
+    },
+    {
+      "id": 33,
+      "question": "Which mobile operating system has versions named for types of candy or sweets?",
+      "options": [
+        { "id": "A", "text": "BlackBerry OS" },
+        { "id": "B", "text": "Android" },
+        { "id": "C", "text": "iOS" },
+        { "id": "D", "text": "Windows Phone" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Android versions have been named after desserts and sweets (KitKat, Lollipop, Marshmallow, Nougat, Oreo, Pie, etc.)."
+    },
+    {
+      "id": 34,
+      "question": "One of the designers on your network has an iMac running OS X El Capitan. Which of the following is not considered necessary with this workstation?",
+      "options": [
+        { "id": "A", "text": "Running scheduled backups" },
+        { "id": "B", "text": "Installing antivirus software" },
+        { "id": "C", "text": "Updating drivers and firmware" },
+        { "id": "D", "text": "Defragmenting the hard drive" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "macOS file systems (HFS+ and APFS) automatically handle file fragmentation, so manual defragmentation is not necessary."
+    },
+    {
+      "id": 35,
+      "question": "Which type of server on your network could have its functionality replaced with NAS or a SAN?",
+      "options": [
+        { "id": "A", "text": "File server" },
+        { "id": "B", "text": "Print server" },
+        { "id": "C", "text": "Web server" },
+        { "id": "D", "text": "Authentication server" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "NAS (Network Attached Storage) or SAN (Storage Area Network) devices provide dedicated file storage and can replace traditional file servers."
+    },
+    {
+      "id": 36,
+      "question": "What tool on your Mac computer will look up information and definitions for you?",
+      "options": [
+        { "id": "A", "text": "Dictionary" },
+        { "id": "B", "text": "Finder" },
+        { "id": "C", "text": "Spotlight" },
+        { "id": "D", "text": "Safari" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The Dictionary app on macOS provides definitions, thesaurus entries, and reference information."
+    },
+    {
+      "id": 37,
+      "question": "You are at a Linux workstation on your network with the terminal open. Which command can you issue to see the size of files and directories on this computer?",
+      "options": [
+        { "id": "A", "text": "fsck" },
+        { "id": "B", "text": "df" },
+        { "id": "C", "text": "du" },
+        { "id": "D", "text": "vi" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The du (disk usage) command displays the size of files and directories."
+    },
+    {
+      "id": 38,
+      "question": "You are configuring your tablet computer to connect to your corporate email server. Which ports do you need to set up if you want to use SMTP with SSL and IMAP4 with SSL?",
+      "options": [
+        { "id": "A", "text": "25 and 143" },
+        { "id": "B", "text": "465 and 993" },
+        { "id": "C", "text": "465 and 995" },
+        { "id": "D", "text": "587 and 993" },
+        { "id": "E", "text": "587 and 995" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "SMTP with SSL uses port 465, and IMAP4 with SSL uses port 993."
+    },
+    {
+      "id": 39,
+      "question": "Which command is used to change a file's permissions in Linux?",
+      "options": [
+        { "id": "A", "text": "chperm" },
+        { "id": "B", "text": "cp" },
+        { "id": "C", "text": "chown" },
+        { "id": "D", "text": "chmod" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "The chmod command changes file permissions in Linux."
+    },
+    {
+      "id": 40,
+      "question": "What type of update does your mobile phone need if you need to refresh the reference list the phone uses to connect to the proper cell phone tower when roaming?",
+      "options": [
+        { "id": "A", "text": "PRL" },
+        { "id": "B", "text": "PRI" },
+        { "id": "C", "text": "Baseband" },
+        { "id": "D", "text": "IMEI" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "A PRL (Preferred Roaming List) update refreshes the list of cell towers the phone should connect to when roaming."
+    },
+    {
+      "id": 41,
+      "question": "Your network uses a Linux file server. It has four volumes, each formatted with ext4. You want to check the /ops/files volume for any filesystem errors and fix them. Which command should you use?",
+      "options": [
+        { "id": "A", "text": "fsck /ops/files" },
+        { "id": "B", "text": "du /ops/files" },
+        { "id": "C", "text": "df /ops/files" },
+        { "id": "D", "text": "chkdsk /ops/files" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "The fsck (file system check) command is used to check and repair filesystem errors in Linux."
+    },
+    {
+      "id": 42,
+      "question": "A network consultant recommended to your boss that you install an IPS. Which of the following statements best describes what an IPS does?",
+      "options": [
+        { "id": "A", "text": "It detects anomalies in network traffic, logs the activity, and takes actions to stop the activity" },
+        { "id": "B", "text": "It detects viruses transmitted across the network, logs the activity, and deletes the network packets infected with the virus" },
+        { "id": "C", "text": "It detects anomalies in network traffic, logs the activity, and sends an alert to the administrator" },
+        { "id": "D", "text": "It allows or denies incoming network traffic based on a set of rules" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "An IPS (Intrusion Prevention System) actively monitors network traffic for suspicious activity, logs it, and takes preventive actions to block threats."
+    },
+    {
+      "id": 43,
+      "question": "Which mobile operating system has versions named for types of candy or sweets?",
+      "options": [
+        { "id": "A", "text": "BlackBerry OS" },
+        { "id": "B", "text": "Android" },
+        { "id": "C", "text": "iOS" },
+        { "id": "D", "text": "Windows Phone" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Android versions have been named after desserts and candy (KitKat, Lollipop, Marshmallow, Nougat, Oreo, Pie)."
+    },
+    {
+      "id": 44,
+      "question": "One of the designers on your network has an iMac running OS X El Capitan. Which of the following is not considered necessary with this workstation?",
+      "options": [
+        { "id": "A", "text": "Running scheduled backups" },
+        { "id": "B", "text": "Installing antivirus software" },
+        { "id": "C", "text": "Updating drivers and firmware" },
+        { "id": "D", "text": "Defragmenting the hard drive" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "macOS file systems automatically optimize file placement, making manual defragmentation unnecessary."
+    },
+    {
+      "id": 45,
+      "question": "Which type of server on your network could have its functionality replaced with NAS or a SAN?",
+      "options": [
+        { "id": "A", "text": "File server" },
+        { "id": "B", "text": "Print server" },
+        { "id": "C", "text": "Web server" },
+        { "id": "D", "text": "Authentication server" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "NAS (Network Attached Storage) or SAN (Storage Area Network) can replace file server functionality by providing dedicated network storage."
+    },
+    {
+      "id": 46,
+      "question": "What type of cloud service offers the best security?",
+      "options": [
+        { "id": "A", "text": "Public" },
+        { "id": "B", "text": "Private" },
+        { "id": "C", "text": "Hybrid" },
+        { "id": "D", "text": "Community" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Private cloud services offer the best security because the infrastructure is dedicated to a single organization."
+    },
+    {
+      "id": 47,
+      "question": "Your manager asked you to find a device for network security. He wants it to be able to perform packet filtering, shut down network attacks, block spam, and prohibit access to inappropriate websites. What type of device should you look for?",
+      "options": [
+        { "id": "A", "text": "Firewall" },
+        { "id": "B", "text": "IPS" },
+        { "id": "C", "text": "IDS" },
+        { "id": "D", "text": "UTM" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "A UTM (Unified Threat Management) device combines multiple security features including firewall, IPS, spam filtering, and content filtering in one appliance."
+    },
+    {
+      "id": 48,
+      "question": "Your company has an application developer who creates programs for Windows, Linux, and macOS. What is the most cost-effective solution for her to be able to test her programs in multiple operating systems as quickly as possible?",
+      "options": [
+        { "id": "A", "text": "Buy workstations for each of the OSs she codes in" },
+        { "id": "B", "text": "Set up her workstation to dual boot" },
+        { "id": "C", "text": "Set up her workstation with virtual machines" },
+        { "id": "D", "text": "Create one version of each application that will run in all three OSs" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Virtual machines allow quick switching between different operating systems without rebooting, making testing more efficient and cost-effective."
+    },
+    {
+      "id": 49,
+      "question": "One of your users has a MacBook Pro, and an application appears to have crashed. What can she use to force the app to close?",
+      "options": [
+        { "id": "A", "text": "Task Manager" },
+        { "id": "B", "text": "Force Quit" },
+        { "id": "C", "text": "Shell/Terminal" },
+        { "id": "D", "text": "Time Machine" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Force Quit is macOS's equivalent to Windows Task Manager for forcefully closing unresponsive applications."
+    },
+    {
+      "id": 50,
+      "question": "What types of data can be synchronized from a mobile device to the cloud? (Choose all that apply.)",
+      "options": [
+        { "id": "A", "text": "Passwords" },
+        { "id": "B", "text": "Bookmarks" },
+        { "id": "C", "text": "Email" },
+        { "id": "D", "text": "Social media data" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["A", "B", "C", "D"],
+      "explanation": "Modern mobile devices can synchronize passwords, bookmarks, email, social media data, contacts, photos, and many other types of data to cloud services."
+    },
+    {
+      "id": 51,
+      "question": "Your company has an application developer who creates programs for Windows, Linux, and macOS. What is the most cost-effective solution for her to be able to test her programs in multiple operating systems as quickly as possible?",
+      "options": [
+        { "id": "A", "text": "Buy workstations for each of the OSs she codes in" },
+        { "id": "B", "text": "Set up her workstation to dual boot" },
+        { "id": "C", "text": "Set up her workstation with virtual machines" },
+        { "id": "D", "text": "Create one version of each application that will run in all three OSs" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "Setting up virtual machines is the most cost-effective and efficient solution, allowing quick testing across multiple operating systems without rebooting."
+    },
+    {
+      "id": 52,
+      "question": "One of your users has a MacBook Pro, and an application appears to have crashed. What can she use to force the app to close?",
+      "options": [
+        { "id": "A", "text": "Task Manager" },
+        { "id": "B", "text": "Force Quit" },
+        { "id": "C", "text": "Shell/Terminal" },
+        { "id": "D", "text": "Time Machine" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Force Quit (accessed via Command+Option+Esc) is macOS's tool for forcefully closing unresponsive applications."
+    },
+    {
+      "id": 53,
+      "question": "What type of cloud service offers the best security?",
+      "options": [
+        { "id": "A", "text": "Public" },
+        { "id": "B", "text": "Private" },
+        { "id": "C", "text": "Hybrid" },
+        { "id": "D", "text": "Community" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "Private cloud offers the best security because resources are dedicated to a single organization and not shared with others."
+    },
+    {
+      "id": 54,
+      "question": "Which of the following can be managed by Group Policy? (Choose all that apply.)",
+      "options": [
+        { "id": "A", "text": "Hard drives" },
+        { "id": "B", "text": "File permissions" },
+        { "id": "C", "text": "Windows Firewall" },
+        { "id": "D", "text": "Shared folders" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["B", "C", "D"],
+      "explanation": "Group Policy can manage file permissions, Windows Firewall settings, shared folders, and many other system configurations. Hard drives themselves cannot be managed by Group Policy."
+    },
+    {
+      "id": 55,
+      "question": "You are at a Linux workstation on your network with the terminal open. Which command can you issue to see the size of files and directories on this computer?",
+      "options": [
+        { "id": "A", "text": "fsck" },
+        { "id": "B", "text": "df" },
+        { "id": "C", "text": "du" },
+        { "id": "D", "text": "vi" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The du (disk usage) command displays the size of files and directories."
+    },
+    {
+      "id": 56,
+      "question": "You want to start the visual file editor on your Linux server. Which command is used to do that?",
+      "options": [
+        { "id": "A", "text": "cd" },
+        { "id": "B", "text": "ps" },
+        { "id": "C", "text": "vi" },
+        { "id": "D", "text": "cp" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The vi (visual editor) command starts the text/file editor in Linux."
+    },
+    {
+      "id": 57,
+      "question": "You are setting up virtualization on a server that will be running four instances of Windows Server 2012 R2. Four different departments will be using one instance each, and all departments have been promised 16GB RAM. Using resource pooling and using a bare-metal hypervisor, what is the minimum amount of physical RAM needed on the server?",
+      "options": [
+        { "id": "A", "text": "16GB" },
+        { "id": "B", "text": "32GB" },
+        { "id": "C", "text": "64GB" },
+        { "id": "D", "text": "8GB" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "With resource pooling, virtual machines can share physical resources. While each VM is promised 16GB, not all will use it simultaneously, so the minimum physical RAM could be less than 64GB (4 × 16GB). However, 16GB is the absolute minimum to run at least one instance."
+    },
+    {
+      "id": 58,
+      "question": "Which of the following mobile operating systems is an open-source OS?",
+      "options": [
+        { "id": "A", "text": "iOS" },
+        { "id": "B", "text": "Windows Phone" },
+        { "id": "C", "text": "BlackBerry OS" },
+        { "id": "D", "text": "Android" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Android is based on the Linux kernel and is open-source, allowing manufacturers to modify it freely."
+    },
+    {
+      "id": 59,
+      "question": "You are at a Linux workstation on your network with the terminal open. Which command can you issue to see the size of files and directories on this computer?",
+      "options": [
+        { "id": "A", "text": "fsck" },
+        { "id": "B", "text": "df" },
+        { "id": "C", "text": "du" },
+        { "id": "D", "text": "vi" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The du (disk usage) command shows the disk space used by files and directories."
+    },
+    {
+      "id": 60,
+      "question": "You want to start the visual file editor on your Linux server. Which command is used to do that?",
+      "options": [
+        { "id": "A", "text": "cd" },
+        { "id": "B", "text": "ps" },
+        { "id": "C", "text": "vi" },
+        { "id": "D", "text": "cp" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["C"],
+      "explanation": "The vi command launches the visual text editor in Linux."
+    },
+    {
+      "id": 61,
+      "question": "You are setting up virtualization on a server that will be running four instances of Windows Server 2012 R2. Four different departments will be using one instance each, and all departments have been promised 16GB RAM. Using resource pooling and using a bare-metal hypervisor, what is the minimum amount of physical RAM needed on the server?",
+      "options": [
+        { "id": "A", "text": "16GB" },
+        { "id": "B", "text": "32GB" },
+        { "id": "C", "text": "64GB" },
+        { "id": "D", "text": "8GB" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "With resource pooling, the hypervisor can dynamically allocate resources. However, 16GB is the bare minimum. In practice, 64GB would be recommended to ensure all four VMs can run with their promised 16GB."
+    },
+    {
+      "id": 62,
+      "question": "One of the workstations on your network runs Ubuntu Linux. Which command can you use to install patches to upgrade the operating system?",
+      "options": [
+        { "id": "A", "text": "apt-cache" },
+        { "id": "B", "text": "apt-get" },
+        { "id": "C", "text": "vi-get" },
+        { "id": "D", "text": "chown-get" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["B"],
+      "explanation": "The apt-get command is used in Ubuntu and Debian-based Linux distributions to install, update, and manage software packages."
+    },
+    {
+      "id": 63,
+      "question": "You are configuring the Mail app on an iPhone to use an Outlook.com email address. What configuration information do you need to enter to establish connectivity?",
+      "options": [
+        { "id": "A", "text": "Email address and password" },
+        { "id": "B", "text": "Email address, password, and server name" },
+        { "id": "C", "text": "Email address, password, server name, and mail protocol" },
+        { "id": "D", "text": "Email address, password, server name or IP address, and mail protocol" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["A"],
+      "explanation": "Modern mail apps like the iPhone Mail app can automatically configure settings for common email providers like Outlook.com using just the email address and password."
+    },
+    {
+      "id": 64,
+      "question": "Which of the following features are typically present in mobile operating systems by default, but not in desktop operating systems? (Choose two.)",
+      "options": [
+        { "id": "A", "text": "SDK" },
+        { "id": "B", "text": "Power options" },
+        { "id": "C", "text": "Gesture-based interaction" },
+        { "id": "D", "text": "Emergency notifications" }
+      ],
+      "multipleAnswer": true,
+      "correctAnswer": ["C", "D"],
+      "explanation": "Gesture-based interaction (touch gestures) and emergency notifications are standard features in mobile operating systems but are not typically default features in desktop operating systems."
+    },
+    {
+      "id": 65,
+      "question": "Which feature of macOS allows others to see your screen, and requires a Virtual Network Computing (VNC) connection?",
+      "options": [
+        { "id": "A", "text": "Remote assistance" },
+        { "id": "B", "text": "Shell/Terminal" },
+        { "id": "C", "text": "Image sharing" },
+        { "id": "D", "text": "Screen sharing" }
+      ],
+      "multipleAnswer": false,
+      "correctAnswer": ["D"],
+      "explanation": "Screen Sharing in macOS uses VNC (Virtual Network Computing) protocol to allow others to view and control your screen remotely."
+    }
+  ]
+}
